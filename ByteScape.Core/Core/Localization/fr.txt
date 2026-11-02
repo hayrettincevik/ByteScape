@@ -1,0 +1,1652 @@
+# ByteScape translation catalog: French. One text per line: id (hash of the English text) TAB translation; \n = line break; plural forms separated by |.
+0016be00	Un disque de machine virtuelle : la machine et tout son contenu sont perdus.
+009017e5	documents
+0092b505	lecture de la table des fichiers maître NTFS
+00a8f1bd	Ils occupent de l'espace jusqu'à ce que la Corbeille soit vidée ; ils peuvent être restaurés depuis celle-ci.
+00c2f609	Plus de 1 Go
+00cec25a	Documents, photos, vidéos ou musique : ils ne peuvent pas être recréés sans autre copie.
+01252a27	Exporter la configuration…
+012d328f	dans environ {0} semaine|dans environ {0} semaines
+01689efb	Le dossier sélectionné, ou tous les dossiers du programme sélectionné
+01ba6040	modifiés il y a moins de {0}
+01d748ad	{0:N0} élément ({1}) déplacé vers la Corbeille|{0:N0} éléments ({1}) déplacés vers la Corbeille
+021d19e5	Filtrage...
+021e3a39	Quand
+0248c735	Analyser les flux de données alternatifs NTFS (plus lent)
+025654de	{0} copie cochée|{0} copies cochées
+025c87ea	L'IDE réindexe les projets au prochain démarrage ; les paramètres ne sont pas touchés.
+026bdcab	Le disque virtuel (ext4.vhdx) d'une distribution Linux installée : tout son système de fichiers et vos fichiers dedans.
+02983005	Le disque virtuel WSL2 qui contient toutes les images, conteneurs et volumes Docker. Il grossit mais ne rétrécit jamais seul.
+02d77dba	Exportation automatique
+02e0488f	{0:N0} fichier de programme|{0:N0} fichiers de programme
+037e30aa	Seule une demande d'un petit fichier à l'adresse {0} est envoyée, avec le nom et la version du programme — rien sur vous ni sur vos fichiers. La page de téléchargement d'une nouvelle version s'ouvre dans votre navigateur ; rien ne s'installe tout seul. Désactivé : rien n'est vérifié tant que vous ne choisissez pas Rechercher les mises à jour dans le menu.
+038a694b	étiquetés jaune
+04a57fc2	Effacer
+04cc66f7	modifiés aujourd'hui
+04f93fd0	Fichiers du jeu
+050fdad6	À propos de ByteScape
+052164e9	Cache adressé par contenu de chaque paquet téléchargé par npm.
+0522b6f7	Les programmes avec toutes leurs données et leurs caches, les jeux auxquels vous ne jouez plus, et les dossiers que vos outils de développement recréent (node_modules, bin, .venv) dans d’anciens projets.
+057e9e9b	Normalement protégé :
+05897ac0	hors caches connus
+05b19688	File > Invalidate Caches dans l'IDE, ou supprimez avec l'IDE fermé
+05dc3443	Point de terminaison (…/v1 = style OpenAI, sinon Ollama)
+05f0c6cd	Réglage d'exportation importé
+06163926	Protégé : un fichier protégé du système d'exploitation
+06357afd	Dossier
+0640028a	Windows
+066e3970	Applications et fonctionnalités…
+06b464b1	{0} restes de développement.txt
+06b4bf07	Cocher toutes les copies sauf
+06f0502c	environ {0}
+071b16e6	{0} dossiers en parallèle
+0728db0c	Remplacer mon nom d'utilisateur Windows et le nom de l'ordinateur par <user> et <computer>
+0731bcdf	{0} programme inutilisé depuis des mois|{0} programmes inutilisés depuis des mois
+075848a9	modifiés il y a plus de {0}
+07ac65a2	Une archive : tout ce qu'elle contient disparaît avec elle.
+07d82fb2	depuis {0}{1}
+07ddcc31	Laissés par des jeux désinstallés
+07dfee93	Caches des outils en ligne de commande qui suivent la convention Unix (Hugging Face, pre-commit, pip dans certaines configurations...).
+07e804d9	Copies locales (« Libérer de l'espace » peut les supprimer) : {0} dans {1}
+07f523bf	{0:N0} document|{0:N0} documents
+07fd76cf	Les crates sont retéléchargées à la prochaine compilation.
+0804df67	Paramètres de Google Drive : passez le dossier de « Dupliquer les fichiers » à « Diffuser les fichiers » pour les garder uniquement en ligne
+0815494f	Quoi
+0815aad4	Actualiser
+08ce3e2d	Variation min.
+08ea292b	Rien n'a grossi.
+090140c8	Inclure dans la suppression
+0912399a	Des fichiers que vous avez créés ou enregistrés. Ils ne peuvent pas être recréés sans autre copie.
+0927c202	Dossier cloud
+0967002c	Réglage d'exportation enregistré
+0967ab58	Laissés par une mise à niveau de Windows. Suppression sans risque une fois la mise à niveau terminée.
+096c1536	Enregistre le rapport, l'affiche dans l'Explorateur et ouvre un nouveau ticket sur la page du projet dans votre navigateur : joignez-y le fichier. Les tickets sont visibles par tous.
+09926152	{0:N0} fichiers sur {1:N0}
+09c9051c	Les jeux recompilent les shaders au prochain lancement (un court ralentissement, une seule fois).
+09cf1ec0	Effacer le filtre
+09d139b6	Image mémoire écrite pour la mise en veille prolongée et le démarrage rapide ; environ 40-75 % de la RAM.
+09de135b	Créé
+09f08545	Chaque bloc de la carte est un fichier ou un dossier, dessiné aussi grand que la place qu'il occupe sur le disque.
+09fee77c	Cache de shaders GPU
+0a0d4cc2	torrents
+0a1997cb	en pause
+0a64d506	Quel est ce dossier ?
+0a92612c	Enregistrer le rapport…
+0aa5fadd	protégé par Windows (TrustedInstaller)
+0ac95089	jamais
+0ae8097f	Démarrer
+0af017cf	Cache du modèle de composants, copies fantômes du concepteur et données de navigation par solution de Visual Studio.
+0af91ee6	En ligne uniquement : il n'occupe pas d'espace sur ce PC. Le supprimer ne fait que le retirer du cloud (et de vos autres appareils).
+0afb5d80	{0} ne sait pas ce que c'est
+0b11eb3f	Gratuit et open source (licence MIT) : sans publicité, sans période d’essai, sans compte.
+0b256fd1	lecteur inconnu
+0b2656e5	ajouté
+0b2ae3e8	Zoomer sur
+0b3aa6ec	Filtres
+0b3f7ebd	Recherche de fichiers volumineux, temporaires, d'installation et de programmes inutilisés…
+0b438d81	Importer les paramètres
+0bc2f481	{0:N0} base de données ou boîte aux lettres|{0:N0} bases de données ou boîtes aux lettres
+0bc8ed1f	Éditeur
+0bca3294	Prêt
+0c6e70fd	Ouverture de {0}…
+0c79f1bb	Ceci est un instantané : rien ne peut y être supprimé.
+0c8c8778	arrêtée (le bouton d'analyse la reprend)
+0caa5bef	Fichier de mémoire virtuelle géré par Windows.
+0cdd25df	Ouvrir la droite
+0cf4d805	Image de l'environnement de récupération Windows.
+0d308dd6	Archives et images disque
+0d6932ae	Dossiers listés en parallèle (0 = automatique)
+0d70feae	Images
+0de6fff0	 — les 5000 premiers
+0e027c78	Impossible à supprimer tant que la fonction est activée.
+0e23ee57	Double-cliquez sur un dossier pour y entrer, Retour arrière pour en sortir ; au clavier, les flèches passent d'un bloc à l'autre et Ctrl+Bas entre dans le dossier. La carte se remplit pendant l'analyse et les changements sur le disque apparaissent aussitôt.
+0e588e04	Runtimes, éléments de SDK et paquets de Windows lui-même (masqués dans Paramètres > Applications)
+0e9729f2	Trier les éléments par taille (le plus grand en haut à gauche)
+0edfa8ec	programmes d'installation
+0ee0d2b3	Supprimer quoi que ce soit ici casse Windows Update et la réparation.
+0f05be5f	{0} jour|{0} jours
+0f3b85f7	Non supprimé
+0f8222ff	Part du support affichée dans le zoom actuel
+0f8cf0a7	{0:N0} élément plus petit|{0:N0} éléments plus petits
+0f8db3a5	{0} : rien à libérer
+0f9f9136	Les pages se chargent un peu plus lentement la première fois ; connexions et favoris ne sont pas touchés.
+0fc7c404	System Volume Information
+0fe07306	Nom
+10076eb3	Clé d'API (seulement si le serveur en demande une)
+1039c14f	Capacité de la console du journal (entrées)
+105e3bb8	Jamais joué
+10d22c6d	Installés mais jamais lancés
+10e9be36	Auto (selon le disque)
+10ee3bcc	Balises et commandes
+11049119	{0:N0} archive|{0:N0} archives
+11195d9b	Selon le modèle local (non vérifié)
+1124ba07	{0} ans
+1127d26a	Windows cesse de fonctionner.
+114f9980	En-tête
+11512c71	Contenu du Workshop
+1177b8de	plus récent à droite
+11d47ae5	Les fichiers sont supprimés de tous les appareils et de dropbox.com.
+12000fa9	{0:N0} élément modifié dans la dernière journée est conservé (un programme l'utilise peut-être).|{0:N0} éléments modifiés dans la dernière journée sont conservés (un programme les utilise peut-être).
+12179691	{0} lien physique : même fichier, supprimer seulement ce nom ne libère rien|{0} liens physiques : même fichier, supprimer seulement ce nom ne libère rien
+12312a05	Les nouvelles vues montrent l'espace non analysé et illisible
+123ed0b9	{0:N0} élément protégé par Windows, même contre les administrateurs (par ex. {1})|{0:N0} éléments protégés par Windows, même contre les administrateurs (par ex. {1})
+125519cc	Données d'application
+1273102d	Soutenir {0} par un don…
+127c182a	Supprimez avec VS Code fermé
+1284b77b	Fichiers volumineux
+132d9f04	pas de réponse à temps
+1365bfa7	Copies de documents ouverts depuis OneDrive / SharePoint, y compris les modifications pas encore envoyées.
+137051eb	Mods du Workshop téléchargés, y compris pour des jeux qui ne sont plus installés.
+137823f6	Trouvez l'essentiel
+1399c8fc	Choisissez quoi analyser
+13ef8448	Lecteurs et dossiers
+14304f05	Impossible de rattacher les dossiers aux programmes :
+1440c15d	Remarque
+14736e98	joué {0}
+147a8b7f	Des fichiers supprimés en attente de restauration. Windows en tient un index : videz-les ou restaurez-les depuis la Corbeille elle-même.
+14a2de30	Lit directement la table des fichiers maître du lecteur au lieu de lister chaque dossier : un lecteur entier en quelques secondes. Lecteurs NTFS locaux uniquement ; affiche aussi les dossiers qu'une analyse normale ne peut pas ouvrir. Les liens ne sont jamais suivis dans ce mode.
+14a9646a	Comparer avec un instantané enregistré…
+14b7938c	Niveaux de dossiers
+1528d774	Copier la liste
+15922355	Toutes les versions de tous les composants de Windows, liées physiquement dans System32 — sa taille réelle est bien inférieure à celle affichée.
+15ada771	il y a {0} jour|il y a {0} jours
+15e011d1	Les fichiers de même longueur ont été lus et comparés octet par octet.
+1612ad9c	Supprimez avec Visual Studio fermé
+16306c2c	Délai d'attente (secondes)
+163e94ac	Le programme de désinstallation de {0} n'est pas indiqué avec son dossier :
+16629e33	Mettre en évidence le programme sélectionné sur la carte
+16bcd561	Protégé : contient {0}
+174d620c	{0} reconstructibles, {1} en propre
+1753ec26	Nettoyage de disque ou Paramètres > Système > Stockage ; points de restauration : Protection du système
+179c6083	Programme :
+17ab51b6	Paramètres du navigateur > Confidentialité > Effacer les données de navigation > Images et fichiers en cache
+17ac7ba6	Plus grands changements (nécessite deux analyses complètes)
+17e51abd	clé, certificat, base de mots de passe ou portefeuille
+17ff5c59	Pour le Planificateur de tâches : mesure chaque lecteur et se ferme, sans fenêtre
+1803ca39	Les nouvelles vues montrent l'espace libre
+1825f816	Taille à droite
+18460209	Ouvrir la page de téléchargement…
+18a91ada	Votre propre fichier :
+18c773b1	{0} en fichiers volumineux, temporaires et anciens fichiers d'installation
+18e1015e	Cache de shaders Steam
+19089d42	Caches de VS Code
+191cb400	Aucune analyse complète mémorisée pour l'instant.
+1938ca0a	Le panneau de détails reconnaît les dossiers connus — caches, fichiers temporaires, parties de Windows — et dit ce que leur suppression entraînerait.
+1967b442	Délai de l'info-bulle (ms)
+1977b8ec	Un dossier Windows sur un autre lecteur (une installation plus ancienne ou secondaire). S'il n'est plus utilisé, Paramètres > Système > Stockage > Fichiers temporaires supprime proprement une installation précédente de Windows.
+198c53cd	{0} s'exécute en tant qu'administrateur : le menu serait ajouté pour le compte administrateur. Démarrez {1} normalement pour l'ajouter.
+19cb8c60	Comment filtrer
+19e63f6f	Recréés au prochain démarrage ; le compte et les paramètres restent.
+19ee81b3	Clé USB / carte mémoire
+1a04d9d8	Les programmes sont inutilisés après (jours)
+1a0e8b77	Historique de l'utilisation du disque…   Ctrl+H
+1a5af9d2	{0} heures
+1a5ee459	Configuration
+1a64e017	Exportation terminée
+1aa189cc	Utilisé : {0}
+1aa50849	ASTUCE : exécutez en tant qu'administrateur si des dossiers sont inaccessibles
+1aad7bf2	Bienvenue dans {0}
+1ad1dc05	n'existe plus
+1adf667e	Impossible d'ouvrir
+1b4b0b63	une installation de Windows
+1b792ffc	Agrandi
+1b848b80	moins d'un mois
+1bbba361	dont {0} dans des caches
+1bdab07b	Dossier OneDrive
+1be24b7c	Modifié à droite
+1beb0e9f	Fichier…
+1bfd6eeb	Dans WSL : apt clean, supprimez des fichiers ; puis wsl --shutdown et Optimize-VHD / diskpart compact pour réduire ; wsl --unregister <distribution> la supprime
+1c1aef18	python -m venv {0}, puis pip install -r requirements.txt
+1c38a980	Paramètres Windows : désinstaller ou déplacer des programmes
+1c432224	Tapez *.mp4, >1gb ou <6months — ou dites-le simplement en anglais : videos over 1 GB not opened for a year. L’entonnoir propose des filtres tout prêts.
+1c5c36fb	Libre
+1c60afdd	Ouvrir le dossier des rapports d'erreur
+1c7fb71d	iTunes / Appareils Apple > Préférences > Appareils > Supprimer la sauvegarde
+1c9111d2	Clic droit > Libérer de l'espace garde les fichiers en ligne uniquement, sans les supprimer
+1cb9f408	Cache d'application (Electron)
+1cbd38eb	Mesurer l'espace libre des lecteurs pour la prévision
+1cf92953	Nettoyage
+1d002450	Espace non analysé et illisible sur la carte (Ctrl+U)
+1d20c11b	Plus petit bloc dessiné (pixels)
+1d2209ef	Puis trier par
+1d7aa415	Nouvelle vue (Ctrl+N)
+1e4af2e0	Ce profil active l'IA locale : les noms et les tailles des dossiers et des fichiers seraient envoyés à {0}.
+1e54727d	protégé
+1e660c12	N'est plus installé (pas de manifeste Steam)
+1e6f70e0	Cache des miniatures de l'Explorateur
+1ec03a7e	Un lien physique : le même fichier existe aussi sous {0}. Supprimer ce nom ne libère pas d'espace.
+1ecf05bf	Centre de téléchargement Office > Paramètres > Supprimer les fichiers mis en cache (Office fermé)
+1f19a447	Comportement
+1f327c6b	2 ans
+1f418fd1	{0} modèle :|{0} modèles :
+1f722996	Où sont allés les nouveaux fichiers (30 derniers jours)
+1faee677	lecteur
+202e9c8e	Fichiers d'installation
+203453e8	deux niveaux
+20681eb9	Les modèles sont retéléchargés quand un script les utilise (lent, volumineux).
+20848078	{0} jeux.txt
+209cc979	Cochez ce qui doit partir.
+21062490	(sans extension)
+213247cf	Sélectionnez un projet pour voir ses dossiers reconstructibles.
+21549b39	Modifiés ces 7 derniers jours
+216b4f0e	Bleu (Ctrl+4)
+21905ca2	{0} par semaine
+21a5901d	Retirer
+21cd27d7	Les jonctions pointent généralement vers de l'espace compté ailleurs ; les suivre peut le compter deux fois.
+21ee3dcf	étiquetés bleu
+2241f152	Clic droit sur un dossier, un lecteur ou l'espace vide d'un dossier dans l'Explorateur : « Ouvrir dans ByteScape ». Uniquement pour votre compte (pas de droits d'administrateur) ; sous Windows 11, il se trouve sous « Afficher d'autres options ». Prend effet immédiatement, pas avec OK.
+225b750d	Contenu du Steam Workshop
+22b2968e	La nouvelle langue s'applique partout après le redémarrage de {0}. Redémarrer maintenant ? (Les analyses ouvertes sont conservées.)
+22c8d4e7	{0:N0} téléchargement inachevé|{0:N0} téléchargements inachevés
+23424f23	Les programmes ne peuvent plus être réparés ni désinstallés proprement.
+234be4c9	Probablement laissé par un programme supprimé. Si un programme l'utilise encore, il cessera de fonctionner ; vérifiez d'abord Paramètres > Applications.
+2356f3cb	Reprendre les paramètres d'IA locale du profil ?
+237375f2	Le rapport n'a pas pu être enregistré :
+23a0d95c	taille
+23b67660	0 : selon la stratégie d'analyse ci-dessus. Un nombre la remplace (1 sur un disque dur conserve l'ordre du disque ; plus de 1 liste autant de dossiers à la fois).
+23fb747a	Propriétés système > Paramètres système avancés > Performances > Mémoire virtuelle (taille), ou déplacez-le sur un autre lecteur
+243eddb1	Géométrie
+24445ca0	Caches web et restes de mises à jour des lanceurs Epic, Battle.net, EA, Ubisoft, Riot ou GOG.
+2469b3d4	Le contenu des fichiers de même longueur a été comparé.
+24f7fd9f	Recréé au prochain démarrage / chargement de la solution.
+25286587	Suppression sans risque une fois son programme fermé :
+252d4698	jamais joué
+254b47fc	Ligne de commande
+25699e6d	Historique des dossiers…
+25a2cf5e	Avant
+25ea18c2	{0} conserve ici ses paramètres, connexions, téléchargements ou travaux enregistrés, pour tous les utilisateurs de ce PC. Il peut les perdre ou redémarrer comme neuf.
+26172ed7	Une copie téléchargée d'un fichier {0}. « Libérer de l'espace » dans le menu Windows la supprime de ce disque et la garde dans le cloud et sur vos autres appareils.
+262f3f1e	Archives de paquets téléchargées et paquets extraits partagés par les environnements conda.
+2647922a	(aucun chemin récent)
+265790b1	(double-cliquez pour y entrer)
+269adc64	 — joignez le fichier à un nouveau ticket (issue) sur la page du projet.
+26ab4273	Non indexé
+26bac203	Fichiers supprimés en attente de restauration (un dossier par compte d'utilisateur sur ce lecteur).
+26cbf7a9	dans environ {0} mois|dans environ {0} mois
+26f9d0d8	{0} lui-même ou ses paramètres ({1}).
+26facc7e	Texte, CSV ou JSON selon le nom de fichier choisi
+271e89fc	Tout décocher
+2730bdb3	Disques de machines virtuelles
+2741d24d	Donnez d'abord un nom au réglage d'exportation.
+27bc9764	illisible à droite
+2804c9f6	Rien n'est perdu.
+28081410	pas de droits sur {0}
+2817ca38	Supprimer le réglage d'exportation
+284e2e47	Panneau des détails
+285c0a4e	Un fichier d'installation : le programme installé fonctionne sans lui ; pour réinstaller, vous le téléchargez à nouveau.
+28999611	nouveau
+28cd8501	Impossible de lancer le programme de désinstallation :
+28dd6896	Importer…
+29103166	{0} de plus|{0} de plus
+29202b65	L'instantané couvre {0}, qui ne recoupe pas cette vue ({1}).
+294de420	Précédent (Retour arrière)
+296d7faf	{0:N0} fichier source|{0:N0} fichiers source
+297c0a70	Copies locales : {0} ({1}) — « Libérer de l'espace » peut les supprimer.
+29a95b5a	Création :
+29cd3e85	Journaux Windows
+29de564c	Espace illisible
+2a3623e9	{0} dossier laissé par des jeux qui ne sont plus installés. Il peut contenir des sauvegardes et des mods : vérifiez avant de supprimer.|{0} dossiers laissés par des jeux qui ne sont plus installés. Ils peuvent contenir des sauvegardes et des mods : vérifiez avant de supprimer.
+2a526679	{0} heure|{0} heures
+2a632922	Absent de la liste de l'Epic Games Launcher
+2aa38b8d	instantané
+2ac4c7ea	{0} n'est plus le dossier qui a été analysé : analysez à nouveau avant de supprimer
+2ad28780	Composant
+2ae9aee1	Mesuré au démarrage de {0} et après chaque analyse complète du lecteur ({1}). Pour une mesure quotidienne, ajoutez la commande copiée au Planificateur de tâches.
+2b035040	Pas encore analysé
+2b183663	Fichier
+2b5bc3d3	{0} jeu est hors de cette vue : sa taille (*) est celle indiquée par le lanceur.|{0} jeux sont hors de cette vue : leur taille (*) est celle indiquée par le lanceur.
+2b791a28	Vos fichiers cloud synchronisés. Les supprimer ici les supprime aussi dans le cloud (récupérables un temps depuis la corbeille OneDrive).
+2be7fbdb	Cochez les copies à supprimer (une copie de chaque fichier reste toujours).
+2be97d77	dans {0} groupe : {1} libérés|dans {0} groupes : {1} libérés
+2bf19bc4	Source d'installation d'Office
+2bf4c3f3	{0:N0} fichier à l'intérieur|{0:N0} fichiers à l'intérieur
+2bf95fab	{0:N0} vidage sur incident|{0:N0} vidages sur incident
+2c29f04d	toute
+2c33d756	Ignorer cette version
+2cd8348d	Recréé par
+2d22a68e	Retéléchargé à la prochaine installation.
+2d543a78	Sans risque
+2d5614d0	Espace utilisé du lecteur
+2d6d2f6c	Filtre d'extension de fichier
+2d79eafe	Il contient {0}, dont Windows a besoin.
+2e2c38b5	Fichier texte (*.txt)|*.txt|Fichier CSV (*.csv)|*.csv|Fichier JSON (*.json)|*.json
+2e79b022	Arrêter l'analyse (elle pourra reprendre plus tard)
+2ecca61d	Couleur
+2fb3ab0a	Mettre en évidence les changements sur la carte
+2fcbb8b4	Corrigez-le puis appuyez de nouveau sur Entrée.
+2ff375a4	Supprimer…
+302a37a0	Chaque rectangle de la carte est un fichier ou un dossier, et sa surface est sa taille : les plus gros blocs sont ce qui remplit votre disque. Voici, en une minute, ce qu'il sait faire d'autre.
+3034dc5e	Supprimez le dossier ; npx npkill liste tous les dossiers node_modules et leur taille
+305f76a5	quelque chose dans {0} n'a pas pu être supprimé
+3060246e	Protégé : un fichier système de Windows
+30721ea6	Plus bas = animation plus fluide mais analyse plus lente.
+30ac8a57	Impossible de lire la bibliothèque de jeux :
+30d0b9ac	Cloud :
+30d2dfa6	Les totaux de tout le dossier cloud sont dans la barre d'état (☁).
+30ffa5f8	Données que Windows conserve pour ce compte (identifiants, menu Démarrer, Explorateur, paramètres Office).
+3123bd95	Où / quoi
+3131ba31	{0} sur {1}
+313b2923	Fait partie de {0}
+31680c97	{0} n'existe plus
+31833491	Ajouté ces 30 derniers jours (dates des fichiers) : {1} dans {0:N0} fichier|Ajouté ces 30 derniers jours (dates des fichiers) : {1} dans {0:N0} fichiers
+319752f1	dernière modification {0}
+31b910b7	Il appartient à {0}.
+3211ab3a	Nouvelle vue   Ctrl+N
+321f427c	Au fil du temps
+32313797	sauvegardes de jeu, gardez-les si vous risquez de réinstaller
+329a009b	Plus grands changements
+32afa6df	sauvegarde
+32c47b72	Rien n'a été importé
+32cd04bf	{0}{1} depuis le {2:g}
+32f31d38	« {0} » figure dans le menu contextuel des dossiers et lecteurs de l'Explorateur (la version du Store l'ajoute elle-même).
+32f5b0e0	Nettoyage de disque > Fichiers d'optimisation de la distribution
+33390d27	Installation précédente de Windows
+333df7a0	Fichiers à partir de
+3343b9c6	Filtres prêts à l'emploi : types de fichiers, tailles, âges (ajoutés à ce qui est tapé)
+33b1fa40	Débogage de la disposition de la carte...
+33b3d2ca	Modifié il y a {0} : un programme l'utilise peut-être encore.
+33d8b30f	Arrêté avant la fin.
+341d2b02	{0:N0} fichier cloud en ligne uniquement n'a pas été lu (le lire le téléchargerait).|{0:N0} fichiers cloud en ligne uniquement n'ont pas été lus (les lire les téléchargerait).
+344473b4	Détail
+34ce44a5	Quitter
+34d89227	Distribution Linux WSL
+34e5790e	huggingface-cli delete-cache
+34e5d71e	Fichier de mise en veille prolongée
+35182557	non supprimé
+35425055	Les éléments de Windows et des programmes installés (désinstallez-les plutôt), les dossiers utilisateur de Windows eux-mêmes (Documents, AppData...) et les fichiers système protégés ne peuvent pas être supprimés depuis ByteScape. Désactivé : ils le peuvent, après un avertissement sérieux. Les racines des lecteurs, le Windows en cours d'exécution, Program Files / ProgramData / Users eux-mêmes, les profils utilisateur, la Corbeille et le dossier de ByteScape sont toujours protégés.
+356a780b	La protection des dossiers système est désactivée dans les paramètres.
+356b923a	Mentions tierces
+357efdac	Aucun fichier en double trouvé
+35afca3b	Annuler
+35afd776	moyenne
+35ccb4b4	Protégé : le dossier d'un compte d'utilisateur
+35fd02c8	Paramètres > Système > Stockage > Fichiers temporaires, ou Nettoyage de disque
+363bd112	Niveaux du halo de mise en évidence
+3649bed0	{0:N0} élément nécessite des droits d'administrateur :|{0:N0} éléments nécessitent des droits d'administrateur :
+365f345f	Ouverture automatique lors d'événements (désactivez-la pour que la console n'apparaisse plus)
+36a5378a	1 mois
+36dea4d7	DynaSmooth (ralentir le rafraîchissement au repos)
+3711542c	Cache npm
+3711f8f3	tous les niveaux
+371fe101	Les applications du Store sont installées et supprimées uniquement par Windows.
+37241a1e	1 – 6 mois
+3730e225	{0} dossier qu'aucun programme installé ne revendique (outils portables, programmes non enregistrés, restes de programmes supprimés, parties de Windows ou de développement). Vérifiez avant de supprimer quoi que ce soit.|{0} dossiers qu'aucun programme installé ne revendique (outils portables, programmes non enregistrés, restes de programmes supprimés, parties de Windows ou de développement). Vérifiez avant de supprimer quoi que ce soit.
+3747c9ab	Chaque fichier à l'intérieur est temporaire, un journal, un téléchargement inachevé ou un vidage sur incident.
+374a2aef	Modifié à gauche
+374ad464	Les dossiers de programmes ne sont jamais inclus.
+37643ef1	Tout le reste
+377046eb	{0} élément protégé est exclu (voir ci-dessous).|{0} éléments protégés sont exclus (voir ci-dessous).
+3780dc84	des avertissements graves s'appliquent (en rouge)
+37ad8ab5	Instantané :
+37bde0f7	Couleur d'étiquette inconnue (red, yellow, green, blue, all) :
+37c19939	{0} mesure d'espace libre.|{0} mesures d'espace libre.
+37fa7096	fichiers cloud conservés sur cet appareil
+38043772	Carte du disque
+381b8323	Les paquets sont restaurés à nouveau depuis nuget.org au prochain 'dotnet restore' / à la prochaine compilation.
+3832eaf6	Enregistrer le réglage d'exportation
+385adb43	fichiers temporaires
+3871dd17	Nouvel export {0}
+38e2c748	La distribution et tout son contenu sont perdus.
+38eeec3f	Irréversible. L'espace est libéré immédiatement.
+3903c82b	Enregistrer en texte…
+391f483e	Suppression sans risque :
+39439697	Données d'application LocalLow
+3971b030	dans Téléchargements
+39d973f9	Désinstaller dans les Paramètres…
+3a127ee9	Nouvelle classe de fichiers
+3a215e15	Fichier de configuration
+3a2760f3	Parcourir…
+3a2eb917	Le projet a besoin que l'environnement soit recréé (python -m venv + pip install -r requirements.txt).
+3a562283	Couleurs unies
+3adaad92	Ouvrir dans {0}
+3aef355d	Protégé : un lecteur entier
+3b3290ff	Ouvrir dans l'Explorateur
+3b502e6f	Les programmes se désinstallent, ils ne se suppriment pas
+3b58e7ed	Ce dossier est encore en cours d'analyse. Étiquetez-le une fois l'analyse terminée.
+3b6b7bd6	Voyez comment le lecteur et ses dossiers ont grossi, et quand il sera plein au rythme actuel.
+3b77bc08	Clic : afficher le nom où il est compté
+3bae339e	Gauche :
+3c024881	Données que Windows conserve pour tous les utilisateurs (menu Démarrer, Defender, certificats, recherche).
+3c040095	Les modèles doivent être téléchargés à nouveau.
+3c2dfe59	Caché
+3c3b1f39	Protégé : {0} s'exécute d'ici
+3c7db946	détails de la bibliothèque
+3c99cdf7	Compter une seule fois les fichiers liés physiquement
+3cbe0884	Croissance
+3cf946a7	Jeu :
+3d2b2c37	Tout ce qu'il utilise
+3d57b3b9	Moins de 1 Mo
+3d5ab806	Clic : ce projet et les autres restes de développement
+3d9c11d4	Caches des applications du Store
+3dc77a6e	Chemins récents
+3dcb3899	Filtre : *.jpg;>100kb;<6months;:red;:attr:h;:reclaimable;\\temp  (| inverse) — Entrée applique.\nLe langage courant fonctionne aussi (turc ou anglais) : “6 aydır açılmamış 100 MB üstü videolar”, “large files except videos”
+3dccd1dd	La maintenance ne fonctionne plus.
+3e1f501d	Suppression sans risque ?
+3e5338c1	Cache des paquets d'installation
+3e5e3ba2	Cache des paquets NuGet
+3e839149	Niveau supérieur
+3ec00a11	Clic droit sur n'importe quoi
+3ee99bf2	disque de machine virtuelle
+3eec876b	Historique de l'utilisation du disque
+3f36b025	Rapport {0}
+3f39d6c7	Ne le supprimez pas ; Windows le recrée.
+3f40af14	Un document : s'il n'existe pas d'autre copie, il est perdu pour de bon.
+3f515151	journal
+3f63e641	Prévision du disque
+3f904eba	Style par classes de fichiers
+3fd16a64	{0:N0} élément nécessite des droits d'administrateur (par ex. {1})|{0:N0} éléments nécessitent des droits d'administrateur (par ex. {1})
+3ff50c63	Type
+3ff57bc0	Cloud : en ligne uniquement
+3ff7ffdb	supprimé
+40418e4c	analyse NTFS rapide, {0:0.0} s
+40438367	comptage unique des fichiers liés physiquement
+40992d89	Données de programmes de ce compte
+409dd984	Fichiers les plus volumineux
+4115cd34	Exclure des dossiers
+414385ac	Réanalyses rapides avec le journal des modifications NTFS
+414dfb28	Plateformes, outils de compilation et (les plus volumineuses) images système pour émulateurs.
+4155597d	Niveau
+419e730c	la Corbeille n'a pas pu être vérifiée
+41bbc92f	Déplacement vers la Corbeille :
+41d1dca1	{0} mesure le lecteur à chaque démarrage et après chaque analyse complète du lecteur ; une prévision nécessite au moins deux jours différents.
+41e389fd	Animation
+41e99987	USB / carte mémoire
+420278fe	Les points de restauration sont perdus.
+420372be	aujourd'hui
+420fd51c	{0} composant redistribuable / outil, {1}|{0} composants redistribuables / outils, {1}
+421ff2ec	L'historique de l'utilisation du disque est conservé pour les lecteurs locaux quand « Mesurer l'espace libre des lecteurs » est activé (Paramètres > Comportement).
+42756836	la Corbeille est désactivée pour ce lecteur (propriétés de la Corbeille) : la suppression y est définitive
+42c49c72	Programmes d'installation conservés par Visual Studio, .NET, les runtimes C++ et d'autres programmes pour se réparer, se mettre à jour et se désinstaller. Le supprimer empêche leur réparation et leur désinstallation.
+42f35940	Monter
+43009bc0	Chaque analyse complète du lecteur entier mémorise ses dossiers de 50 Mo et plus (sur trois niveaux) ; la courbe du lecteur provient des mesures d'espace libre.
+430c0f47	Lecture des lanceurs de jeux…
+430e74c5	{0:N0} élément est ouvert dans un programme : fermez-le d'abord, sinon il reste.|{0:N0} éléments sont ouverts dans un programme : fermez-le d'abord, sinon ils restent.
+430f7b31	Revenir à la version précédente devient impossible.
+43277708	Laissés par une mise à jour de fonctionnalités de Windows. Supprimez-les avec Paramètres > Système > Stockage > Fichiers temporaires (« Fichiers journaux de mise à niveau de Windows », « Fichiers d'installation temporaires de Windows »).
+438456c7	Vidages sur incident
+43967499	Exportation…
+43a350f7	Espace inconnu
+43af5b8f	A grossi depuis la dernière analyse complète
+43b762dd	Voyez où est passé l'espace de votre disque
+43e8f657	Corbeille
+43ed0854	Déplacer vers la Corbeille…
+440b0446	En attendant, d'après les dates des fichiers : {0} ont été ajoutés ces 30 derniers jours. Si rien n'était supprimé, {1} serait plein {2}.
+4438be10	Journaux de maintenance (CBS), d'installation et de mise à jour ; ils peuvent atteindre des gigaoctets sur les machines ayant des problèmes de mise à jour.
+443cb56b	Supprimer {0:N0} élément, {1} ?|Supprimer {0:N0} éléments, {1} ?
+4463dd17	Annulation…
+44de0f00	Clic : afficher seulement les fichiers récupérables (filtre :reclaimable)
+44e67b0c	Je comprends :
+451f0b4a	{0} est en cours d'utilisation et ne peut pas être maintenu pendant la suppression ; réessayez
+45434ef3	Fichier zip (*.zip)|*.zip
+4563d87f	Image d'installation de Windows
+4574ee3a	La mesure est désactivée (Configuration → Comportement).
+45b0ee23	{0} élément, {1}|{0} éléments, {1}
+45b9bf43	Reprendre l'analyse là où elle s'est arrêtée (Maj+clic : tout analyser à nouveau)
+460833d8	Titres écoutés en streaming que Spotify garde pour les relire plus vite (pas vos téléchargements hors ligne, sauf si le dossier est énorme).
+4609321b	dotnet tool list -g / dotnet tool uninstall -g <nom>
+461471f8	Console du journal
+46362a99	3 mois
+4666ff96	La Corbeille de {0} contient au plus {1} ({2} actuellement) : pour faire de la place, Windows en supprime définitivement les fichiers les plus anciens.
+46814550	Traînée de la souris
+4697b8fd	{0} {1} est disponible
+47044ab7	Tous les dossiers node_modules
+474c0cf3	la plus ancienne
+476eae85	Outils et télémétrie du SDK .NET
+4789f21a	Dans Program Files, aucun programme installé ne le revendique
+47c72218	Ce que le rapport dit de cet ordinateur :
+4826f941	{0} élément coché dans toutes les listes : {1}|{0} éléments cochés dans toutes les listes : {1}
+483075a5	Mises à jour
+48ce63af	Environnement de récupération
+48d85bf4	Compressé
+48f07525	Remarque :
+491036e0	Cache Chrome / Chromium
+491e0a9c	système
+49c5aa8f	{0:N0} dossier|{0:N0} dossiers
+49dfc818	(format binaire, pas d'aperçu)
+4a1559b3	volumineux (> 100 Mo)
+4aa74fdb	Les paquets sont retéléchargés à la prochaine installation.
+4aaef4e8	Aucun réglage d'exportation ne s'appelle « {0} ».\nVérifiez le nom sur la ligne de commande.\n\nCette exportation est ignorée.
+4b021b10	{0} minutes
+4b03f220	Les paramètres n'ont pas pu être importés :
+4b058728	Paramètres
+4b2d456f	Images de l'émulateur Android
+4b7b2c0a	Protégé : un dossier utilisateur de Windows
+4b7c3000	Comparer aussi les contenus
+4b7f7705	Arrêter
+4b848fca	Réanalyser ce qui a changé depuis la dernière analyse, d'après le journal des modifications NTFS (Maj+clic : tout analyser à nouveau)
+4bbc0741	La bonne méthode :
+4bdc0829	{0} autre type|{0} autres types
+4bf63189	Impossible de chercher les projets :
+4c1d9208	Jaune (Ctrl+2)
+4c3499ea	ollama list / ollama rm <modèle>
+4c5b658c	Python les recompile à la prochaine exécution.
+4cd17837	{0:N0} changements affichés sur {1:N0} ({2:N0} ajoutés, {3:N0} supprimés)
+4cdf1925	créés il y a moins de {0}
+4ce5f9e2	dernière partie le {0}
+4d0a98a5	1 an
+4d28f009	Les paquets sont retéléchargés quand un projet les installe.
+4d2d5d68	Enregistrer
+4d38965b	Identique
+4d44fb0c	Saisissez les conditions dans la zone de filtre et appuyez sur Entrée ; séparez-les par ';'.\nNoms, étiquettes et classes de fichiers : un fichier s'affiche s'il correspond à l'un d'eux.\nTailles, âges, attributs et dossiers : un fichier s'affiche s'il correspond à tous.\nUn '|' devant une condition l'inverse : tout ce qui NE correspond PAS.\n\nNOMS            *.jpg   report?.docx   |*.tmp\n                '*' remplace n'importe quel texte, '?' exactement un caractère.\n\nTAILLE          >100mb   <16kb   >2.5gb\n                Unités : b, kb, mb, gb, tb (k, m, g et t fonctionnent aussi).\n                La taille comparée est la place qu'occupe le fichier sur le disque. Mettez\n                size, filesize ou logicalsize devant le signe pour comparer la longueur\n                propre du fichier : size>1mb (s>1mb en abrégé). disksize et clustersize\n                désignent la place sur le disque : d<16k.\n\nÂGE             <6months   >2weeks   <10s\n                Unités : s, min, h, d, w, months, y, ou les mots anglais complets.\n                L'âge se compte depuis la dernière modification. Mettez created ou accessed\n                devant le signe pour ces dates : created>1month, a>1y.\n                <10s affiche les fichiers en train de changer.\n\nÉTIQUETTES      :red   :yellow   :green   :blue   :all\n                :tag:red+yellow   rouge ou jaune       :tag:-red   étiqueté, mais pas en rouge\n                Formes courtes : r, y, g, b et les touches d'étiquette 1 à 4.\n\nATTRIBUTS       :attr:hidden   :attr:h+s   caché ou système\n                :attr:a-s   archive, mais pas système\n                archive a, system s, readonly r, hidden h, compressed c, encrypted e,\n                offline o, temporary t, notindexed ni, sparse sp, flux alternatifs ads\n\nCLASSE          :class:Images   les classes et leurs extensions : Paramètres > Styles.\n                Les noms avec espaces n'ont pas besoin de guillemets.\n\nDOSSIERS        \\temp             seulement les fichiers dont le chemin contient un dossier temp\n                |\\node_modules    tout ce qui est hors des dossiers node_modules\n                \\proj*            les jokers fonctionnent ; un nom de dossier ne contient pas '\\'\n                La barre oblique inverse marque un nom de dossier, pas la racine du lecteur.\n                Les dossiers correspondants sont en gras. Filtrer par dossier est plus lent.\n\nCACHES CONNUS   :reclaimable      caches et zones temporaires que l'on peut vider sans risque\n                |:reclaimable     tout le reste       (:cache et :junk fonctionnent aussi)\n                Ces dossiers portent un badge sur la carte.\n\nFICHIERS CLOUD  :cloud            fichiers des dossiers OneDrive, Dropbox, iCloud et similaires\n                :freeable         copies locales que « Libérer de l'espace » peut supprimer (le\n                                  fichier reste dans le cloud et sur vos autres appareils)\n                :onlineonly       fichiers conservés uniquement en ligne : aucune place sur ce disque\n                                  (listés dans les exportations, pas dessinés sur la carte)\n                :alwayskept       fichiers réglés sur « Toujours conserver sur cet appareil »\n\nLANGAGE COURANT (anglais ou turc)\n                Écrivez une phrase et appuyez sur Entrée ; la zone affiche alors le filtre\n                compris, et la barre d'état l'explique :\n                  large files except videos\n                  pictures smaller than 2 MB in Downloads folder\n                  6 aydır açılmamış 100 MB üstü videolar\n                  son 7 günde oluşturulan belgeler\n                Compris : types de fichiers (video, pictures, music, documents, archive, iso,\n                log...), extensions (psd files, .mkv), tailles (over 1 GB, 100 MB üstü,\n                big, huge, small), âges (older than 1 year, 6 aydır açılmamış, bugün,\n                this week), fichiers cachés, système et en lecture seule, étiquettes, dossiers, caches.\n\nEXEMPLES        *.jpg;*.png;>2mb          images JPG ou PNG de plus de 2 Mo\n                |*.exe;|*.dll;|\\windows   ni programmes, ni contenu d'un dossier windows\n                :tag:r+y;>1gb             fichiers étiquetés rouge ou jaune de plus de 1 Go\n                :attr:h;|:attr:s          fichiers cachés qui ne sont pas des fichiers système
+4d6ad035	Stockée chiffrée pour votre compte Windows ; non incluse dans les paramètres exportés.
+4d8aa213	Proportions des éléments (horizontal … vertical)
+4dae7ff1	Le rythme de croissance de l'espace utilisé sur les jours mesurés ; les gros nettoyages ponctuels sont exclus
+4daf4721	Vos fichiers Dropbox synchronisés. Les supprimer ici les supprime aussi dans le cloud (récupérables un temps sur dropbox.com).
+4de24f84	{0} libérables ({1})
+4df0d534	Les éléments du côté gauche sont dans cette vue
+4e0ecb9b	Les fichiers sont supprimés de tous les appareils et d'iCloud.com (récupérables pendant 30 jours).
+4e466285	pas encore assez de mesures
+4e678c84	Protégé : une application du Store
+4e88328e	Protégé : il contient {0}
+4edba371	Protégé : conservé par Windows
+4f0eb5e0	Comparaison d'instantanés {0}
+4f23768b	Caches connus et fichiers temporaires dans les dossiers des programmes (Cache Radar)
+4f2c4fd5	{0} enregistré ({1} fichiers, {2}) dans {3}.
+4f34d900	Plus
+4f516a81	faible
+4f856dd8	Part
+4fc5d7e4	Données de programme partagées par tous les utilisateurs
+4fcb191e	Tendance :
+4fcc19e6	Les dossiers sont identiques
+4fe0e191	Fichier fragmenté
+502a19f3	DynaZoom (redisposition à chaque image pendant le zoom)
+50853db2	Paramètres > Applications > Applications installées > Désinstaller
+508bd598	analyse…
+50bbbab1	Sauvegardes d'appareils faites par iTunes ou l'app Appareils Apple ; chacune peut faire de nombreux gigaoctets.
+50c67a30	Réglage d'exportation enregistré dans le fichier
+50f97d9f	Classe
+51282a3b	Ouvrez un lecteur, un dossier ou un instantané — ou déposez-en un ici.
+513083d0	Mis à jour
+5145e1ec	Flux d'intégrité
+5155ced8	Impossible de redémarrer en administrateur :
+51750ec7	outil
+51aed508	Vider ce dossier…
+51b969c9	Ne rien sélectionner
+51f636a3	plus grand à droite
+521886c5	réseau
+525446ce	Dernière écriture
+5261999e	Non joué depuis un an
+527f0228	Enregistre un fichier .zip avec ce qui aide à trouver la cause d'un problème. Il contient des fichiers texte : ouvrez-le et examinez tout avant de le transmettre. {0} n'envoie rien lui-même
+52bd5b77	Inclure le dossier Windows
+52d4be2f	Les descriptions des classes de fichiers doivent être uniques.
+52dae2af	Contient : {0:N0} élément|Contient : {0:N0} éléments
+52e6ecf2	Enregistrer la liste…
+5324ccf7	Le contenu part : {0:N0} élément|Le contenu part : {0:N0} éléments
+5326d023	lancé pour la dernière fois il y a {0}
+5357cad2	Sélectionner les sans risque
+5389f46f	le numéro de version est illisible
+538b10e9	Ouvrir
+53925414	Cache pip / uv
+53a4dd2c	Pas joués depuis un an :
+53f5262e	La réparation du démarrage et la réinitialisation ne fonctionnent plus.
+542b3dd7	Clic droit > Rendre disponible en ligne uniquement garde les fichiers dans Dropbox sans utiliser ce disque
+542fed8a	Dossiers
+5453e5b7	En ligne uniquement
+548c9ce4	Nom ou chemin du dossier
+54b01571	Suivant (Maj+Retour arrière)
+54e4edfc	Trouvez les fichiers en double, comparez un dossier avec sa sauvegarde ou comparez le lecteur avec un instantané enregistré le mois dernier.
+558e5ff7	Seul un espace réservé est sur ce disque ; les données sont dans {0}. Il n'utilise pas d'espace ici et se télécharge à l'ouverture.
+55c753f8	Tous les fichiers (*.*)|*.*
+55caed82	terminée
+562ecc44	Avec ce réglage et ce filtre, le fichier serait vide. Exporter quand même ?
+56b9e0f0	Windows n'enregistre pas les lancements de programmes pour ce compte (Paramètres > Confidentialité > Général : « Autoriser Windows à suivre les lancements d'applications pour améliorer les résultats de l'écran de démarrage et de la recherche ») : seuls les dossiers de données des programmes indiquent quand ils ont été utilisés.
+571a4f44	Exporter la vue vers un fichier
+574b66b8	SDK Android
+575cffd2	Pied de page
+5797ea6a	Supprimer
+57a4c80c	Éléments à nettoyer dans {0}
+58062e10	Placer d'abord
+58227bcd	{0:N0} h
+583ef2bf	même longueur, contenu différent
+58422b8f	Nom de fichier par défaut
+58510d92	Plein :
+585a416b	{0:N0} modifié dans la dernière journée reste|{0:N0} modifiés dans la dernière journée restent
+5876dbe1	Impossible de redémarrer :
+588e8c51	Contraste des niveaux (plat … profond)
+58b04afd	Déposez un fichier d'instantané ici
+58da7789	Le menu de l'Explorateur ouvre une autre copie de {0}. Cliquez sur Ajouter pour qu'il ouvre celle-ci.
+58de2772	Normal
+58e096de	À propos
+5906fabd	Le dossier lui-même reste.
+59592997	{0:N0} élément|{0:N0} éléments
+59755e0a	Options de la ligne de commande
+598ff40c	Restes
+59b4ae0b	Accès
+59d7b4f1	Informations système : version de Windows, processeur et mémoire, lecteurs (type, système de fichiers, taille)
+59fedf7f	Désactivé : Suppr supprime définitivement et Maj+Suppr déplace vers la Corbeille. Dans les deux cas, ByteScape montre ce qui partirait, si c'est sans risque, ce qui nécessite des droits d'administrateur ou est ouvert dans un programme, et demande d'abord. Les lecteurs sans Corbeille (clés USB, réseau) suppriment toujours définitivement.
+5a036285	Documents
+5a08eeb5	Restes de développement
+5a417a78	étiquetés vert
+5ab3a6b7	Plus gros contenus
+5ac32513	Mises à jour et contenu du Store conservés pour être partagés avec d'autres PC du réseau.
+5b2a812f	Miniatures générées par l'Explorateur pour les images, vidéos et documents.
+5b7cc33c	dossiers d'abord
+5bf0a5d9	Steam > Paramètres > Téléchargements > Précache des shaders
+5bfa1dfb	1 Mo
+5c048d37	fichier de programme
+5c08e66a	Contenu des mises à jour cumulatives utilisé par la maintenance.
+5c0ee489	Version {0}
+5c36fcd8	Filtre (Ctrl+L)
+5c3d9ff9	Voulez-vous créer un rapport de problème ? Il est enregistré dans un fichier que vous pouvez examiner et envoyer au développeur ; rien n'est envoyé automatiquement.
+5c5c6770	Paramètres > Système > Stockage
+5cf523f8	Supprimer les images système casse les émulateurs qui les utilisent ; SDK Manager peut les réinstaller.
+5d136aed	Analyse de {0} et comparaison…
+5d5c2091	Analyse NTFS rapide en mode administrateur
+5db2152b	Regrouper les éléments sous la taille minimale dans un bloc « N éléments » (désactivé = les masquer)
+5dc5e595	Copie locale
+5e2a8369	Rien n'est perdu pour un usage normal.
+5e513bfe	Vider ce dossier
+5e5aec47	{0:N0} dossier modifié|{0:N0} dossiers modifiés
+5e5ff0c9	Durée du clignotement après une modification externe (ms, 0 = désactivé)
+5e7517f8	Cache Gradle
+5e7d783b	Composants redistribuables et outils
+5e8ab4b1	Propriétés système > Protection du système > Configurer > Supprimer / réduire l'utilisation maximale, ou vssadmin delete shadows
+5eaf0802	{0:N0} modifié depuis moins d'un jour est laissé tel quel|{0:N0} modifiés depuis moins d'un jour sont laissés tels quels
+5f28b381	Sortie de compilation de {0} ({1}), reconstruite par {2}
+5f6b3a27	{0:N0} fichier|{0:N0} fichiers
+5f858f13	Les titres sont de nouveau diffusés en streaming ; la limite du cache se règle dans les paramètres de Spotify.
+602d45e6	Couleurs des étiquettes
+606ac90f	L'appareil et ses données sont perdus ; on peut le recréer depuis Device Manager.
+6076cb65	Protégé :
+60f3de7b	Avancé
+60fcf02c	Programme d'installation du pilote NVIDIA
+610eb824	Redémarrer en administrateur (analyse NTFS rapide)
+611286ab	Dossier Dropbox
+61234b02	Paramètres > Comptes > Autres utilisateurs
+613435ed	{0} min
+613f34ea	Hex
+61455d91	Pas encore d'analyse complète antérieure de ce lecteur pour comparer. Chaque analyse complète du lecteur entier est mémorisée (tailles des dossiers seulement), et la suivante est comparée avec elle.
+615d261d	la réponse n'est pas une description de mise à jour
+61651dc1	Quelque chose sera perdu :
+616a6784	Automatique
+616d7d46	Une image d'installation de Windows téléchargée pour une mise à niveau ou une réinitialisation.
+619eeef6	Programmes :
+61e04b11	Chaque projet retélécharge ses dépendances à la prochaine compilation (parfois des gigaoctets, et c'est lent).
+61f180c5	SSD NVMe
+622d7d85	plus récent à gauche
+625c8fc8	{0:N0} clé, certificat, base de mots de passe ou portefeuille|{0:N0} clés, certificats, bases de mots de passe ou portefeuilles
+6355bee5	Les étiquettes de couleur marquent les fichiers et dossiers à retrouver plus tard : à garder,\nà vérifier, à déplacer ou à supprimer.\n\n    Ctrl+1   rouge        Ctrl+2   jaune\n    Ctrl+3   vert         Ctrl+4   bleu\n    Ctrl+0   retire les étiquettes de la vue actuelle (le dossier affiché et en dessous)\n\nUne touche étiquette (ou désétiquette) le bloc sous le pointeur de la souris, sinon le bloc\nsélectionné. Quand la zone de filtre n'a pas le focus, les chiffres marchent aussi sans Ctrl.\nLe menu du clic droit propose les mêmes commandes.\n\nUne étiquette sur un dossier vaut pour tout son contenu : filtrer par cette couleur trouve\naussi ces fichiers. Seul le dossier affiche l'étiquette, pour que la carte reste lisible.\n\nFiltrez par étiquette avec :red, :yellow, :green, :blue ou :all, avec :tag:red+yellow pour\nplusieurs couleurs, et |:red pour tout ce qui n'est pas rouge (voir l'aide sur les filtres).
+63609fed	Vidéos
+63629fee	La vider rend les fichiers supprimés irrécupérables.
+63d57d91	Programme d'installation du pilote AMD
+63f29e9f	quelque chose est perdu (voir les avertissements)
+63fe3327	hier
+641280ce	Global
+64215c53	Bureau
+643579c2	Fichiers de pilote décompressés par un programme d'installation NVIDIA. Le pilote installé continue de fonctionner.
+643ff3e3	{0} noms, espace compté ici
+64740f75	« {0} » figure dans le menu contextuel des dossiers et lecteurs de l'Explorateur.
+64863575	Ouvrir les paramètres de stockage
+64c3a2d2	Rapports d'erreurs ({0}{1} ; le dernier {2:g})
+64f6f913	{0:N0} élément est protégé par Windows (propriétaire TrustedInstaller) et ne sera pas supprimé, même par un administrateur.|{0:N0} éléments sont protégés par Windows (propriétaire TrustedInstaller) et ne seront pas supprimés, même par un administrateur.
+650ee66b	Nom de dossier non valide :
+6511091f	Les tailles sont les tailles sur disque.
+65163188	Cache du registre Cargo
+6548551d	Dossier de jeu
+654f3596	Avant
+658f3664	Copier
+662a31d3	Libre :
+66532d8b	Filtrer par nom ou chemin
+669ad39e	Programmes sur le disque…   Ctrl+P
+66a569a4	Caches des IDE JetBrains
+66de7a09	Description
+66dea4e9	aucune adresse de mise à jour n'est définie
+673e3998	Un fichier temporaire : les programmes les créent puis les oublient ; sans risque, sauf si un programme l'a ouvert.
+6749eaf7	Les modules sont retéléchargés et les paquets recompilés au prochain 'go build'.
+676409df	Mise à jour disponible
+679f3d0e	Cocher chaque élément marqué Sans risque dans cette liste
+67f2c3a3	La racine d'un lecteur. Supprimez plutôt son contenu, un dossier à la fois.
+681a5e81	Réseau, non connecté
+682d4275	Environnement virtuel Python
+682ee4b1	Programmes sur le disque : tout ce qu'utilise chaque programme installé (Ctrl+P)
+684ab28e	images
+687e2192	la plus récente
+688247e9	Aucun jeu Steam, Epic Games ou GOG trouvé.
+68875c49	Aperçu (premiers éléments uniquement)
+6893fb22	Enregistrer en CSV…
+68b50c4f	Fluidité de l'animation (période d'image en ms)
+68d61f14	go clean -modcache   /   go clean -cache
+68fadaaa	Une copie de « {0} » reste toujours : décochez d'abord une autre copie.
+691d80e0	Cache des documents Office
+69437205	Les tailles sont celles affichées dans la vue.
+69442828	Journaliser les messages de débogage détaillés
+695c1ab3	{0:N0} différence|{0:N0} différences
+695c22b0	DISM /Online /Cleanup-Image /StartComponentCleanup  (éventuellement /ResetBase) supprime sans risque les versions remplacées
+6974ad65	Réseau
+69960bb6	Apparence
+69a3e0b5	Paquets MSI/MSP dont Windows a besoin pour réparer, mettre à jour ou désinstaller les programmes installés.
+69d3fd80	Espace de travail temporaire de chaque programme lancé ; les installeurs et programmes de mise à jour oublient souvent d'y faire le ménage.
+69e07a78	Prévision du disque : quand le lecteur sera plein au rythme actuel, et où sont allés les nouveaux fichiers (Ctrl+K)
+6a02e0fd	Unreal le reconstruit (les shaders sont recompilés)
+6a1d9f4d	Un journal : écrit par les programmes pour le dépannage ; rien d'autre n'est perdu.
+6a4a2930	Steam demande une confirmation et supprime le jeu
+6a5bc848	Qu'est-ce que c'est ?
+6a6da27b	Clic droit sur la Corbeille du bureau > Vider la Corbeille
+6a7b5339	{0} minute|{0} minutes
+6a8adbaf	Un fichier de programme : le programme auquel il appartient risque de ne plus fonctionner.
+6ac50cbb	protégé par Windows
+6ae41987	Les modifications jamais synchronisées sont perdues ; vérifiez d'abord le Centre de téléchargement.
+6b2b67b3	{1} utilisés par {0} programme|{1} utilisés par {0} programmes
+6b57237d	{1} dans {0} programme ({2} de la vue)|{1} dans {0} programmes ({2} de la vue)
+6b720269	fichier d'installation
+6b84e9d8	npm cache clean --force
+6bb4f1fe	Applications installées. Supprimer des dossiers à la main laisse des entrées de registre et des raccourcis cassés.
+6be6dd8b	{0} : pas encore assez de mesures
+6bf343f3	il y a {0} an|il y a {0} ans
+6c298534	même contenu, date différente
+6c715881	{0} dossier mémorisé|{0} dossiers mémorisés
+6c75c115	IA locale (facultatif)
+6cfba9c1	Programmes d'installation de pilotes conservés par GeForce Experience / NVIDIA App après l'installation.
+6d306ccf	Comparer par longueur et date
+6d9fb9db	Ouvrir un instantané
+6da32dce	Store
+6da8f0a8	Les fichiers supprimés occupent de l'espace jusqu'à ce que la Corbeille soit vidée. Vérifiez-la, puis videz-la depuis Windows.
+6dccb264	Taille de police des éléments (pt)
+6e38ff95	Autre
+6e434127	Comparer avec un autre dossier…   Ctrl+Shift+C
+6e698019	Détection des changements du système de fichiers (redémarrage nécessaire)
+6e71eaec	Cache Firefox
+6ea86e09	Un dossier que Windows conserve à la racine du lecteur (points de restauration, fichiers de démarrage et de récupération, Corbeille).
+6eb12c99	{1} en copies superflues de {0:N0} fichier|{1} en copies superflues de {0:N0} fichiers
+6edacf4f	L'ancien Windows conservé après une mise à jour de fonctionnalités pour pouvoir revenir en arrière ; Windows le supprime après 10 jours.
+6ee2f34e	arrêtée
+6f12e9d5	Au démarrage de ByteScape et après chaque analyse complète d'un lecteur : la date, la taille et l'espace libre de chaque lecteur local, et la taille de ses gros dossiers. Conservé à côté du fichier de configuration ; jamais envoyé nulle part.
+6f267fb8	Cache hors ligne de Spotify
+6f359153	Afficher l'âge du fichier dans l'info-bulle
+6f54b092	Contient {0}
+6fbd8d5e	Contenu web mis en cache par un profil Firefox.
+6fe2fc99	Fichiers volumineux à partir de (Mo)
+6ff7f2c5	Récupérable (fermez d'abord l'application)
+6ffffeaf	{0:N0} vidéo|{0:N0} vidéos
+700a3e6b	Importer un réglage d'exportation
+70242513	Un fichier à plusieurs noms (Windows\\WinSxS et System32, magasins pnpm) occupe son espace une fois : il est compté au premier nom, les autres affichent 0 sur disque. Désactivé : une fois par nom, comme l'Explorateur. Lecteurs NTFS locaux ; s'applique à partir de la prochaine analyse.
+70446115	Suppression :
+7082b79f	la réponse est trop longue pour une description de mise à jour
+70a26e7b	Supprimé
+70aa914c	Seulement à gauche
+70ad7706	Rechercher les mises à jour
+70e7e28f	Disques et instantanés de machines virtuelles.
+7112a272	Dossiers dont la reconstruction peut ne pas donner le même résultat (pas de fichier de verrouillage, pas de fichier requirements)
+71136ef1	Lignes PowerShell qui suppriment les dossiers sélectionnés (tous ceux du projet si aucun n'est sélectionné), chacune avec la commande qui le recrée
+713a842f	Ouvrir le dossier
+71aa3193	{0} fichier volumineux nécessaire à Windows (fichier d'échange, fichier de mise en veille prolongée...) n'est pas listé.|{0} fichiers volumineux nécessaires à Windows (fichier d'échange, fichier de mise en veille prolongée...) ne sont pas listés.
+71aa86f4	{0:N0} fichier cloud en ligne uniquement n'a pas été lu (cela le téléchargerait).|{0:N0} fichiers cloud en ligne uniquement n'ont pas été lus (cela les téléchargerait).
+71aebf38	Un programme conserve ici des paramètres, connexions ou travaux enregistrés. {0} ne sait pas lequel ; le programme risque de les perdre.
+71b34560	Le modèle local n'a pas pu transformer « {0} » en filtre ; utilisé comme masque de nom.
+71d02ea7	Cochez d'abord ce qui doit partir.
+71db5060	Suppr déplace vers la Corbeille (Maj+Suppr supprime définitivement)
+71e71828	Dernière partie
+71f43a92	(Page HTML : résumé, premier niveau, dossiers et fichiers les plus volumineux, types et âges des fichiers, avec des barres ; ouvrez le fichier dans un navigateur)
+72073d37	Ouvrir un ticket…
+72335220	liens physiques comptés une seule fois : {0}
+7332b460	HDD, dossiers dans l'ordre du disque
+73428226	Types de fichiers
+73690b65	Archive
+739cae1e	Copier le rapport
+73b6b7e0	non installé ou sur un lecteur déconnecté
+73c98f4b	Collecte…
+73db6e7c	Zoomer sur le dossier
+73f99d3c	Jeux
+740697ff	Chemin incorrect
+7414aeb9	Vous êtes prêt
+7478aa37	Aucune analyse complète de {0} mémorisée pour l'instant
+74e1e5d0	Temps de jeu
+74ea9a9b	Dossiers de Program Files, ProgramData et AppData qu'aucun programme installé ne revendique
+750e37d5	Quelque chose que vous avez téléchargé. Il peut généralement être téléchargé à nouveau ; gardez-le si c'est la seule copie.
+75455afd	Une photo ou image : s'il n'existe pas d'autre copie, elle est perdue pour de bon.
+7550880b	Journaliser les problèmes
+755effee	Consigner les avertissements d'analyse dans le journal
+756ac84d	Clic droit sur la Corbeille > Vider
+758a4cfc	modifiés ce mois-ci
+75bdbe5c	agrandi
+75e3a3d2	dans chaque groupe
+761af994	recréé par l'outil de compilation
+762a33ad	Clic droit > Libérer de l'espace garde les fichiers uniquement dans iCloud
+768360c4	sauvegardes
+769f928f	Caches connus et zones temporaires
+76bda0c0	Étiquettes
+76c4fde9	le chemin est trop long (ou inhabituel) pour la Corbeille : supprimez-le plutôt définitivement
+77087a03	node_modules
+771376d0	Accès :
+7720fdf4	moins de {0}
+776d4156	Retéléchargé / recompilé au lancement d'un jeu.
+7773de47	Shaders précompilés que Steam télécharge par jeu et par GPU.
+778012f3	Dans {0}. Chaque élément indique si sa suppression est sans risque ; les éléments protégés ne peuvent pas être supprimés d'ici, et la suppression passe par la Corbeille sauf choix contraire.
+77e6408a	Non rattachés à un programme installé (outils portables, programmes supprimés, composants Windows ou de développement : vérifiez avant de supprimer)
+7807d6d4	réduit
+7821dfca	ne se remplit pas
+784ae085	Effacer les étiquettes de ce zoom
+786c531a	un emplacement réseau n'a pas de Corbeille : la suppression y est définitive
+7871cac4	Fichiers Internet temporaires utilisés par des composants anciens (Office, composants Windows, ancien IE).
+787b88eb	Attribut inconnu (archive, hidden, readonly, system...) :
+7889b50c	modifiés depuis hier
+78e24fb5	{0:N0} élément supprimé définitivement : {1} libérés|{0:N0} éléments supprimés définitivement : {1} libérés
+78e7877a	Windows ignore les fichiers utilisés par un programme en cours ; le reste est inutile.
+7912e942	sur {0}
+7949bc31	HDD (disque dur)
+79af3eaa	Cochez d'abord les copies à supprimer.
+7a050027	Impossible d'ouvrir le fichier '{0}'
+7a90bbfb	Moins de niveaux (Ctrl+-)
+7ad128ef	Fichiers .pyc compilés que Python écrit à côté de ses sources.
+7b04891c	Les machines sont perdues.
+7b1728e7	Signaler un problème
+7b1879d8	{0} historique {1}.csv
+7b5fea5e	Projet
+7b8038d9	Pourquoi
+7b845e5e	Ouvrez son dossier parent pour le supprimer.
+7bb1b928	about:preferences#privacy > Cookies et données de sites > Effacer les données > Contenu web en cache
+7bbba834	Par dernière modification
+7bebde3a	Les fichiers sont supprimés de tous les appareils et de drive.google.com (récupérables dans la corbeille pendant 30 jours).
+7c0f465b	{0} est devenu un lien (jonction ou lien symbolique) depuis l’analyse : rien n’est supprimé à travers lui
+7cb1c5d3	le dossier affiché par cette vue
+7cb5b9f7	Un fichier dont Windows a besoin pour démarrer ou gérer la mémoire.
+7cedd8c0	Qui utilise l'espace
+7cee1b11	Tout réanalyser
+7d17b1a1	Espace libre
+7d7b269a	Visual Studio le recrée (fermez-le d'abord)
+7d96b6af	Nettoyage de disque > Miniatures
+7df48eed	Caches Unity
+7dfcea0e	Dossiers d'installation des programmes
+7e1cae1b	Lecture et comparaison des fichiers des deux dossiers…
+7e477838	Reconstructible
+7eadfa7a	Instantanés
+7ed46b4f	{0} est ouvert dans un programme
+7f0279c3	Veuillez joindre ici le fichier {0} : faites-le glisser depuis l'Explorateur, où il est affiché sélectionné.
+7f39578d	Rien ne quitte votre ordinateur, et rien n'est supprimé sans vous le demander. Vous pouvez refaire cette visite depuis le menu …. Bonne utilisation de {0} !
+7f42a286	ouverts il y a moins de {0}
+7f58b2cf	Rattachement des dossiers aux programmes installés…
+8025c92f	Ouvrez-le dans l'Explorateur, attribuez-lui une étiquette de couleur ou vérifiez s'il peut être supprimé sans risque avant qu'il parte dans la Corbeille. La touche Suppr fait de même.
+80282919	n'a pas pu être vérifié
+8052db6c	Aperçu (en direct)
+805bb20d	Un ou plusieurs chemins séparés par ';' — un lecteur, un dossier, un disque externe ou un partage réseau (\\\\serveur\\partage)
+80a1d937	Agrandi / ajouté
+80d0ec3c	cargo cache -a  (cargo install cargo-cache)
+80e02760	Rechercher les mises à jour…
+80f36ee5	Supprimez avec l'application fermée
+810ff154	Ouverture auto
+812a5c8b	Modèles et jeux de données téléchargés par les bibliothèques transformers / diffusers — souvent des dizaines de gigaoctets.
+814b2f87	mise à jour
+818a2e03	DISM /Online /Cleanup-Image /StartComponentCleanup
+818a94bb	Comment nettoyer :
+81989361	L'analyse est toujours en cours : d'autres éléments peuvent apparaître (appuyez sur Actualiser à la fin).
+81c809fc	Propriétés
+81c9f587	dans les dossiers nommés {0}…
+81e18494	Marqué en lecture seule : quelqu'un voulait le conserver.
+81fc1479	il y a {0} mois|il y a {0} mois
+82330693	Disque virtuel de Docker Desktop
+8238fb8f	Cache de téléchargement de Windows Update
+8254ce17	Seuls les dossiers de {0} sont comptés : ouvrez le lecteur entier pour des totaux complets.
+82af8e89	Les projets retéléchargent ce dont ils ont besoin à la prochaine installation.
+82cb0142	Sources de crates et extractions git téléchargées par cargo (Rust).
+8310f425	Désabonnez-vous des éléments inutilisés, ou supprimez le dossier numéroté du jeu
+83199704	Lien physique
+834c6cce	Ouvrir la fenêtre du journal quand un événement est consigné
+835cce4e	plus grand à gauche
+83c9eab7	caches connus / zones temporaires
+83d5ea75	Dossier global des paquets .NET : chaque version de paquet NuGet restaurée par un projet, plus le cache HTTP.
+83df2cc3	Paquets de maintenance de Windows
+83e71839	Désinstaller
+843d3318	Réparer / Modifier retéléchargent alors les paquets ; la désactivation est prise en charge.
+845df81c	annulé
+845f8fa3	Plus de 100 Mo
+845fc578	Un dossier se trouve dans l'autre : choisissez un dossier en dehors de {0}.
+84696c25	Aucun projet avec sortie de compilation, dépendances ou environnements trouvé ici.
+8500cee3	Classe de fichiers
+85301b93	d'ici un jour
+853b5816	L'installation de Windows en cours d'exécution. Seules ses zones temporaires, de journaux et de téléchargements peuvent être nettoyées, et les outils de Windows le font le mieux.
+85a712a3	10 Mo
+85c6d8d4	Importer / Exporter (ci-dessous) lisent et écrivent des profils complets au même format XML, pour garder par ex. une apparence « présentation » et une « travail » et passer de l'une à l'autre.
+85c8f90a	Premier niveau
+85e4b82f	OK
+8606ae83	Données d'application du Store
+860adfe2	Programmes installés
+86175a0e	Fichiers temporaires restants
+863c3dd9	Protégé : une installation de Windows
+8642c7d3	Signaler un problème…
+8653d73d	100 Ko
+86aeff42	Paramètres > Applications > Applications installées > {0} > Désinstaller
+86b748a1	SSD (SATA)
+86e0d5ea	docker system prune -a  (puis Docker Desktop > Troubleshoot > Clean / Purge data, ou wsl --shutdown et Optimize-VHD pour réduire le fichier)
+871f67c3	Contenu
+874bde24	{0:N0} photo ou image|{0:N0} photos et images
+87ca6658	Données de {0}
+87cc130e	Cache des modèles Hugging Face
+87fd543b	Vérification des droits et des éléments ouverts dans des programmes…
+88d31f58	Chemins récents…
+894a9e36	Taille ou ancienneté non comprise :
+897db656	Cache des paquets Conda
+898c5ad7	un autre nom
+89c5203b	Modifié
+89f6931c	le serveur a répondu {0}
+8a06932e	analyse en cours
+8a153f1f	Les fichiers d'installation sont anciens après (jours)
+8a16af8b	Il contient {0}.
+8a1b8d71	{0:N0} élément ouvert dans un programme (par ex. {1})|{0:N0} éléments ouverts dans un programme (par ex. {1})
+8a333465	Application Steam {0}, {1}
+8a44775b	Index, caches et journaux d'IntelliJ IDEA, Rider, PyCharm, Android Studio... (les paramètres sont dans Roaming).
+8a48cb03	{0:N0} fichier audio|{0:N0} fichiers audio
+8a8154e1	Comparer des dossiers
+8b242db1	Nouveau
+8b3dc597	Maintenant
+8b84889c	Temporaire
+8ba93ddc	Résumer avec le modèle local
+8bdfcd4d	{0} semaine|{0} semaines
+8be19211	Vérification de la possibilité de suppression…
+8c23b720	il y a plus d'un an
+8c31199b	Ont le plus grossi :
+8cb0c489	Voyez où est passé l'espace de votre disque.
+8cb360b1	Vos fichiers
+8ce91248	Les dossiers commençant par un point contiennent les paramètres et caches d'outils de développement et de programmes en ligne de commande.
+8cfd2c66	Un fichier de programme
+8d39bde6	nom
+8d4fbd83	{0:N0} fichiers de même longueur comparés, {1} lus en {2:0.0} s.
+8d68409d	Le profil complet d'un compte d'utilisateur ({0}). Supprimez son contenu, ou supprimez le compte dans Paramètres > Comptes.
+8d73f95c	Utile uniquement pour déboguer un plantage déjà survenu.
+8d99b40d	Unités décimales (1 ko = 1000 octets) au lieu de binaires (1 Kio = 1024 octets)
+8da6167b	Désinstallez-le avec son propre programme de désinstallation (il supprime le dossier du programme, ses entrées de registre et ses raccourcis) ; les dossiers de données qu'il laisse peuvent ensuite être supprimés depuis la carte. {0} ne supprime jamais le dossier d'un programme à la main.
+8db520c1	Lit les fichiers de même longueur et de même date des deux côtés et les compare octet par octet (SHA-256) : trouve les copies endommagées. Prend autant de temps que leur lecture.
+8dd22698	HDD, un dossier à la fois
+8dd31791	Terminé
+8ddfd782	archives
+8dea7afa	Déplacer vers la Corbeille
+8def2818	Modification :
+8e0a0d52	Fichier d'échange / fichier swap
+8e23fd07	{0} sur disque
+8e367bfa	Composants Windows
+8e68a104	Disques de machines virtuelles (.vhdx) et points de contrôle.
+8ea4e4fc	net stop wuauserv, supprimez le dossier Download, net start wuauserv  (ou Nettoyage de disque > Nettoyage de Windows Update)
+8eac8b8e	Les dossiers sélectionnés (tous ceux du projet si aucun n'est sélectionné) passent par la boîte de dialogue de suppression : ce qui part, si c'est sans risque, ce qui est ouvert dans un programme
+8f3184bc	Système
+8f76d55b	{0} mois|{0} mois
+8f7aac0d	Paramètres (sans la clé d'API ni les dossiers ouverts récemment)
+8fb56258	Sélectionnez un élément pour savoir s'il peut être supprimé sans risque.
+8fcdcda6	Projets inchangés depuis plus de six mois, et ce que leurs outils reconstruiraient
+8ff8bcaa	Inchangés depuis 3 ans
+90379bad	Téléchargements inachevés
+903e2fd7	Inchangé depuis 6 mois : {0} projet, {1} reconstructibles|Inchangés depuis 6 mois : {0} projets, {1} reconstructibles
+90a65898	étiquetés rouge
+90d249dc	Non supprimés — protégés ({0})
+90d280ef	Paquets de mise à jour téléchargés par Windows Update ; les mises à jour déjà installées restent ici.
+90d77c50	L'historique s'enrichit à chaque analyse complète du lecteur entier (et avec l'espace libre mesuré au démarrage de {0}).
+9105411f	{0} an|{0} ans
+910d3983	Δ
+9122cea9	Réduit / supprimé
+9184bc87	Nettoyage…   Ctrl+Shift+Suppr
+918cd21d	Rechercher à nouveau les doublons avec ces paramètres
+91ce0025	 — envoyez vous-même le fichier au développeur.
+91dad0f8	Emplacement
+924a2c87	SHA-256 du nouveau fichier du programme : {0} (comparez-le avec le fichier téléchargé : Get-FileHash dans PowerShell).
+92ac5c78	Cache de bytecode Python
+931cd386	Vue :
+932e7663	Fichiers d'installation : programmes d'installation dans Téléchargements et sur le Bureau. Programmes inutilisés : non lancés (selon Windows) et données inchangées depuis ce délai, et installés avant.
+934d9d0c	Un téléchargement
+935943ea	Protégé : fait partie de Windows
+936c1740	Les fichiers sont comparés par longueur et date.
+9376c1cf	Contient vos propres fichiers
+93a51c77	Modules Go téléchargés et cache de compilation.
+93a89e87	Rien de sélectionné
+93bb8246	Cache des modules et de compilation Go
+93f186c6	L'analyse est toujours en cours : les tailles augmentent jusqu'à la fin (appuyez alors sur Actualiser).
+93fb2ed2	non ouverts depuis {0}
+94043c9c	Les tailles incluent les caches de shaders, le contenu du Workshop et les sauvegardes.
+9428b8d9	Seulement à droite
+948ef074	Récupérable
+9492c330	{0:N0} nom est un lien physique d'un autre nom (même fichier, pas d'espace en plus) : non compté comme copie.|{0:N0} noms sont des liens physiques d'un autre nom (même fichier, pas d'espace en plus) : non comptés comme copies.
+94a2d58b	Revenir en haut (Ctrl+Origine)
+94a4996b	{0} analyse complète du {1} au {2}|{0} analyses complètes du {1} au {2}
+94c124ce	Un masque générique par ligne, comparé au nom du dossier ou au chemin complet — par ex. *\\WinSxS ou node_modules. Les dossiers exclus ne sont pas analysés du tout.
+94cbff93	plus de {0}
+94e1ec75	libérer de l'espace / toujours conserver…
+950ae45f	Une analyse arrêtée, ou encore en cours à la fermeture de ByteScape, est conservée (ce qui a été trouvé) à côté de la configuration pendant une semaine ; rouvrir le même chemin la reprend avec les dossiers pas encore atteints. Maj+clic sur le bouton d'analyse analyse tout à nouveau.
+951556af	{0:N0} fichier temporaire|{0:N0} fichiers temporaires
+9538ebb9	Cache Composer
+9592018a	Android Studio > Device Manager > Wipe data / Delete
+95a0d0e9	{0} {1} est la version la plus récente.
+95a2738a	Magasin Yarn / pnpm
+95b88867	Modèles Ollama
+960dcfa3	Un seul fichier avec {0} noms ; ses {1} sur disque sont comptés une fois, au premier nom :
+96234bd4	document
+963f4cb0	Fichiers XML (*.xml)|*.xml
+9644ea4a	Dossier Google Drive
+96c22130	Copies
+96ca474e	Analyse
+96d7f8db	Fichiers de pilote décompressés par un programme d'installation AMD. Le pilote installé continue de fonctionner.
+970be1e0	Protéger les dossiers système
+971b9010	Caché et marqué comme fichier système : Windows ou un programme en dépend (fichiers desktop.ini, fichiers de démarrage et de licence).
+97418149	Impossible de chercher les éléments à nettoyer :
+976cb95c	{0:N0} nom lié physiquement est le même fichier et n'est pas compté comme copie.|{0:N0} noms liés physiquement sont le même fichier et ne sont pas comptés comme copies.
+9771f24d	Le dossier affiché par cette vue ne peut pas être supprimé depuis l'intérieur : ouvrez d'abord son dossier parent.
+9783b0e0	Sans risque une fois fermé
+978c35c7	{0} dossier : programme {1}, données {2}|{0} dossiers : programme {1}, données {2}
+97f23072	Jeux :
+98043c83	Inchangés depuis
+983b8690	Clic : tout ce que ce programme utilise
+98692817	Wheels et réponses HTTP mis en cache par pip (et uv) lors de l'installation de paquets Python.
+98c0ff63	{1} dans {0} dossier|{1} dans {0} dossiers
+98cf5e06	Non joué depuis
+98fe03c5	archive
+99541409	Dépôt local Maven
+996a70a8	Activer les fonctions d'IA locale
+996fb4a5	Sortie de compilation ou paquets téléchargés d'un projet {0} ; le projet les recrée.
+9974bc1c	lecture du journal des modifications NTFS
+997bad96	Mettre l'analyse en pause (Pause)
+99e5bba4	Extensions (a;b;c)
+9a196443	Visual Studio Installer > Plus > Paramètres, ou 'vs_installer.exe --nocache'
+9a73db9b	Langue
+9a78986e	Vérification des droits…
+9ac2fe4a	Ajouté en 30 jours
+9af47b9c	Fichier CSV (*.csv)|*.csv
+9b01dda1	Recherche de projets…
+9b28085a	Analyse principale :
+9b62105d	Fichiers de mise à niveau de Windows
+9b69b63a	Une vidéo : s'il n'existe pas d'autre copie, elle est perdue pour de bon.
+9b759fb9	inconnu
+9bb0c5b1	dépôt git
+9bb6d817	tout ce qu'il utilise
+9bdd68f6	Ajouter « {0} » au menu contextuel des dossiers et lecteurs de l'Explorateur.
+9bdec7d2	Effacer la liste
+9be5958a	Comparer avec un instantané enregistré (Ctrl+D) ou avec un autre dossier (Ctrl+Shift+C)
+9be993bf	{0:N0} disque de machine virtuelle|{0:N0} disques de machine virtuelle
+9bfdfb6c	Projet :
+9c15a360	pas {0}
+9c30b887	énormes (> 1 Go)
+9c68fb9a	Nettoyage : {0} en fichiers volumineux, temporaires et d'installation
+9cb7d1b7	Projet, type ou dossier
+9d25228d	Nom du modèle
+9d766510	Double-cliquez sur un dossier pour l'afficher sur la carte. ByteScape ne supprime ni ne désinstalle jamais rien : utilisez Applications et fonctionnalités.
+9d8117c1	Données de compatibilité
+9d8b039a	Protégé : un programme installé
+9dc3aa14	Ajouter
+9dc93f1c	Les outils recréent ces dossiers. Fermez d'abord l'éditeur ; la suppression passe par la Corbeille, ou exécutez vous-même les lignes copiées.
+9dfcfab1	Page de la boutique
+9e44f27b	100 Mo
+9e794b78	Que s'est-il passé ? (facultatif)
+9eace8eb	Extensions
+9ef31433	{0} risque de ne plus fonctionner. Pour le supprimer, désinstallez-le depuis Paramètres > Applications.
+9ef4e023	Couleur {0}
+9effb706	Espace illisible (filtre actif)
+9f03d26d	{0:N0} fichier d'installation|{0:N0} fichiers d'installation
+9f49169a	Lien physique :
+9f91fc43	Retéléchargé à la prochaine compilation.
+9f967023	{0:N0} fichier n'a pas pu être lu.|{0:N0} fichiers n'ont pas pu être lus.
+9f9c4fd4	musique
+9fc59b06	nouvelle analyse du dossier…
+9fd50dfe	Modèles de langage locaux téléchargés avec Ollama.
+9fde1bc4	6 mois
+9fe45463	{0:N0} sauvegarde|{0:N0} sauvegardes
+a0310bb6	Les dossiers d'installation, données d'application, caches et données des applications du Store sont comptés pour le programme qui les possède.
+a0fee571	Type de fichier
+a1a82123	téléchargé il y a {0}
+a1dd7bf1	Journal
+a1de2fdd	Changement
+a24add3d	{0} analysés
+a2515cf6	node_modules d'un projet
+a27f4ed5	Les mises à jour en attente sont retéléchargées.
+a2c773d1	Sources
+a2cb0ba8	Fichier texte (*.txt)|*.txt|Fichier CSV (*.csv)|*.csv
+a2e513c9	Instantané ByteScape (*.sns) ou sortie de Disk Usage (*.txt)
+a2ee019c	{0} jours
+a30bb94a	Machines VirtualBox / VMware
+a3371429	Clic : afficher seulement les copies locales (filtre :freeable). Libérer de l'espace : clic droit > menu Windows.
+a33bf626	Fichiers en double…   Ctrl+Shift+D
+a3731f3f	Dernière modification
+a37f187c	Rouge
+a4024053	Comparaison…
+a47cac6c	Caches de Visual Studio
+a49096d8	Interrogation…
+a4995035	Descendre
+a4e42dee	Impossible de tout vérifier :
+a4e5e4fc	Programmes inutilisés
+a4fc5b8d	Suppression
+a5201eed	{0} s'est arrêté à cause d'une erreur lors de sa dernière exécution ({1:g}).
+a5f0d7aa	indiqué par le lanceur
+a5ff3358	modifié il y a {0}
+a6025607	Inclure
+a60eb350	Mode conception (personnaliser les configurations)
+a6478e7c	Taille
+a65b62a7	Sécurité :
+a6d004e8	Du code source : s'il n'est pas dans un dépôt ni sauvegardé, le travail est perdu.
+a6eb4d2b	Supprimable avec précaution
+a6f824ec	Chaque classe de fichiers a besoin d'une description.
+a72e3854	Le nouveau réglage de suivi des changements sur le disque prendra effet au prochain démarrage de {0}.
+a76ac3db	Suppression sans risque : un fichier d'installation
+a7cd6f96	Utilisez le Nettoyage de disque / l'Assistant Stockage ; seules les zones Temp, Logs, SoftwareDistribution\\Download peuvent être touchées sans risque
+a7dd3a69	Après
+a7dfd013	dans {0}
+a812ea38	Android Studio > SDK Manager : décochez les images système / plateformes inutilisées
+a81aed9d	Stratégie d'analyse du lecteur
+a83bbfab	Toujours conservés sur cet appareil : {0} ({1}).
+a845cbdd	Sélectionnez un programme pour voir où se trouve son espace.
+a8dc0817	Non rattachés
+a8de233d	Ce réglage d'exportation a été créé par une version plus récente de {0} et risque de ne pas fonctionner comme prévu.\n\nL'importer quand même ?
+a8e3e5cb	Exportation annulée ; le fichier inachevé a été supprimé
+a8f285ac	téléchargement inachevé
+a8ffd94d	Un programme conserve ici des données pour tous les utilisateurs de ce PC (licences, bases de données, mises à jour). Si le programme est encore installé, il risque de ne plus fonctionner.
+a90f4130	Cache Internet Explorer / WinINet
+a922a11b	Données partagées (ProgramData)
+a953c75c	Vert
+a984947b	fichiers cloud en ligne uniquement (aucun espace sur ce disque)
+a9f4e971	Comparer avec un autre dossier…
+aa25410e	Une clé, un certificat, une base de mots de passe ou un portefeuille : impossible à recréer ; ce qu'il protège peut être perdu pour de bon.
+aabc9edf	yarn cache clean   /   pnpm store prune
+aad128d6	un dossier à la fois
+aade4c0c	{0} s'exécute en administrateur, ils seront supprimés aussi.
+aaea5743	fichier
+aafc6673	Caches, mods, sauvegardes
+ab01bbc0	Copier la commande / l'astuce dans le presse-papiers
+ab13e85a	CD / DVD, un dossier à la fois
+ab24b384	dernière fois le {0}
+abbb1f2d	En ligne uniquement : {0} ({1}), rien de cela sur ce disque.
+abbfe8b9	{0:N0} élément|{0:N0} éléments
+abd605aa	Dans {0} : le supprimer ici le supprime aussi dans le cloud et sur vos autres appareils. Pour libérer de l'espace sur ce PC seulement, utilisez « Libérer de l'espace » (clic droit > menu Windows).
+ac006bfd	Les environnements continuent de fonctionner ; les paquets sont retéléchargés si besoin.
+ac0665fd	Le masque d'exclusion contient des caractères non valides :
+ac067517	({0} s'exécute en administrateur)
+ac62b6ec	Filtrer par cette extension (*.{0})
+ac99c4b5	Supprimez le dossier ou élaguez les anciennes versions ; 'mvn dependency:purge-local-repository'
+ad066d9d	Total
+ad3365e7	Connecté, mais le serveur ne liste aucun modèle (téléchargez-en un d'abord, par ex. ollama pull qwen2.5:3b).
+ada7afdb	aucune
+adb3c588	Ouvre le menu Windows, où {0} propose « Libérer de l'espace » et « Toujours conserver sur cet appareil »
+add7d8e7	Restes de développement : node_modules, bin/obj, target, .venv de vos projets et quand vous avez travaillé sur chacun (Ctrl+B)
+ade5237b	La prévision du disque concerne les lecteurs locaux.
+adfd0100	Cache de Windows Installer
+ae0ed984	Message
+ae36da83	Supprimer ici un fichier cloud le supprime partout ; libérer de l'espace, non. {0} ne modifie rien lui-même.
+ae72c5a1	Sélectionnez un jeu pour voir ses dossiers.
+aeb61689	Gros fichiers, fichiers temporaires, anciens programmes d’installation et programmes que vous n’utilisez plus, chacun avec une réponse claire à « suppression sans risque ? ».
+aed7d6cb	{0} doublons.txt
+aee2f423	En cas de suppression :
+aef94486	peu importe
+afad156f	Fichiers mis en miroir par Google Drive pour ordinateur. Les supprimer ici les supprime aussi dans Google Drive.
+afc57adf	Vider ce dossier définitivement
+afcf77b9	jeu {0}
+b00f3097	reprise
+b037d0fc	Ce réglage d'exportation fait partie du programme et ne peut pas être supprimé.
+b09191aa	Comparaison impossible :
+b09bda2a	Administrateur
+b0aa350e	pip cache purge   /   uv cache clean
+b0e4f960	données modifiées il y a {0}
+b103512a	{0} comparaison de dossiers.txt
+b13318a9	L'analyse est toujours en cours : d'autres projets peuvent apparaître (appuyez sur Actualiser à la fin).
+b164b991	Redémarrer en administrateur
+b16c7ae2	Désinstaller dans Steam…
+b172736a	AppData, ProgramData et données des applications du Store
+b1bf574c	{0} programmes.txt
+b22e11cb	Peut être restauré depuis la Corbeille. L'espace n'est libéré qu'une fois la Corbeille vidée.
+b23b32a6	Rien ici ne peut être supprimé
+b24126ca	Journaliser les messages de débogage
+b27655bd	sur le Bureau
+b276643b	Restes de développement…   Ctrl+B
+b3135345	NTFS tient un journal de chaque modification du lecteur. Une réanalyse le lit et ne reliste que les dossiers modifiés depuis la dernière analyse (sans droits d'administrateur). Une analyse complète est aussi conservée à la fermeture de ByteScape (à côté de la configuration, environ 60 Mo pour un lecteur système d'un million de fichiers), si bien que rouvrir le lecteur prend quelques secondes. Quand le journal ne contient plus toutes les modifications (il en garde de quelques jours à quelques semaines), tout est analysé. Maj+clic sur le bouton d'analyse analyse toujours tout. Lecteurs NTFS locaux dont les liens ne sont pas suivis.
+b324c20f	Rédigé par le modèle local que vous avez configuré, à partir des chiffres ci-dessus ; peut être faux.
+b35836d0	Sauvegardes d'iPhone / iPad
+b35c3185	Ajouté
+b36089d3	Plus grands changements du {0} au {1}
+b369a20a	Programmes sur le disque
+b3ca0eb2	Faire clignoter le bouton de la barre des tâches quand une analyse se termine en arrière-plan
+b3d9c67f	Aucune classe de fichiers ne porte ce nom :
+b3e290c1	Non rattaché à un programme installé
+b3efb53c	Les dossiers sont identiques (contenus comparés)
+b3f23915	Ce réglage d'exportation est fourni avec le programme et ne peut pas être supprimé.\n\nPour le changer, modifiez-le puis enregistrez-le sous un nom de votre choix.
+b3f38106	Un modèle de langage que vous exécutez vous-même (Ollama, LM Studio, llama.cpp ou tout serveur compatible OpenAI). Utilisé seulement quand les fonctions à base de règles ne donnent rien : demandes que la zone de filtre n'a pas comprises, description des dossiers que la base de connaissances ne connaît pas, et résumé dans la fenêtre de comparaison. Seuls les noms et tailles des dossiers / fichiers sont envoyés, jamais le contenu — à l'adresse ci-dessous et nulle part ailleurs. Aucune connexion n'est établie tant que c'est désactivé.
+b41431ac	Caches des lanceurs de jeux
+b469ad55	{0} seconde|{0} secondes
+b46bdd2e	Ombre sous l'élément sélectionné
+b49e4d54	Paquets d'extensions en cache, stockage des espaces de travail et caches de rendu de Visual Studio Code.
+b4a617f0	Inchangés depuis 6 mois
+b51672f3	Inchangés depuis un an
+b533b6a9	Nettoyage de disque > Fichiers Internet temporaires
+b55b9c48	Échec de l'exportation
+b5eca605	Rétablir les valeurs par défaut
+b6088a74	{0} mois
+b6684cb7	Compris par le modèle local comme : {0}   (vérifiez avant de vous y fier)
+b6938e20	Variation nette
+b6cf66f1	Effacer le filtre
+b71310f9	Faire la visite
+b7464b24	prévision du disque {0}
+b79510d0	Vos propres fichiers ({0})
+b79f3ac1	Magasin de composants Windows (WinSxS)
+b7c568a5	Changement :
+b84486b2	Paramètres > Applications > (application) > Options avancées > Réinitialiser efface tout, y compris les paramètres
+b86ba0df	Reprendre l'analyse en pause (Pause)
+b8724211	Menu de l'Explorateur
+b87dfe67	Mieux fait par Windows
+b89df01a	Aide
+b8d139a9	Relire les lanceurs et rattacher les dossiers
+b8f4e9d2	Contient un programme
+b90c722d	Cache des outils (~/.cache)
+b938567c	Jeux : jeux Steam, Epic et GOG, quand vous y avez joué et ce que les jeux désinstallés ont laissé (Ctrl+G)
+b99895be	les programmes installés n'ont pas été lus
+b9b42fcf	Gestionnaire Hyper-V : supprimez les points de contrôle, Modifier le disque > Compacter
+b9c63f96	Les mods sont retéléchargés au lancement des jeux auxquels vous êtes abonné.
+b9c8b380	non ouverts depuis un an
+ba0f4467	Espace en trop
+ba2d6874	vos propres fichiers sont supprimés et ne peuvent pas être recréés
+ba2f243a	La carte
+ba7bcfac	Fichiers du programme
+baf2969b	Comparaison des fichiers entiers
+bafe2956	Cache des médias Adobe
+bb182fca	Accédé
+bb49499f	Depuis l'instantané :
+bb789fa9	Laissés par l'Assistant Mise à jour de Windows ou l'outil de création de média. Paramètres > Système > Stockage > Fichiers temporaires les supprime.
+bb79dcac	À l'intérieur : {0}.
+bbb50357	ouvert dans un programme
+bc9d0308	Généré par le modèle que vous avez configuré ; peut être erroné.
+bcc93218	Comparer avec un instantané
+bd148de2	fichier temporaire
+bd4ba627	Un fichier audio : s'il n'existe pas d'autre copie, il est perdu pour de bon.
+bda0efee	vidage sur incident
+bda39f42	Dernière activité
+bdad3e64	Prévision du disque…   Ctrl+K
+bdba5f95	Le filtre n'a pas pu être lu :
+bdcbb413	Périphérique
+be1b50f4	Réduit
+be5cf7db	{0} dossier, {1}|{0} dossiers, {1}
+be6b23d2	Cache de shaders
+bea3474f	Les fichiers sont comparés par longueur et date (un écart de 2 secondes ou d'heures entières compte comme égal : lecteurs FAT et fuseaux horaires).
+beb4f6f2	Application Steam {0}
+bef7879d	Injoignable :
+bf258e7f	Un téléchargement inachevé : le navigateur le recommence si vous téléchargez à nouveau le fichier.
+bf587485	Téléchargements de pilotes NVIDIA
+bfe787f2	copies locales de fichiers cloud (« Libérer de l'espace » peut les supprimer)
+bffa57c7	Le fichier ne contient aucun réglage d'exportation.
+c033a9ae	vers le {0}
+c03af447	{0} noms, espace compté à {1}
+c0496cdb	L'analyse est toujours en cours : les totaux augmentent jusqu'à la fin (appuyez alors sur Actualiser).
+c050a343	premier niveau
+c0821b1e	Cloud
+c0a8277f	Caches récupérables
+c102a683	ByteScape
+c107f50c	Fichiers en double : le même contenu deux fois ou plus, et l'espace pris par les copies en trop (Ctrl+Shift+D)
+c1332a96	Fichier texte (*.txt)|*.txt|Séparé par des tabulations (*.tsv)|*.tsv
+c1a2c46e	Régénérés quand un projet utilisant les clips est rouvert (cela prend du temps).
+c214c868	{0} semaines
+c21bd27d	Suivre les jonctions et les liens symboliques
+c260f050	Chemins récents à conserver
+c26ae724	La page de téléchargement s'ouvre dans votre navigateur ; le programme lui-même ne télécharge et n'installe rien.
+c2762327	Jeu
+c2954bc2	Précédent
+c29fa477	Valeurs par défaut
+c2c76cb1	Modifier
+c2e1ccfb	Plus de 10 Mo
+c2e7bb59	polices
+c2f2eae4	L'application reconstruit son cache ; les paramètres sont dans LocalState et ne sont pas touchés.
+c352464b	Nom déjà utilisé
+c35c8be6	Nettoyez-le depuis les paramètres de {0}, ou désinstallez {1} (Paramètres > Applications) si vous ne l'utilisez plus
+c379b180	jamais lancé
+c39c93e8	Plein : {0}
+c3fb8e06	Dépendances téléchargées par Maven (et par les projets Gradle utilisant Maven local).
+c3fd58cd	Désinstaller…
+c400b06d	Paramètres d'un outil ({0})
+c4014283	Restes :
+c423f9b0	Comparer avec un instantané…   Ctrl+D
+c4253b6b	Programme
+c431b7ca	{0} n'est pas un chemin valide
+c44dd34d	Suppression sans risque : uniquement des fichiers temporaires, journaux et vidages
+c45c73a2	Archives
+c47933b3	Signaler les caches connus, zones temporaires et dossiers système protégés (badges ♻ / ⚠ / ⛔, total « récupérable »)
+c47c37c8	Hors connexion
+c4a1c968	Le menu … liste chaque outil avec son raccourci clavier. La roue dentée ouvre les Paramètres : la langue, le menu contextuel de l'Explorateur, le fonctionnement de la suppression.
+c4d32795	Impossible d'écrire le fichier
+c4dbd4df	HDD : un dossier à la fois, dans l'ordre où les dossiers sont placés sur le disque, et une analyse complète attend pendant que vous réanalysez un dossier. SSD : un dossier par cœur de processeur en même temps (jusqu'à 8) ; NVMe : deux fois plus (jusqu'à 16) ; flash USB : deux à la fois avec des lectures de liste plus grandes. Automatique interroge le disque (pénalité de recherche et type de bus, sans droits d'administrateur) ; choisissez à la main quand un boîtier USB ou un RAID le masque.
+c4f1d3a7	Vidages sur incident et rapports d'erreurs
+c55deeb7	Unity le reconstruit à l'ouverture du projet (cela prend un moment)
+c585133e	fichier source
+c5cac7fa	python -m venv, puis pip install -r requirements.txt
+c6054711	Programmes et fichiers système
+c6153279	Supprimer ce réglage d'exportation ?
+c646a2c9	Rechercher
+c6681cbf	Supprimer définitivement…
+c6721fe7	Le navigateur n'a pas pu être ouvert. Ouvrez {0} et joignez-y {1} ; l'adresse est copiée dans le presse-papiers.
+c6d76aae	ils ne seront pas supprimés.
+c6ec2d10	Tendance
+c6fe2ead	code source
+c7635c08	Analyser ce dossier maintenant
+c7a9195a	Double-clic : l'afficher sur la carte. ByteScape ne supprime jamais rien : désinstallez via le lanceur.
+c7ac5891	Sauvegardes de jeu et paramètres
+c7b6c6f2	Vous avez la version {0}.
+c7c23771	Impossible d'établir la prévision :
+c8136a3e	ce lecteur n'a pas de Corbeille : la suppression y est définitive
+c878cc06	Le réglage d'exportation n'a pas pu être enregistré :
+c891c6db	Un réglage d'exportation porte déjà ce nom. Le remplacer ?
+c912877f	Supprimer définitivement les éléments cochés…
+c9351454	Exporter les paramètres
+c9542c0d	Un lien physique : le même fichier existe aussi sous {0} autre nom, par ex. {1}. Son espace n'est libéré que lorsque tous les noms sont supprimés.|Un lien physique : le même fichier existe aussi sous {0} autres noms, par ex. {1}. Son espace n'est libéré que lorsque tous les noms sont supprimés.
+c97fccaf	Exporter…
+c9b59fba	Mémoriser les chemins analysés récemment
+c9c84d7b	Les flèches passent d'un bloc à l'autre, Ctrl+Bas zoome, Ctrl+Haut dézoome, Entrée ouvre dans l'Explorateur, Maj+F10 ouvre le menu.
+c9cb3223	livres numériques
+c9f56138	Les miniatures sont régénérées à l'affichage des dossiers.
+ca369241	Réanalyser maintenant le dossier affiché
+ca4fbfb7	Choisissez un dossier à analyser
+ca77bbdb	Appliquer
+ca792dc6	Laissés par des jeux désinstallés (vérifiez avant de supprimer : il peut y avoir des sauvegardes et des mods)
+ca8d9458	dotnet nuget locals all --clear
+cac8526a	Protégé : la Corbeille
+cb167af6	{0} de {1} ({2})
+cb204f96	Nettoyage de disque > Fichiers journaux de mise à niveau de Windows
+cb827ea7	{0:N0} élément supprimé définitivement : {1} libérés.|{0:N0} éléments supprimés définitivement : {1} libérés.
+cb97e12e	Ouvrir la Corbeille
+cbbd0f9f	Conditions de licence
+cbc1373e	Sélectionnez des dossiers dans la liste.
+cbd2549a	{0} ({1} mesures sur {2:0} jours, confiance {3})
+cbd4f7ba	Reste
+cbfe0cf3	un élément à l'intérieur n'a pas pu être supprimé (ouvert dans un programme ou droits insuffisants)
+cc200e59	Inconnu
+cc7437fd	Protégé : données utilisateur de Windows
+cc7ed4b4	Attributs
+cc81eb26	Reconstructible :
+cc9bf381	Une base de données ou boîte aux lettres : les données (e-mails, enregistrements) sont perdues ; un .ost d'Outlook se télécharge à nouveau, un .pst non.
+ccc62762	dossier cloud
+cce5bcae	Impossible de comparer avec '{0}'
+ccfdd1dd	Mettre en évidence l'élément sous la souris
+cd310ca2	Dossier très volumineux : seuls les {0:N0} premiers éléments ont été examinés.
+cd86acc3	Fermer
+cdcfd561	Magasin de paquets partagé par tous les projets Yarn ou pnpm.
+cde99574	Suppression sans risque ?
+cdf82ae9	Recréés au prochain démarrage ; extensions et paramètres restent.
+cdfe5cd0	les lecteurs amovibles (clés USB, cartes mémoire) n'ont pas de Corbeille : la suppression y est définitive
+ce043e06	réanalyse rapide :
+ce3e2b9c	jeux
+ce7815a0	Déplacer les éléments cochés vers la Corbeille…
+ce84f6fa	La page du jeu dans la boutique Steam (pour voir à quoi correspond un app id)
+cebce7e4	Utiliser les étiquettes de couleur
+cef90b6c	vidéo
+cf02b886	journaux
+cf393f9d	pas prêt
+cf5212a9	{0:N0} journal|{0:N0} journaux
+d0451a35	Fichiers en double
+d063df22	Réglage d'exportation supprimé
+d07ffa1d	Protégé
+d0fd81e8	Pas de fichier de dépendances : notez d'abord les paquets installés (pip freeze)
+d144cba3	Désinstallez les programmes inutilisés ; les correctifs orphelins seulement avec un outil dédié (PatchCleaner)
+d155d06d	Type
+d15bf2ad	Non enregistré
+d163bd7b	Recherche de fichiers en double…
+d19a7f86	p. ex. Fichiers texte (*.txt)|*.txt
+d1bea15f	Les pages se chargent un peu plus lentement la première fois ; connexions et favoris ne sont pas touchés.
+d1d5b53d	Impossible de chercher les doublons :
+d1dd5ef2	Vidages de mémoire et archives du Rapport d'erreurs Windows écrits après des plantages de programmes ou du système.
+d1ddebed	photo ou image
+d1ee91c2	{0} ne se remplit pas
+d22b81c7	Modèle local injoignable :
+d2b9ae50	recréé par l'outil
+d2ef7b2f	Style par classes de fichiers (Ctrl+T)
+d37a69a0	Clic : tous ses dossiers et les autres jeux
+d380851c	Pas de fichier de verrouillage : une nouvelle installation peut apporter des versions de paquets plus récentes
+d3c962fa	Les dossiers du lecteur au fil du temps, en graphiques (Ctrl+H)
+d40c784b	Copies et comparaisons
+d4ab7f9d	Pas encore de mesure d'espace libre.
+d4dce9fa	modifiés au cours des 7 derniers jours
+d4f14b1f	Plus de niveaux (Ctrl++)
+d4fe1263	Fichiers temporaires
+d54966f4	Protégé : données de Windows
+d584a3ee	Vert (Ctrl+3)
+d596d50b	fichiers dans les dossiers cloud
+d5c00e74	Analysez à nouveau tout le lecteur plus tard pour voir ce qui a changé.
+d5e05505	Passer la visite
+d5ef11f9	Données d'application locales
+d609858a	seuls les dossiers de cette vue sont comptés ; analysez tout le lecteur pour des totaux complets.
+d611415b	Décroissant
+d614da67	{1} utilisés par {0:N0} programme|{1} utilisés par {0:N0} programmes
+d732d8d9	Il contient {0}. S'il s'agit d'un programme installé, désinstallez-le plutôt ; un programme lancé d'ici cessera de fonctionner.
+d7339e2b	Un dossier Windows (System32, WinSxS) d'une installation plus ancienne ou secondaire.
+d75aad01	Espace libre
+d79531bf	Contenu web et scripts mis en cache par un profil Edge.
+d7b36794	Les outils reconstruisent ou retéléchargent leurs données à la prochaine utilisation.
+d7de64d4	Examen de ce qui serait supprimé…
+d7e12452	Espace libre sur la carte (Ctrl+F)
+d805188a	rien n'a changé
+d8100383	Supprimer définitivement
+d8440adb	Rapports d'erreurs (aucun)
+d84c2b2f	{0:N0} groupe, {1} en copies superflues ;|{0:N0} groupes, {1} en copies superflues ;
+d8bce204	Un environnement Python isolé d'un projet, avec ses paquets installés.
+d8f9d54a	Redémarre ByteScape en administrateur avec les mêmes vues (l'analyse est conservée) ; supprimez ensuite à nouveau
+d91d87dd	Reprise de l'analyse arrêtée le {0} {1} : {2:N0} fichiers conservés, {3:N0} dossiers restants. Maj+clic sur le bouton d'analyse analyse tout à nouveau.
+d96ba624	Caches de rendu et web d'une application Electron (Discord, Slack, Teams, Spotify, WhatsApp, Notion...).
+d96eb5dd	dossier
+d9768556	Rechercher à nouveau
+d998bbc3	Fichiers audio conformés et fichiers de crêtes que Premiere Pro / After Effects / Media Encoder créent pour chaque clip importé.
+d9cdec69	Jaune
+da3fa215	LocalCache / TempState des applications empaquetées (Store) : des caches que l'application peut reconstruire.
+daab42f6	{0} n'existe pas (ou n'est pas accessible).
+dabcef1e	Dossiers les plus volumineux
+dad06f9d	Les éléments plus petits que cela dans une direction ne sont pas dessinés individuellement.
+daedbcdf	powercfg /h off (désactive la mise en veille prolongée et le démarrage rapide) ou powercfg /h /type reduced
+db04cb65	Les outils globaux doivent être réinstallés.
+dbd25302	Fait partie du programme installé {0}
+dbf1f9a7	Dépendances installées d'un projet JavaScript / TypeScript, recréées à partir de package.json et du fichier de verrouillage.
+dbf5e2b4	Le journal de cette session ({0} entrées)
+dbf7e9ff	Pas de nettoyage des données
+dc2c09df	dans {0} jour|dans {0} jours
+dc7f24ea	programmes sur le disque
+dcaa1ff7	CD / DVD, pas de disque
+dce2da08	Suivant
+dd13a6b2	Modifié
+dd2439cc	Afficher la date et l'heure du fichier dans l'info-bulle
+dd34a31e	Hors de cette vue : taille indiquée par le lanceur.
+dd68bf6f	Jeu, boutique ou dossier
+dd98ded9	Publiée le {0}.
+ddc1e05c	Nettoyage de disque > Fichiers de vidage mémoire des erreurs système / Rapports d'erreurs Windows
+ddc3f1bd	gradle --stop  (arrêtez les démons), puis supprimez le dossier ; ou 'gradle cleanBuildCache' / Android Studio > Invalidate Caches
+de5c2691	bases de données
+de5e8794	c'est irréversible
+de936ff3	Double-cliquez sur une ligne pour l'afficher sur la carte. Les éléments supprimés n'existent plus et ne peuvent pas être affichés.
+ded347ea	Explorateur
+dee68c33	Connexion…
+def26ecb	Historique de l'utilisation du disque : le lecteur et ses dossiers au fil du temps, en graphiques (Ctrl+H)
+defc2d1f	Shaders compilés mis en cache par les pilotes NVIDIA / AMD / DirectX pour accélérer le lancement des jeux.
+defff673	Conserver les analyses inachevées pour les reprendre plus tard
+df14e3e7	Instantané {0} (*.sns)|*.sns|Sortie Disk Usage (*.txt)|*.txt|Tous les fichiers (*.*)|*.*
+df1c2b2e	Cache Microsoft Edge
+df3e2f57	Maintenant :
+df900ae8	Le programme ne fonctionne plus et ne peut pas être désinstallé proprement.
+dfd0417c	Disques durs virtuels Hyper-V
+dfe12964	Niveau supérieur (Ctrl+Haut)
+dfe4e404	Heure
+dfec80d0	Spécial
+e03f7e77	Vos fichiers iCloud Drive synchronisés par iCloud pour Windows. Les supprimer ici les supprime aussi dans iCloud.
+e04d10cd	Jeux…   Ctrl+G
+e05cb193	Enregistrer le rapport de problème
+e0659bc6	Un lien (jonction ou dossier cloud) : la suppression retire le lien ; ce vers quoi il pointe n'est pas touché.
+e066706d	Le programme d'installation a indiqué {0}.
+e0af52f0	Ce qui a grossi depuis l'analyse du {0} (il y a {1})
+e0cbec32	Ouvrir la gauche
+e0d60d6d	Un vidage sur incident : utile seulement pour signaler le plantage ; rien d'autre n'est perdu.
+e0da2106	la première par chemin
+e0f3b6b7	Tester la connexion
+e16b0016	nécessite des droits d'administrateur
+e19d8b61	Taille à gauche
+e1dffc90	Lancer le programme de désinstallation de {0} ?
+e2397861	Le dossier d'installation de {0}. Le supprimer à la main laisse une entrée cassée dans Paramètres > Applications, des raccourcis et des paramètres ; le programme de désinstallation le supprime proprement.
+e23e53a8	{0} s'exécute en tant qu'administrateur et ne lance donc pas lui-même les programmes de désinstallation. Paramètres > Applications s'ouvre : désinstallez {1} depuis cet endroit.
+e24925a3	Toujours conservés sur cet appareil : {0} dans {1}
+e2f98f8e	Spotify > Paramètres > Stockage > Vider le cache
+e3194933	la racine d'un lecteur n'est jamais supprimée
+e34a2fde	Texte ou CSV selon le nom de fichier choisi
+e34ac4dc	Rien n'a été supprimé.
+e37ba748	conda clean --all
+e38feb1b	illisible à gauche
+e3965db6	Programme, éditeur ou dossier
+e3f554fe	Lancez 'npm install' (ou yarn / pnpm install) dans le projet avant sa prochaine compilation. Anciens projets abandonnés : suppression sans risque.
+e40e2439	Dernier
+e47dcaeb	Rechercher une nouvelle version une fois par semaine
+e4988bdf	Styles
+e4be944c	vides (0 octet)
+e520ba7a	Comparaison du début et de la fin des fichiers
+e5481fc0	Paramètres > Système > Stockage > Fichiers temporaires > Installation(s) précédente(s) de Windows
+e5738fb0	Rouge (Ctrl+1)
+e58dc032	Téléchargements de l'Asset Store et caches globaux de l'éditeur Unity.
+e5936707	Points de restauration, clichés instantanés de volume et données d'indexation de ce lecteur (illisibles sans droits d'administrateur).
+e5c46d51	Outils globaux ('dotnet tool install -g') et fichiers de données du SDK.
+e648fa60	plus de 3 ans
+e64e3c83	Utilisez plutôt Paramètres > Applications.
+e66d70d9	composer clear-cache
+e670fe67	{0} lien physique|{0} liens physiques
+e682e807	C'est le programme de désinstallation du logiciel lui-même, celui que lance Paramètres > Applications.
+e684698e	Étiquettes :
+e6a4efc1	À vérifier d'abord
+e71d1b30	Fichiers
+e76a5835	Cochés
+e77c6621	{0} libres
+e7d685a5	Supprimez avec le lanceur fermé
+e7e50da1	Le réglage d'exportation n'a pas pu être importé :
+e7f74421	{0} ({1}) est plus grand que la Corbeille de {2} ({3}) : Windows demandera s'il faut le supprimer définitivement.
+e7fb7c80	le plus récent date d'il y a {0}
+e86349d3	Exporter
+e86f5b3b	En ligne uniquement (aucun espace ici) : {0} dans {1}
+e8920f7a	Une ligne par dossier, une colonne par analyse
+e8a46f42	Différent
+e8b5926d	Mettre en évidence sur la carte
+e8c1c729	Dossiers sélectionnés au fil du temps (sélectionnez-en jusqu'à 6)
+e8e4f14c	À propos de {0}
+e95c6215	restes de développement
+e96aecd4	Jeux installés non joués depuis plus d'un an (Steam enregistre les temps de jeu)
+e97db4ef	Conservée par les anciennes versions d'Office pour réparer ou modifier l'installation sans le disque ; sans elle, Office demande les fichiers d'installation.
+e9c54df4	Impossible de rechercher les mises à jour :
+e9dd1fed	Bleu
+e9defc96	Reconstruire avec :
+e9eb5b1a	1 – 3 ans
+ea2f217f	Dossiers laissés par des jeux désinstallés : dossiers de jeux sans manifeste, caches, éléments du Workshop, sauvegardes
+ea6b200f	Impossible d'ouvrir {0}
+ea972ecd	Si supprimé : {0}
+eab83440	Vérifiez ce que c'est avant de le supprimer.
+eacc40ce	6 – 12 mois
+eb2858b5	Menu Windows…
+eb3b4234	{0:N0} n'a pas pu être supprimé :|{0:N0} n'ont pas pu être supprimés :
+eb3ed461	Anciens fichiers d'installation
+eb642d8c	{0} comparaison.txt
+eb66e456	Chemin
+eba4d891	base de données ou boîte aux lettres
+eba69274	Examen…
+ebbeb5f3	Dossier iCloud Drive
+ebc622c4	Fermer la vue
+ec06ed06	Prudence
+ec35cb2e	images disque
+ec36f1e9	Protégé : un dossier Windows
+ec67a6db	Durée de l'animation du zoom (ms)
+ec6ecca6	Appareils virtuels (images disque, instantanés) de l'émulateur Android.
+ecb83211	edge://settings/clearBrowserData > Images et fichiers mis en cache
+ecc78179	Exporter la vue
+ecde62b3	{0} jeu, {1}|{0} jeux, {1}
+ed67fc58	Dépendances téléchargées, jars transformés et métadonnées de compilation de chaque projet Gradle / Android Studio de cette machine.
+ed71075a	Étiquettes de couleur
+ed7f0dc2	{0} au total
+ed912713	Copier les commandes de suppression
+edd528be	Les artefacts manquants sont retéléchargés à la prochaine compilation.
+edfc294c	Rien n'a changé.
+ee13b825	Le filtre est encore en cours d'application. Réessayez dans un instant.
+ee3d49e1	Premier
+ee6dca51	Réalisé avec {0} {1}.
+ee6ea188	Le supprimer détruit toutes les images, tous les conteneurs et volumes.
+eec088b8	Mise à jour de l'analyse du {0} {1} : seuls les dossiers qui ont changé depuis, selon le journal des modifications NTFS, sont relistés. Maj+clic sur le bouton d'analyse analyse tout à nouveau.
+eecc66c0	Windows et les programmes s'attendent à ce que « {0} » existe. Supprimez plutôt son contenu.
+ef009732	non affiché
+ef08698e	Instantané {0} (*.sns)|*.sns|Tous les fichiers|*.*
+ef14dc09	Un nouveau ticket s'ouvre dans votre navigateur : faites-y glisser {0} depuis l'Explorateur et envoyez-le. Les tickets sont visibles par tous.
+ef708ebe	inchangé
+ef73f9aa	lecture seule
+efa2c213	Recréé au prochain démarrage.
+efddbfae	les {0:N0} premiers éléments vérifiés
+f05a23a2	Lecteur ou dossier à analyser
+f0633b6a	{0:N0} fichier à l'intérieur existe aussi sous un autre nom à l'extérieur (lien physique) : son espace reste utilisé.|{0:N0} fichiers à l'intérieur existent aussi sous un autre nom à l'extérieur (liens physiques) : leur espace reste utilisé.
+f0811aae	{0} n'est plus un dossier
+f10c81cd	vidéos
+f1111ac3	Toujours conservé sur cet appareil
+f1142076	refusé
+f11d5497	Impossible d'écrire {0}
+f128bd6e	{0} de plus d'un jour, par ex. {1}
+f165cb2b	Copier le chemin
+f16a4efa	{0} récupérables
+f1aafc17	Lecteur
+f1ca3914	Windows et les programmes ont besoin de ce dossier : son contenu est supprimé, le dossier reste. Les fichiers ouverts par un programme sont ignorés.
+f1f08174	Rattacher à nouveau (après la suite de l'analyse ou un changement de programmes)
+f1f6ed03	Contraste des bordures (doux … net)
+f21bd6cb	Suppression sans risque : reconstruit à partir du projet {0}
+f22c8988	Paramètres > Système > Stockage > Fichiers temporaires > Installation(s) précédente(s) de Windows
+f2421948	Supprimez les instantanés / machines inutilisés dans le gestionnaire de VM
+f265d9b8	Cache de l'optimisation de la distribution
+f272f7df	{0:N0} élément ({1}) déplacé vers la Corbeille : l'espace est libéré quand vous la videz.|{0:N0} éléments ({1}) déplacés vers la Corbeille : l'espace est libéré quand vous la videz.
+f2ad59ba	Le fichier n'a pas pu être écrit :
+f2b579ad	Droite :
+f333e253	Chiffré
+f34574bd	Retéléchargé si besoin.
+f3478fc4	Conservé sur ce disque volontairement (« Toujours conserver sur cet appareil »). « Libérer de l'espace » dans le menu Windows le repasse en ligne uniquement.
+f38d9cf1	Erreur
+f39cb449	Paquets d'installation conservés pour réparer ou modifier Visual Studio hors connexion.
+f420490a	Nettoyage : fichiers volumineux, temporaires, anciens fichiers d'installation et programmes inutilisés, chacun avec l'indication de la sûreté de sa suppression (Ctrl+Shift+Suppr)
+f42c90b3	Ce réglage d'exportation n'a pas de numéro de version : il risque de ne pas fonctionner comme prévu.\n\nL'importer quand même ?
+f450eed5	fichier audio
+f47b4da9	{1} reconstructibles dans {0} projet|{1} reconstructibles dans {0} projets
+f4a9c097	Filtre
+f4d73137	filtre :
+f4f23ee5	Contenu web, scripts et shaders GPU mis en cache par un profil de navigateur basé sur Chromium.
+f51b5247	Afficher sur la carte
+f51db7d8	Quelque chose à l'intérieur a été modifié il y a {0} : un programme l'utilise peut-être encore.
+f56badab	, dont {0} ont fermé le programme
+f6134631	Fichiers créés au cours des 30 derniers jours, d'après leurs dates : la croissance maximale possible du lecteur (les fichiers supprimés ne sont pas connus)
+f6186e88	Style par défaut des nouvelles vues
+f618f139	cachés
+f657611d	La sauvegarde est perdue pour de bon — gardez au moins la plus récente par appareil.
+f67ca0c6	Une sauvegarde : vous perdez la copie à partir de laquelle vous restaureriez.
+f69e232a	Cache Ivy / sbt / Coursier
+f69f9dc3	Reconstructible : {1} dans {0} projet|Reconstructible : {1} dans {0} projets
+f708f172	PDF
+f712a8d6	Fichiers en double dans {0}
+f734f80f	{0} conserve ici ses paramètres, connexions, téléchargements ou travaux enregistrés. Il peut les perdre ou redémarrer comme neuf.
+f73fb29d	Application Steam {0}, {1} (dernière partie le {2:d})
+f77e036b	{1} dans {0} jeu|{1} dans {0} jeux
+f78d2e41	Dépendances JVM récupérées par sbt, Ivy ou Coursier.
+f7b4d1da	Paquets PHP téléchargés par Composer.
+f7b604e7	Nouveautés
+f7f62b49	Plus tard
+f81f7ea7	Interrogation du modèle local…
+f8827f84	Les commandes se lisent de gauche à droite. scan et load ouvrent une vue ; les commandes\nqui suivent concernent la dernière vue ouverte.\n\nhelp                          ce texte\n\nscan "<dossier ou lecteur>"   ouvre une vue qui analyse le dossier ou le lecteur ;\n                              reliez-en plusieurs par ';' (ou répétez scan)\nload "<fichier>"              ouvre un instantané enregistré (.sns) ; plusieurs par ';'\nfilter "<filtre>"             définit le filtre de la vue (syntaxe de la zone de filtre)\nexport "<nom>" "<fichier>"    quand la vue est complète, l'écrit dans <fichier> avec le\n                              réglage d'exportation <nom> (écrit exactement comme dans la\n                              fenêtre Exporter) ; un filtre saisi ou une analyse arrêtée\n                              à la main désactive les exportations automatiques\ncompare "<fichier.sns>"       compare la vue à un instantané quand elle est complète :\n                              ce qui a grossi, diminué, est apparu ou a disparu, aussi sur la carte\n\napps                          ouvre « Programmes sur le disque » quand la vue est complète :\n                              chaque programme installé avec ses dossiers, données et caches\nappsreport "<fichier>"        écrit cette liste dans un fichier texte\ngames                         ouvre « Jeux » : jeux Steam, Epic Games et GOG, leurs\n                              dossiers, la dernière partie et les restes des jeux\n                              désinstallés\ngamesreport "<fichier>"       écrit cette liste dans un fichier texte\ndev                           ouvre « Restes de développement » : projets avec les dossiers\n                              que leurs outils reconstruisent (node_modules, bin, obj, target, .venv)\n                              et la dernière modification de chaque projet\ndevreport "<fichier>"         écrit cette liste dans un fichier texte\nforecast                      ouvre la prévision du lecteur de la vue : quand il sera\n                              plein, où sont allés les nouveaux fichiers, ce qui a grossi\ncleanup                       ouvre « Nettoyage » : gros fichiers, fichiers temporaires, anciens\n                              programmes d'installation et programmes inutilisés, avec le risque de suppression\ncleanupreport "<fichier>"     écrit ces listes dans un fichier texte (rien n'est supprimé)\nduplicates                    ouvre « Fichiers en double » : le même contenu à plusieurs\n                              endroits (même longueur, puis SHA-256) et la place occupée\nduplicatesreport "<fichier>"  écrit les groupes de doublons : CSV pour un nom en .csv, JSON\n                              pour .json, texte sinon (rien n'est supprimé)\ncomparefolder "<dossier>"     compare le dossier de la vue avec <dossier> : d'un seul\n                              côté, différent, identique\ncomparefolderreport "<dossier>" "<fichier>"\n                              écrit cette comparaison dans <fichier> (CSV ou texte)\n\nexport "CSV list (spreadsheet)" "<fichier>"   une liste qu'Excel ouvre\nexport "JSON tree" "<fichier>"                tout l'arbre en JSON\nexport "HTML report" "<fichier>"              une seule page web avec des graphiques\n\nmeasure                       seul sur la ligne de commande : enregistre l'espace libre de\n                              chaque lecteur local pour la prévision et quitte sans\n                              fenêtre (pour le Planificateur de tâches)\nautoclose                     ferme le programme une fois toutes les exportations et tous les\n                              rapports écrits ; travailler dans une fenêtre l'annule\n\nLes commandes de rapport attendent que la vue soit complète et fonctionnent avec autoclose.
+f8835433	Étiquette
+f89a42fe	fichiers d'abord
+f8de2c17	{0} × {1} copies — {2} en trop — {3}
+f8ed183b	Un dossier dont Windows a besoin ({0}). Supprimez son contenu et désinstallez les programmes depuis Paramètres > Applications.
+f8fcef33	Musique et audio
+f92db118	Les pages se chargent un peu plus lentement la première fois.
+f94c12d5	{0} des {1} de {2}.
+fa21a09f	Premiere > Préférences > Cache des médias > Supprimer les fichiers inutilisés
+fa6031d8	bonne
+faa476f1	Rechercher à nouveau les projets
+fab49a4a	Lecture seule
+faba889e	Cloud : copies locales libérables
+fb0051ed	Éléments trop petits pour être affichés individuellement\n(zoomez ou réduisez la taille minimale des éléments)
+fb2d2ef2	Dossier de profil
+fb4b35d8	Les machines virtuelles perdent leurs disques.
+fb5b04b7	Téléchargement / mise à jour en cours
+fb8564c0	hors des dossiers nommés {0}…
+fb9f21c5	Modifiés le mois dernier
+fbea7c51	1 Go
+fc734672	Garder l'info-bulle de l'élément ouverte lors d'un changement
+fc81fcf1	petits (< 1 Mo)
+fc9fa11a	Rien n'a été supprimé
+fcadd3f6	{0} sera plein {1} (vers le {2})
+fd13b3a9	moins de 50 Mo
+fd1c7f0b	Peut être supprimé
+fd3da095	Copier la commande de mesure
+fd54a1d1	{0:N0} fichier est identique.|{0:N0} fichiers sont identiques.
+fd752a99	{0} mesure jusqu'ici.|{0} mesures jusqu'ici.
+fdb25855	Information
+fddccdcd	étiquetés
+fe1b42a3	Les fichiers sont supprimés de tous les appareils et de onedrive.com.
+fe31ebe9	Moins de deux semaines de mesures : la date se stabilisera à mesure que {0} mesurera plus de jours.
+fe51a293	Le système d'exploitation lui-même.
+fe5a095c	créés il y a plus de {0}
+fe68b095	Demander au modèle local ce qu'est ce dossier
+fe8db543	Cache des paquets du programme d'installation de Visual Studio
+fedc8a79	Point d'analyse
+fef1200c	non installé
+fef76c78	Comparer {0} avec…
+ff0032a7	dans environ {0} an|dans environ {0} ans
+ff5ebe94	Niveau de détail initial (profondeur d'imbrication)
+ff60ded7	Non rattachés :
+ffb7f92c	{0:N0} fichier à l'intérieur est un lien physique compté sous un autre nom : le supprimer ici ne libère pas d'espace.|{0:N0} fichiers à l'intérieur sont des liens physiques comptés sous un autre nom : les supprimer ici ne libère pas d'espace.
+ffbbf5ea	Compris comme :
+ffcbdf13	Classes de fichiers
+ffd3c9c9	Données d'application itinérantes
+ffddc937	{0} mesures sur {1:0} jours · confiance : {2} · le rythme d'ajout des données ; les nettoyages ponctuels sont exclus (ils créent un nouveau niveau, pas un rythme).

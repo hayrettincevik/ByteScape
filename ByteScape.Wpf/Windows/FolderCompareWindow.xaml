@@ -1,0 +1,60 @@
+<Window x:Class="ByteScape.Wpf.Windows.FolderCompareWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:c="clr-namespace:ByteScape.Wpf.Controls"
+        Title="Compare folders" Width="1120" Height="720" MinWidth="780" MinHeight="460" WindowStartupLocation="CenterOwner" ShowInTaskbar="False">
+    <Grid Margin="14">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Border Background="{DynamicResource LayerAlt}" BorderBrush="{DynamicResource Border}" BorderThickness="1" CornerRadius="4" Padding="12">
+            <StackPanel>
+                <TextBlock x:Name="HeadLine" x:FieldModifier="internal" Style="{StaticResource Subtitle}" TextWrapping="Wrap" Text="Comparing…" />
+                <TextBlock x:Name="LeftLine" x:FieldModifier="internal" Margin="0,6,0,0" TextTrimming="CharacterEllipsis" />
+                <TextBlock x:Name="RightLine" x:FieldModifier="internal" Margin="0,2,0,0" TextTrimming="CharacterEllipsis" />
+                <TextBlock x:Name="SubLine" x:FieldModifier="internal" Style="{StaticResource Secondary}" Margin="0,4,0,0" TextWrapping="Wrap" />
+            </StackPanel>
+        </Border>
+
+        <DockPanel Grid.Row="1" Margin="0,10,0,4" LastChildFill="False">
+            <TabControl x:Name="Tabs" x:FieldModifier="internal" SelectionChanged="Tabs_SelectionChanged" BorderThickness="0" Padding="0">
+                <TabItem x:Name="TabLeft" x:FieldModifier="internal" Header="Only on the left" Tag="OnlyLeft" />
+                <TabItem x:Name="TabRight" x:FieldModifier="internal" Header="Only on the right" Tag="OnlyRight" />
+                <TabItem x:Name="TabDiff" x:FieldModifier="internal" Header="Different" Tag="Different" />
+                <TabItem x:Name="TabSame" x:FieldModifier="internal" Header="Same" Tag="Same" />
+            </TabControl>
+            <TextBox x:Name="Search" x:FieldModifier="internal" AutomationProperties.Name="Search" DockPanel.Dock="Right" Width="200" VerticalAlignment="Center" TextChanged="Search_TextChanged" ToolTip="Filter by name or path" />
+            <c:Glyph DockPanel.Dock="Right" Text="&#xE721;" VerticalAlignment="Center" Margin="0,0,6,0" Foreground="{DynamicResource TextSecondary}" />
+        </DockPanel>
+
+        <ListView Grid.Row="2" x:Name="List" x:FieldModifier="internal" SelectionMode="Extended" MouseDoubleClick="List_MouseDoubleClick">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Path" Width="440" DisplayMemberBinding="{Binding Path}" />
+                    <GridViewColumn Header="Left size" Width="90" DisplayMemberBinding="{Binding LeftSize}" />
+                    <GridViewColumn Header="Right size" Width="90" DisplayMemberBinding="{Binding RightSize}" />
+                    <GridViewColumn Header="Left modified" Width="135" DisplayMemberBinding="{Binding LeftTime}" />
+                    <GridViewColumn Header="Right modified" Width="135" DisplayMemberBinding="{Binding RightTime}" />
+                    <GridViewColumn Header="Why" Width="200" DisplayMemberBinding="{Binding Reason}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <c:FooterPanel Grid.Row="3" Margin="0,10,0,0">
+            <WrapPanel Margin="12,0,0,0">
+                <Button Content="Show on map" Click="ShowOnMap_Click" Margin="0,0,8,0" ToolTip="Left side elements are in this view" />
+                <Button Content="Open left" Click="OpenLeft_Click" Margin="0,0,8,0" />
+                <Button Content="Open right" Click="OpenRight_Click" Margin="0,0,8,0" />
+                <Button x:Name="AgainBtn" x:FieldModifier="internal" Content="Compare contents too" Click="Contents_Click" Margin="0,0,8,0"
+                        ToolTip="Reads files of equal length and time on both sides and compares them byte by byte (SHA-256): finds damaged copies. Takes as long as reading them." />
+                <Button Content="Save list…" Click="Save_Click" Margin="0,0,8,0" ToolTip="Text or CSV by the file name you choose" />
+                <Button Content="Close" Click="Close_Click" MinWidth="80" />
+            </WrapPanel>
+            <TextBlock x:Name="CountText" x:FieldModifier="internal" Style="{StaticResource Secondary}" VerticalAlignment="Center" TextWrapping="Wrap" />
+        </c:FooterPanel>
+    </Grid>
+</Window>

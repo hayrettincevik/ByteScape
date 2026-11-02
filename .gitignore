@@ -1,0 +1,9 @@
+bin/
+obj/
+publish/
+store/out/
+*.msix
+*.user
+.vs/
+TestResults/
+store/build/

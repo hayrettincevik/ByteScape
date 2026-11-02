@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>ByteScape.Wpf</RootNamespace>
+    <AssemblyName>ByteScape</AssemblyName>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>ByteScape.ico</ApplicationIcon>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Company>ByteScape</Company>
+    <Copyright>© 2026 ByteScape contributors</Copyright>
+    <Product>ByteScape</Product>
+    <NoWarn>CA1416</NoWarn>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    <!-- the standalone single file exe carries .NET compressed: 67 MB instead of 147 MB (about 0.3 s more to start) -->
+    <EnableCompressionInSingleFile Condition="'$(PublishSingleFile)' == 'true' and '$(SelfContained)' == 'true'">true</EnableCompressionInSingleFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ByteScape.Core\ByteScape.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="ByteScape.Tests" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,20 @@
+<Window x:Class="ByteScape.Wpf.Windows.UpdateWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:c="clr-namespace:ByteScape.Wpf.Controls"
+        Title="Update available" Width="540" SizeToContent="Height" ResizeMode="NoResize" WindowStartupLocation="CenterOwner" ShowInTaskbar="False">
+    <StackPanel Margin="22">
+        <TextBlock x:Name="HeadLine" x:FieldModifier="internal" Style="{StaticResource Subtitle}" TextWrapping="Wrap" />
+        <TextBlock x:Name="SubLine" x:FieldModifier="internal" Style="{StaticResource Secondary}" Margin="0,6,0,0" TextWrapping="Wrap" />
+        <TextBlock x:Name="NotesHead" x:FieldModifier="internal" Text="What is new" FontWeight="SemiBold" Margin="0,14,0,4" />
+        <TextBox x:Name="NotesBox" x:FieldModifier="internal" IsReadOnly="True" TextWrapping="Wrap" MaxHeight="220" VerticalScrollBarVisibility="Auto" />
+        <TextBlock x:Name="ShaText" x:FieldModifier="internal" Style="{StaticResource Secondary}" FontSize="11" Margin="0,10,0,0" TextWrapping="Wrap" />
+        <c:FooterPanel Margin="0,16,0,0">
+            <WrapPanel>
+                <Button x:Name="DownloadBtn" x:FieldModifier="internal" Style="{StaticResource AccentButton}" Content="Open the download page…" Click="Download_Click" IsDefault="True" Margin="0,0,8,0" />
+                <Button Content="Later" MinWidth="90" IsCancel="True" />
+            </WrapPanel>
+            <Button x:Name="SkipBtn" x:FieldModifier="internal" HorizontalAlignment="Left" Content="Skip this version" Click="Skip_Click" />
+        </c:FooterPanel>
+    </StackPanel>
+</Window>

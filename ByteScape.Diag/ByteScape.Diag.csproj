@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>ByteScape.Diag</RootNamespace>
+    <ServerGarbageCollection>false</ServerGarbageCollection>
+    <InvariantGlobalization>false</InvariantGlobalization>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ByteScape.Core\ByteScape.Core.csproj" />
+    <ProjectReference Include="..\ByteScape.Wpf\ByteScape.Wpf.csproj" />
+  </ItemGroup>
+</Project>

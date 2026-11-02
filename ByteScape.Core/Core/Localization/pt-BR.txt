@@ -1,0 +1,1652 @@
+# ByteScape translation catalog: Portuguese (Brazil). One text per line: id (hash of the English text) TAB translation; \n = line break; plural forms separated by |.
+0016be00	Um disco de máquina virtual: a máquina e tudo dentro dela se perdem.
+009017e5	documentos
+0092b505	lendo a tabela mestra de arquivos do NTFS
+00a8f1bd	Eles continuam ocupando espaço até a Lixeira ser esvaziada; podem ser restaurados de lá.
+00c2f609	Mais de 1 GB
+00cec25a	Documentos, fotos, vídeos ou músicas: não podem ser recuperados sem outra cópia.
+01252a27	Exportar configuração…
+012d328f	em cerca de {0} semana|em cerca de {0} semanas
+01689efb	A pasta selecionada, ou todas as pastas do programa selecionado
+01ba6040	modificados há menos de {0}
+01d748ad	{0:N0} item ({1}) movido para a Lixeira|{0:N0} itens ({1}) movidos para a Lixeira
+021d19e5	Filtrando...
+021e3a39	Quando
+0248c735	Analisar os fluxos de dados alternativos do NTFS (mais lento)
+025654de	{0} cópia marcada|{0} cópias marcadas
+025c87ea	A IDE reindexa os projetos na próxima inicialização; as configurações não são afetadas.
+026bdcab	O disco virtual (ext4.vhdx) de uma distribuição Linux instalada: todo o sistema de arquivos dela e seus arquivos dentro.
+02983005	O disco virtual do WSL2 que guarda todas as imagens, contêineres e volumes do Docker. Ele cresce, mas nunca diminui sozinho.
+02d77dba	Exportação automática
+02e0488f	{0:N0} arquivo de programa|{0:N0} arquivos de programa
+037e30aa	Apenas uma solicitação de um pequeno arquivo em {0} é enviada, com o nome e a versão do programa — nada sobre você ou seus arquivos. A página de download de uma nova versão abre no seu navegador; nada é instalado sozinho. Desligado: nada é verificado a menos que você escolha Verificar atualizações no menu.
+038a694b	com etiqueta amarela
+04a57fc2	Limpar
+04cc66f7	modificados hoje
+04f93fd0	Arquivos do jogo
+050fdad6	Sobre o ByteScape
+052164e9	Cache endereçado por conteúdo de todos os pacotes que o npm baixou.
+0522b6f7	Programas com todos os seus dados e caches, jogos que você não joga mais e as pastas que suas ferramentas de desenvolvimento recriam (node_modules, bin, .venv) em projetos antigos.
+057e9e9b	Normalmente protegido:
+05897ac0	exceto caches conhecidos
+05b19688	File > Invalidate Caches na IDE, ou exclua com a IDE fechada
+05dc3443	Endpoint (…/v1 = estilo OpenAI, caso contrário Ollama)
+05f0c6cd	Configuração de exportação importada
+06163926	Protegido: um arquivo protegido do sistema operacional
+06357afd	Pasta
+0640028a	Windows
+066e3970	Aplicativos e recursos…
+06b464b1	{0} sobras de desenvolvimento.txt
+06b4bf07	Marcar todas as cópias exceto
+06f0502c	cerca de {0}
+071b16e6	{0} pastas em paralelo
+0728db0c	Substituir meu nome de usuário do Windows e o nome do computador por <user> e <computer>
+0731bcdf	{0} programa não usado há meses|{0} programas não usados há meses
+075848a9	modificados há mais de {0}
+07ac65a2	Um arquivo compactado: tudo o que está dentro vai junto.
+07d82fb2	desde {0}{1}
+07ddcc31	Deixados por jogos desinstalados
+07dfee93	Caches de ferramentas de linha de comando que seguem a convenção Unix (Hugging Face, pre-commit, pip em algumas configurações...).
+07e804d9	Cópias locais ("Liberar espaço" pode removê-las): {0} em {1}
+07f523bf	{0:N0} documento|{0:N0} documentos
+07fd76cf	Os crates são baixados de novo no próximo build.
+0804df67	Configurações do Google Drive: mude a pasta de "Espelhar arquivos" para "Fazer streaming de arquivos" para mantê-los somente online
+0815494f	O quê
+0815aad4	Atualizar
+08ce3e2d	Mudança mínima
+08ea292b	Nada cresceu.
+090140c8	Incluir na exclusão
+0912399a	Arquivos que você criou ou salvou. Não podem ser recuperados sem outra cópia.
+0927c202	Pasta na nuvem
+0967002c	Configuração de exportação salva
+0967ab58	Deixados por uma atualização do Windows. Pode excluir com segurança quando a atualização terminar.
+096c1536	Salva o relatório, mostra-o no Explorador e abre no seu navegador uma nova issue na página do projeto: anexe o arquivo lá. Todos podem ler as issues.
+09926152	{0:N0} de {1:N0} arquivos
+09c9051c	Os jogos recompilam os shaders na próxima inicialização (uma breve travada, uma vez só).
+09cf1ec0	Limpar o filtro
+09d139b6	Imagem da memória gravada para a hibernação e a Inicialização Rápida; ocupa ~40-75% da RAM.
+09de135b	Criado
+09f08545	Cada bloco do mapa é um arquivo ou uma pasta, desenhado do tamanho do espaço que ocupa no disco.
+09fee77c	Cache de shaders da GPU
+0a0d4cc2	torrents
+0a1997cb	pausada
+0a64d506	Que pasta é esta?
+0a92612c	Salvar relatório…
+0aa5fadd	protegido pelo Windows (TrustedInstaller)
+0ac95089	nunca
+0ae8097f	Iniciar
+0af017cf	Cache do modelo de componentes, cópias de sombra do designer e dados de navegação por solução do Visual Studio.
+0af91ee6	Somente online: não ocupa espaço neste PC. Excluí-lo apenas o remove da nuvem (e dos seus outros dispositivos).
+0afb5d80	O {0} não sabe o que é isto
+0b11eb3f	Gratuito e de código aberto (licença MIT): sem anúncios, sem período de teste, sem conta.
+0b256fd1	unidade desconhecida
+0b2656e5	adicionado
+0b2ae3e8	Ampliar
+0b3aa6ec	Filtros
+0b3f7ebd	Procurando arquivos grandes, temporários e de instalação e programas não usados…
+0b438d81	Importar configurações
+0bc2f481	{0:N0} banco de dados ou caixa de correio|{0:N0} bancos de dados ou caixas de correio
+0bc8ed1f	Editor
+0bca3294	Pronto
+0c6e70fd	Abrindo {0}…
+0c79f1bb	Isto é um instantâneo: nada nele pode ser excluído.
+0c8c8778	parada (o botão de verificação a continua)
+0caa5bef	Arquivo de memória virtual gerenciado pelo Windows.
+0cdd25df	Abrir direita
+0cf4d805	Imagem do Ambiente de Recuperação do Windows.
+0d308dd6	Arquivos compactados e imagens de disco
+0d6932ae	Pastas listadas em paralelo (0 = automático)
+0d70feae	Imagens
+0de6fff0	 — as primeiras 5000
+0e027c78	Não pode ser excluído enquanto estiver ativado.
+0e23ee57	Clique duas vezes em uma pasta para entrar e use Backspace para voltar; pelo teclado, as setas passam de um bloco a outro e Ctrl+Seta para baixo entra. O mapa se completa durante a análise, e as mudanças no disco aparecem na hora.
+0e588e04	Runtimes, partes de SDK e pacotes do próprio Windows (ocultos em Configurações > Aplicativos)
+0e9729f2	Ordenar os itens por tamanho (o maior no canto superior esquerdo)
+0edfa8ec	instaladores
+0ee0d2b3	Excluir qualquer coisa aqui quebra o Windows Update e o reparo.
+0f05be5f	{0} dia|{0} dias
+0f3b85f7	Não excluído
+0f8222ff	Parte da mídia mostrada no zoom atual
+0f8cf0a7	{0:N0} item menor|{0:N0} itens menores
+0f8db3a5	{0}: nada para liberar
+0f9f9136	As páginas carregam um pouco mais devagar na primeira vez; logins e favoritos não são afetados.
+0fc7c404	System Volume Information
+0fe07306	Nome
+10076eb3	Chave de API (somente se o servidor precisar)
+1039c14f	Capacidade do console de log (entradas)
+105e3bb8	Nunca jogado
+10d22c6d	Instalados, mas nunca iniciados
+10e9be36	Auto (conforme o disco)
+10ee3bcc	Marcadores e comandos
+11049119	{0:N0} arquivo compactado|{0:N0} arquivos compactados
+11195d9b	Segundo o modelo local (não verificado)
+1124ba07	{0} anos
+1127d26a	O Windows para de funcionar.
+114f9980	Cabeçalho
+11512c71	Conteúdo do Workshop
+1177b8de	mais novo à direita
+11d47ae5	Os arquivos são removidos de todos os dispositivos e do dropbox.com.
+12000fa9	{0:N0} item alterado no último dia fica (um programa pode estar usando).|{0:N0} itens alterados no último dia ficam (um programa pode estar usando).
+12179691	{0} link físico: o mesmo arquivo, excluir só este nome não libera nada|{0} links físicos: o mesmo arquivo, excluir só este nome não libera nada
+12312a05	Novas visualizações mostram o espaço não analisado e ilegível
+123ed0b9	{0:N0} item protegido pelo Windows, até de administradores (p. ex. {1})|{0:N0} itens protegidos pelo Windows, até de administradores (p. ex. {1})
+125519cc	Dados de aplicativos
+1273102d	Apoie o {0} com uma doação…
+127c182a	Exclua com o VS Code fechado
+1284b77b	Arquivos grandes
+132d9f04	sem resposta a tempo
+1365bfa7	Cópias de documentos abertos do OneDrive / SharePoint, incluindo edições ainda não enviadas.
+137051eb	Mods baixados do Workshop, inclusive de jogos que não estão mais instalados.
+137823f6	Encontre o que importa
+1399c8fc	Escolha o que analisar
+13ef8448	Unidades e pastas
+14304f05	Não foi possível associar as pastas aos programas:
+1440c15d	Observação
+14736e98	jogado {0}
+147a8b7f	Arquivos excluídos aguardando restauração. O Windows mantém um índice deles: esvazie ou restaure-os pela própria Lixeira.
+14a2de30	Lê diretamente a tabela mestre de arquivos da unidade em vez de listar cada pasta: uma unidade inteira em segundos. Somente unidades NTFS locais; também mostra pastas que uma análise normal não consegue abrir. Neste modo os links nunca são seguidos.
+14a9646a	Comparar com um instantâneo salvo…
+14b7938c	Níveis de pastas
+1528d774	Copiar lista
+15922355	Todas as versões de todos os componentes do Windows, com links físicos em System32 — o tamanho real é bem menor que o mostrado.
+15ada771	há {0} dia|há {0} dias
+15e011d1	Os arquivos de mesmo tamanho foram lidos e comparados byte a byte.
+1612ad9c	Exclua com o Visual Studio fechado
+16306c2c	Tempo limite (segundos)
+163e94ac	O desinstalador de {0} não está indicado com a sua pasta:
+16629e33	Destacar no mapa o programa selecionado
+16bcd561	Protegido: contém {0}
+174d620c	{0} recriáveis, {1} próprios
+1753ec26	Limpeza de Disco ou Configurações > Sistema > Armazenamento; pontos de restauração: Proteção do Sistema
+179c6083	Programa:
+17ab51b6	Configurações do navegador > Privacidade > Limpar dados de navegação > Imagens e arquivos armazenados em cache
+17ac7ba6	Maiores mudanças (requer duas verificações completas)
+17e51abd	chave, certificado, banco de senhas ou carteira
+17ff5c59	Para o Agendador de Tarefas: mede cada unidade e sai, sem janela
+1803ca39	Novas visualizações mostram o espaço livre
+1825f816	Tamanho à direita
+18460209	Abrir a página de download…
+18a91ada	Seu próprio arquivo:
+18c773b1	{0} em arquivos grandes, temporários e de instalação antigos
+18e1015e	Cache de shaders do Steam
+19089d42	Caches do VS Code
+191cb400	Nenhuma verificação completa lembrada ainda.
+1938ca0a	O painel de detalhes reconhece pastas conhecidas — caches, arquivos temporários, partes do Windows — e diz o que aconteceria ao excluí-las.
+1967b442	Atraso da dica (ms)
+1977b8ec	Uma pasta do Windows em outra unidade (uma instalação antiga ou secundária). Se não for mais usada, Configurações > Sistema > Armazenamento > Arquivos temporários remove de forma limpa uma instalação anterior do Windows.
+198c53cd	O {0} está sendo executado como administrador: o menu seria adicionado para a conta de administrador. Inicie o {1} normalmente para adicioná-lo.
+19cb8c60	Como filtrar
+19e63f6f	Recriados na próxima inicialização; a conta e as configurações permanecem.
+19ee81b3	Pen drive / cartão de memória
+1a04d9d8	Programas ficam sem uso após (dias)
+1a0e8b77	Histórico de uso do disco…   Ctrl+H
+1a5af9d2	{0} horas
+1a5ee459	Configuração
+1a64e017	Exportação concluída
+1aa189cc	Usado: {0}
+1aa50849	DICA: execute como administrador se as pastas não estiverem acessíveis
+1aad7bf2	Boas-vindas ao {0}
+1ad1dc05	não existe mais
+1adf667e	Não foi possível abrir
+1b4b0b63	uma instalação do Windows
+1b792ffc	Cresceu
+1b848b80	menos de 1 mês
+1bbba361	{0} disso em caches
+1bdab07b	Pasta do OneDrive
+1be24b7c	Modificado à direita
+1beb0e9f	Arquivo…
+1bfd6eeb	Dentro do WSL: apt clean, remova arquivos; depois wsl --shutdown e Optimize-VHD / diskpart compact para reduzir; wsl --unregister <distribuição> a remove
+1c1aef18	python -m venv {0} e depois pip install -r requirements.txt
+1c38a980	Configurações do Windows: desinstalar ou mover programas
+1c432224	Digite *.mp4, >1gb ou <6months — ou simplesmente diga em inglês: videos over 1 GB not opened for a year. O funil lista filtros prontos.
+1c5c36fb	Livre
+1c60afdd	Abrir a pasta de relatórios de erro
+1c7fb71d	iTunes / Dispositivos Apple > Preferências > Dispositivos > Apagar backup
+1c9111d2	Clique direito > Liberar espaço mantém os arquivos somente online, sem excluí-los
+1cb9f408	Cache de aplicativo (Electron)
+1cbd38eb	Medir o espaço livre das unidades para a previsão
+1cf92953	Limpeza
+1d002450	Espaço não analisado e ilegível no mapa (Ctrl+U)
+1d20c11b	Menor bloco desenhado (pixels)
+1d2209ef	Depois ordenar por
+1d7aa415	Nova visão (Ctrl+N)
+1e4af2e0	Este perfil ativa a IA local: os nomes e tamanhos de pastas e arquivos seriam enviados para {0}.
+1e54727d	protegido
+1e660c12	Não está mais instalado (sem manifesto do Steam)
+1e6f70e0	Cache de miniaturas do Explorador
+1ec03a7e	Um link físico: o mesmo arquivo também existe como {0}. Excluir este nome não libera espaço.
+1ecf05bf	Centro de Carregamento do Office > Configurações > Excluir arquivos em cache (com o Office fechado)
+1f19a447	Comportamento
+1f327c6b	2 anos
+1f418fd1	{0} modelo:|{0} modelos:
+1f722996	Para onde foram os arquivos novos (últimos 30 dias)
+1faee677	unidade
+202e9c8e	Arquivos de instalação
+203453e8	dois níveis
+20681eb9	Os modelos são baixados de novo quando um script os usa (lento, grande).
+20848078	{0} jogos.txt
+209cc979	Marque o que deve sair.
+21062490	(sem extensão)
+213247cf	Selecione um projeto para ver suas pastas recriáveis.
+21549b39	Alterados nos últimos 7 dias
+216b4f0e	Azul (Ctrl+4)
+21905ca2	{0} por semana
+21a5901d	Remover
+21cd27d7	As junções geralmente apontam para um espaço já contado em outro lugar; segui-las pode contá-lo duas vezes.
+21ee3dcf	com etiqueta azul
+2241f152	Clique com o botão direito em uma pasta, uma unidade ou no espaço vazio de uma pasta no Explorador: "Abrir no ByteScape". Somente para a sua conta (sem direitos de administrador); no Windows 11 fica em "Mostrar mais opções". Entra em vigor na hora, não com OK.
+225b750d	Conteúdo do Steam Workshop
+22b2968e	O novo idioma será usado em todo lugar depois que o {0} reiniciar. Reiniciar agora? (As verificações abertas são mantidas.)
+22c8d4e7	{0:N0} download inacabado|{0:N0} downloads inacabados
+23424f23	Os programas não podem mais ser reparados nem desinstalados de forma limpa.
+234be4c9	Provavelmente deixado por um programa removido. Se algum programa ainda o usa, ele para de funcionar; verifique antes Configurações > Aplicativos.
+2356f3cb	Adotar as configurações de IA local do perfil?
+237375f2	Não foi possível salvar o relatório:
+23a0d95c	tamanho
+23b67660	0: conforme a estratégia de análise acima. Um número a substitui (1 em um disco rígido mantém a ordem do disco; mais de 1 lista essa quantidade de pastas ao mesmo tempo).
+23fb747a	Propriedades do Sistema > Avançado > Desempenho > Memória virtual (tamanho), ou mova-o para outra unidade
+243eddb1	Geometria
+24445ca0	Caches web e sobras de atualizações dos launchers Epic, Battle.net, EA, Ubisoft, Riot ou GOG.
+2469b3d4	O conteúdo dos arquivos de mesmo tamanho foi comparado.
+24f7fd9f	Recriado na próxima inicialização / carregamento da solução.
+25286587	Pode excluir com segurança depois de fechar o programa:
+252d4698	nunca jogado
+254b47fc	Linha de comando
+25699e6d	Histórico de pastas…
+25a2cf5e	Antes
+25ea18c2	O {0} guarda aqui configurações, logins, downloads ou trabalhos salvos, para todos os usuários deste PC. Ele pode perdê-los ou iniciar como novo.
+26172ed7	Uma cópia baixada de um arquivo do {0}. "Liberar espaço" no menu do Windows a remove deste disco e a mantém na nuvem e nos seus outros dispositivos.
+262f3f1e	Arquivos de pacotes baixados e pacotes extraídos compartilhados pelos ambientes conda.
+2647922a	(nenhum caminho recente)
+265790b1	(clique duas vezes para entrar)
+269adc64	 — anexe o arquivo a uma nova issue na página do projeto.
+26ab4273	Não indexado
+26bac203	Arquivos excluídos aguardando restauração (uma pasta por conta de usuário nesta unidade).
+26cbf7a9	em cerca de {0} mês|em cerca de {0} meses
+26f9d0d8	O próprio {0} ou suas configurações ({1}).
+26facc7e	Texto, CSV ou JSON conforme o nome de arquivo que você escolher
+271e89fc	Desmarcar tudo
+2730bdb3	Discos de máquinas virtuais
+2741d24d	Primeiro dê um nome à configuração de exportação.
+27bc9764	não pôde ser lido à direita
+2804c9f6	Nada se perde.
+28081410	sem direitos em {0}
+2817ca38	Excluir configuração de exportação
+284e2e47	Painel de detalhes
+285c0a4e	Um arquivo de instalação: o programa instalado continua funcionando sem ele; para reinstalar, você o baixa de novo.
+28999611	novo
+28cd8501	Não foi possível iniciar o desinstalador:
+28dd6896	Importar…
+29103166	mais {0}|mais {0}
+29202b65	O instantâneo cobre {0}, que não se sobrepõe a esta visão ({1}).
+294de420	Voltar (Backspace)
+296d7faf	{0:N0} arquivo de código-fonte|{0:N0} arquivos de código-fonte
+297c0a70	Cópias locais: {0} ({1}) — "Liberar espaço" pode removê-las.
+29a95b5a	Criação:
+29cd3e85	Logs do Windows
+29de564c	Espaço ilegível
+2a3623e9	{0} pasta deixada por jogos que não estão mais instalados. Pode haver jogos salvos e mods: verifique antes de excluir.|{0} pastas deixadas por jogos que não estão mais instalados. Pode haver jogos salvos e mods: verifique antes de excluir.
+2a526679	{0} hora|{0} horas
+2a632922	Não está na lista do Epic Games Launcher
+2aa38b8d	instantâneo
+2ac4c7ea	{0} não é mais a pasta que foi analisada: analise novamente antes de excluir
+2ad28780	Componente
+2ae9aee1	Medido quando o {0} inicia e após cada verificação completa da unidade ({1}). Para uma medição diária, adicione o comando copiado ao Agendador de Tarefas.
+2b035040	Ainda não analisado
+2b183663	Arquivo
+2b5bc3d3	{0} jogo está fora desta visão: o tamanho (*) é o informado pelo launcher.|{0} jogos estão fora desta visão: o tamanho (*) é o informado pelo launcher.
+2b791a28	Seus arquivos sincronizados na nuvem. Excluir aqui também exclui na nuvem (recuperáveis por um tempo na lixeira do OneDrive).
+2be7fbdb	Marque as cópias que devem sair (uma cópia de cada arquivo sempre fica).
+2be97d77	em {0} grupo: {1} liberados|em {0} grupos: {1} liberados
+2bf19bc4	Origem de instalação do Office
+2bf4c3f3	{0:N0} arquivo dentro|{0:N0} arquivos dentro
+2bf95fab	{0:N0} despejo de falha|{0:N0} despejos de falha
+2c29f04d	qualquer
+2c33d756	Pular esta versão
+2cd8348d	Recriado por
+2d22a68e	Baixado de novo na próxima instalação.
+2d543a78	Seguro
+2d5614d0	Espaço usado da unidade
+2d6d2f6c	Filtro de extensão de arquivo
+2d79eafe	Contém {0}, que o Windows precisa.
+2e2c38b5	Arquivo de texto (*.txt)|*.txt|Arquivo CSV (*.csv)|*.csv|Arquivo JSON (*.json)|*.json
+2e79b022	Parar a verificação (ela pode continuar depois)
+2ecca61d	Cor
+2fb3ab0a	Destacar as mudanças no mapa
+2fcbb8b4	Corrija e pressione Enter de novo.
+2ff375a4	Excluir…
+302a37a0	Cada retângulo do mapa é um arquivo ou uma pasta, e sua área é o seu tamanho: os maiores blocos são o que enche o seu disco. Veja em um minuto o que mais ele pode fazer.
+3034dc5e	Exclua a pasta; npx npkill lista todas as pastas node_modules e seus tamanhos
+305f76a5	algo dentro de {0} não pôde ser excluído
+3060246e	Protegido: um arquivo do sistema Windows
+30721ea6	Menor = animação mais suave, mas análise mais lenta.
+30ac8a57	Não foi possível ler a biblioteca de jogos:
+30d0b9ac	Nuvem:
+30d2dfa6	Os totais da pasta na nuvem inteira estão na barra de status (☁).
+30ffa5f8	Dados que o Windows mantém para esta conta (credenciais, menu Iniciar, Explorador, configurações do Office).
+3123bd95	Onde / o quê
+3131ba31	{0} de {1}
+313b2923	Parte de {0}
+31680c97	{0} não existe mais
+31833491	Adicionado nos últimos 30 dias (datas dos arquivos): {1} em {0:N0} arquivo|Adicionado nos últimos 30 dias (datas dos arquivos): {1} em {0:N0} arquivos
+319752f1	última alteração {0}
+31b910b7	Pertence ao {0}.
+3211ab3a	Nova visualização   Ctrl+N
+321f427c	Ao longo do tempo
+32313797	jogos salvos, guarde-os se puder reinstalar
+329a009b	Maiores mudanças
+32afa6df	backup
+32c47b72	Nada foi importado
+32cd04bf	{0}{1} desde {2:g}
+32f31d38	"{0}" está no menu de contexto de pastas e unidades do Explorador (a versão da Store o adiciona sozinha).
+32f5b0e0	Limpeza de Disco > Arquivos de Otimização de Entrega
+33390d27	Instalação anterior do Windows
+333df7a0	Arquivos a partir de
+3343b9c6	Filtros prontos: tipos de arquivo, tamanhos, idades (são adicionados ao que foi digitado)
+33b1fa40	Depuração do layout do mapa de árvore...
+33b3d2ca	Alterado há {0}: um programa ainda pode estar usando.
+33d8b30f	Interrompido antes do fim.
+341d2b02	{0:N0} arquivo da nuvem somente online não foi lido (ler o baixaria).|{0:N0} arquivos da nuvem somente online não foram lidos (lê-los os baixaria).
+344473b4	Detalhe
+34ce44a5	Sair
+34d89227	Distribuição Linux do WSL
+34e5790e	huggingface-cli delete-cache
+34e5d71e	Arquivo de hibernação
+35182557	não excluído
+35425055	Partes do Windows e de programas instalados (desinstale-os em vez disso), as próprias pastas de usuário do Windows (Documentos, AppData...) e arquivos protegidos do sistema não podem ser excluídos pelo ByteScape. Desligado: podem, após um aviso sério. As raízes das unidades, o Windows em execução, as próprias Program Files / ProgramData / Users, os perfis de usuário, a Lixeira e a pasta do próprio ByteScape são sempre protegidos.
+356a780b	A proteção das pastas do sistema está desativada nas configurações.
+356b923a	Avisos de terceiros
+357efdac	Nenhum arquivo duplicado encontrado
+35afca3b	Cancelar
+35afd776	média
+35ccb4b4	Protegido: a pasta de uma conta de usuário
+35fd02c8	Configurações > Sistema > Armazenamento > Arquivos temporários, ou Limpeza de Disco
+363bd112	Níveis do halo de destaque
+3649bed0	{0:N0} item precisa de direitos de administrador:|{0:N0} itens precisam de direitos de administrador:
+365f345f	Abrir automaticamente em eventos (desligue para que o console não apareça)
+36a5378a	1 mês
+36dea4d7	DynaSmooth (reduzir a taxa de atualização quando ocioso)
+3711542c	Cache do npm
+3711f8f3	todos os níveis
+371fe101	Aplicativos da Store são instalados e removidos somente pelo Windows.
+37241a1e	1 – 6 meses
+3730e225	{0} pasta que nenhum programa instalado reivindica (ferramentas portáteis, programas que não se registram, sobras de programas removidos, partes do Windows ou de desenvolvimento). Verifique antes de excluir qualquer coisa.|{0} pastas que nenhum programa instalado reivindica (ferramentas portáteis, programas que não se registram, sobras de programas removidos, partes do Windows ou de desenvolvimento). Verifique antes de excluir qualquer coisa.
+3747c9ab	Cada arquivo dentro é temporário, um log, um download inacabado ou um despejo de falha.
+374a2aef	Modificado à esquerda
+374ad464	Pastas de programas nunca são incluídas.
+37643ef1	Todo o resto
+377046eb	{0} item protegido fica de fora (veja abaixo).|{0} itens protegidos ficam de fora (veja abaixo).
+3780dc84	há avisos graves (marcados em vermelho)
+37ad8ab5	Instantâneo:
+37bde0f7	Cor de etiqueta desconhecida (red, yellow, green, blue, all):
+37c19939	{0} medição de espaço livre.|{0} medições de espaço livre.
+37fa7096	arquivos da nuvem mantidos neste dispositivo
+38043772	Mapa do disco
+381b8323	Os pacotes são restaurados de novo do nuget.org no próximo 'dotnet restore' / build.
+3832eaf6	Salvar configuração de exportação
+385adb43	arquivos temporários
+3871dd17	Nova exportação {0}
+38e2c748	A distribuição e tudo dentro dela se perdem.
+38eeec3f	Não pode ser desfeito. O espaço é liberado na hora.
+3903c82b	Salvar como texto…
+391f483e	Pode excluir com segurança:
+39439697	Dados de aplicativo LocalLow
+3971b030	em Downloads
+39d973f9	Desinstalar em Configurações…
+3a127ee9	Nova classe de arquivos
+3a215e15	Arquivo de configuração
+3a2760f3	Procurar…
+3a2eb917	O projeto precisa que o ambiente seja recriado (python -m venv + pip install -r requirements.txt).
+3a562283	Cores planas
+3adaad92	Abrir no {0}
+3aef355d	Protegido: uma unidade inteira
+3b3290ff	Abrir no Explorador
+3b502e6f	Programas são desinstalados, não excluídos
+3b58e7ed	Esta pasta ainda está sendo analisada. Marque-a quando a análise terminar.
+3b6b7bd6	Veja como a unidade e suas pastas cresceram e quando ela vai encher no ritmo atual.
+3b77bc08	Clique: mostrar o nome onde é contado
+3bae339e	Esquerda:
+3c024881	Dados que o Windows mantém para todos os usuários (menu Iniciar, Defender, certificados, pesquisa).
+3c040095	Os modelos precisam ser baixados de novo.
+3c2dfe59	Oculto
+3c3b1f39	Protegido: o {0} é executado daqui
+3c7db946	detalhes da biblioteca
+3c99cdf7	Contar uma única vez os arquivos com links físicos
+3cbe0884	Crescimento
+3cf946a7	Jogo:
+3d2b2c37	Tudo o que ele usa
+3d57b3b9	Menos de 1 MB
+3d5ab806	Clique: este projeto e as outras sobras de desenvolvimento
+3d9c11d4	Caches de aplicativos da Store
+3dc77a6e	Caminhos recentes
+3dcb3899	Filtro: *.jpg;>100kb;<6months;:red;:attr:h;:reclaimable;\\temp  (| nega) — Enter aplica.\nLinguagem natural também funciona (turco ou inglês): “6 aydır açılmamış 100 MB üstü videolar”, “large files except videos”
+3dccd1dd	A manutenção deixa de funcionar.
+3e1f501d	É seguro excluir?
+3e5338c1	Cache de pacotes de instalação
+3e5e3ba2	Cache de pacotes NuGet
+3e839149	Subir um nível
+3ec00a11	Clique com o botão direito em qualquer coisa
+3ee99bf2	disco de máquina virtual
+3eec876b	Histórico de uso do disco
+3f36b025	Relatório do {0}
+3f39d6c7	Não exclua; o Windows o recria.
+3f40af14	Um documento: se não houver outra cópia, ele se perde para sempre.
+3f515151	log
+3f63e641	Previsão do disco
+3f904eba	Estilo por classes de arquivo
+3fd16a64	{0:N0} item precisa de direitos de administrador (p. ex. {1})|{0:N0} itens precisam de direitos de administrador (p. ex. {1})
+3ff50c63	Tipo
+3ff57bc0	Nuvem: somente online
+3ff7ffdb	removido
+40418e4c	verificação NTFS rápida, {0:0.0} s
+40438367	contando uma só vez os arquivos com links físicos
+40992d89	Dados de programas desta conta
+409dd984	Maiores arquivos
+4115cd34	Excluir pastas
+414385ac	Reanálises rápidas com o diário de alterações do NTFS
+414dfb28	Plataformas, ferramentas de build e (as maiores) imagens de sistema para emuladores.
+4155597d	Nível
+419e730c	não foi possível verificar a Lixeira
+41bbc92f	Movendo para a Lixeira:
+41d1dca1	O {0} mede a unidade toda vez que inicia e após cada verificação completa da unidade; uma previsão precisa de pelo menos dois dias diferentes.
+41e389fd	Animação
+41e99987	USB / cartão de memória
+420278fe	Os pontos de restauração se perdem.
+420372be	hoje
+420fd51c	{0} redistribuível / ferramenta, {1}|{0} redistribuíveis / ferramentas, {1}
+421ff2ec	O histórico de uso do disco é mantido para unidades locais quando "Medir o espaço livre das unidades" está ativado (Configurações > Comportamento).
+42756836	a Lixeira está desativada para esta unidade (propriedades da Lixeira): excluir ali é permanente
+42c49c72	Instaladores que o Visual Studio, o .NET, os runtimes do C++ e outros programas mantêm para se reparar, atualizar e desinstalar. Excluí-los impede o reparo e a desinstalação deles.
+42f35940	Subir
+43009bc0	Cada análise completa da unidade inteira lembra suas pastas de 50 MB ou mais (até três níveis de profundidade); a linha da unidade vem das medições do espaço livre.
+430c0f47	Lendo os launchers de jogos…
+430e74c5	{0:N0} item está aberto em um programa: feche-o antes, ou ele fica.|{0:N0} itens estão abertos em um programa: feche-o antes, ou eles ficam.
+430f7b31	Voltar à versão anterior fica impossível.
+43277708	Deixados por uma atualização de recursos do Windows. Remova-os em Configurações > Sistema > Armazenamento > Arquivos temporários ("Arquivos de log de atualização do Windows", "Arquivos temporários de instalação do Windows").
+438456c7	Despejos de falha
+43967499	Exportando…
+43a350f7	Espaço desconhecido
+43af5b8f	Cresceu desde a última análise completa
+43b762dd	Descubra para onde foi o espaço do seu disco
+43e8f657	Lixeira
+43ed0854	Mover para a Lixeira…
+440b0446	Enquanto isso, pelas datas dos arquivos: {0} foram adicionados nos últimos 30 dias. Se nada fosse excluído, {1} encheria {2}.
+4438be10	Logs de manutenção (CBS), instalação e atualização; podem chegar a gigabytes em computadores com problemas de atualização.
+443cb56b	Excluir {0:N0} item, {1}?|Excluir {0:N0} itens, {1}?
+4463dd17	Cancelando…
+44de0f00	Clique: mostrar só os arquivos recuperáveis (filtro :reclaimable)
+44e67b0c	Eu entendo:
+451f0b4a	{0} está em uso e não pode ser mantida durante a exclusão; tente novamente
+45434ef3	Arquivo zip (*.zip)|*.zip
+4563d87f	Imagem de instalação do Windows
+4574ee3a	A medição está desativada (Configuração → Comportamento).
+45b0ee23	{0} item, {1}|{0} itens, {1}
+45b9bf43	Continuar a verificação de onde parou (Shift+clique: verificar tudo de novo)
+460833d8	Músicas tocadas em streaming que o Spotify guarda para tocar de novo mais rápido (não seus downloads do modo offline, a menos que a pasta seja enorme).
+4609321b	dotnet tool list -g / dotnet tool uninstall -g <nome>
+461471f8	Console de log
+46362a99	3 meses
+4666ff96	A Lixeira de {0} comporta {1} ({2} nela agora): para abrir espaço, o Windows remove definitivamente os arquivos excluídos mais antigos.
+46814550	Rastro do mouse
+4697b8fd	{0} {1} está disponível
+47044ab7	Todas as pastas node_modules
+474c0cf3	a mais antiga
+476eae85	Ferramentas e telemetria do SDK do .NET
+4789f21a	Em Program Files, nenhum programa instalado o reivindica
+47c72218	O que o relatório diz sobre este computador:
+4826f941	{0} item marcado em todas as listas: {1}|{0} itens marcados em todas as listas: {1}
+483075a5	Atualizações
+48ce63af	Ambiente de recuperação
+48d85bf4	Compactado
+48f07525	Observação:
+491036e0	Cache do Chrome / Chromium
+491e0a9c	do sistema
+49c5aa8f	{0:N0} pasta|{0:N0} pastas
+49dfc818	(formato binário, sem pré-visualização)
+4a1559b3	grandes (> 100 MB)
+4aa74fdb	Os pacotes são baixados de novo na próxima instalação.
+4aaef4e8	Não existe configuração de exportação chamada "{0}".\nVerifique o nome na linha de comando.\n\nEsta exportação será ignorada.
+4b021b10	{0} minutos
+4b03f220	Não foi possível importar as configurações:
+4b058728	Configurações
+4b2d456f	Imagens do emulador Android
+4b7b2c0a	Protegido: uma pasta de usuário do Windows
+4b7c3000	Comparar o conteúdo também
+4b7f7705	Parar
+4b848fca	Verificar de novo o que mudou desde a última verificação, pelo diário de alterações do NTFS (Shift+clique: verificar tudo de novo)
+4bbc0741	O jeito certo:
+4bdc0829	{0} outro tipo|{0} outros tipos
+4bf63189	Não foi possível procurar projetos:
+4c1d9208	Amarelo (Ctrl+2)
+4c3499ea	ollama list / ollama rm <modelo>
+4c5b658c	O Python os recompila na próxima execução.
+4cd17837	{0:N0} de {1:N0} alterações mostradas ({2:N0} adicionadas, {3:N0} removidas)
+4cdf1925	criados há menos de {0}
+4ce5f9e2	jogado pela última vez em {0}
+4d0a98a5	1 ano
+4d28f009	Os pacotes são baixados de novo quando um projeto os instala.
+4d2d5d68	Salvar
+4d38965b	Igual
+4d44fb0c	Digite as condições na caixa de filtro e pressione Enter; separe-as com ';'.\nNomes, etiquetas e classes de arquivos: um arquivo aparece se atender a qualquer um deles.\nTamanhos, idades, atributos e pastas: um arquivo aparece se atender a todos.\nUm '|' antes de uma condição a inverte: tudo o que NÃO a atende.\n\nNOMES           *.jpg   report?.docx   |*.tmp\n                '*' vale por qualquer texto, '?' por exatamente um caractere.\n\nTAMANHO         >100mb   <16kb   >2.5gb\n                Unidades: b, kb, mb, gb, tb (k, m, g e t também funcionam).\n                O tamanho comparado é o espaço que o arquivo ocupa no disco. Coloque size,\n                filesize ou logicalsize antes do sinal para comparar o comprimento do\n                próprio arquivo: size>1mb (abreviado s>1mb). disksize e clustersize\n                indicam o espaço no disco: d<16k.\n\nIDADE           <6months   >2weeks   <10s\n                Unidades: s, min, h, d, w, months, y, ou as palavras inglesas completas.\n                A idade conta a partir da última alteração. Coloque created ou accessed\n                antes do sinal para essas datas: created>1month, a>1y.\n                <10s lista os arquivos que estão mudando agora mesmo.\n\nETIQUETAS       :red   :yellow   :green   :blue   :all\n                :tag:red+yellow   vermelha ou amarela   :tag:-red   com etiqueta, mas não vermelha\n                Formas curtas: r, y, g, b e as teclas de etiqueta 1 a 4.\n\nATRIBUTOS       :attr:hidden   :attr:h+s   oculto ou do sistema\n                :attr:a-s   arquivo, mas não do sistema\n                archive a, system s, readonly r, hidden h, compressed c, encrypted e,\n                offline o, temporary t, notindexed ni, sparse sp, fluxos alternativos ads\n\nCLASSE          :class:Imagens   as classes e suas extensões: Configurações > Estilos.\n                Nomes com espaços não precisam de aspas.\n\nPASTAS          \\temp             só arquivos com uma pasta chamada temp no caminho\n                |\\node_modules    tudo o que está fora das pastas node_modules\n                \\proj*            curingas funcionam; um nome de pasta não pode conter '\\'\n                A barra invertida indica um nome de pasta, não a raiz da unidade.\n                As pastas que coincidem aparecem em negrito. Filtrar por pastas é mais lento.\n\nCACHES          :reclaimable      caches e áreas temporárias que podem ser esvaziados com segurança\n                |:reclaimable     todo o resto       (:cache e :junk também funcionam)\n                Essas pastas levam um selo no mapa.\n\nNUVEM           :cloud            arquivos em pastas do OneDrive, Dropbox, iCloud e semelhantes\n                :freeable         cópias locais que "Liberar espaço" pode remover (o arquivo\n                                  continua na nuvem e nos seus outros dispositivos)\n                :onlineonly       arquivos mantidos só online: não ocupam espaço neste disco\n                                  (aparecem nas exportações, não no mapa)\n                :alwayskept       arquivos definidos como "Sempre manter neste dispositivo"\n\nLINGUAGEM NATURAL (inglês ou turco)\n                Escreva uma frase e pressione Enter; a caixa mostra então o filtro\n                entendido, e a barra de status o explica:\n                  large files except videos\n                  pictures smaller than 2 MB in Downloads folder\n                  6 aydır açılmamış 100 MB üstü videolar\n                  son 7 günde oluşturulan belgeler\n                Entende: tipos de arquivo (video, pictures, music, documents, archive, iso,\n                log...), extensões (psd files, .mkv), tamanhos (over 1 GB, 100 MB üstü,\n                big, huge, small), idades (older than 1 year, 6 aydır açılmamış, bugün,\n                this week), arquivos ocultos, do sistema e somente leitura, etiquetas, pastas, caches.\n\nEXEMPLOS        *.jpg;*.png;>2mb          imagens JPG ou PNG com mais de 2 MB\n                |*.exe;|*.dll;|\\windows   sem programas nem o conteúdo de pastas windows\n                :tag:r+y;>1gb             arquivos com etiqueta vermelha ou amarela acima de 1 GB\n                :attr:h;|:attr:s          arquivos ocultos que não são do sistema
+4d6ad035	Guardada criptografada para a sua conta do Windows; não incluída nas configurações exportadas.
+4d8aa213	Proporções dos elementos (horizontal … vertical)
+4dae7ff1	O ritmo de crescimento do espaço usado nos dias medidos; grandes limpezas pontuais ficam de fora
+4daf4721	Seus arquivos sincronizados do Dropbox. Excluir aqui também exclui na nuvem (recuperáveis por um tempo no dropbox.com).
+4de24f84	{0} podem ser liberados ({1})
+4df0d534	Os elementos do lado esquerdo estão nesta visualização
+4e0ecb9b	Os arquivos são removidos de todos os dispositivos e do iCloud.com (recuperáveis por 30 dias).
+4e466285	ainda não há medições suficientes
+4e678c84	Protegido: um aplicativo da Store
+4e88328e	Protegido: contém {0}
+4edba371	Protegido: mantido pelo Windows
+4f0eb5e0	Comparação de instantâneos do {0}
+4f23768b	Caches conhecidos e arquivos temporários dentro das pastas dos programas (Cache Radar)
+4f2c4fd5	{0} salvo ({1} arquivos, {2}) em {3}.
+4f34d900	Mais
+4f516a81	baixa
+4f856dd8	Participação
+4fc5d7e4	Dados de programa compartilhados por todos os usuários
+4fcb191e	Tendência:
+4fcc19e6	As pastas são iguais
+4fe0e191	Arquivo esparso
+502a19f3	DynaZoom (reorganizar a cada quadro durante o zoom)
+50853db2	Configurações > Aplicativos > Aplicativos instalados > Desinstalar
+508bd598	analisando…
+50bbbab1	Backups de dispositivos feitos pelo iTunes ou pelo app Dispositivos Apple; cada um pode ter muitos gigabytes.
+50c67a30	Configuração de exportação salva no arquivo
+50f97d9f	Classe
+51282a3b	Abra uma unidade, uma pasta ou um instantâneo — ou solte-o aqui.
+513083d0	Atualizado
+5145e1ec	Fluxo de integridade
+5155ced8	Não foi possível reiniciar como administrador:
+51750ec7	ferramenta
+51aed508	Esvaziar esta pasta…
+51b969c9	Não selecionar nada
+51f636a3	maior à direita
+521886c5	rede
+525446ce	Última gravação
+5261999e	Não jogado há um ano
+527f0228	Salva um arquivo .zip com o que ajuda a encontrar a causa de um problema. Ele contém arquivos de texto simples: abra-o e veja tudo antes de repassá-lo. O {0} não envia nada sozinho
+52bd5b77	Incluir a pasta do Windows
+52d4be2f	As descrições das classes de arquivo devem ser únicas.
+52dae2af	Contém: {0:N0} item|Contém: {0:N0} itens
+52e6ecf2	Salvar lista…
+5324ccf7	O conteúdo sai: {0:N0} item|O conteúdo sai: {0:N0} itens
+5326d023	iniciado pela última vez há {0}
+5357cad2	Selecionar seguros
+5389f46f	o número da versão não pode ser lido
+538b10e9	Abrir
+53925414	Cache do pip / uv
+53a4dd2c	Sem jogar há um ano:
+53f5262e	O reparo de inicialização e a redefinição deixam de funcionar.
+542b3dd7	Clique direito > Tornar somente online mantém os arquivos no Dropbox sem usar este disco
+542fed8a	Pastas
+5453e5b7	Somente online
+548c9ce4	Nome ou caminho da pasta
+54b01571	Avançar (Shift+Backspace)
+54e4edfc	Encontre arquivos duplicados, compare uma pasta com o seu backup ou compare a unidade com um instantâneo salvo no mês passado.
+558e5ff7	Só há um espaço reservado neste disco; os dados estão no {0}. Ele não usa espaço aqui e é baixado ao ser aberto.
+55c753f8	Todos os arquivos (*.*)|*.*
+55caed82	concluída
+562ecc44	Com esta configuração e este filtro, o arquivo ficaria vazio. Exportar mesmo assim?
+56b9e0f0	O Windows não registra as inicializações de programas desta conta (Configurações > Privacidade > Geral: "Permitir que o Windows melhore os resultados de Iniciar e da pesquisa rastreando inicializações de aplicativos"): só as pastas de dados dos programas mostram quando foram usados.
+571a4f44	Exportar a visão para arquivo
+574b66b8	Android SDK
+575cffd2	Rodapé
+5797ea6a	Excluir
+57a4c80c	Candidatos à limpeza em {0}
+58062e10	Colocar primeiro
+58227bcd	{0:N0} h
+583ef2bf	mesmo tamanho, conteúdo diferente
+58422b8f	Nome de arquivo padrão
+58510d92	Cheio:
+585a416b	{0:N0} alterado no último dia fica|{0:N0} alterados no último dia ficam
+5876dbe1	Não foi possível reiniciar:
+588e8c51	Contraste de níveis (plano … profundo)
+58b04afd	Solte um arquivo de instantâneo aqui
+58da7789	O menu do Explorador abre outra cópia do {0}. Clique em Adicionar para apontá-lo para esta.
+58de2772	Normal
+58e096de	Sobre
+5906fabd	A pasta em si fica.
+59592997	{0:N0} item|{0:N0} itens
+59755e0a	Opções da linha de comando
+598ff40c	Deixados para trás
+59b4ae0b	Acesso
+59d7b4f1	Informações do sistema: versão do Windows, processador e memória, unidades (tipo, sistema de arquivos, tamanho)
+59fedf7f	Desligado: Delete exclui permanentemente e Shift+Delete move para a Lixeira. De qualquer forma, o ByteScape mostra o que seria removido, se é seguro, o que exige direitos de administrador ou está aberto em um programa, e pergunta antes. Unidades sem Lixeira (pen drives, rede) sempre excluem permanentemente.
+5a036285	Documentos
+5a08eeb5	Sobras de desenvolvimento
+5a417a78	com etiqueta verde
+5ab3a6b7	Maiores conteúdos
+5ac32513	Conteúdo de atualizações e da Store mantido para compartilhar com outros PCs da rede.
+5b2a812f	Miniaturas que o Explorador gerou para imagens, vídeos e documentos.
+5b7cc33c	pastas primeiro
+5bf0a5d9	Steam > Configurações > Downloads > Pré-cache de shaders
+5bfa1dfb	1 MB
+5c048d37	arquivo de programa
+5c08e66a	Conteúdo das atualizações cumulativas usado pela manutenção.
+5c0ee489	Versão {0}
+5c36fcd8	Filtro (Ctrl+L)
+5c3d9ff9	Deseja criar um relatório do problema? Ele é salvo como um arquivo que você pode examinar e enviar ao desenvolvedor; nada é enviado automaticamente.
+5c5c6770	Configurações > Sistema > Armazenamento
+5cf523f8	Remover imagens de sistema quebra os emuladores que as usam; o SDK Manager pode reinstalá-las.
+5d136aed	Verificando {0} e comparando…
+5d5c2091	Análise NTFS rápida ao executar como administrador
+5db2152b	Agrupar os elementos abaixo do tamanho mínimo em um bloco de “N itens” (desligado = ocultá-los)
+5dc5e595	Cópia local
+5e2a8369	Nada se perde no uso normal.
+5e513bfe	Esvaziar esta pasta
+5e5aec47	{0:N0} pasta mudou|{0:N0} pastas mudaram
+5e5ff0c9	Duração do piscar após uma alteração externa (ms, 0 = desligado)
+5e7517f8	Cache do Gradle
+5e7d783b	Redistribuíveis e ferramentas
+5e8ab4b1	Propriedades do Sistema > Proteção do Sistema > Configurar > Excluir / reduzir o uso máximo, ou vssadmin delete shadows
+5eaf0802	{0:N0} alterado no último dia fica como está|{0:N0} alterados no último dia ficam como estão
+5f28b381	Saída de build de {0} ({1}), recriada por {2}
+5f6b3a27	{0:N0} arquivo|{0:N0} arquivos
+5f858f13	As músicas voltam a ser transmitidas; o limite do cache pode ser reduzido nas configurações do Spotify.
+602d45e6	Cores das etiquetas
+606ac90f	O dispositivo e seus dados se perdem; ele pode ser recriado no Device Manager.
+6076cb65	Protegido:
+60f3de7b	Avançado
+60fcf02c	Instalador de driver NVIDIA
+610eb824	Reiniciar como administrador (verificação NTFS rápida)
+611286ab	Pasta do Dropbox
+61234b02	Configurações > Contas > Outros usuários
+613435ed	{0} min
+613f34ea	Hex
+61455d91	Ainda não há uma verificação completa anterior desta unidade para comparar. Cada verificação completa da unidade inteira é lembrada (só tamanhos de pastas), e a próxima é comparada com ela.
+615d261d	a resposta não é uma descrição de atualização
+61651dc1	Algo será perdido:
+616a6784	Automático
+616d7d46	Uma imagem de instalação do Windows baixada para uma atualização ou redefinição.
+619eeef6	Programas:
+61e04b11	Cada projeto baixa suas dependências de novo no próximo build (pode ser gigabytes e é lento).
+61f180c5	SSD NVMe
+622d7d85	mais novo à esquerda
+625c8fc8	{0:N0} chave, certificado, banco de senhas ou carteira|{0:N0} chaves, certificados, bancos de senhas ou carteiras
+6355bee5	As etiquetas de cor marcam arquivos e pastas que você quer reencontrar depois: para\nguardar, conferir, mover ou excluir.\n\n    Ctrl+1   vermelho     Ctrl+2   amarelo\n    Ctrl+3   verde        Ctrl+4   azul\n    Ctrl+0   remove as etiquetas da visualização atual (a pasta ampliada e o que está abaixo)\n\nUma tecla marca, ou desmarca, o bloco sob o ponteiro do mouse; se não houver, o bloco\nselecionado. Quando a caixa de filtro não está em foco, os números funcionam sem Ctrl.\nO menu do botão direito tem os mesmos comandos.\n\nUma etiqueta numa pasta vale para tudo o que está dentro: filtrar por essa cor também\nencontra esses arquivos. Só a própria pasta mostra a etiqueta, para o mapa ficar legível.\n\nFiltre por etiqueta com :red, :yellow, :green, :blue ou :all, com :tag:red+yellow para mais\nde uma cor, e com |:red para tudo o que não é vermelho (veja a ajuda de filtros).
+63609fed	Vídeos
+63629fee	Esvaziá-la torna os arquivos excluídos irrecuperáveis.
+63d57d91	Instalador de driver AMD
+63f29e9f	algo será perdido (veja os avisos)
+63fe3327	ontem
+641280ce	Global
+64215c53	Área de trabalho
+643579c2	Arquivos de driver descompactados por um instalador da NVIDIA. O driver instalado continua funcionando.
+643ff3e3	{0} nomes, espaço contado aqui
+64740f75	"{0}" está no menu de contexto de pastas e unidades do Explorador.
+64863575	Abrir as configurações de armazenamento
+64c3a2d2	Relatórios de erro ({0}{1}; o mais recente {2:g})
+64f6f913	{0:N0} item está protegido pelo Windows (proprietário TrustedInstaller) e não será excluído, nem por um administrador.|{0:N0} itens estão protegidos pelo Windows (proprietário TrustedInstaller) e não serão excluídos, nem por um administrador.
+650ee66b	Nome de pasta inválido:
+6511091f	Os tamanhos são tamanhos em disco.
+65163188	Cache do registro do Cargo
+6548551d	Pasta do jogo
+654f3596	Antes
+658f3664	Copiar
+662a31d3	Livre:
+66532d8b	Filtrar por nome ou caminho
+669ad39e	Programas no disco…   Ctrl+P
+66a569a4	Caches das IDEs JetBrains
+66de7a09	Descrição
+66dea4e9	nenhum endereço de atualização está definido
+673e3998	Um arquivo temporário: os programas os criam e esquecem; é seguro, a menos que um programa o tenha aberto.
+6749eaf7	Os módulos são baixados e os pacotes recompilados no próximo 'go build'.
+676409df	Atualização disponível
+679f3d0e	Marcar todos os itens marcados como Seguro nesta lista
+67f2c3a3	A raiz de uma unidade. Exclua o conteúdo dela, uma pasta de cada vez.
+681a5e81	Rede, não conectada
+682d4275	Ambiente virtual do Python
+682ee4b1	Programas no disco: tudo o que cada programa instalado usa (Ctrl+P)
+684ab28e	imagens
+687e2192	a mais recente
+688247e9	Nenhum jogo do Steam, Epic Games ou GOG encontrado.
+68875c49	Pré-visualização (apenas os primeiros elementos)
+6893fb22	Salvar como CSV…
+68b50c4f	Suavidade da animação (período do quadro em ms)
+68d61f14	go clean -modcache   /   go clean -cache
+68fadaaa	Uma cópia de "{0}" sempre fica: desmarque antes outra cópia.
+691d80e0	Cache de documentos do Office
+69437205	Os tamanhos são os mostrados na visão.
+69442828	Registrar as mensagens de depuração detalhadas
+695c1ab3	{0:N0} diferença|{0:N0} diferenças
+695c22b0	DISM /Online /Cleanup-Image /StartComponentCleanup  (opcionalmente /ResetBase) remove com segurança as versões substituídas
+6974ad65	Rede
+69960bb6	Aparência
+69a3e0b5	Pacotes MSI/MSP que o Windows precisa para reparar, atualizar ou desinstalar programas instalados.
+69d3fd80	Área de trabalho temporária de cada programa que você executa; instaladores e atualizadores muitas vezes esquecem de limpar aqui.
+69e07a78	Previsão do disco: quando a unidade vai encher no ritmo atual e para onde foram os arquivos novos (Ctrl+K)
+6a02e0fd	O Unreal o recria (os shaders são compilados de novo)
+6a1d9f4d	Um log: os programas o gravam para diagnóstico; nada mais se perde.
+6a4a2930	O Steam pede confirmação e remove o jogo
+6a5bc848	O que é isto?
+6a6da27b	Clique com o botão direito na Lixeira da área de trabalho > Esvaziar Lixeira
+6a7b5339	{0} minuto|{0} minutos
+6a8adbaf	Um arquivo de programa: o programa ao qual pertence pode parar de funcionar.
+6ac50cbb	protegido pelo Windows
+6ae41987	Edições que nunca foram sincronizadas se perdem; verifique antes o Centro de Carregamento.
+6b2b67b3	{1} usados por {0} programa|{1} usados por {0} programas
+6b57237d	{1} em {0} programa ({2} da visão)|{1} em {0} programas ({2} da visão)
+6b720269	arquivo de instalação
+6b84e9d8	npm cache clean --force
+6bb4f1fe	Aplicativos instalados. Remover pastas manualmente deixa entradas de registro e atalhos quebrados.
+6be6dd8b	{0}: ainda não há medições suficientes
+6bf343f3	há {0} ano|há {0} anos
+6c298534	mesmo conteúdo, data diferente
+6c715881	{0} pasta lembrada|{0} pastas lembradas
+6c75c115	IA local (opcional)
+6cfba9c1	Instaladores de driver que o GeForce Experience / NVIDIA App mantêm após a instalação.
+6d306ccf	Comparar por tamanho e data
+6d9fb9db	Abrir instantâneo
+6da32dce	Store
+6da8f0a8	Arquivos excluídos continuam ocupando espaço até a Lixeira ser esvaziada. Verifique-a e esvazie-a pelo Windows.
+6dccb264	Tamanho da fonte dos elementos (pt)
+6e38ff95	Outros
+6e434127	Comparar com outra pasta…   Ctrl+Shift+C
+6e698019	Detecção de alterações no sistema de arquivos (requer reinício)
+6e71eaec	Cache do Firefox
+6ea86e09	Uma pasta que o Windows mantém na raiz da unidade (pontos de restauração, arquivos de inicialização e recuperação, a Lixeira).
+6eb12c99	{1} em cópias extras de {0:N0} arquivo|{1} em cópias extras de {0:N0} arquivos
+6edacf4f	O Windows antigo mantido após uma atualização de recursos para permitir voltar atrás; o Windows o exclui após 10 dias.
+6ee2f34e	parada
+6f12e9d5	Quando o ByteScape inicia e após cada análise completa de uma unidade: a data, o tamanho e o espaço livre de cada unidade local, e os tamanhos das suas pastas grandes. Guardado ao lado do arquivo de configuração; nunca enviado a lugar nenhum.
+6f267fb8	Cache offline do Spotify
+6f359153	Mostrar a idade do arquivo na dica
+6f54b092	Contém {0}
+6fbd8d5e	Conteúdo web armazenado em cache por um perfil do Firefox.
+6fe2fc99	Arquivos grandes a partir de (MB)
+6ff7f2c5	Recuperável (feche o aplicativo antes)
+6ffffeaf	{0:N0} vídeo|{0:N0} vídeos
+700a3e6b	Importar uma configuração de exportação
+70242513	Um arquivo com vários nomes (Windows\\WinSxS e System32, armazenamentos do pnpm) ocupa seu espaço uma vez: é contado no primeiro nome, os outros mostram 0 no disco. Desligado: uma vez por nome, como o Explorador. Unidades NTFS locais; vale a partir da próxima análise.
+70446115	Excluindo:
+7082b79f	a resposta é longa demais para uma descrição de atualização
+70a26e7b	Removido
+70aa914c	Só à esquerda
+70ad7706	Verificar atualizações
+70e7e28f	Discos e snapshots de máquinas virtuais.
+7112a272	Pastas cuja recriação pode não dar o mesmo resultado (sem arquivo de bloqueio, sem arquivo requirements)
+71136ef1	Linhas do PowerShell que excluem as pastas selecionadas (todas as do projeto quando nenhuma está selecionada), cada uma com o comando que a recria
+713a842f	Abrir pasta
+71aa3193	{0} arquivo grande que o Windows precisa (arquivo de paginação, arquivo de hibernação...) não está listado.|{0} arquivos grandes que o Windows precisa (arquivo de paginação, arquivo de hibernação...) não estão listados.
+71aa86f4	{0:N0} arquivo da nuvem somente online não foi lido (isso o baixaria).|{0:N0} arquivos da nuvem somente online não foram lidos (isso os baixaria).
+71aebf38	Um programa guarda aqui configurações, logins ou trabalhos salvos. O {0} não sabe qual; o programa pode perdê-los.
+71b34560	O modelo local não conseguiu transformar "{0}" em um filtro; usando como máscara de nome.
+71d02ea7	Marque antes o que deve sair.
+71db5060	Delete move para a Lixeira (Shift+Delete exclui permanentemente)
+71e71828	Última partida
+71f43a92	(Página HTML: resumo, nível superior, maiores pastas e arquivos, tipos e idades dos arquivos, com barras; abra o arquivo em um navegador)
+72073d37	Abrir uma issue…
+72335220	links físicos contados uma vez: {0}
+7332b460	HDD, pastas na ordem do disco
+73428226	Tipos de arquivo
+73690b65	Arquivo
+739cae1e	Copiar relatório
+73b6b7e0	não instalado ou em uma unidade desconectada
+73c98f4b	Coletando…
+73db6e7c	Ampliar a pasta
+73f99d3c	Jogos
+740697ff	Caminho inválido
+7414aeb9	Tudo pronto
+7478aa37	Nenhuma verificação completa de {0} lembrada ainda
+74e1e5d0	Tempo de jogo
+74ea9a9b	Pastas em Program Files, ProgramData e AppData que nenhum programa instalado reivindica
+750e37d5	Algo que você baixou. Normalmente pode ser baixado de novo; guarde se esta for a única cópia.
+75455afd	Uma foto ou imagem: se não houver outra cópia, ela se perde para sempre.
+7550880b	Registrar os problemas
+755effee	Gravar os avisos da análise no log
+756ac84d	Clique direito na Lixeira > Esvaziar
+758a4cfc	modificados este mês
+75bdbe5c	cresceu
+75e3a3d2	em cada grupo
+761af994	recriado pela ferramenta de build
+762a33ad	Clique direito > Liberar espaço mantém os arquivos somente no iCloud
+768360c4	backups
+769f928f	Caches conhecidos e áreas temporárias
+76bda0c0	Etiquetas
+76c4fde9	o caminho é longo demais (ou incomum) para a Lixeira: exclua permanentemente
+77087a03	node_modules
+771376d0	Acesso:
+7720fdf4	menores que {0}
+776d4156	Baixado / compilado de novo quando um jogo inicia.
+7773de47	Shaders pré-compilados que o Steam baixa por jogo e GPU.
+778012f3	Em {0}. Cada item diz se é seguro excluí-lo; os protegidos não podem ser excluídos daqui, e a exclusão vai para a Lixeira, a menos que você escolha outra coisa.
+77e6408a	Sem vínculo com um programa instalado (ferramentas portáteis, programas removidos, componentes do Windows ou de desenvolvimento: verifique antes de excluir)
+7807d6d4	diminuiu
+7821dfca	não está enchendo
+784ae085	Limpar as etiquetas deste zoom
+786c531a	um local de rede não tem Lixeira: excluir ali é permanente
+7871cac4	Arquivos temporários da Internet usados por componentes antigos (Office, componentes do Windows, IE antigo).
+787b88eb	Atributo desconhecido (archive, hidden, readonly, system...):
+7889b50c	modificados desde ontem
+78e24fb5	{0:N0} item excluído permanentemente: {1} liberados|{0:N0} itens excluídos permanentemente: {1} liberados
+78e7877a	O Windows ignora arquivos em uso por um programa em execução; o resto é lixo.
+7912e942	de {0}
+7949bc31	HDD (disco rígido)
+79af3eaa	Marque antes as cópias que devem sair.
+7a050027	Não foi possível abrir o arquivo '{0}'
+7a90bbfb	Menos níveis (Ctrl+-)
+7ad128ef	Arquivos .pyc compilados que o Python grava ao lado dos fontes.
+7b04891c	As máquinas se perdem.
+7b1728e7	Relatar um problema
+7b1879d8	{0} histórico {1}.csv
+7b5fea5e	Projeto
+7b8038d9	Por quê
+7b845e5e	Abra a pasta superior para excluí-la.
+7bb1b928	about:preferences#privacy > Cookies e dados de sites > Limpar dados > Conteúdo web em cache
+7bbba834	Por última alteração
+7bebde3a	Os arquivos são removidos de todos os dispositivos e do drive.google.com (recuperáveis na lixeira por 30 dias).
+7c0f465b	{0} se tornou um link (junção ou link simbólico) desde a análise: nada é excluído através dele
+7cb1c5d3	a pasta que esta visão mostra
+7cb5b9f7	Um arquivo que o Windows precisa para iniciar ou gerenciar a memória.
+7cedd8c0	Quem usa o espaço
+7cee1b11	Analisar tudo de novo
+7d17b1a1	Espaço livre
+7d7b269a	O Visual Studio o recria (feche-o antes)
+7d96b6af	Limpeza de Disco > Miniaturas
+7df48eed	Caches do Unity
+7dfcea0e	Pastas de instalação dos programas
+7e1cae1b	Lendo e comparando os arquivos das duas pastas…
+7e477838	Recriável
+7eadfa7a	Instantâneos
+7ed46b4f	{0} está aberto em um programa
+7f0279c3	Anexe aqui o arquivo {0}: arraste-o do Explorador, onde ele aparece selecionado.
+7f39578d	Nada sai do seu computador, e nada é excluído sem antes perguntar a você. Você pode refazer este tour pelo menu …. Aproveite o {0}!
+7f42a286	abertos há menos de {0}
+7f58b2cf	Associando pastas aos programas instalados…
+8025c92f	Abra no Explorador, dê uma etiqueta de cor ou veja se é seguro excluir antes que vá para a Lixeira. A tecla Delete faz o mesmo.
+80282919	não foi possível verificar
+8052db6c	Pré-visualização (ao vivo)
+805bb20d	Um ou mais caminhos separados por ';' — uma unidade, uma pasta, um disco externo ou um compartilhamento de rede (\\\\servidor\\compartilhamento)
+80a1d937	Cresceu / adicionado
+80d0ec3c	cargo cache -a  (cargo install cargo-cache)
+80e02760	Verificar atualizações…
+80f36ee5	Exclua com o aplicativo fechado
+810ff154	Abrir automaticamente
+812a5c8b	Modelos e conjuntos de dados baixados pelas bibliotecas transformers / diffusers — muitas vezes dezenas de gigabytes.
+814b2f87	atualizando
+818a2e03	DISM /Online /Cleanup-Image /StartComponentCleanup
+818a94bb	Como limpar:
+81989361	A verificação ainda está em andamento: podem aparecer mais itens (pressione Atualizar quando terminar).
+81c809fc	Propriedades
+81c9f587	dentro das pastas chamadas {0}…
+81e18494	Marcado como somente leitura: alguém quis mantê-lo.
+81fc1479	há {0} mês|há {0} meses
+82330693	Disco virtual do Docker Desktop
+8238fb8f	Cache de downloads do Windows Update
+8254ce17	Só as pastas dentro de {0} são contadas: abra a unidade inteira para ter totais completos.
+82af8e89	Os projetos baixam de novo o que precisam na próxima instalação.
+82cb0142	Fontes de crates e checkouts git baixados pelo cargo do Rust.
+8310f425	Cancele a assinatura de itens não usados ou exclua a pasta numerada do jogo
+83199704	Link físico
+834c6cce	Abrir a janela de log quando algo for registrado
+835cce4e	maior à esquerda
+83c9eab7	caches conhecidos / áreas temporárias
+83d5ea75	Pasta global de pacotes do .NET: cada versão de pacote NuGet restaurada por algum projeto, mais o cache HTTP.
+83df2cc3	Pacotes de manutenção do Windows
+83e71839	Desinstalar
+843d3318	Reparar / Modificar então baixam os pacotes de novo; desativar é suportado.
+845df81c	cancelado
+845f8fa3	Mais de 100 MB
+845fc578	Uma pasta está dentro da outra: escolha uma pasta fora de {0}.
+84696c25	Nenhum projeto com saída de build, dependências ou ambientes encontrado aqui.
+8500cee3	Classe de arquivo
+85301b93	em menos de um dia
+853b5816	A instalação do Windows em execução. Só as áreas temporárias, de log e de download podem ser limpas, e as ferramentas do próprio Windows fazem isso melhor.
+85a712a3	10 MB
+85c6d8d4	Importar / Exportar (abaixo) leem e gravam perfis completos no mesmo formato XML, para que você possa ter p. ex. uma aparência de “apresentação” e outra de “trabalho” e alternar entre elas.
+85c8f90a	Nível superior
+85e4b82f	OK
+8606ae83	Dados de aplicativo da Store
+860adfe2	Programas instalados
+86175a0e	Arquivos temporários remanescentes
+863c3dd9	Protegido: uma instalação do Windows
+8642c7d3	Relatar um problema…
+8653d73d	100 KB
+86aeff42	Configurações > Aplicativos > Aplicativos instalados > {0} > Desinstalar
+86b748a1	SSD (SATA)
+86e0d5ea	docker system prune -a  (depois Docker Desktop > Troubleshoot > Clean / Purge data, ou wsl --shutdown e Optimize-VHD para reduzir o arquivo)
+871f67c3	Conteúdo
+874bde24	{0:N0} foto ou imagem|{0:N0} fotos e imagens
+87ca6658	Dados de {0}
+87cc130e	Cache de modelos do Hugging Face
+87fd543b	Verificando direitos e se algum programa está com os itens abertos…
+88d31f58	Caminhos recentes…
+894a9e36	Tamanho ou idade não entendidos:
+897db656	Cache de pacotes do Conda
+898c5ad7	outro nome
+89c5203b	Alterado
+89f6931c	o servidor respondeu {0}
+8a06932e	verificando
+8a153f1f	Arquivos de instalação ficam antigos após (dias)
+8a16af8b	Contém {0}.
+8a1b8d71	{0:N0} item aberto em um programa (p. ex. {1})|{0:N0} itens abertos em um programa (p. ex. {1})
+8a333465	Aplicativo Steam {0}, {1}
+8a44775b	Índices, caches e logs do IntelliJ IDEA, Rider, PyCharm, Android Studio... (as configurações ficam em Roaming).
+8a48cb03	{0:N0} arquivo de áudio|{0:N0} arquivos de áudio
+8a8154e1	Comparar pastas
+8b242db1	Nova
+8b3dc597	Agora
+8b84889c	Temporário
+8ba93ddc	Resumir com o modelo local
+8bdfcd4d	{0} semana|{0} semanas
+8be19211	Verificando se pode ser excluído…
+8c23b720	há mais de um ano
+8c31199b	Cresceram mais:
+8cb0c489	Veja para onde foi o espaço do seu disco.
+8cb360b1	Seus arquivos
+8ce91248	Pastas que começam com ponto guardam configurações e caches de ferramentas de desenvolvimento e programas de linha de comando.
+8cfd2c66	Um arquivo de programa
+8d39bde6	nome
+8d4fbd83	{0:N0} arquivos de mesmo tamanho comparados, {1} lidos em {2:0.0} s.
+8d68409d	O perfil completo de uma conta de usuário ({0}). Exclua o conteúdo ou remova a conta em Configurações > Contas.
+8d73f95c	Só servem para depurar uma falha que já aconteceu.
+8d99b40d	Unidades decimais (1 kB = 1000 bytes) em vez de binárias (1 KB = 1024 bytes)
+8da6167b	Desinstale-o com o próprio desinstalador (ele remove a pasta do programa, as entradas de registro e os atalhos); as pastas de dados que ele deixar podem ser excluídas depois pelo mapa. O {0} nunca exclui a pasta de um programa manualmente.
+8db520c1	Lê os arquivos de mesmo tamanho e data dos dois lados e os compara byte a byte (SHA-256): encontra cópias danificadas. Leva o mesmo tempo que lê-los.
+8dd22698	HDD, uma pasta por vez
+8dd31791	Concluir
+8ddfd782	arquivos compactados
+8dea7afa	Mover para a Lixeira
+8def2818	Modificação:
+8e0a0d52	Arquivo de paginação / arquivo de troca
+8e23fd07	{0} em disco
+8e367bfa	Componentes do Windows
+8e68a104	Discos de máquinas virtuais (.vhdx) e pontos de verificação.
+8ea4e4fc	net stop wuauserv, exclua a pasta Download, net start wuauserv  (ou Limpeza de Disco > Limpeza do Windows Update)
+8eac8b8e	As pastas selecionadas (todas as do projeto quando nenhuma está selecionada) passam pela caixa de exclusão: o que será removido, se é seguro, o que está aberto em um programa
+8f3184bc	Sistema
+8f76d55b	{0} mês|{0} meses
+8f7aac0d	Configurações (sem a chave de API e as pastas abertas recentemente)
+8fb56258	Selecione um item para ver se é seguro excluí-lo.
+8fcdcda6	Projetos sem alterações há mais de seis meses, e o que suas ferramentas recriariam
+8ff8bcaa	Sem alterações há 3 anos
+90379bad	Downloads inacabados
+903e2fd7	Sem alterações há 6 meses: {0} projeto, {1} recriável|Sem alterações há 6 meses: {0} projetos, {1} recriável
+90a65898	com etiqueta vermelha
+90d249dc	Não excluídos — protegidos ({0})
+90d280ef	Pacotes de atualização baixados pelo Windows Update; atualizações já instaladas ficam aqui.
+90d77c50	O histórico cresce a cada verificação completa da unidade inteira (e com o espaço livre medido quando o {0} inicia).
+9105411f	{0} ano|{0} anos
+910d3983	Δ
+9122cea9	Diminuiu / removido
+9184bc87	Limpeza…   Ctrl+Shift+Delete
+918cd21d	Procurar duplicados novamente com estas configurações
+91ce0025	 — envie você mesmo o arquivo ao desenvolvedor.
+91dad0f8	Onde
+924a2c87	SHA-256 do novo arquivo do programa: {0} (compare com o arquivo que você baixar: Get-FileHash no PowerShell).
+92ac5c78	Cache de bytecode do Python
+931cd386	Visão:
+932e7663	Arquivos de instalação: instaladores em Downloads e na Área de Trabalho. Programas sem uso: não iniciados (segundo o registro do Windows) e com seus dados inalterados por esse tempo, e instalados antes disso.
+934d9d0c	Um download
+935943ea	Protegido: parte do Windows
+936c1740	Os arquivos são comparados por tamanho e data.
+9376c1cf	Contém seus próprios arquivos
+93a51c77	Módulos Go baixados e cache de build compilado.
+93a89e87	Nada selecionado
+93bb8246	Cache de módulos e de build do Go
+93f186c6	A verificação ainda está em andamento: os tamanhos crescem até o fim (pressione Atualizar então).
+93fb2ed2	não abertos há {0}
+94043c9c	Os tamanhos incluem caches de shaders, conteúdo do Workshop e jogos salvos.
+9428b8d9	Só à direita
+948ef074	Recuperável
+9492c330	{0:N0} nome é um link físico de outro nome (o mesmo arquivo, sem espaço extra): não contado como cópia.|{0:N0} nomes são links físicos de outro nome (o mesmo arquivo, sem espaço extra): não contados como cópias.
+94a2d58b	Voltar ao topo (Ctrl+Home)
+94a4996b	{0} verificação completa de {1} a {2}|{0} verificações completas de {1} a {2}
+94c124ce	Uma máscara curinga por linha, comparada com o nome da pasta ou o caminho completo — p. ex. *\\WinSxS ou node_modules. Pastas excluídas não são analisadas.
+94cbff93	maiores que {0}
+94e1ec75	liberar espaço / sempre manter…
+950ae45f	Uma análise interrompida, ou ainda em andamento quando o ByteScape fecha, é guardada (o que foi encontrado até então) ao lado da configuração por uma semana; abrir o mesmo caminho de novo a continua com as pastas ainda não alcançadas. Shift+clique no botão de análise analisa tudo de novo.
+951556af	{0:N0} arquivo temporário|{0:N0} arquivos temporários
+9538ebb9	Cache do Composer
+9592018a	Android Studio > Device Manager > Wipe data / Delete
+95a0d0e9	{0} {1} é a versão mais recente.
+95a2738a	Repositório do Yarn / pnpm
+95b88867	Modelos do Ollama
+960dcfa3	Um arquivo com {0} nomes; seus {1} em disco são contados uma vez, no primeiro nome:
+96234bd4	documento
+963f4cb0	Arquivos XML (*.xml)|*.xml
+9644ea4a	Pasta do Google Drive
+96c22130	Cópias
+96ca474e	Análise
+96d7f8db	Arquivos de driver descompactados por um instalador da AMD. O driver instalado continua funcionando.
+970be1e0	Proteger as pastas do sistema
+971b9010	Oculto e marcado como arquivo de sistema: o Windows ou um programa depende dele (arquivos desktop.ini, arquivos de inicialização e de licença).
+97418149	Não foi possível procurar candidatos à limpeza:
+976cb95c	{0:N0} nome com link físico é o mesmo arquivo e não é contado como cópia.|{0:N0} nomes com link físico são o mesmo arquivo e não são contados como cópias.
+9771f24d	A pasta que esta visão mostra não pode ser excluída de dentro dela: abra primeiro a pasta superior.
+9783b0e0	Seguro após fechar
+978c35c7	{0} pasta: programa {1}, dados {2}|{0} pastas: programa {1}, dados {2}
+97f23072	Jogos:
+98043c83	Sem alterações há
+983b8690	Clique: tudo o que este programa usa
+98692817	Wheels e respostas HTTP armazenados em cache pelo pip (e uv) ao instalar pacotes Python.
+98c0ff63	{1} em {0} pasta|{1} em {0} pastas
+98cf5e06	Não jogado há
+98fe03c5	arquivo compactado
+99541409	Repositório local do Maven
+996a70a8	Ativar os recursos de IA local
+996fb4a5	Saída de compilação ou pacotes baixados de um projeto {0}; o projeto os recria.
+9974bc1c	lendo o diário de alterações do NTFS
+997bad96	Pausar a verificação (Pause)
+99e5bba4	Extensões (a;b;c)
+9a196443	Visual Studio Installer > Mais > Configurações ou 'vs_installer.exe --nocache'
+9a73db9b	Idioma
+9a78986e	Verificando direitos…
+9ac2fe4a	Adicionado em 30 dias
+9af47b9c	Arquivo CSV (*.csv)|*.csv
+9b01dda1	Procurando projetos…
+9b28085a	Verificação principal:
+9b62105d	Arquivos de atualização do Windows
+9b69b63a	Um vídeo: se não houver outra cópia, ele se perde para sempre.
+9b759fb9	desconhecido
+9bb0c5b1	repositório git
+9bb6d817	tudo o que ele usa
+9bdd68f6	Adicionar "{0}" ao menu de contexto de pastas e unidades do Explorador.
+9bdec7d2	Limpar a lista
+9be5958a	Comparar com um instantâneo salvo (Ctrl+D) ou com outra pasta (Ctrl+Shift+C)
+9be993bf	{0:N0} disco de máquina virtual|{0:N0} discos de máquina virtual
+9bfdfb6c	Projeto:
+9c15a360	não {0}
+9c30b887	enormes (> 1 GB)
+9c68fb9a	Limpeza: {0} em arquivos grandes, temporários e de instalação
+9cb7d1b7	Projeto, tipo ou pasta
+9d25228d	Nome do modelo
+9d766510	Clique duas vezes em uma pasta para mostrá-la no mapa. O ByteScape nunca exclui nem desinstala nada: use Aplicativos e recursos.
+9d8117c1	Dados de compatibilidade
+9d8b039a	Protegido: um programa instalado
+9dc3aa14	Adicionar
+9dc93f1c	As ferramentas recriam estas pastas. Feche o editor primeiro; o que for excluído vai para a Lixeira, ou execute você mesmo as linhas copiadas.
+9dfcfab1	Página da loja
+9e44f27b	100 MB
+9e794b78	O que aconteceu? (opcional)
+9eace8eb	Extensões
+9ef31433	O {0} pode parar de funcionar. Para removê-lo, desinstale-o em Configurações > Aplicativos.
+9ef4e023	Cor {0}
+9effb706	Espaço ilegível (filtro ativo)
+9f03d26d	{0:N0} arquivo de instalação|{0:N0} arquivos de instalação
+9f49169a	Link físico:
+9f91fc43	Baixado de novo no próximo build.
+9f967023	{0:N0} arquivo não pôde ser lido.|{0:N0} arquivos não puderam ser lidos.
+9f9c4fd4	músicas
+9fc59b06	analisando a pasta de novo…
+9fd50dfe	Modelos de linguagem locais baixados com o Ollama.
+9fde1bc4	6 meses
+9fe45463	{0:N0} backup|{0:N0} backups
+a0310bb6	Pastas de instalação, dados de aplicativo, caches e dados de aplicativos da Store são contados para o programa dono deles.
+a0fee571	Tipo de arquivo
+a1a82123	baixado há {0}
+a1dd7bf1	Log
+a1de2fdd	Mudança
+a24add3d	{0} verificados
+a2515cf6	node_modules de um projeto
+a27f4ed5	As atualizações pendentes são baixadas de novo.
+a2c773d1	Fontes
+a2cb0ba8	Arquivo de texto (*.txt)|*.txt|Arquivo CSV (*.csv)|*.csv
+a2e513c9	Instantâneo do ByteScape (*.sns) ou saída do Disk Usage (*.txt)
+a2ee019c	{0} dias
+a30bb94a	Máquinas VirtualBox / VMware
+a3371429	Clique: mostrar só as cópias locais (filtro :freeable). Liberar espaço: clique direito > menu do Windows.
+a33bf626	Arquivos duplicados…   Ctrl+Shift+D
+a3731f3f	Última alteração
+a37f187c	Vermelha
+a4024053	Comparando…
+a47cac6c	Caches do Visual Studio
+a49096d8	Consultando…
+a4995035	Descer
+a4e42dee	Não foi possível verificar tudo:
+a4e5e4fc	Programas não usados
+a4fc5b8d	Exclusão
+a5201eed	O {0} parou por causa de um erro na última vez que foi executado ({1:g}).
+a5f0d7aa	informado pelo launcher
+a5ff3358	alterado há {0}
+a6025607	Incluir
+a60eb350	Modo de design (personalizar configurações)
+a6478e7c	Tamanho
+a65b62a7	Segurança:
+a6d004e8	Código-fonte: se não estiver em um repositório ou backup, o trabalho se perde.
+a6eb4d2b	Removível com cuidado
+a6f824ec	Cada classe de arquivo precisa de uma descrição.
+a72e3854	A nova configuração de acompanhamento de mudanças no disco vale a partir da próxima vez que o {0} for iniciado.
+a76ac3db	Pode excluir com segurança: um arquivo de instalação
+a7cd6f96	Use a Limpeza de Disco / Sensor de Armazenamento; só é seguro mexer nas áreas Temp, Logs e SoftwareDistribution\\Download
+a7dd3a69	Depois
+a7dfd013	dentro de {0}
+a812ea38	Android Studio > SDK Manager: desmarque imagens de sistema / plataformas não usadas
+a81aed9d	Estratégia de análise da unidade
+a83bbfab	Sempre mantido neste dispositivo: {0} ({1}).
+a845cbdd	Selecione um programa para ver onde está o espaço dele.
+a8dc0817	Não vinculado
+a8de233d	Esta configuração de exportação foi criada por uma versão mais recente do {0} e pode não funcionar como esperado.\n\nImportar mesmo assim?
+a8e3e5cb	Exportação cancelada; o arquivo incompleto foi excluído
+a8f285ac	download inacabado
+a8ffd94d	Um programa guarda aqui dados para todos os usuários deste PC (licenças, bancos de dados, atualizações). Se o programa ainda estiver instalado, ele pode parar de funcionar.
+a90f4130	Cache do Internet Explorer / WinINet
+a922a11b	Dados compartilhados (ProgramData)
+a953c75c	Verde
+a984947b	arquivos da nuvem somente online (sem espaço neste disco)
+a9f4e971	Comparar com outra pasta…
+aa25410e	Uma chave, certificado, banco de senhas ou carteira: não pode ser recriado; o que ele protege pode se perder para sempre.
+aabc9edf	yarn cache clean   /   pnpm store prune
+aad128d6	uma pasta por vez
+aade4c0c	O {0} está sendo executado como administrador; eles também serão excluídos.
+aaea5743	arquivo
+aafc6673	Caches, mods, jogos salvos
+ab01bbc0	Copiar o comando / dica para a área de transferência
+ab13e85a	CD / DVD, uma pasta por vez
+ab24b384	a última vez em {0}
+abbb1f2d	Somente online: {0} ({1}), nada disso neste disco.
+abbfe8b9	{0:N0} item|{0:N0} itens
+abd605aa	Em {0}: excluir aqui também exclui na nuvem e nos seus outros dispositivos. Para liberar espaço só neste PC, use "Liberar espaço" (clique direito > menu do Windows).
+ac006bfd	Os ambientes continuam funcionando; os pacotes são baixados de novo quando necessário.
+ac0665fd	A máscara de exclusão contém caracteres inválidos:
+ac067517	(o {0} está sendo executado como administrador)
+ac62b6ec	Filtrar por esta extensão (*.{0})
+ac99c4b5	Exclua a pasta ou limpe versões antigas; 'mvn dependency:purge-local-repository'
+ad066d9d	Total
+ad3365e7	Conectado, mas o servidor não lista nenhum modelo (baixe um antes, p. ex. ollama pull qwen2.5:3b).
+ada7afdb	nenhuma
+adb3c588	Abre o menu do Windows, onde o {0} oferece "Liberar espaço" e "Sempre manter neste dispositivo"
+add7d8e7	Sobras de desenvolvimento: node_modules, bin/obj, target, .venv dos seus projetos e quando você trabalhou em cada um por último (Ctrl+B)
+ade5237b	A previsão do disco é para unidades locais.
+adfd0100	Cache do Windows Installer
+ae0ed984	Mensagem
+ae36da83	Excluir aqui um arquivo na nuvem o exclui em todos os lugares; liberar espaço, não. O {0} não altera nada por conta própria.
+ae72c5a1	Selecione um jogo para ver as pastas dele.
+aeb61689	Arquivos grandes e temporários, instaladores antigos e programas que você não usa mais, cada um com uma resposta clara para “é seguro excluir?”.
+aed7d6cb	{0} duplicados.txt
+aee2f423	Se excluído:
+aef94486	qualquer tempo
+afad156f	Arquivos espelhados pelo Google Drive para computador. Excluir aqui também exclui no Google Drive.
+afc57adf	Esvaziar esta pasta permanentemente
+afcf77b9	jogo da {0}
+b00f3097	continuando
+b037d0fc	Esta configuração de exportação faz parte do programa e não pode ser excluída.
+b09191aa	Não foi possível comparar:
+b09bda2a	Administrador
+b0aa350e	pip cache purge   /   uv cache clean
+b0e4f960	dados alterados há {0}
+b103512a	{0} comparação de pastas.txt
+b13318a9	A verificação ainda está em andamento: mais projetos podem aparecer (pressione Atualizar quando terminar).
+b164b991	Reiniciar como administrador
+b16c7ae2	Desinstalar no Steam…
+b172736a	AppData, ProgramData e dados de aplicativos da Store dos programas
+b1bf574c	{0} programas.txt
+b22e11cb	Pode ser restaurado da Lixeira. O espaço só é liberado quando a Lixeira é esvaziada.
+b23b32a6	Nada aqui pode ser excluído
+b24126ca	Registrar as mensagens de depuração
+b27655bd	na Área de Trabalho
+b276643b	Sobras de desenvolvimento…   Ctrl+B
+b3135345	O NTFS mantém um diário de cada alteração na unidade. Uma reanálise o lê e lista de novo apenas as pastas que mudaram desde a última análise (sem direitos de administrador). Uma análise completa também é guardada quando o ByteScape fecha (ao lado da configuração, cerca de 60 MB para uma unidade de sistema com um milhão de arquivos), então abrir a unidade de novo leva segundos. Quando o diário não contém mais todas as alterações (ele guarda de dias a semanas), tudo é analisado. Shift+clique no botão de análise sempre analisa tudo. Unidades NTFS locais cujos links não são seguidos.
+b324c20f	Escrito pelo modelo local que você configurou a partir dos números acima; pode estar errado.
+b35836d0	Backups de iPhone / iPad
+b35c3185	Adicionado
+b36089d3	Maiores mudanças de {0} a {1}
+b369a20a	Programas no disco
+b3ca0eb2	Piscar o botão da barra de tarefas quando uma análise terminar em segundo plano
+b3d9c67f	Nenhuma classe de arquivos tem este nome:
+b3e290c1	Sem vínculo com um programa instalado
+b3efb53c	As pastas são iguais (conteúdo comparado)
+b3f23915	Esta configuração de exportação vem com o programa e não pode ser excluída.\n\nPara alterá-la, edite-a e salve com um nome seu.
+b3f38106	Um modelo de linguagem que você mesmo executa (Ollama, LM Studio, llama.cpp ou qualquer servidor compatível com OpenAI). Usado somente quando os recursos baseados em regras não dão resultado: pedidos que a caixa de filtro não entendeu, uma descrição para pastas que a base de conhecimento não conhece e um resumo na janela de comparação. Somente nomes e tamanhos de pastas / arquivos são enviados, nunca o conteúdo — para o endereço abaixo e nenhum outro lugar. Nada é contatado enquanto isto estiver desligado.
+b41431ac	Caches de launchers de jogos
+b469ad55	{0} segundo|{0} segundos
+b46bdd2e	Sombra sob o elemento selecionado
+b49e4d54	Pacotes de extensões em cache, armazenamento de workspaces e caches de renderização do Visual Studio Code.
+b4a617f0	Sem alterações há 6 meses
+b51672f3	Sem alterações há um ano
+b533b6a9	Limpeza de Disco > Arquivos de Internet Temporários
+b55b9c48	Falha na exportação
+b5eca605	Restaurar padrões
+b6088a74	{0} meses
+b6684cb7	Entendido pelo modelo local como: {0}   (verifique antes de confiar)
+b6938e20	Mudança líquida
+b6cf66f1	Limpar o filtro
+b71310f9	Fazer o tour
+b7464b24	previsão do disco {0}
+b79510d0	Seus próprios arquivos ({0})
+b79f3ac1	Repositório de componentes do Windows (WinSxS)
+b7c568a5	Alteração:
+b84486b2	Configurações > Aplicativos > (aplicativo) > Opções avançadas > Redefinir apaga tudo, inclusive as configurações
+b86ba0df	Retomar a verificação pausada (Pause)
+b8724211	Menu do Explorador
+b87dfe67	Melhor feito pelo Windows
+b89df01a	Ajuda
+b8d139a9	Ler os launchers novamente e associar as pastas
+b8f4e9d2	Contém um programa
+b90c722d	Cache de ferramentas (~/.cache)
+b938567c	Jogos: jogos do Steam, Epic e GOG, quando você jogou por último e o que os jogos desinstalados deixaram (Ctrl+G)
+b99895be	os programas instalados não foram lidos
+b9b42fcf	Gerenciador do Hyper-V: exclua os pontos de verificação, Editar Disco > Compactar
+b9c63f96	Os mods são baixados de novo quando os jogos assinados iniciam.
+b9c8b380	não abertos há um ano
+ba0f4467	Espaço extra
+ba2d6874	seus próprios arquivos são excluídos e não podem ser recriados
+ba2f243a	O mapa
+ba7bcfac	Arquivos do programa
+baf2969b	Comparando os arquivos inteiros
+bafe2956	Cache de mídia da Adobe
+bb182fca	Acessado
+bb49499f	Desde o instantâneo:
+bb789fa9	Deixados pelo Assistente de Atualização do Windows ou pela Ferramenta de Criação de Mídia. Configurações > Sistema > Armazenamento > Arquivos temporários os remove.
+bb79dcac	Dentro dela: {0}.
+bbb50357	aberto em um programa
+bc9d0308	Gerado pelo modelo que você configurou; pode estar errado.
+bcc93218	Comparar com instantâneo
+bd148de2	arquivo temporário
+bd4ba627	Um arquivo de áudio: se não houver outra cópia, ele se perde para sempre.
+bda0efee	despejo de falha
+bda39f42	Última atividade
+bdad3e64	Previsão do disco…   Ctrl+K
+bdba5f95	Não foi possível ler o filtro:
+bdcbb413	Dispositivo
+be1b50f4	Diminuiu
+be5cf7db	{0} pasta, {1}|{0} pastas, {1}
+be6b23d2	Cache de shaders
+bea3474f	Os arquivos são comparados por tamanho e data (uma diferença de 2 segundos ou de horas inteiras conta como igual: unidades FAT e fusos horários).
+beb4f6f2	Aplicativo Steam {0}
+bef7879d	Inacessível:
+bf258e7f	Um download inacabado: o navegador recomeça se você baixar o arquivo de novo.
+bf587485	Downloads de drivers NVIDIA
+bfe787f2	cópias locais de arquivos da nuvem ("Liberar espaço" pode removê-las)
+bffa57c7	O arquivo não contém nenhuma configuração de exportação.
+c033a9ae	por volta de {0}
+c03af447	{0} nomes, espaço contado em {1}
+c0496cdb	A verificação ainda está em andamento: os totais crescem até o fim (pressione Atualizar então).
+c050a343	primeiro nível
+c0821b1e	Nuvem
+c0a8277f	Caches recuperáveis
+c102a683	ByteScape
+c107f50c	Arquivos duplicados: o mesmo conteúdo duas vezes ou mais e o espaço das cópias extras (Ctrl+Shift+D)
+c1332a96	Arquivo de texto (*.txt)|*.txt|Separado por tabulações (*.tsv)|*.tsv
+c1a2c46e	Recriados quando um projeto que usa os clipes é reaberto (leva tempo).
+c214c868	{0} semanas
+c21bd27d	Seguir junções e links simbólicos
+c260f050	Caminhos recentes a manter
+c26ae724	A página de download abre no seu navegador; o próprio programa não baixa nem instala nada.
+c2762327	Jogo
+c2954bc2	Voltar
+c29fa477	Padrões
+c2c76cb1	Editar
+c2e1ccfb	Mais de 10 MB
+c2e7bb59	fontes
+c2f2eae4	O aplicativo recria o cache; as configurações ficam em LocalState e não são tocadas.
+c352464b	Nome já usado
+c35c8be6	Limpe pelas configurações do próprio {0} ou desinstale o {1} (Configurações > Aplicativos) se não o usa mais
+c379b180	nunca iniciado
+c39c93e8	Cheio: {0}
+c3fb8e06	Dependências baixadas pelo Maven (e por projetos Gradle que usam o Maven local).
+c3fd58cd	Desinstalar…
+c400b06d	Configurações de uma ferramenta ({0})
+c4014283	Sobras:
+c423f9b0	Comparar com instantâneo…   Ctrl+D
+c4253b6b	Programa
+c431b7ca	{0} não é um caminho válido
+c44dd34d	Pode excluir com segurança: só arquivos temporários, logs e despejos
+c45c73a2	Arquivos compactados
+c47933b3	Marcar caches conhecidos, áreas temporárias e pastas protegidas do sistema (selos ♻ / ⚠ / ⛔, total “recuperável”)
+c47c37c8	Offline
+c4a1c968	O menu … lista cada ferramenta com seu atalho de teclado. A engrenagem abre as Configurações: o idioma, o menu de contexto do Explorador e como a exclusão funciona.
+c4d32795	Não foi possível gravar o arquivo
+c4dbd4df	HDD: uma pasta por vez, na ordem em que as pastas estão no disco, e uma análise completa espera enquanto você reanalisa uma pasta. SSD: uma pasta por núcleo de processador ao mesmo tempo (até 8); NVMe: o dobro (até 16); flash USB: duas ao mesmo tempo com listagens maiores. Automática pergunta ao disco (penalidade de busca e tipo de barramento, sem direitos de administrador); escolha manualmente quando um gabinete USB ou RAID o esconde.
+c4f1d3a7	Despejos de falha e relatórios de erro
+c55deeb7	O Unity o recria ao abrir o projeto (leva um tempo)
+c585133e	arquivo de código-fonte
+c5cac7fa	python -m venv e depois pip install -r requirements.txt
+c6054711	Programas e arquivos do sistema
+c6153279	Excluir esta configuração de exportação?
+c646a2c9	Pesquisar
+c6681cbf	Excluir permanentemente…
+c6721fe7	Não foi possível abrir o navegador. Abra {0} e anexe {1} lá; o endereço foi copiado para a área de transferência.
+c6d76aae	eles não serão excluídos.
+c6ec2d10	Tendência
+c6fe2ead	código-fonte
+c7635c08	Verificar esta pasta agora
+c7a9195a	Clique duplo: mostrar no mapa. O ByteScape nunca exclui nada: desinstale pelo launcher.
+c7ac5891	Jogos salvos e configurações
+c7b6c6f2	Você tem a versão {0}.
+c7c23771	Não foi possível fazer a previsão:
+c8136a3e	esta unidade não tem Lixeira: excluir ali é permanente
+c878cc06	Não foi possível salvar a configuração de exportação:
+c891c6db	Já existe uma configuração de exportação com este nome. Substituir?
+c912877f	Excluir os marcados permanentemente…
+c9351454	Exportar configurações
+c9542c0d	Um link físico: o mesmo arquivo também existe com {0} outro nome, p. ex. {1}. O espaço só é liberado quando todos os nomes são excluídos.|Um link físico: o mesmo arquivo também existe com {0} outros nomes, p. ex. {1}. O espaço só é liberado quando todos os nomes são excluídos.
+c97fccaf	Exportar…
+c9b59fba	Lembrar os caminhos analisados recentemente
+c9c84d7b	As setas passam de um bloco a outro, Ctrl+Seta para baixo aproxima, Ctrl+Seta para cima afasta, Enter abre no Explorador e Shift+F10 abre o menu.
+c9cb3223	e-books
+c9f56138	As miniaturas são geradas de novo quando as pastas são exibidas.
+ca369241	Analisar de novo agora a pasta ampliada
+ca4fbfb7	Escolha uma pasta para analisar
+ca77bbdb	Aplicar
+ca792dc6	Deixados por jogos desinstalados (verifique antes de excluir: pode haver jogos salvos e mods)
+ca8d9458	dotnet nuget locals all --clear
+cac8526a	Protegido: a Lixeira
+cb167af6	{0} de {1} ({2})
+cb204f96	Limpeza de Disco > Arquivos de log de atualização do Windows
+cb827ea7	{0:N0} item excluído permanentemente: {1} liberados.|{0:N0} itens excluídos permanentemente: {1} liberados.
+cb97e12e	Abrir a Lixeira
+cbbd0f9f	Termos de licença
+cbc1373e	Selecione pastas na lista.
+cbd2549a	{0} ({1} medições em {2:0} dias, confiança {3})
+cbd4f7ba	Sobra
+cbfe0cf3	algo dentro não pôde ser excluído (aberto em um programa ou sem direitos)
+cc200e59	Desconhecido
+cc7437fd	Protegido: dados de usuário do Windows
+cc7ed4b4	Atributos
+cc81eb26	Recriável:
+cc9bf381	Um banco de dados ou caixa de correio: os dados (e-mails, registros) se perdem; um .ost do Outlook é baixado de novo, um .pst não.
+ccc62762	pasta na nuvem
+cce5bcae	Não foi possível comparar com '{0}'
+ccfdd1dd	Destacar o elemento sob o mouse
+cd310ca2	Pasta muito grande: só os primeiros {0:N0} itens foram examinados.
+cd86acc3	Fechar
+cdcfd561	Repositório de pacotes compartilhado por todos os projetos Yarn ou pnpm.
+cde99574	É seguro excluir?
+cdf82ae9	Recriados na próxima inicialização; extensões e configurações permanecem.
+cdfe5cd0	unidades removíveis (pen drives, cartões de memória) não têm Lixeira: excluir ali é permanente
+ce043e06	nova verificação rápida:
+ce3e2b9c	jogos
+ce7815a0	Mover os marcados para a Lixeira…
+ce84f6fa	A página do jogo na loja Steam (para ver o que é um app id)
+cebce7e4	Como usar as etiquetas de cor
+cef90b6c	vídeo
+cf02b886	logs
+cf393f9d	não está pronta
+cf5212a9	{0:N0} log|{0:N0} logs
+d0451a35	Arquivos duplicados
+d063df22	Configuração de exportação excluída
+d07ffa1d	Protegido
+d0fd81e8	Sem arquivo de requisitos: anote antes os pacotes instalados (pip freeze)
+d144cba3	Desinstale programas que você não usa; patches órfãos só com uma ferramenta dedicada (PatchCleaner)
+d155d06d	Tipo
+d15bf2ad	Não salvo
+d163bd7b	Procurando arquivos duplicados…
+d19a7f86	ex.: Arquivos de texto (*.txt)|*.txt
+d1bea15f	As páginas carregam um pouco mais devagar na primeira vez; logins e favoritos não são afetados.
+d1d5b53d	Não foi possível procurar duplicados:
+d1dd5ef2	Despejos de memória e arquivos do Relatório de Erros do Windows gravados após falhas de programas ou do sistema.
+d1ddebed	foto ou imagem
+d1ee91c2	{0} não está enchendo
+d22b81c7	Modelo local inacessível:
+d2b9ae50	recriado pela ferramenta
+d2ef7b2f	Estilo por classes de arquivo (Ctrl+T)
+d37a69a0	Clique: todas as pastas dele e os outros jogos
+d380851c	Sem arquivo de bloqueio: uma nova instalação pode trazer versões mais novas dos pacotes
+d3c962fa	As pastas da unidade ao longo do tempo, em gráficos (Ctrl+H)
+d40c784b	Cópias e comparações
+d4ab7f9d	Ainda não há medições de espaço livre.
+d4dce9fa	modificados nos últimos 7 dias
+d4f14b1f	Mais níveis (Ctrl++)
+d4fe1263	Arquivos temporários
+d54966f4	Protegido: dados do Windows
+d584a3ee	Verde (Ctrl+3)
+d596d50b	arquivos em pastas da nuvem
+d5c00e74	Verifique a unidade inteira de novo mais tarde para ver o que mudou.
+d5e05505	Pular o tour
+d5ef11f9	Dados de aplicativo locais
+d609858a	só as pastas desta visão foram contadas; verifique a unidade inteira para ter totais completos.
+d611415b	Decrescente
+d614da67	{1} usados por {0:N0} programa|{1} usados por {0:N0} programas
+d732d8d9	Contém {0}. Se for um programa instalado, desinstale-o; um programa iniciado daqui para de funcionar.
+d7339e2b	Uma pasta do Windows (System32, WinSxS) de uma instalação antiga ou secundária.
+d75aad01	Espaço livre
+d79531bf	Conteúdo web e scripts armazenados em cache por um perfil do Edge.
+d7b36794	As ferramentas recriam ou baixam de novo seus dados no próximo uso.
+d7de64d4	Verificando o que seria excluído…
+d7e12452	Espaço livre no mapa (Ctrl+F)
+d805188a	nada mudou
+d8100383	Excluir permanentemente
+d8440adb	Relatórios de erro (nenhum)
+d84c2b2f	{0:N0} grupo, {1} em cópias extras;|{0:N0} grupos, {1} em cópias extras;
+d8bce204	Um ambiente Python isolado de um projeto, com seus pacotes instalados.
+d8f9d54a	Inicia o ByteScape de novo como administrador com as mesmas visualizações (a análise é mantida); depois exclua de novo
+d91d87dd	Continuando a verificação interrompida em {0} {1}: {2:N0} arquivos mantidos, {3:N0} pastas restantes. Shift+clique no botão de verificação verifica tudo de novo.
+d96ba624	Caches de renderização e web de um aplicativo Electron (Discord, Slack, Teams, Spotify, WhatsApp, Notion...).
+d96eb5dd	pasta
+d9768556	Procurar novamente
+d998bbc3	Arquivos de áudio conformado e de picos que o Premiere Pro / After Effects / Media Encoder criam para cada clipe importado.
+d9cdec69	Amarela
+da3fa215	LocalCache / TempState de aplicativos empacotados (Store): caches que o aplicativo pode recriar.
+daab42f6	{0} não existe (ou não está acessível).
+dabcef1e	Maiores pastas
+dad06f9d	Elementos menores que isso em qualquer direção não são desenhados individualmente.
+daedbcdf	powercfg /h off (desativa a hibernação e a Inicialização Rápida) ou powercfg /h /type reduced
+db04cb65	As ferramentas globais precisam ser instaladas de novo.
+dbd25302	Parte do programa instalado {0}
+dbf1f9a7	Dependências instaladas de um projeto JavaScript / TypeScript, recriadas a partir do package.json e do arquivo de bloqueio.
+dbf5e2b4	O log desta sessão ({0} entradas)
+dbf7e9ff	Sem limpeza de dados
+dc2c09df	em {0} dia|em {0} dias
+dc7f24ea	programas no disco
+dcaa1ff7	CD / DVD, sem disco
+dce2da08	Avançar
+dd13a6b2	Modificado
+dd2439cc	Mostrar a data e a hora do arquivo na dica
+dd34a31e	Fora desta visão: tamanho informado pelo launcher.
+dd68bf6f	Jogo, loja ou pasta
+dd98ded9	Lançada em {0}.
+ddc1e05c	Limpeza de Disco > Arquivos de despejo de memória de erro do sistema / Relatórios de Erros do Windows
+ddc3f1bd	gradle --stop  (pare os daemons) e depois exclua a pasta; ou 'gradle cleanBuildCache' / Android Studio > Invalidate Caches
+de5c2691	bancos de dados
+de5e8794	isto não pode ser desfeito
+de936ff3	Clique duas vezes em uma linha para mostrá-la no mapa. Itens removidos não existem mais e não podem ser mostrados.
+ded347ea	Explorador
+dee68c33	Conectando…
+def26ecb	Histórico de uso do disco: a unidade e suas pastas ao longo do tempo, em gráficos (Ctrl+H)
+defc2d1f	Shaders compilados armazenados em cache pelos drivers NVIDIA / AMD / DirectX para os jogos iniciarem mais rápido.
+defff673	Guardar análises não concluídas para continuá-las depois
+df14e3e7	Instantâneo do {0} (*.sns)|*.sns|Saída do Disk Usage (*.txt)|*.txt|Todos os arquivos (*.*)|*.*
+df1c2b2e	Cache do Microsoft Edge
+df3e2f57	Agora:
+df900ae8	O programa para de funcionar e não pode ser desinstalado de forma limpa.
+dfd0417c	Discos rígidos virtuais do Hyper-V
+dfe12964	Subir um nível (Ctrl+Seta para cima)
+dfe4e404	Hora
+dfec80d0	Especial
+e03f7e77	Seus arquivos do iCloud Drive sincronizados pelo iCloud para Windows. Excluir aqui também exclui no iCloud.
+e04d10cd	Jogos…   Ctrl+G
+e05cb193	Salvar relatório do problema
+e0659bc6	Um link (junção ou pasta na nuvem): excluir remove o link; o destino dele não é afetado.
+e066706d	O instalador informou {0}.
+e0af52f0	Cresceu desde a verificação de {0} (há {1})
+e0cbec32	Abrir esquerda
+e0d60d6d	Um despejo de falha: só serve para relatar a falha; nada mais se perde.
+e0da2106	a primeira pelo caminho
+e0f3b6b7	Testar a conexão
+e16b0016	requer direitos de administrador
+e19d8b61	Tamanho à esquerda
+e1dffc90	Executar o desinstalador do {0}?
+e2397861	A pasta de instalação de {0}. Excluí-la manualmente deixa uma entrada quebrada em Configurações > Aplicativos, além de atalhos e configurações; o desinstalador do programa a remove de forma limpa.
+e23e53a8	O {0} está sendo executado como administrador, então não inicia desinstaladores por conta própria. Configurações > Aplicativos será aberto: desinstale {1} por lá.
+e24925a3	Sempre mantido neste dispositivo: {0} em {1}
+e2f98f8e	Spotify > Configurações > Armazenamento > Limpar cache
+e3194933	a raiz de uma unidade nunca é excluída
+e34a2fde	Texto ou CSV conforme o nome de arquivo que você escolher
+e34ac4dc	Nada foi excluído.
+e37ba748	conda clean --all
+e38feb1b	não pôde ser lido à esquerda
+e3965db6	Programa, editor ou pasta
+e3f554fe	Execute 'npm install' (ou yarn / pnpm install) no projeto antes do próximo build. Projetos antigos e abandonados: pode excluir com segurança.
+e40e2439	Última
+e47dcaeb	Verificar uma nova versão uma vez por semana
+e4988bdf	Estilos
+e4be944c	vazios (0 bytes)
+e520ba7a	Comparando o início e o fim dos arquivos
+e5481fc0	Configurações > Sistema > Armazenamento > Arquivos temporários > Instalações anteriores do Windows
+e5738fb0	Vermelho (Ctrl+1)
+e58dc032	Downloads da Asset Store e caches globais do editor Unity.
+e5936707	Pontos de restauração, Cópias de Sombra de Volume e dados de indexação desta unidade (ilegíveis sem direitos de administrador).
+e5c46d51	Ferramentas globais ('dotnet tool install -g') e arquivos de dados do SDK.
+e648fa60	mais de 3 anos
+e64e3c83	Use Configurações > Aplicativos.
+e66d70d9	composer clear-cache
+e670fe67	{0} link físico|{0} links físicos
+e682e807	Este é o desinstalador do próprio programa, o mesmo que Configurações > Aplicativos executa.
+e684698e	Etiquetas:
+e6a4efc1	Verificar primeiro
+e71d1b30	Arquivos
+e76a5835	Marcados
+e77c6621	{0} livres
+e7d685a5	Exclua com o launcher fechado
+e7e50da1	Não foi possível importar a configuração de exportação:
+e7f74421	{0} ({1}) é maior que a Lixeira de {2} ({3}): o Windows perguntará se deve excluí-lo permanentemente.
+e7fb7c80	o mais recente de {0} atrás
+e86349d3	Exportar
+e86f5b3b	Somente online (sem espaço aqui): {0} em {1}
+e8920f7a	Uma linha por pasta, uma coluna por análise
+e8a46f42	Diferente
+e8b5926d	Destacar no mapa
+e8c1c729	Pastas selecionadas ao longo do tempo (selecione até 6)
+e8e4f14c	Sobre o {0}
+e95c6215	sobras de desenvolvimento
+e96aecd4	Jogos instalados não jogados há mais de um ano (o Steam guarda os tempos de jogo)
+e97db4ef	Mantida por versões antigas do Office para reparar ou alterar a instalação sem o disco; sem ela, o Office pede os arquivos de instalação.
+e9c54df4	Não foi possível verificar atualizações:
+e9dd1fed	Azul
+e9defc96	Recriar com:
+e9eb5b1a	1 – 3 anos
+ea2f217f	Pastas deixadas por jogos desinstalados: pastas de jogos sem manifesto, caches, itens do Workshop, jogos salvos
+ea6b200f	Não foi possível abrir {0}
+ea972ecd	Se excluído: {0}
+eab83440	Verifique o que é antes de excluir.
+eacc40ce	6 – 12 meses
+eb2858b5	Menu do Windows…
+eb3b4234	{0:N0} não pôde ser excluído:|{0:N0} não puderam ser excluídos:
+eb3ed461	Arquivos de instalação antigos
+eb642d8c	{0} comparação.txt
+eb66e456	Caminho
+eba4d891	banco de dados ou caixa de correio
+eba69274	Verificando…
+ebbeb5f3	Pasta do iCloud Drive
+ebc622c4	Fechar a visão
+ec06ed06	Cuidado
+ec35cb2e	imagens de disco
+ec36f1e9	Protegido: uma pasta do Windows
+ec67a6db	Duração da animação do zoom (ms)
+ec6ecca6	Dispositivos virtuais (imagens de disco, snapshots) do emulador Android.
+ecb83211	edge://settings/clearBrowserData > Imagens e arquivos armazenados em cache
+ecc78179	Exportar a visualização
+ecde62b3	{0} jogo, {1}|{0} jogos, {1}
+ed67fc58	Dependências baixadas, jars transformados e metadados de build de todos os projetos Gradle / Android Studio deste computador.
+ed71075a	Etiquetas de cor
+ed7f0dc2	{0} no total
+ed912713	Copiar comandos de exclusão
+edd528be	Os artefatos que faltarem são baixados de novo no próximo build.
+edfc294c	Nada mudou.
+ee13b825	O filtro ainda está sendo aplicado. Tente de novo daqui a pouco.
+ee3d49e1	Primeira
+ee6dca51	Feito com {0} {1}.
+ee6ea188	Excluí-lo destrói todas as imagens, contêineres e volumes.
+eec088b8	Atualizando a verificação de {0} {1}: só as pastas que, segundo o diário de alterações do NTFS, mudaram desde então são listadas de novo. Shift+clique no botão de verificação verifica tudo de novo.
+eecc66c0	O Windows e os programas esperam que "{0}" exista. Exclua o conteúdo dela.
+ef009732	não exibido
+ef08698e	Instantâneo do {0} (*.sns)|*.sns|Todos os arquivos|*.*
+ef14dc09	Uma nova issue é aberta no seu navegador: arraste {0} do Explorador para ela e envie. Todos podem ler as issues.
+ef708ebe	sem alteração
+ef73f9aa	somente leitura
+efa2c213	Recriado na próxima inicialização.
+efddbfae	os primeiros {0:N0} itens verificados
+f05a23a2	Unidade ou pasta a analisar
+f0633b6a	{0:N0} arquivo dentro também existe com outro nome fora dela (link físico): o espaço continua em uso.|{0:N0} arquivos dentro também existem com outro nome fora dela (links físicos): o espaço continua em uso.
+f0811aae	{0} não é mais uma pasta
+f10c81cd	vídeos
+f1111ac3	Sempre mantido neste dispositivo
+f1142076	negado
+f11d5497	Não foi possível gravar {0}
+f128bd6e	{0} com mais de um dia, p. ex. {1}
+f165cb2b	Copiar caminho
+f16a4efa	{0} recuperáveis
+f1aafc17	Unidade
+f1ca3914	O Windows e os programas precisam desta pasta: o conteúdo é excluído e a pasta permanece. Arquivos abertos por um programa são ignorados.
+f1f08174	Relacionar novamente (depois que a análise continuou ou os programas mudaram)
+f1f6ed03	Contraste das bordas (suave … nítido)
+f21bd6cb	Pode excluir com segurança: recriado a partir do projeto {0}
+f22c8988	Configurações > Sistema > Armazenamento > Arquivos temporários > Instalações anteriores do Windows
+f2421948	Exclua snapshots / máquinas não usados no gerenciador de VMs
+f265d9b8	Cache de otimização de entrega
+f272f7df	{0:N0} item ({1}) movido para a Lixeira: o espaço é liberado quando você a esvaziar.|{0:N0} itens ({1}) movidos para a Lixeira: o espaço é liberado quando você a esvaziar.
+f2ad59ba	Não foi possível gravar o arquivo:
+f2b579ad	Direita:
+f333e253	Criptografado
+f34574bd	Baixado de novo quando necessário.
+f3478fc4	Mantido neste disco de propósito ("Sempre manter neste dispositivo"). "Liberar espaço" no menu do Windows o torna de novo um arquivo somente online.
+f38d9cf1	Erro
+f39cb449	Pacotes de instalação mantidos para que o Visual Studio possa ser reparado ou modificado offline.
+f420490a	Limpeza: arquivos grandes, temporários, de instalação antigos e programas não usados, cada um dizendo se é seguro excluí-lo (Ctrl+Shift+Delete)
+f42c90b3	Esta configuração de exportação não tem número de versão e pode não funcionar como esperado.\n\nImportar mesmo assim?
+f450eed5	arquivo de áudio
+f47b4da9	{1} recriáveis em {0} projeto|{1} recriáveis em {0} projetos
+f4a9c097	Filtro
+f4d73137	filtro:
+f4f23ee5	Conteúdo web, scripts e shaders de GPU armazenados em cache por um perfil de navegador baseado no Chromium.
+f51b5247	Mostrar no mapa
+f51db7d8	Algo dentro foi alterado há {0}: um programa ainda pode estar usando.
+f56badab	, {0} deles encerraram o programa
+f6134631	Arquivos criados nos últimos 30 dias, pelas suas datas: o máximo que a unidade pode ter crescido (arquivos excluídos não são conhecidos)
+f6186e88	Estilo padrão das novas visualizações
+f618f139	ocultos
+f657611d	O backup se perde para sempre — guarde pelo menos o mais recente de cada dispositivo.
+f67ca0c6	Um backup: você perde a cópia de onde restauraria.
+f69e232a	Cache do Ivy / sbt / Coursier
+f69f9dc3	Recriável: {1} em {0} projeto|Recriável: {1} em {0} projetos
+f708f172	PDFs
+f712a8d6	Arquivos duplicados em {0}
+f734f80f	O {0} guarda aqui configurações, logins, downloads ou trabalhos salvos. Ele pode perdê-los ou iniciar como novo.
+f73fb29d	Aplicativo Steam {0}, {1} (jogado pela última vez em {2:d})
+f77e036b	{1} em {0} jogo|{1} em {0} jogos
+f78d2e41	Dependências da JVM obtidas pelo sbt, Ivy ou Coursier.
+f7b4d1da	Pacotes PHP baixados pelo Composer.
+f7b604e7	Novidades
+f7f62b49	Mais tarde
+f81f7ea7	Consultando o modelo local…
+f8827f84	Os comandos são lidos da esquerda para a direita. scan e load abrem uma visualização; os\ncomandos seguintes pertencem à última visualização aberta.\n\nhelp                          este texto\n\nscan "<pasta ou unidade>"     abre uma visualização que analisa a pasta ou unidade;\n                              junte várias com ';' (ou repita scan)\nload "<arquivo>"              abre um instantâneo salvo (.sns); vários com ';'\nfilter "<filtro>"             define o filtro da visualização (a sintaxe da caixa de filtro)\nexport "<nome>" "<arquivo>"   quando a visualização está completa, grava-a em <arquivo> com a\n                              configuração de exportação <nome> (escrita exatamente como na\n                              janela Exportar); um filtro digitado ou uma análise parada\n                              à mão desativa as exportações automáticas\ncompare "<arquivo.sns>"       compara a visualização com um instantâneo quando está completa:\n                              o que cresceu, diminuiu, apareceu ou sumiu, também no mapa\n\napps                          abre "Programas no disco" quando a visualização está completa:\n                              cada programa instalado com suas pastas, dados e caches\nappsreport "<arquivo>"        grava essa lista num arquivo de texto\ngames                         abre "Jogos": jogos da Steam, Epic Games e GOG, suas\n                              pastas, quando foram jogados pela última vez e as sobras\n                              de jogos removidos\ngamesreport "<arquivo>"       grava essa lista num arquivo de texto\ndev                           abre "Sobras de desenvolvimento": projetos com as pastas que\n                              suas ferramentas recriam (node_modules, bin, obj, target, .venv)\n                              e quando cada projeto mudou pela última vez\ndevreport "<arquivo>"         grava essa lista num arquivo de texto\nforecast                      abre a previsão da unidade da visualização: quando vai\n                              encher, para onde foram os arquivos novos, o que cresceu\ncleanup                       abre "Limpeza": arquivos grandes e temporários, instaladores\n                              antigos e programas não usados, cada um dizendo se é seguro excluir\ncleanupreport "<arquivo>"     grava essas listas num arquivo de texto (nada é excluído)\nduplicates                    abre "Arquivos duplicados": o mesmo conteúdo em vários\n                              lugares (mesmo tamanho, depois SHA-256) e o espaço que ocupa\nduplicatesreport "<arquivo>"  grava os grupos de duplicados: CSV para um nome .csv, JSON\n                              para .json, texto nos outros casos (nada é excluído)\ncomparefolder "<pasta>"       compara a pasta da visualização com <pasta>: só de um\n                              lado, diferentes, iguais\ncomparefolderreport "<pasta>" "<arquivo>"\n                              grava essa comparação em <arquivo> (CSV ou texto)\n\nexport "CSV list (spreadsheet)" "<arquivo>"   uma lista que o Excel abre\nexport "JSON tree" "<arquivo>"                a árvore inteira em JSON\nexport "HTML report" "<arquivo>"              uma única página web com gráficos\n\nmeasure                       sozinho na linha de comando: registra o espaço livre de\n                              cada unidade local para a previsão e sai sem abrir\n                              janela (para o Agendador de Tarefas)\nautoclose                     fecha o programa quando todas as exportações e relatórios\n                              automáticos forem gravados; trabalhar numa janela cancela\n\nOs comandos de relatório esperam a visualização ficar completa e funcionam com autoclose.
+f8835433	Etiqueta
+f89a42fe	arquivos primeiro
+f8de2c17	{0} × {1} cópias — {2} a mais — {3}
+f8ed183b	Uma pasta que o Windows precisa ({0}). Exclua o conteúdo e desinstale programas em Configurações > Aplicativos.
+f8fcef33	Música e áudio
+f92db118	As páginas carregam um pouco mais devagar na primeira vez.
+f94c12d5	{0} dos {1} em {2}.
+fa21a09f	Premiere > Preferências > Cache de mídia > Excluir não usados
+fa6031d8	boa
+faa476f1	Procurar projetos novamente
+fab49a4a	Somente leitura
+faba889e	Nuvem: cópias locais que podem ser liberadas
+fb0051ed	Elementos pequenos demais para serem mostrados individualmente\n(amplie ou reduza o tamanho mínimo dos elementos)
+fb2d2ef2	Pasta do perfil
+fb4b35d8	As máquinas virtuais perdem seus discos.
+fb5b04b7	Download / atualização em andamento
+fb8564c0	fora das pastas chamadas {0}…
+fb9f21c5	Alterados no último mês
+fbea7c51	1 GB
+fc734672	Manter a dica do elemento aberta ao mudar
+fc81fcf1	pequenos (< 1 MB)
+fc9fa11a	Nada foi excluído
+fcadd3f6	{0} vai encher {1} (por volta de {2})
+fd13b3a9	menos de 50 MB
+fd1c7f0b	Pode ser excluído
+fd3da095	Copiar o comando de medição
+fd54a1d1	{0:N0} arquivo é igual.|{0:N0} arquivos são iguais.
+fd752a99	{0} medição até agora.|{0} medições até agora.
+fdb25855	Informação
+fddccdcd	com etiqueta
+fe1b42a3	Os arquivos são removidos de todos os dispositivos e do onedrive.com.
+fe31ebe9	Menos de duas semanas de medições: a data vai se firmar conforme o {0} medir mais dias.
+fe51a293	O próprio sistema operacional.
+fe5a095c	criados há mais de {0}
+fe68b095	Perguntar ao modelo local o que é esta pasta
+fe8db543	Cache de pacotes do instalador do Visual Studio
+fedc8a79	Ponto de nova análise
+fef1200c	não instalado
+fef76c78	Comparar {0} com…
+ff0032a7	em cerca de {0} ano|em cerca de {0} anos
+ff5ebe94	Nível de detalhe inicial (profundidade de aninhamento)
+ff60ded7	Sem vínculo:
+ffb7f92c	{0:N0} arquivo dentro é um link físico contado com outro nome: excluí-lo aqui não libera espaço.|{0:N0} arquivos dentro são links físicos contados com outro nome: excluí-los aqui não libera espaço.
+ffbbf5ea	Entendido como:
+ffcbdf13	Classes de arquivo
+ffd3c9c9	Dados de aplicativo móveis
+ffddc937	{0} medições em {1:0} dias · confiança: {2} · o ritmo em que dados são adicionados; limpezas pontuais ficam de fora (elas iniciam um novo nível, não um ritmo).

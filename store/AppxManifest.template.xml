@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  MSIX manifest for the Microsoft Store (Desktop Bridge / full trust WPF app).
+  Tokens in {{...}} are filled by build-msix.ps1 from the Partner Center identity of the reserved app name:
+    Partner Center -> Product -> Product management -> Product identity
+      Package/Identity/Name           -> IdentityName      (e.g. 12345PublisherName.ByteScape)
+      Package/Identity/Publisher      -> Publisher         (e.g. CN=0A1B2C3D-....)
+      Package/Properties/PublisherDisplayName -> PublisherDisplayName
+-->
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+  xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+  xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3"
+  xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5"
+  xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
+  xmlns:desktop4="http://schemas.microsoft.com/appx/manifest/desktop/windows10/4"
+  xmlns:desktop5="http://schemas.microsoft.com/appx/manifest/desktop/windows10/5"
+  xmlns:com="http://schemas.microsoft.com/appx/manifest/com/windows10"
+  IgnorableNamespaces="uap uap3 uap5 rescap desktop4 desktop5 com">
+
+  <Identity Name="{{IdentityName}}" Publisher="{{Publisher}}" Version="{{Version}}" ProcessorArchitecture="x64" />
+
+  <Properties>
+    <DisplayName>ByteScape</DisplayName>
+    <PublisherDisplayName>{{PublisherDisplayName}}</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+    <Description>See where your disk space went: a treemap view of every folder and file on your drives.</Description>
+  </Properties>
+
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22631.0" />
+  </Dependencies>
+
+  <Resources>
+    <Resource Language="en-US" />
+    <Resource Language="tr-TR" />
+    <Resource Language="ru-RU" />
+    <Resource Language="zh-CN" />
+    <Resource Language="fr-FR" />
+    <Resource Language="es-ES" />
+    <Resource Language="pt-BR" />
+  </Resources>
+
+  <Applications>
+    <Application Id="ByteScape" Executable="ByteScape.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements
+        DisplayName="ByteScape"
+        Description="See where your disk space went."
+        BackgroundColor="transparent"
+        Square150x150Logo="Assets\Square150x150Logo.png"
+        Square44x44Logo="Assets\Square44x44Logo.png">
+        <uap:DefaultTile
+          Wide310x150Logo="Assets\Wide310x150Logo.png"
+          Square71x71Logo="Assets\Square71x71Logo.png"
+          Square310x310Logo="Assets\Square310x310Logo.png"
+          ShortName="ByteScape">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#1F6FDB" />
+      </uap:VisualElements>
+
+      <Extensions>
+        <!-- double click on a snapshot opens it (CommandLine treats a bare .sns path as "load") -->
+        <uap:Extension Category="windows.fileTypeAssociation">
+          <uap:FileTypeAssociation Name="sns">
+            <uap:SupportedFileTypes>
+              <uap:FileType>.sns</uap:FileType>
+            </uap:SupportedFileTypes>
+            <uap:DisplayName>ByteScape snapshot</uap:DisplayName>
+            <uap:Logo>Assets\Square44x44Logo.png</uap:Logo>
+          </uap:FileTypeAssociation>
+        </uap:Extension>
+        <!-- "Open in ByteScape" in Explorer's right-click menu of folders, drives and a folder's background (also the new
+             Windows 11 menu): Explorer asks the COM class below, which ByteScape.exe serves when started with -ShellMenu -->
+        <desktop4:Extension Category="windows.fileExplorerContextMenus">
+          <desktop4:FileExplorerContextMenus>
+            <desktop5:ItemType Type="Directory">
+              <desktop5:Verb Id="ByteScapeOpen" Clsid="7B2C3F0E-5A1D-4E8B-9C6F-2D4A8B1E3C57" />
+            </desktop5:ItemType>
+            <!-- the schema allows only files, Directory and Directory\Background: a drive is opened from its background -->
+            <desktop5:ItemType Type="Directory\Background">
+              <desktop5:Verb Id="ByteScapeOpenHere" Clsid="7B2C3F0E-5A1D-4E8B-9C6F-2D4A8B1E3C57" />
+            </desktop5:ItemType>
+          </desktop4:FileExplorerContextMenus>
+        </desktop4:Extension>
+        <com:Extension Category="windows.comServer">
+          <com:ComServer>
+            <com:ExeServer Executable="ByteScape.exe" Arguments="-ShellMenu" DisplayName="ByteScape Explorer menu">
+              <com:Class Id="7B2C3F0E-5A1D-4E8B-9C6F-2D4A8B1E3C57" DisplayName="Open in ByteScape" />
+            </com:ExeServer>
+          </com:ComServer>
+        </com:Extension>
+        <!-- "bytescape scan C:\ export Summary out.txt autoclose" works from any terminal -->
+        <uap5:Extension Category="windows.appExecutionAlias" Executable="ByteScape.exe" EntryPoint="Windows.FullTrustApplication">
+          <uap5:AppExecutionAlias>
+            <uap5:ExecutionAlias Alias="bytescape.exe" />
+          </uap5:AppExecutionAlias>
+        </uap5:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+
+  <Capabilities>
+    <!-- full trust desktop app: reads the whole file system the user can access, no broker -->
+    <rescap:Capability Name="runFullTrust" />
+  </Capabilities>
+</Package>

@@ -1,0 +1,1652 @@
+# ByteScape translation catalog: Turkish. One text per line: id (hash of the English text) TAB translation; \n = line break; plural forms separated by |.
+0016be00	Bir sanal makine diski: makine ve içindeki her şey kaybolur.
+009017e5	belgeler
+0092b505	NTFS ana dosya tablosu okunuyor
+00a8f1bd	Geri Dönüşüm Kutusu boşaltılana kadar yer kaplamaya devam ederler; oradan geri yüklenebilirler.
+00c2f609	1 GB üzeri
+00cec25a	Belgeler, fotoğraflar, videolar veya müzik: başka bir kopyanız yoksa yeniden oluşturulamazlar.
+01252a27	Yapılandırmayı dışa aktar…
+012d328f	yaklaşık {0} hafta içinde
+01689efb	Seçili klasör veya seçili programın tüm klasörleri
+01ba6040	son {0} içinde değiştirilmiş
+01d748ad	{0:N0} öğe ({1}) Geri Dönüşüm Kutusuna taşındı
+021d19e5	Filtreleniyor...
+021e3a39	Ne zaman
+0248c735	NTFS alternatif veri akışlarını tara (daha yavaş)
+025654de	{0} kopya işaretli
+025c87ea	IDE bir sonraki açılışta projeleri yeniden dizinler; ayarlar etkilenmez.
+026bdcab	Yüklü bir Linux dağıtımının sanal diski (ext4.vhdx): tüm dosya sistemi ve içindeki dosyalarınız.
+02983005	Her Docker görüntüsünü, kapsayıcısını ve birimini tutan WSL2 sanal diski. Büyür ama kendiliğinden küçülmez.
+02d77dba	Otomatik dışa aktarma
+02e0488f	{0:N0} program dosyası
+037e30aa	Yalnızca {0} adresindeki küçük bir dosya için, programın adı ve sürümüyle bir istek gönderilir — sizinle ya da dosyalarınızla ilgili hiçbir şey gönderilmez. Yeni bir sürümün indirme sayfası tarayıcınızda açılır; hiçbir şey kendiliğinden kurulmaz. Kapalıyken menüden Güncellemeleri denetle'yi seçmedikçe hiçbir şey denetlenmez.
+038a694b	sarı etiketli
+04a57fc2	Temizle
+04cc66f7	bugün değiştirilmiş
+04f93fd0	Oyun dosyaları
+050fdad6	ByteScape hakkında
+052164e9	npm'in indirdiği her paketin içerik adresli önbelleği.
+0522b6f7	Tüm verileri ve önbellekleriyle programlar, artık oynamadığınız oyunlar ve eski projelerde geliştirme araçlarınızın yeniden ürettiği klasörler (node_modules, bin, .venv).
+057e9e9b	Normalde korumalı:
+05897ac0	bilinen önbellekler hariç
+05b19688	IDE'de File > Invalidate Caches veya IDE kapalıyken silin
+05dc3443	Uç nokta (…/v1 = OpenAI tarzı, aksi halde Ollama)
+05f0c6cd	Dışa aktarma ayarı içe aktarıldı
+06163926	Korumalı: korunan bir işletim sistemi dosyası
+06357afd	Klasör
+0640028a	Windows
+066e3970	Uygulamalar ve özellikler…
+06b464b1	{0} geliştirici artıkları.txt
+06b4bf07	Tüm kopyaları işaretle, şu hariç:
+06f0502c	yaklaşık {0}
+071b16e6	{0} klasör paralel
+0728db0c	Windows kullanıcı adımı ve bilgisayar adımı <user> ve <computer> ile değiştir
+0731bcdf	aylardır kullanılmayan {0} program
+075848a9	{0} öncesinden eski değiştirilmiş
+07ac65a2	Bir arşiv: içine paketlenmiş her şey onunla birlikte gider.
+07d82fb2	{0}{1} itibarıyla
+07ddcc31	Kaldırılmış oyunlardan kalanlar
+07dfee93	Unix kuralını izleyen komut satırı araçlarının önbellekleri (Hugging Face, pre-commit, bazı kurulumlarda pip...).
+07e804d9	Yerel kopyalar (Yer aç bunları kaldırabilir): {1} içinde {0}
+07f523bf	{0:N0} belge
+07fd76cf	Crate'ler bir sonraki derlemede yeniden indirilir.
+0804df67	Google Drive ayarları: yalnızca çevrimiçi tutmak için klasörü "Dosyaları yansıt"tan "Dosya akışı"na geçirin
+0815494f	Ne
+0815aad4	Yenile
+08ce3e2d	En az değişim
+08ea292b	Hiçbir şey büyümedi.
+090140c8	Silmeye dahil et
+0912399a	Oluşturduğunuz veya kaydettiğiniz dosyalar. Başka bir kopyanız yoksa yeniden oluşturulamazlar.
+0927c202	Bulut klasörü
+0967002c	Dışa aktarma ayarı kaydedildi
+0967ab58	Bir Windows yükseltmesinden kaldı. Yükseltme tamamlandıysa silmek güvenlidir.
+096c1536	Raporu kaydeder, Dosya Gezgini'nde gösterir ve tarayıcınızda proje sayfasında yeni bir sorun kaydı açar: dosyayı oraya ekleyin. Sorun kayıtlarını herkes okuyabilir.
+09926152	{1:N0} dosyanın {0:N0} tanesi
+09c9051c	Oyunlar bir sonraki açılışta gölgelendiricileri yeniden derler (bir kerelik kısa takılma).
+09cf1ec0	Filtreyi temizle
+09d139b6	Hazırda bekletme ve Hızlı Başlatma için yazılan bellek görüntüsü; boyutu RAM'in ~%40-75'i kadardır.
+09de135b	Oluşturulma
+09f08545	Haritadaki her blok bir dosya ya da klasördür; diskte kapladığı alan kadar büyük çizilir.
+09fee77c	GPU gölgelendirici önbelleği
+0a0d4cc2	torrentler
+0a1997cb	duraklatıldı
+0a64d506	Bu klasör ne?
+0a92612c	Raporu kaydet…
+0aa5fadd	Windows tarafından korunuyor (TrustedInstaller)
+0ac95089	hiç
+0ae8097f	Başlat
+0af017cf	Visual Studio'nun bileşen modeli önbelleği, tasarımcı gölge kopyaları ve çözüm başına gezinme verileri.
+0af91ee6	Yalnızca çevrimiçi: bu bilgisayarda yer kaplamaz. Silmek onu yalnızca buluttan (ve diğer cihazlarınızdan) kaldırır.
+0afb5d80	{0} bunun ne olduğunu bilmiyor
+0b11eb3f	Ücretsiz ve açık kaynak (MIT Lisansı): reklam yok, deneme süresi yok, hesap yok.
+0b256fd1	bilinmeyen sürücü
+0b2656e5	eklendi
+0b2ae3e8	Yakınlaştır
+0b3aa6ec	Filtreler
+0b3f7ebd	Büyük, geçici ve yükleme dosyaları ile kullanılmayan programlar aranıyor…
+0b438d81	Ayarları içe aktar
+0bc2f481	{0:N0} veritabanı veya posta kutusu
+0bc8ed1f	Yayıncı
+0bca3294	Hazır
+0c6e70fd	{0} açılıyor…
+0c79f1bb	Bu bir anlık görüntü: içindeki hiçbir şey silinemez.
+0c8c8778	durduruldu (tarama düğmesi devam ettirir)
+0caa5bef	Windows'un yönettiği sanal bellek dosyası.
+0cdd25df	Sağı aç
+0cf4d805	Windows Kurtarma Ortamı görüntüsü.
+0d308dd6	Arşivler ve disk görüntüleri
+0d6932ae	Paralel listelenen klasör sayısı (0 = otomatik)
+0d70feae	Resimler
+0de6fff0	 — ilk 5000
+0e027c78	Etkinken silinemez.
+0e23ee57	İçine girmek için bir klasöre çift tıklayın, geri çıkmak için Backspace; klavyeyle ok tuşları bloktan bloğa geçer, Ctrl+Aşağı içine girer. Harita tarama sürerken dolar; diskteki değişiklikler olduğu anda görünür.
+0e588e04	Çalışma zamanları, SDK parçaları ve Windows'un kendi paketleri (Ayarlar > Uygulamalar'da gizli)
+0e9729f2	Öğeleri boyuta göre sırala (en büyüğü sol üstte)
+0edfa8ec	yükleyiciler
+0ee0d2b3	Buradan herhangi bir şey silmek Windows Update'i ve onarımı bozar.
+0f05be5f	{0} gün
+0f3b85f7	Silinmedi
+0f8222ff	Geçerli yakınlaştırmada gösterilen ortam payı
+0f8cf0a7	{0:N0} küçük öğe
+0f8db3a5	{0}: boşaltılacak bir şey yok
+0f9f9136	Sayfalar ilk seferde biraz daha yavaş yüklenir; oturumlar ve yer imleri etkilenmez.
+0fc7c404	System Volume Information
+0fe07306	Ad
+10076eb3	API anahtarı (yalnızca sunucu istiyorsa)
+1039c14f	Günlük konsolu kapasitesi (kayıt)
+105e3bb8	Hiç oynanmamış
+10d22c6d	Yüklü ama hiç başlatılmamış
+10e9be36	Otomatik (diske sor)
+10ee3bcc	Etiketler ve komutlar
+11049119	{0:N0} arşiv
+11195d9b	Yerel model diyor ki (doğrulanmadı)
+1124ba07	{0} yıl
+1127d26a	Windows çalışmayı durdurur.
+114f9980	Üst bilgi
+11512c71	Workshop içeriği
+1177b8de	sağda daha yeni
+11d47ae5	Dosyalar tüm cihazlardan ve dropbox.com'dan kaldırılır.
+12000fa9	Son bir günde değişen {0:N0} öğe kalır (bir program kullanıyor olabilir).
+12179691	{0} sabit bağlantı: aynı dosya, yalnızca bu adı silmek yer açmaz
+12312a05	Yeni görünümler taranmamış ve okunamayan alanı gösterir
+123ed0b9	{0:N0} öğe Windows tarafından, yöneticilerden bile korunuyor (örn. {1})
+125519cc	Uygulama verileri
+1273102d	{0}'i bağışla destekleyin…
+127c182a	VS Code kapalıyken silin
+1284b77b	Büyük dosyalar
+132d9f04	zamanında yanıt gelmedi
+1365bfa7	OneDrive / SharePoint'ten açılan belgelerin kopyaları; henüz yüklenmemiş düzenlemeler dahil.
+137051eb	Artık yüklü olmayan oyunlar dahil, indirilmiş Workshop modları.
+137823f6	Önemli olanı bulun
+1399c8fc	Neyin taranacağını seçin
+13ef8448	Sürücüler ve klasörler
+14304f05	Klasörler programlarla eşleştirilemedi:
+1440c15d	Not
+14736e98	oynanma süresi {0}
+147a8b7f	Geri yüklenmeyi bekleyen silinmiş dosyalar. Windows bunların bir dizinini tutar: Geri Dönüşüm Kutusu'nun kendisinden boşaltın veya geri yükleyin.
+14a2de30	Her klasörü listelemek yerine sürücünün ana dosya tablosunu doğrudan okur: tüm sürücü saniyeler içinde. Yalnızca yerel NTFS sürücüler; normal taramanın açamadığı klasörleri de gösterir. Bu kipte bağlantılar asla izlenmez.
+14a9646a	Kaydedilmiş bir anlık görüntüyle karşılaştır…
+14b7938c	Klasör düzeyleri
+1528d774	Listeyi kopyala
+15922355	Her Windows bileşeninin her sürümü, System32'ye sabit bağlantılı — gerçek boyutu gösterilenden çok daha küçüktür.
+15ada771	{0} gün önce
+15e011d1	Eşit uzunluktaki dosyalar okunup bayt bayt karşılaştırıldı.
+1612ad9c	Visual Studio kapalıyken silin
+16306c2c	Zaman aşımı (saniye)
+163e94ac	{0} programının kaldırıcısı klasörüyle birlikte belirtilmemiş:
+16629e33	Seçili programı haritada vurgula
+16bcd561	Korumalı: {0} içeriyor
+174d620c	{0} yeniden oluşturulabilir, kendisine ait {1}
+1753ec26	Disk Temizleme veya Ayarlar > Sistem > Depolama; geri yükleme noktaları: Sistem Koruması
+179c6083	Program:
+17ab51b6	Tarayıcı ayarları > Gizlilik > Tarama verilerini temizle > Önbelleğe alınan resimler ve dosyalar
+17ac7ba6	En büyük değişiklikler (iki tam tarama gerekir)
+17e51abd	anahtar, sertifika, parola veritabanı veya cüzdan
+17ff5c59	Görev Zamanlayıcı için: her sürücüyü ölçer ve pencere açmadan çıkar
+1803ca39	Yeni görünümler boş alanı gösterir
+1825f816	Sağ boyut
+18460209	İndirme sayfasını aç…
+18a91ada	Kendi dosyanız:
+18c773b1	Büyük, geçici ve eski yükleme dosyalarında {0}
+18e1015e	Steam gölgelendirici önbelleği
+19089d42	VS Code önbellekleri
+191cb400	Henüz hatırlanan tam tarama yok.
+1938ca0a	Ayrıntı paneli bilinen klasörleri ayırt eder — önbellekler, geçici dosyalar, Windows'un parçaları — ve silmenin ne yapacağını söyler.
+1967b442	İpucu gecikmesi (ms)
+1977b8ec	Başka bir sürücüdeki Windows klasörü (eski veya ikinci bir kurulum). Artık kullanılmıyorsa Ayarlar > Sistem > Depolama > Geçici dosyalar önceki Windows kurulumunu temizce kaldırır.
+198c53cd	{0} yönetici olarak çalışıyor: menü yönetici hesabı için eklenirdi. Eklemek için {1} programını normal şekilde başlatın.
+19cb8c60	Nasıl filtrelenir
+19e63f6f	Bir sonraki açılışta yeniden oluşturulur; hesap ve ayarlar kalır.
+19ee81b3	USB bellek / hafıza kartı
+1a04d9d8	Programlar şu kadar gün sonra kullanılmıyor sayılır
+1a0e8b77	Disk kullanım geçmişi…   Ctrl+H
+1a5af9d2	{0} saat
+1a5ee459	Yapılandırma
+1a64e017	Dışa aktarma bitti
+1aa189cc	Kullanılan: {0}
+1aa50849	İPUCU: klasörlere erişilemiyorsa yönetici olarak çalıştırın
+1aad7bf2	{0}'e hoş geldiniz
+1ad1dc05	artık yok
+1adf667e	Açılamıyor
+1b4b0b63	bir Windows kurulumu
+1b792ffc	Büyüyen
+1b848b80	1 aydan kısa
+1bbba361	{0} kadarı önbelleklerde
+1bdab07b	OneDrive klasörü
+1be24b7c	Sağ değişiklik
+1beb0e9f	Dosya…
+1bfd6eeb	WSL içinde: apt clean, dosyaları kaldırın; sonra küçültmek için wsl --shutdown ve Optimize-VHD / diskpart compact; wsl --unregister <dağıtım> onu kaldırır
+1c1aef18	python -m venv {0}, ardından pip install -r requirements.txt
+1c38a980	Windows Ayarları: programları kaldırın veya taşıyın
+1c432224	*.mp4, >1gb ya da <6months yazın — veya doğrudan söyleyin: 1 yıldır açılmamış 1 GB üstü videolar. Huni hazır filtreleri listeler.
+1c5c36fb	Boş
+1c60afdd	Hata raporu klasörünü aç
+1c7fb71d	iTunes / Apple Aygıtlar > Tercihler > Aygıtlar > Yedeği Sil
+1c9111d2	Sağ tık > Yer aç, dosyaları silmeden yalnızca çevrimiçi tutar
+1cb9f408	Uygulama önbelleği (Electron)
+1cbd38eb	Tahmin için sürücülerin boş alanını ölç
+1cf92953	Temizlik
+1d002450	Haritada taranmamış ve okunamayan alan (Ctrl+U)
+1d20c11b	Çizilen en küçük blok (piksel)
+1d2209ef	Sonra sırala
+1d7aa415	Yeni görünüm (Ctrl+N)
+1e4af2e0	Bu profil yerel yapay zekâyı açıyor: klasör ve dosyaların adları ve boyutları {0} adresine gönderilirdi.
+1e54727d	korumalı
+1e660c12	Artık yüklü değil (Steam bildirimi yok)
+1e6f70e0	Dosya Gezgini küçük resim önbelleği
+1ec03a7e	Bir sabit bağlantı: aynı dosya {0} olarak da var. Bu adı silmek yer açmaz.
+1ecf05bf	Office Karşıya Yükleme Merkezi > Ayarlar > Önbelleğe alınmış dosyaları sil (Office kapalıyken)
+1f19a447	Davranış
+1f327c6b	2 yıl
+1f418fd1	{0} model:
+1f722996	Yeni dosyalar nereye gitti (son 30 gün)
+1faee677	sürücü
+202e9c8e	Yükleme dosyaları
+203453e8	iki düzey
+20681eb9	Bir betik kullandığında modeller yeniden indirilir (yavaş, büyük).
+20848078	{0} oyunlar.txt
+209cc979	Gidecekleri işaretleyin.
+21062490	(uzantısız)
+213247cf	Yeniden oluşturulabilir klasörlerini görmek için bir proje seçin.
+21549b39	Son 7 günde değişenler
+216b4f0e	Mavi (Ctrl+4)
+21905ca2	haftada {0}
+21a5901d	Kaldır
+21cd27d7	Birleşim noktaları genellikle başka yerde sayılan alanı gösterir; izlemek çift saymaya yol açabilir.
+21ee3dcf	mavi etiketli
+2241f152	Dosya Gezgini'nde bir klasöre, sürücüye veya bir klasörün boş alanına sağ tıklayın: "ByteScape ile aç". Yalnızca sizin hesabınız için (yönetici hakları gerekmez); Windows 11'de "Daha fazla seçenek göster" altındadır. Tamam'a basmadan hemen etkili olur.
+225b750d	Steam Workshop içeriği
+22b2968e	Yeni dil, {0} yeniden başladıktan sonra her yerde kullanılır. Şimdi yeniden başlatılsın mı? (Açık taramalar korunur.)
+22c8d4e7	{0:N0} tamamlanmamış indirme
+23424f23	Programlar artık onarılamaz veya temizce kaldırılamaz.
+234be4c9	Büyük olasılıkla kaldırılmış bir programdan kaldı. Bir program hâlâ kullanıyorsa çalışmayı durdurur; önce Ayarlar > Uygulamalar'a bakın.
+2356f3cb	Profilin yerel yapay zekâ ayarları alınsın mı?
+237375f2	Rapor kaydedilemedi:
+23a0d95c	boyut
+23b67660	0: yukarıdaki tarama stratejisinin dediği gibi. Bir sayı bunu geçersiz kılar (dönen diskte 1 disk sırasını korur; 1'den fazlası o kadar klasörü aynı anda listeler).
+23fb747a	Sistem Özellikleri > Gelişmiş > Performans > Sanal bellek (boyut) veya başka bir sürücüye taşıyın
+243eddb1	Geometri
+24445ca0	Epic, Battle.net, EA, Ubisoft, Riot veya GOG başlatıcılarının web önbellekleri ve güncelleme artıkları.
+2469b3d4	Eşit uzunluktaki dosyaların içerikleri karşılaştırıldı.
+24f7fd9f	Bir sonraki açılışta / çözüm yüklenince yeniden oluşturulur.
+25286587	Programı kapatıldıktan sonra silmek güvenli:
+252d4698	hiç oynanmadı
+254b47fc	Komut satırı
+25699e6d	Klasör geçmişi…
+25a2cf5e	Önce
+25ea18c2	{0} ayarlarını, oturum açma bilgilerini, indirmelerini veya kayıtlı çalışmalarını burada, bu bilgisayarın tüm kullanıcıları için tutar. Bunları kaybedebilir veya yeni kurulmuş gibi açılabilir.
+26172ed7	Bir {0} dosyasının indirilmiş kopyası. Windows menüsündeki "Yer aç" onu bu diskten kaldırır, bulutta ve diğer cihazlarınızda tutar.
+262f3f1e	Conda ortamlarının paylaştığı indirilmiş paket arşivleri ve açılmış paketler.
+2647922a	(son yol yok)
+265790b1	(içine girmek için çift tıklayın)
+269adc64	 — dosyayı proje sayfasında açacağınız yeni bir sorun kaydına (issue) ekleyin.
+26ab4273	Dizinlenmemiş
+26bac203	Geri yüklenmeyi bekleyen silinmiş dosyalar (bu sürücüdeki her kullanıcı hesabı için bir klasör).
+26cbf7a9	yaklaşık {0} ay içinde
+26f9d0d8	{0} programının kendisi veya ayarları ({1}).
+26facc7e	Seçtiğiniz dosya adına göre metin, CSV veya JSON
+271e89fc	Tüm işaretleri kaldır
+2730bdb3	Sanal makine diskleri
+2741d24d	Önce dışa aktarma ayarına bir ad verin.
+27bc9764	sağda okunamadı
+2804c9f6	Hiçbir şey kaybolmaz.
+28081410	{0} için hak yok
+2817ca38	Dışa aktarma ayarını sil
+284e2e47	Ayrıntı paneli
+285c0a4e	Bir yükleme dosyası: yüklü program onsuz çalışmaya devam eder; yeniden yüklemek için tekrar indirirsiniz.
+28999611	yeni
+28cd8501	Kaldırıcı başlatılamadı:
+28dd6896	İçe aktar…
+29103166	{0} tane daha
+29202b65	Anlık görüntü {0} konumunu kapsıyor; bu görünümle ({1}) örtüşmüyor.
+294de420	Geri (Backspace)
+296d7faf	{0:N0} kaynak dosyası
+297c0a70	Yerel kopyalar: {0} ({1}) — "Yer aç" bunları kaldırabilir.
+29a95b5a	Oluşturulma:
+29cd3e85	Windows günlükleri
+29de564c	Okunamayan alan
+2a3623e9	Artık yüklü olmayan oyunlardan kalan {0} klasör. İçinde kayıtlar ve modlar olabilir: silmeden önce kontrol edin.
+2a526679	{0} saat
+2a632922	Epic Games Launcher listesinde yok
+2aa38b8d	anlık görüntü
+2ac4c7ea	{0} artık taranan klasör değil: silmeden önce yeniden tarayın
+2ad28780	Bileşen
+2ae9aee1	{0} başlarken ve her tam sürücü taramasından sonra ölçülür ({1}). Her gün bir ölçüm için kopyalanan komutu Görev Zamanlayıcı'ya ekleyin.
+2b035040	Henüz taranmadı
+2b183663	Dosya
+2b5bc3d3	{0} oyun bu görünümün dışında: boyutu (*) başlatıcının bildirdiği değer.
+2b791a28	Eşitlenen bulut dosyalarınız. Burada silmek bulutta da siler (bir süre OneDrive geri dönüşüm kutusundan kurtarılabilir).
+2be7fbdb	Gidecek kopyaları işaretleyin (her dosyanın bir kopyası her zaman kalır).
+2be97d77	{0} grupta: {1} yer açılır
+2bf19bc4	Office yükleme kaynağı
+2bf4c3f3	içinde {0:N0} dosya
+2bf95fab	{0:N0} kilitlenme dökümü
+2c29f04d	herhangi
+2c33d756	Bu sürümü atla
+2cd8348d	Yeniden oluşturan
+2d22a68e	Bir sonraki yüklemede yeniden indirilir.
+2d543a78	Güvenli
+2d5614d0	Sürücünün kullanılan alanı
+2d6d2f6c	Dosya uzantısı filtresi
+2d79eafe	Windows'un ihtiyaç duyduğu {0} bunun içinde.
+2e2c38b5	Metin dosyası (*.txt)|*.txt|CSV dosyası (*.csv)|*.csv|JSON dosyası (*.json)|*.json
+2e79b022	Taramayı durdur (daha sonra devam edebilir)
+2ecca61d	Renk
+2fb3ab0a	Değişiklikleri haritada vurgula
+2fcbb8b4	Düzeltip yeniden Enter'a basın.
+2ff375a4	Sil…
+302a37a0	Haritadaki her dikdörtgen bir dosya ya da klasördür, alanı da boyutudur: en büyük bloklar diskinizi dolduranlardır. Başka neler yapabildiğini bir dakikada gösterelim.
+3034dc5e	Klasörü silin; npx npkill tüm node_modules klasörlerini ve boyutlarını listeler
+305f76a5	{0} içindeki bir şey silinemedi
+3060246e	Korumalı: bir Windows sistem dosyası
+30721ea6	Daha düşük = daha akıcı animasyon ama daha yavaş tarama.
+30ac8a57	Oyun kütüphanesi okunamadı:
+30d0b9ac	Bulut:
+30d2dfa6	Tüm bulut klasörünün toplamları durum satırında (☁).
+30ffa5f8	Windows'un bu hesap için tuttuğu veriler (kimlik bilgileri, Başlat menüsü, Dosya Gezgini, Office ayarları).
+3123bd95	Nerede / ne
+3131ba31	{0} / {1}
+313b2923	{0} konumunun parçası
+31680c97	{0} artık yok
+31833491	Son 30 günde eklenen (dosya tarihleri): {0:N0} dosyada {1}
+319752f1	son değişiklik {0}
+31b910b7	{0} programına ait.
+3211ab3a	Yeni görünüm   Ctrl+N
+321f427c	Zaman içinde
+32313797	kayıtlar; yeniden yükleyebilirsiniz diye saklayın
+329a009b	En büyük değişiklikler
+32afa6df	yedek
+32c47b72	Hiçbir şey içe aktarılmadı
+32cd04bf	{2:g} tarihinden beri {0}{1}
+32f31d38	"{0}", Dosya Gezgini'nin klasör ve sürücü sağ tık menüsünde (Store sürümü bunu kendisi ekler).
+32f5b0e0	Disk Temizleme > Teslim İyileştirme Dosyaları
+33390d27	Önceki Windows kurulumu
+333df7a0	En küçük dosya
+3343b9c6	Hazır filtreler: dosya türleri, boyutlar, yaşlar (yazılana eklenir)
+33b1fa40	Ağaç haritası yerleşim hata ayıklama...
+33b3d2ca	{0} önce değişti: bir program hâlâ kullanıyor olabilir.
+33d8b30f	Sonuna gelmeden durduruldu.
+341d2b02	Yalnızca çevrimiçi {0:N0} bulut dosyası okunmadı (okumak onları indirirdi).
+344473b4	Ayrıntı
+34ce44a5	Çıkış
+34d89227	WSL Linux dağıtımı
+34e5790e	huggingface-cli delete-cache
+34e5d71e	Hazırda bekletme dosyası
+35182557	silinmedi
+35425055	Windows'un ve yüklü programların parçaları (bunun yerine onları kaldırın), Windows'un kullanıcı klasörlerinin kendileri (Belgeler, AppData...) ve korumalı sistem dosyaları ByteScape'ten silinemez. Kapalı: ciddi bir uyarıdan sonra silinebilir. Sürücü kökleri, çalışan Windows, Program Files / ProgramData / Users klasörlerinin kendileri, kullanıcı profilleri, Geri Dönüşüm Kutusu ve ByteScape'in kendi klasörü her zaman korunur.
+356a780b	Sistem klasörlerinin koruması ayarlarda kapalı.
+356b923a	Üçüncü taraf bildirimleri
+357efdac	Yinelenen dosya bulunamadı
+35afca3b	İptal
+35afd776	orta
+35ccb4b4	Korumalı: bir kullanıcı hesabının klasörü
+35fd02c8	Ayarlar > Sistem > Depolama > Geçici dosyalar veya Disk Temizleme
+363bd112	Vurgu hale seviyeleri
+3649bed0	{0:N0} öğe yönetici hakları gerektiriyor:
+365f345f	Olaylarda otomatik aç (konsolun açılmasını durdurmak için kapatın)
+36a5378a	1 ay
+36dea4d7	DynaSmooth (boştayken yenileme hızını düşür)
+3711542c	npm önbelleği
+3711f8f3	tüm düzeyler
+371fe101	Store uygulamalarını yalnızca Windows yükler ve kaldırır.
+37241a1e	1 – 6 ay
+3730e225	Hiçbir yüklü programın sahiplenmediği {0} klasör (taşınabilir araçlar, kayıt olmayan programlar, kaldırılmış programların artıkları, Windows veya geliştirici parçaları). Bir şey silmeden önce kontrol edin.
+3747c9ab	İçindeki her dosya geçici, bir günlük, tamamlanmamış bir indirme veya bir kilitlenme dökümü.
+374a2aef	Sol değişiklik
+374ad464	Program klasörleri asla dahil edilmez.
+37643ef1	Geri kalan her şey
+377046eb	{0} korumalı öğe dışarıda bırakıldı (aşağıya bakın).
+3780dc84	ciddi uyarılar var (kırmızıyla işaretli)
+37ad8ab5	Anlık görüntü:
+37bde0f7	Bilinmeyen etiket rengi (red, yellow, green, blue, all):
+37c19939	{0} boş alan ölçümü.
+37fa7096	bu cihazda tutulan bulut dosyaları
+38043772	Disk haritası
+381b8323	Paketler bir sonraki 'dotnet restore' / derlemede nuget.org'dan yeniden yüklenir.
+3832eaf6	Dışa aktarma ayarını kaydet
+385adb43	geçici dosyalar
+3871dd17	Yeni dışa aktarma {0}
+38e2c748	Dağıtım ve içindeki her şey kaybolur.
+38eeec3f	Geri alınamaz. Yer hemen açılır.
+3903c82b	Metin olarak kaydet…
+391f483e	Silmek güvenli:
+39439697	LocalLow uygulama verileri
+3971b030	İndirilenler içinde
+39d973f9	Ayarlar'da kaldır…
+3a127ee9	Yeni dosya sınıfı
+3a215e15	Yapılandırma dosyası
+3a2760f3	Gözat…
+3a2eb917	Proje, ortamın yeniden oluşturulmasını gerektirir (python -m venv + pip install -r requirements.txt).
+3a562283	Düz renkler
+3adaad92	{0} ile aç
+3aef355d	Korumalı: bir sürücünün tamamı
+3b3290ff	Dosya Gezgini'nde aç
+3b502e6f	Programlar kaldırılır, silinmez
+3b58e7ed	Bu klasör hâlâ taranıyor. Tarama bitince etiketleyin.
+3b6b7bd6	Sürücünün ve klasörlerinin nasıl büyüdüğünü ve bu gidişle ne zaman dolacağını görün.
+3b77bc08	Tıklayın: sayıldığı adı göster
+3bae339e	Sol:
+3c024881	Windows'un tüm kullanıcılar için tuttuğu veriler (Başlat menüsü, Defender, sertifikalar, arama).
+3c040095	Modellerin yeniden çekilmesi gerekir.
+3c2dfe59	Gizli
+3c3b1f39	Korumalı: {0} buradan çalışıyor
+3c7db946	kütüphane ayrıntıları
+3c99cdf7	Sabit bağlantılı dosyaları bir kez say
+3cbe0884	Büyüme
+3cf946a7	Oyun:
+3d2b2c37	Kullandığı her şey
+3d57b3b9	1 MB altı
+3d5ab806	Tıklayın: bu proje ve diğer geliştirici artıkları
+3d9c11d4	Store uygulaması önbellekleri
+3dc77a6e	Son yollar
+3dcb3899	Filtre: *.jpg;>100kb;<6months;:red;:attr:h;:reclaimable;\\temp  (| tersine çevirir) — Enter uygular.\nDüz cümle de olur: “6 aydır açılmamış 100 MB üstü videolar”, “large files except videos”
+3dccd1dd	Bakım bozulur.
+3e1f501d	Silmek güvenli mi?
+3e5338c1	Yükleyici paket önbelleği
+3e5e3ba2	NuGet paket önbelleği
+3e839149	Üst düzeye çık
+3ec00a11	Her şeye sağ tıklayın
+3ee99bf2	sanal makine diski
+3eec876b	Disk kullanım geçmişi
+3f36b025	{0} raporu
+3f39d6c7	Silmeyin; Windows onu yeniden oluşturur.
+3f40af14	Bir belge: başka bir kopyası yoksa kalıcı olarak gider.
+3f515151	günlük
+3f63e641	Disk tahmini
+3f904eba	Dosya sınıfları görünümü
+3fd16a64	{0:N0} öğe yönetici hakları gerektiriyor (örn. {1})
+3ff50c63	Tür
+3ff57bc0	Bulut: yalnızca çevrimiçi
+3ff7ffdb	kaldırıldı
+40418e4c	hızlı NTFS taraması, {0:0.0} sn
+40438367	sabit bağlantılı dosyalar bir kez sayılıyor
+40992d89	Bu hesabın program verileri
+409dd984	En büyük dosyalar
+4115cd34	Klasörleri hariç tut
+414385ac	NTFS değişiklik günlüğüyle hızlı yeniden taramalar
+414dfb28	Platformlar, derleme araçları ve (en büyükleri) öykünücüler için sistem görüntüleri.
+4155597d	Düzey
+419e730c	Geri Dönüşüm Kutusu kontrol edilemedi
+41bbc92f	Geri Dönüşüm Kutusuna taşınıyor:
+41d1dca1	{0} sürücüyü her açılışında ve sürücünün her tam taramasından sonra ölçer; bir tahmin için en az iki farklı gün gerekir.
+41e389fd	Animasyon
+41e99987	USB / hafıza kartı
+420278fe	Geri yükleme noktaları kaybolur.
+420372be	bugün
+420fd51c	{0} yeniden dağıtılabilir paket / araç, {1}
+421ff2ec	Disk kullanım geçmişi, "Sürücülerin boş alanını ölç" açıkken yerel sürücüler için tutulur (Ayarlar > Davranış).
+42756836	bu sürücü için Geri Dönüşüm Kutusu kapalı (Geri Dönüşüm Kutusu özellikleri): orada silmek kalıcıdır
+42c49c72	Visual Studio, .NET, C++ çalışma zamanları ve diğer programların kendilerini onarmak, güncellemek ve kaldırmak için sakladığı yükleyiciler. Silmek onarma ve kaldırma işlemlerini bozar.
+42f35940	Yukarı
+43009bc0	Tüm sürücünün her tam taraması 50 MB ve üzeri klasörlerini (üç düzey derinliğe kadar) hatırlar; sürücü çizgisi boş alan ölçümlerinden gelir.
+430c0f47	Oyun başlatıcıları okunuyor…
+430e74c5	{0:N0} öğe bir programda açık: önce onu kapatın, yoksa kalır.
+430f7b31	Önceki sürüme geri dönmek imkânsız hale gelir.
+43277708	Bir Windows özellik yükseltmesinden kaldı. Ayarlar > Sistem > Depolama > Geçici dosyalar ile kaldırın ("Windows yükseltme günlük dosyaları", "Geçici Windows yükleme dosyaları").
+438456c7	Kilitlenme dökümleri
+43967499	Dışa aktarılıyor…
+43a350f7	Bilinmeyen alan
+43af5b8f	Son tam taramadan bu yana büyüyenler
+43b762dd	Disk alanınızın nereye gittiğini görün
+43e8f657	Geri Dönüşüm Kutusu
+43ed0854	Geri Dönüşüm Kutusuna taşı…
+440b0446	Bu arada, dosya tarihlerine göre: son 30 günde {0} eklendi. Hiçbir şey silinmeseydi {1} {2} dolardı.
+4438be10	Bakım (CBS), kurulum ve güncelleme günlükleri; güncelleme sorunları olan bilgisayarlarda gigabaytlara ulaşabilir.
+443cb56b	{0:N0} öğe silinsin mi ({1})?
+4463dd17	İptal ediliyor…
+44de0f00	Tıklayın: yalnızca geri kazanılabilir dosyaları göster (filtre :reclaimable)
+44e67b0c	Anlıyorum:
+451f0b4a	{0} kullanımda ve silme sırasında tutulamıyor; yeniden deneyin
+45434ef3	Zip dosyası (*.zip)|*.zip
+4563d87f	Windows yükleme görüntüsü
+4574ee3a	Ölçüm kapalı (Yapılandırma → Davranış).
+45b0ee23	{0} öğe, {1}
+45b9bf43	Taramaya kaldığı yerden devam et (Shift+tıklama: her şeyi yeniden tara)
+460833d8	Spotify'ın daha hızlı yeniden çalmak için sakladığı akış şarkıları (klasör çok büyük değilse çevrimdışı mod indirmeleriniz değil).
+4609321b	dotnet tool list -g / dotnet tool uninstall -g <ad>
+461471f8	Günlük konsolu
+46362a99	3 ay
+4666ff96	{0} sürücüsünün Geri Dönüşüm Kutusu {1} tutar (şu an içinde {2} var): yer açmak için Windows en eski silinmiş dosyaları kalıcı olarak kaldırır.
+46814550	Fare izi
+4697b8fd	{0} {1} çıktı
+47044ab7	Tüm node_modules klasörleri
+474c0cf3	en eskisi
+476eae85	.NET SDK araçları ve telemetri
+4789f21a	Program Files içinde, hiçbir yüklü program sahiplenmiyor
+47c72218	Raporun bu bilgisayar hakkında söyledikleri:
+4826f941	Tüm listelerde {0} öğe işaretli: {1}
+483075a5	Güncellemeler
+48ce63af	Kurtarma ortamı
+48d85bf4	Sıkıştırılmış
+48f07525	Not:
+491036e0	Chrome / Chromium önbelleği
+491e0a9c	sistem
+49c5aa8f	{0:N0} klasör
+49dfc818	(ikili biçim, önizleme yok)
+4a1559b3	büyük (> 100 MB)
+4aa74fdb	Paketler bir sonraki yüklemede yeniden indirilir.
+4aaef4e8	"{0}" adında bir dışa aktarma ayarı yok.\nKomut satırındaki adı denetleyin.\n\nBu dışa aktarma atlanıyor.
+4b021b10	{0} dakika
+4b03f220	Ayarlar içe aktarılamadı:
+4b058728	Ayarlar
+4b2d456f	Android öykünücü görüntüleri
+4b7b2c0a	Korumalı: bir Windows kullanıcı klasörü
+4b7c3000	İçerikleri de karşılaştır
+4b7f7705	Durdur
+4b848fca	Son taramadan beri değişenleri NTFS değişiklik günlüğünden yeniden tara (Shift+tıklama: her şeyi yeniden tara)
+4bbc0741	Doğru yol:
+4bdc0829	{0} diğer tür
+4bf63189	Projeler aranamadı:
+4c1d9208	Sarı (Ctrl+2)
+4c3499ea	ollama list / ollama rm <model>
+4c5b658c	Python bunları bir sonraki çalıştırmada yeniden derler.
+4cd17837	{1:N0} değişiklikten {0:N0} tanesi gösteriliyor ({2:N0} eklendi, {3:N0} kaldırıldı)
+4cdf1925	son {0} içinde oluşturulmuş
+4ce5f9e2	son oynanma {0}
+4d0a98a5	1 yıl
+4d28f009	Paketler, bir proje onları yüklediğinde yeniden indirilir.
+4d2d5d68	Kaydet
+4d38965b	Aynı
+4d44fb0c	Koşulları filtre kutusuna yazıp Enter'a basın; aralarına ';' koyun.\nAdlar, etiketler ve dosya sınıfları: bunlardan herhangi birine uyan dosya gösterilir.\nBoyutlar, yaşlar, öznitelikler ve klasörler: hepsine uyan dosya gösterilir.\nKoşulun önündeki '|' onu tersine çevirir: uymayan her şey gösterilir.\n\nADLAR           *.jpg   report?.docx   |*.tmp\n                '*' herhangi bir metnin, '?' tek bir karakterin yerini tutar.\n\nBOYUT           >100mb   <16kb   >2.5gb\n                Birimler: b, kb, mb, gb, tb (k, m, g ve t de olur).\n                Karşılaştırılan boyut, dosyanın diskte kapladığı alandır. Dosyanın kendi\n                uzunluğunu karşılaştırmak için işaretin önüne size, filesize ya da\n                logicalsize yazın: size>1mb (kısaca s>1mb). disksize ve clustersize\n                diskteki alanı belirtir: d<16k.\n\nYAŞ             <6months   >2weeks   <10s\n                Birimler: s, min, h, d, w, months, y ya da İngilizce kelimelerin tamamı.\n                Yaş son değişiklikten sayılır. Diğer tarihler için işaretin önüne created\n                ya da accessed yazın: created>1month, a>1y.\n                <10s şu anda değişmekte olan dosyaları listeler.\n\nETİKETLER       :red   :yellow   :green   :blue   :all\n                :tag:red+yellow   kırmızı ya da sarı   :tag:-red   etiketli ama kırmızı değil\n                Kısa biçimler: r, y, g, b ve etiket tuşları 1-4.\n\nÖZNİTELİKLER    :attr:hidden   :attr:h+s   gizli ya da sistem\n                :attr:a-s   arşiv ama sistem değil\n                archive a, system s, readonly r, hidden h, compressed c, encrypted e,\n                offline o, temporary t, notindexed ni, sparse sp, alternatif akışlar ads\n\nDOSYA SINIFI    :class:Resimler   sınıflar ve uzantıları: Ayarlar > Stiller.\n                Boşluk içeren adlar tırnak istemez.\n\nKLASÖRLER       \\temp             yolunda temp adlı bir klasör bulunan dosyalar\n                |\\node_modules    node_modules klasörlerinin dışındaki her şey\n                \\proj*            joker karakterler çalışır; klasör adı '\\' içeremez\n                Ters eğik çizgi bir klasör adını belirtir, sürücünün kökü anlamına gelmez.\n                Uyan klasörler kalın yazılır. Klasör adlarıyla filtreleme daha yavaştır.\n\nÖNBELLEKLER     :reclaimable      güvenle boşaltılabilecek önbellekler ve geçici alanlar\n                |:reclaimable     geri kalan her şey       (:cache ve :junk de olur)\n                Bu klasörler haritada bir rozet taşır.\n\nBULUT DOSYALARI :cloud            OneDrive, Dropbox, iCloud ve benzeri klasörlerdeki dosyalar\n                :freeable         "Alan boşalt"ın kaldırabileceği yerel kopyalar (dosya\n                                  bulutta ve diğer cihazlarınızda kalır)\n                :onlineonly       yalnız çevrimiçi tutulan dosyalar: bu diskte yer kaplamaz\n                                  (dışa aktarmalarda listelenir, haritada çizilmez)\n                :alwayskept       "Her zaman bu cihazda tut" olarak ayarlanan dosyalar\n\nDÜZ CÜMLE (Türkçe ya da İngilizce)\n                Bir cümle yazıp Enter'a basın; kutu, cümlenin hangi filtre olarak\n                anlaşıldığını gösterir, durum satırı da açıklar:\n                  large files except videos\n                  pictures smaller than 2 MB in Downloads folder\n                  6 aydır açılmamış 100 MB üstü videolar\n                  son 7 günde oluşturulan belgeler\n                Anlaşılanlar: dosya türleri (video, resim, müzik, belge, arşiv, iso,\n                log...), uzantılar (psd dosyaları, .mkv), boyutlar (100 MB üstü, over 1 GB,\n                büyük, dev, küçük), yaşlar (6 aydır açılmamış, 1 yıldan eski, bugün,\n                bu hafta), gizli, sistem ve salt okunur dosyalar, etiketler, klasörler, önbellekler.\n\nÖRNEKLER        *.jpg;*.png;>2mb          2 MB üstü JPG ya da PNG resimler\n                |*.exe;|*.dll;|\\windows   program yok, windows klasörlerinin içi yok\n                :tag:r+y;>1gb             1 GB üstü kırmızı ya da sarı etiketli dosyalar\n                :attr:h;|:attr:s          sistem dosyası olmayan gizli dosyalar
+4d6ad035	Windows hesabınız için şifreli saklanır; dışa aktarılan ayarlara dahil edilmez.
+4d8aa213	Öğe oranları (yatay … dikey)
+4dae7ff1	Kullanılan alanın ölçülen günler boyunca büyüme hızı; tek seferlik büyük temizlikler hesaba katılmaz
+4daf4721	Eşitlenen Dropbox dosyalarınız. Burada silmek bulutta da siler (bir süre dropbox.com'dan kurtarılabilir).
+4de24f84	{0} boşaltılabilir ({1})
+4df0d534	Sol taraftaki öğeler bu görünümde
+4e0ecb9b	Dosyalar tüm cihazlardan ve iCloud.com'dan kaldırılır (30 gün boyunca kurtarılabilir).
+4e466285	henüz yeterli ölçüm yok
+4e678c84	Korumalı: bir Store uygulaması
+4e88328e	Korumalı: {0} içeriyor
+4edba371	Korumalı: Windows tarafından tutuluyor
+4f0eb5e0	{0} anlık görüntü karşılaştırması
+4f23768b	Programların klasörlerindeki bilinen önbellekler ve geçici dosyalar (Cache Radar)
+4f2c4fd5	{0} kaydedildi ({1} dosya, {2}), konum: {3}.
+4f34d900	Daha fazla
+4f516a81	düşük
+4f856dd8	Pay
+4fc5d7e4	Tüm kullanıcıların paylaştığı program verileri
+4fcb191e	Eğilim:
+4fcc19e6	Klasörler aynı
+4fe0e191	Seyrek dosya
+502a19f3	DynaZoom (yakınlaştırırken her karede yeniden yerleşim)
+50853db2	Ayarlar > Uygulamalar > Yüklü uygulamalar > Kaldır
+508bd598	taranıyor…
+50bbbab1	iTunes veya Apple Aygıtlar uygulamasının aldığı cihaz yedekleri; her biri birkaç gigabayt olabilir.
+50c67a30	Dışa aktarma ayarı dosyaya kaydedildi
+50f97d9f	Sınıf
+51282a3b	Bir sürücü, klasör veya anlık görüntü açın — ya da buraya bırakın.
+513083d0	Güncellenme
+5145e1ec	Bütünlük akışı
+5155ced8	Yönetici olarak yeniden başlatılamıyor:
+51750ec7	araç
+51aed508	Bu klasörü boşalt…
+51b969c9	Hiçbirini seçme
+51f636a3	sağda daha büyük
+521886c5	ağ
+525446ce	Son yazma
+5261999e	Bir yıldır oynanmamış
+527f0228	Bir sorunun nedenini bulmaya yardımcı olanları içeren bir .zip dosyası kaydeder. Düz metin dosyaları içerir: başkasına vermeden önce açıp her şeye bakın. {0} kendisi hiçbir şey göndermez
+52bd5b77	Windows klasörünü dahil et
+52d4be2f	Dosya sınıfı açıklamaları benzersiz olmalı.
+52dae2af	İçerdiği: {0:N0} öğe
+52e6ecf2	Listeyi kaydet…
+5324ccf7	İçindekiler gider: {0:N0} öğe
+5326d023	en son {0} önce başlatıldı
+5357cad2	Güvenlileri seç
+5389f46f	sürüm numarası okunamıyor
+538b10e9	Aç
+53925414	pip / uv önbelleği
+53a4dd2c	Bir yıldır oynanmayan:
+53f5262e	Başlangıç onarımı ve sıfırlama çalışmaz hale gelir.
+542b3dd7	Sağ tık > Yalnızca çevrimiçi yap, dosyaları bu diski kullanmadan Dropbox'ta tutar
+542fed8a	Klasörler
+5453e5b7	Yalnızca çevrimiçi
+548c9ce4	Klasör adı veya yolu
+54b01571	İleri (Shift+Backspace)
+54e4edfc	Yinelenen dosyaları bulun, bir klasörü yedeğiyle karşılaştırın ya da sürücüyü geçen ay kaydettiğiniz bir anlık görüntüyle karşılaştırın.
+558e5ff7	Bu diskte yalnızca bir yer tutucu var; veriler {0} içinde. Burada yer kaplamaz ve açıldığında indirilir.
+55c753f8	Tüm dosyalar (*.*)|*.*
+55caed82	tamamlandı
+562ecc44	Bu ayar ve filtreyle dosya boş olur. Yine de dışa aktarılsın mı?
+56b9e0f0	Windows bu hesap için program başlatmalarını kaydetmiyor (Ayarlar > Gizlilik > Genel: "Windows'un uygulama başlatmalarını izleyerek Başlangıç ve arama sonuçlarını iyileştirmesine izin ver"): programların ne zaman kullanıldığını yalnızca veri klasörleri gösteriyor.
+571a4f44	Görünümü dosyaya aktar
+574b66b8	Android SDK
+575cffd2	Alt bilgi
+5797ea6a	Sil
+57a4c80c	{0} içindeki temizlik adayları
+58062e10	Önce gelsin
+58227bcd	{0:N0} sa
+583ef2bf	aynı uzunluk, farklı içerik
+58422b8f	Varsayılan dosya adı
+58510d92	Dolu:
+585a416b	son bir günde değişen {0:N0} öğe kalır
+5876dbe1	Yeniden başlatılamıyor:
+588e8c51	Seviye karşıtlığı (düz … derin)
+58b04afd	Bir anlık görüntü dosyasını buraya bırakın
+58da7789	Dosya Gezgini'nin menüsü {0} programının başka bir kopyasını açıyor. Bu kopyayı göstermesi için Ekle'ye basın.
+58de2772	Normal
+58e096de	Hakkında
+5906fabd	Klasörün kendisi kalır.
+59592997	{0:N0} öğe
+59755e0a	Komut satırı seçenekleri
+598ff40c	Geride kalan
+59b4ae0b	Erişim
+59d7b4f1	Sistem bilgisi: Windows sürümü, işlemci ve bellek, sürücüler (tür, dosya sistemi, boyut)
+59fedf7f	Kapalı: Delete kalıcı olarak siler, Shift+Delete Geri Dönüşüm Kutusuna taşır. Her iki durumda da ByteScape neyin gideceğini, güvenli olup olmadığını, neyin yönetici hakları gerektirdiğini veya bir programda açık olduğunu gösterir ve önce sorar. Geri Dönüşüm Kutusu olmayan sürücüler (USB bellekler, ağ) her zaman kalıcı olarak siler.
+5a036285	Belgeler
+5a08eeb5	Geliştirici artıkları
+5a417a78	yeşil etiketli
+5ab3a6b7	En büyük içerik
+5ac32513	Ağdaki diğer bilgisayarlarla paylaşmak için tutulan güncelleme ve Store içeriği.
+5b2a812f	Dosya Gezgini'nin resimler, videolar ve belgeler için oluşturduğu küçük resimler.
+5b7cc33c	önce klasörler
+5bf0a5d9	Steam > Ayarlar > İndirmeler > Gölgelendirici Önbelleği
+5bfa1dfb	1 MB
+5c048d37	program dosyası
+5c08e66a	Bakımın kullandığı toplu güncelleştirme içerikleri.
+5c0ee489	Sürüm {0}
+5c36fcd8	Filtre (Ctrl+L)
+5c3d9ff9	Bir sorun raporu oluşturmak ister misiniz? İnceleyip geliştiriciye gönderebileceğiniz bir dosya olarak kaydedilir; hiçbir şey otomatik olarak gönderilmez.
+5c5c6770	Ayarlar > Sistem > Depolama
+5cf523f8	Sistem görüntülerini kaldırmak onları kullanan öykünücüleri bozar; SDK Manager yeniden yükleyebilir.
+5d136aed	{0} taranıyor ve karşılaştırılıyor…
+5d5c2091	Yönetici olarak çalışırken hızlı NTFS taraması
+5db2152b	En küçük boyutun altındaki öğeleri tek bir “N öğe” bloğunda topla (kapalı = gizle)
+5dc5e595	Yerel kopya
+5e2a8369	Normal kullanım için hiçbir şey kaybolmaz.
+5e513bfe	Bu klasörü boşalt
+5e5aec47	{0:N0} klasör değişti
+5e5ff0c9	Dış değişiklikten sonra yanıp sönme süresi (ms, 0 = kapalı)
+5e7517f8	Gradle önbelleği
+5e7d783b	Yeniden dağıtılabilir paketler ve araçlar
+5e8ab4b1	Sistem Özellikleri > Sistem Koruması > Yapılandır > Sil / En Fazla Kullanım'ı düşürün veya vssadmin delete shadows
+5eaf0802	son bir günde değişen {0:N0} öğeye dokunulmaz
+5f28b381	{0} projesinin derleme çıktısı ({1}), yeniden oluşturma: {2}
+5f6b3a27	{0:N0} dosya
+5f858f13	Şarkılar yeniden akış olarak gelir; önbellek sınırı Spotify ayarlarından düşürülebilir.
+602d45e6	Etiket renkleri
+606ac90f	Cihaz ve verileri kaybolur; Device Manager'dan yeniden oluşturulabilir.
+6076cb65	Korumalı:
+60f3de7b	Gelişmiş
+60fcf02c	NVIDIA sürücü yükleyicisi
+610eb824	Yönetici olarak yeniden başlat (hızlı NTFS taraması)
+611286ab	Dropbox klasörü
+61234b02	Ayarlar > Hesaplar > Diğer kullanıcılar
+613435ed	{0} dk
+613f34ea	Onaltılık
+61455d91	Bu sürücünün karşılaştırılacak daha eski bir tam taraması henüz yok. Tüm sürücünün her tam taraması hatırlanır (yalnızca klasör boyutları) ve bir sonraki onunla karşılaştırılır.
+615d261d	yanıt bir güncelleme açıklaması değil
+61651dc1	Bir şey kaybolur:
+616a6784	Otomatik
+616d7d46	Bir yükseltme veya sıfırlama için indirilmiş Windows yükleme görüntüsü.
+619eeef6	Programlar:
+61e04b11	Her proje bir sonraki derlemede bağımlılıklarını yeniden indirir (gigabaytlarca olabilir ve yavaştır).
+61f180c5	NVMe SSD
+622d7d85	solda daha yeni
+625c8fc8	{0:N0} anahtar, sertifika, parola veritabanı veya cüzdan
+6355bee5	Renk etiketleri, sonra yeniden bulmak istediğiniz dosya ve klasörleri işaretler: saklanacak,\nbakılacak, taşınacak ya da silinecek olanlar.\n\n    Ctrl+1   kırmızı      Ctrl+2   sarı\n    Ctrl+3   yeşil        Ctrl+4   mavi\n    Ctrl+0   geçerli görünümdeki etiketleri kaldırır (yakınlaştırılan klasör ve altı)\n\nTuş, fare işaretçisinin altındaki bloğu, yoksa seçili bloğu etiketler ya da etiketini kaldırır.\nFiltre kutusu odakta değilken rakamlar Ctrl olmadan da çalışır. Sağ tık menüsünde de\naynı komutlar vardır.\n\nBir klasördeki etiket içindeki her şey için geçerlidir: o renge göre filtrelemek içindeki\ndosyaları da bulur. Harita okunaklı kalsın diye etiketi yalnız klasörün kendisi gösterir.\n\nEtikete göre filtrelemek için :red, :yellow, :green, :blue ya da :all, birden çok renk için\n:tag:red+yellow, kırmızı olmayan her şey için |:red yazın (filtreleme yardımına bakın).
+63609fed	Videolar
+63629fee	Boşaltmak silinen dosyaları kurtarılamaz hale getirir.
+63d57d91	AMD sürücü yükleyicisi
+63f29e9f	bir şey kaybolur (uyarılara bakın)
+63fe3327	dün
+641280ce	Genel
+64215c53	Masaüstü
+643579c2	Bir NVIDIA yükleyicisinin açtığı sürücü dosyaları. Yüklü sürücü çalışmaya devam eder.
+643ff3e3	{0} ad, yer burada sayıldı
+64740f75	"{0}", Dosya Gezgini'nin klasör ve sürücü sağ tık menüsünde.
+64863575	Depolama ayarlarını aç
+64c3a2d2	Hata raporları ({0}{1}; en sonuncusu {2:g})
+64f6f913	{0:N0} öğe Windows tarafından korunuyor (sahibi TrustedInstaller) ve silinmeyecek, yönetici tarafından bile.
+650ee66b	Geçersiz klasör adı:
+6511091f	Boyutlar diskteki boyutlardır.
+65163188	Cargo kayıt önbelleği
+6548551d	Oyun klasörü
+654f3596	O zaman
+658f3664	Kopyala
+662a31d3	Boş:
+66532d8b	Ada veya yola göre filtrele
+669ad39e	Diskteki programlar…   Ctrl+P
+66a569a4	JetBrains IDE önbellekleri
+66de7a09	Açıklama
+66dea4e9	güncelleme adresi ayarlanmamış
+673e3998	Bir geçici dosya: programlar bunları oluşturup unutur; bir program açık tutmuyorsa güvenlidir.
+6749eaf7	Modüller bir sonraki 'go build'de indirilir ve paketler yeniden derlenir.
+676409df	Güncelleme var
+679f3d0e	Bu listede Güvenli işaretli her öğeyi işaretle
+67f2c3a3	Bir sürücünün kökü. Bunun yerine içindekileri, klasör klasör silin.
+681a5e81	Ağ, bağlı değil
+682d4275	Python sanal ortamı
+682ee4b1	Diskteki programlar: her yüklü programın kullandığı her şey (Ctrl+P)
+684ab28e	resimler
+687e2192	en yenisi
+688247e9	Steam, Epic Games veya GOG oyunu bulunamadı.
+68875c49	Önizleme (yalnızca ilk öğeler)
+6893fb22	CSV olarak kaydet…
+68b50c4f	Animasyon akıcılığı (kare süresi ms)
+68d61f14	go clean -modcache   /   go clean -cache
+68fadaaa	"{0}" dosyasının bir kopyası her zaman kalır: önce başka bir kopyanın işaretini kaldırın.
+691d80e0	Office belge önbelleği
+69437205	Boyutlar görünümde gösterildiği gibidir.
+69442828	Ayrıntılı hata ayıklama iletilerini günlüğe yaz
+695c1ab3	{0:N0} fark
+695c22b0	DISM /Online /Cleanup-Image /StartComponentCleanup  (isteğe bağlı /ResetBase) yerini alan sürümleri güvenle kaldırır
+6974ad65	Ağ
+69960bb6	Görünüm
+69a3e0b5	Windows'un yüklü programları onarmak, güncellemek veya kaldırmak için ihtiyaç duyduğu MSI/MSP paketleri.
+69d3fd80	Çalıştırdığınız her programın geçici çalışma alanı; yükleyiciler ve güncelleyiciler burayı temizlemeyi sık sık unutur.
+69e07a78	Disk tahmini: bu hızla sürücünün ne zaman dolacağı ve yeni dosyaların nereye gittiği (Ctrl+K)
+6a02e0fd	Unreal yeniden oluşturur (gölgelendiriciler yeniden derlenir)
+6a1d9f4d	Bir günlük: programlar sorun giderme için yazar; başka bir şey kaybolmaz.
+6a4a2930	Steam onay ister ve oyunu kaldırır
+6a5bc848	Bu nedir?
+6a6da27b	Masaüstündeki Geri Dönüşüm Kutusuna sağ tıklayın > Geri Dönüşüm Kutusunu Boşalt
+6a7b5339	{0} dakika
+6a8adbaf	Bir program dosyası: ait olduğu program çalışmayı durdurabilir.
+6ac50cbb	Windows tarafından korunuyor
+6ae41987	Hiç eşitlenmemiş düzenlemeler kaybolur; önce Karşıya Yükleme Merkezi'ne bakın.
+6b2b67b3	{0} programın kullandığı: {1}
+6b57237d	{0} programda {1} (görünümün {2} kadarı)
+6b720269	yükleme dosyası
+6b84e9d8	npm cache clean --force
+6bb4f1fe	Yüklü uygulamalar. Klasörleri elle kaldırmak bozuk kayıt defteri girdileri ve kısayollar bırakır.
+6be6dd8b	{0}: henüz yeterli ölçüm yok
+6bf343f3	{0} yıl önce
+6c298534	aynı içerik, farklı zaman
+6c715881	{0} klasör hatırlanıyor
+6c75c115	Yerel yapay zekâ (isteğe bağlı)
+6cfba9c1	GeForce Experience / NVIDIA App'in kurulumdan sonra sakladığı sürücü yükleyicileri.
+6d306ccf	Uzunluk ve zamana göre karşılaştır
+6d9fb9db	Anlık görüntü aç
+6da32dce	Store
+6da8f0a8	Silinen dosyalar, Geri Dönüşüm Kutusu boşaltılana kadar yer kaplamaya devam eder. Kontrol edin, sonra Windows'tan boşaltın.
+6dccb264	Öğe yazı tipi boyutu (pt)
+6e38ff95	Diğer
+6e434127	Başka bir klasörle karşılaştır…   Ctrl+Shift+C
+6e698019	Dosya sistemi değişikliklerini algıla (yeniden başlatma gerekir)
+6e71eaec	Firefox önbelleği
+6ea86e09	Windows'un sürücünün kökünde tuttuğu bir klasör (geri yükleme noktaları, önyükleme ve kurtarma dosyaları, Geri Dönüşüm Kutusu).
+6eb12c99	{0:N0} dosyanın fazladan kopyalarında {1}
+6edacf4f	Bir özellik yükseltmesinden sonra geri dönebilmeniz için saklanan eski Windows; Windows bunu 10 gün sonra siler.
+6ee2f34e	durduruldu
+6f12e9d5	ByteScape başlarken ve bir sürücünün her tam taramasından sonra: her yerel sürücünün tarihi, boyutu ve boş alanı ile büyük klasörlerinin boyutları. Yapılandırma dosyasının yanında tutulur; hiçbir yere gönderilmez.
+6f267fb8	Spotify çevrimdışı önbelleği
+6f359153	İpucunda dosya yaşını göster
+6f54b092	İçinde {0} var
+6fbd8d5e	Bir Firefox profilinin önbelleğe aldığı web içeriği.
+6fe2fc99	Büyük dosya sınırı (MB)
+6ff7f2c5	Geri kazanılabilir (önce uygulamayı kapatın)
+6ffffeaf	{0:N0} video
+700a3e6b	Dışa aktarma ayarı içe aktar
+70242513	Birden fazla adı olan bir dosya (Windows\\WinSxS ve System32, pnpm depoları) yerini bir kez kaplar: ilk adda sayılır, diğerleri diskte 0 gösterir. Kapalı: Dosya Gezgini gibi her ad için bir kez. Yerel NTFS sürücüler; bir sonraki taramadan itibaren geçerli.
+70446115	Siliniyor:
+7082b79f	yanıt bir güncelleme açıklaması için fazla uzun
+70a26e7b	Kaldırılan
+70aa914c	Yalnızca solda
+70ad7706	Güncellemeleri denetle
+70e7e28f	Sanal makine diskleri ve anlık görüntüleri.
+7112a272	Yeniden oluşturulunca aynı sonucu vermeyebilecek klasörler (kilit dosyası yok, requirements dosyası yok)
+71136ef1	Seçili klasörleri (hiçbiri seçili değilse projenin tüm klasörlerini) silen PowerShell satırları; her birinin yanında onu yeniden oluşturan komut
+713a842f	Klasörü aç
+71aa3193	Windows'un ihtiyaç duyduğu {0} büyük dosya (disk belleği dosyası, hazırda bekletme dosyası...) listelenmedi.
+71aa86f4	Yalnızca çevrimiçi {0:N0} bulut dosyası okunmadı (okumak onları indirirdi).
+71aebf38	Bir program burada ayarları, oturum açma bilgilerini veya kayıtlı çalışmaları tutar. {0} hangisi olduğunu bilmiyor; program bunları kaybedebilir.
+71b34560	Yerel model "{0}" isteğini bir filtreye dönüştüremedi; ad maskesi olarak kullanılıyor.
+71d02ea7	Önce gidecekleri işaretleyin.
+71db5060	Sil tuşu Geri Dönüşüm Kutusuna taşır (Shift+Delete kalıcı olarak siler)
+71e71828	Son oynama
+71f43a92	(HTML sayfası: özet, üst düzey, en büyük klasörler ve dosyalar, dosya türleri ve yaşları, çubuklarla; dosyayı bir tarayıcıda açın)
+72073d37	Sorun kaydı aç…
+72335220	sabit bağlantılar bir kez sayıldı: {0}
+7332b460	HDD, klasörler disk sırasıyla
+73428226	Dosya türleri
+73690b65	Arşiv
+739cae1e	Raporu kopyala
+73b6b7e0	yüklü değil veya bağlantısı kesilmiş bir sürücüde
+73c98f4b	Toplanıyor…
+73db6e7c	Klasöre yakınlaştır
+73f99d3c	Oyunlar
+740697ff	Hatalı yol
+7414aeb9	Hazırsınız
+7478aa37	{0} için henüz hatırlanan tam tarama yok
+74e1e5d0	Oynama süresi
+74ea9a9b	Program Files, ProgramData ve AppData içinde hiçbir yüklü programın sahiplenmediği klasörler
+750e37d5	İndirdiğiniz bir şey. Genellikle yeniden indirilebilir; tek kopyası buysa saklayın.
+75455afd	Bir fotoğraf veya görsel: başka bir kopyası yoksa kalıcı olarak gider.
+7550880b	Sorunları günlüğe yaz
+755effee	Tarama uyarılarını günlüğe yaz
+756ac84d	Geri Dönüşüm Kutusuna sağ tıklayın > Boşalt
+758a4cfc	bu ay değiştirilmiş
+75bdbe5c	büyüdü
+75e3a3d2	(her grupta)
+761af994	derleme aracı tarafından yeniden oluşturulur
+762a33ad	Sağ tık > Yer aç, dosyaları yalnızca iCloud'da tutar
+768360c4	yedekler
+769f928f	Bilinen önbellekler ve geçici alanlar
+76bda0c0	Etiketler
+76c4fde9	yol Geri Dönüşüm Kutusu için çok uzun (veya olağan dışı): bunun yerine kalıcı olarak silin
+77087a03	node_modules
+771376d0	Erişim:
+7720fdf4	{0} altında
+776d4156	Bir oyun başladığında yeniden indirilir / derlenir.
+7773de47	Steam'in her oyun ve GPU için indirdiği önceden derlenmiş gölgelendiriciler.
+778012f3	{0} içinde. Her öğe silinmesinin güvenli olup olmadığını söyler; korumalı olanlar buradan silinemez ve aksini seçmezseniz silme Geri Dönüşüm Kutusuna gider.
+77e6408a	Yüklü bir programa bağlanamayanlar (taşınabilir araçlar, kaldırılmış programlar, Windows veya geliştirici bileşenleri: silmeden önce kontrol edin)
+7807d6d4	küçüldü
+7821dfca	dolmuyor
+784ae085	Bu yakınlaştırmadaki etiketleri temizle
+786c531a	bir ağ konumunun Geri Dönüşüm Kutusu yoktur: orada silmek kalıcıdır
+7871cac4	Eski bileşenlerin (Office, Windows bileşenleri, eski IE) kullandığı geçici internet dosyaları.
+787b88eb	Bilinmeyen öznitelik (archive, hidden, readonly, system...):
+7889b50c	dünden beri değiştirilmiş
+78e24fb5	{0:N0} öğe kalıcı olarak silindi: {1} yer açıldı
+78e7877a	Çalışan bir programın kullandığı dosyaları Windows atlar; gerisi çöptür.
+7912e942	{0} içinden
+7949bc31	HDD (dönen disk)
+79af3eaa	Önce gidecek kopyaları işaretleyin.
+7a050027	'{0}' dosyası açılamadı
+7a90bbfb	Daha az düzey (Ctrl+-)
+7ad128ef	Python'un kaynak dosyalarının yanına yazdığı derlenmiş .pyc dosyaları.
+7b04891c	Makineler kaybolur.
+7b1728e7	Sorun bildir
+7b1879d8	{0} geçmiş {1}.csv
+7b5fea5e	Proje
+7b8038d9	Neden
+7b845e5e	Silmek için üst klasörünü açın.
+7bb1b928	about:preferences#privacy > Çerezler ve site verileri > Verileri temizle > Önbelleğe alınmış web içeriği
+7bbba834	Son değişikliğe göre
+7bebde3a	Dosyalar tüm cihazlardan ve drive.google.com'dan kaldırılır (30 gün boyunca çöp kutusundan kurtarılabilir).
+7c0f465b	{0} taramadan bu yana bir bağlantıya (junction ya da sembolik bağlantı) dönüştü: onun üzerinden hiçbir şey silinmez
+7cb1c5d3	bu görünümün gösterdiği klasör
+7cb5b9f7	Windows'un başlamak veya belleği yönetmek için ihtiyaç duyduğu bir dosya.
+7cedd8c0	Yeri kim kullanıyor
+7cee1b11	Her şeyi yeniden tara
+7d17b1a1	Boş Alan
+7d7b269a	Visual Studio yeniden oluşturur (önce kapatın)
+7d96b6af	Disk Temizleme > Küçük resimler
+7df48eed	Unity önbellekleri
+7dfcea0e	Programların yükleme klasörleri
+7e1cae1b	İki klasörün dosyaları okunup karşılaştırılıyor…
+7e477838	Yeniden oluşturulabilir
+7eadfa7a	Anlık görüntüler
+7ed46b4f	{0} bir programda açık
+7f0279c3	Lütfen {0} dosyasını buraya ekleyin: Dosya Gezgini'nde seçili olarak gösterilir, oradan sürükleyin.
+7f39578d	Bilgisayarınızdan hiçbir şey dışarı çıkmaz ve hiçbir şey size sormadan silinmez. Bu turu … menüsünden yeniden izleyebilirsiniz. {0} ile iyi kullanımlar!
+7f42a286	son {0} içinde açılmış
+7f58b2cf	Klasörler yüklü programlarla eşleştiriliyor…
+8025c92f	Dosya Gezgini'nde açın, renkli bir etiket verin ya da Geri Dönüşüm Kutusu'na gitmeden önce silmenin güvenli olup olmadığına bakın. Delete tuşu da aynısını yapar.
+80282919	kontrol edilemedi
+8052db6c	Önizleme (canlı)
+805bb20d	';' ile ayrılmış bir veya daha fazla yol — bir sürücü, bir klasör, harici bir disk veya bir ağ paylaşımı (\\\\sunucu\\paylaşım)
+80a1d937	Büyüyen / eklenen
+80d0ec3c	cargo cache -a  (cargo install cargo-cache)
+80e02760	Güncellemeleri denetle…
+80f36ee5	Uygulama kapalıyken silin
+810ff154	Otomatik aç
+812a5c8b	transformers / diffusers kütüphanelerinin indirdiği modeller ve veri kümeleri — çoğu zaman onlarca gigabayt.
+814b2f87	güncelleniyor
+818a2e03	DISM /Online /Cleanup-Image /StartComponentCleanup
+818a94bb	Nasıl temizlenir:
+81989361	Tarama hâlâ sürüyor: daha fazlası çıkabilir (tamamlanınca Yenile'ye basın).
+81c809fc	Özellikler
+81c9f587	{0} adlı klasörlerin içinde…
+81e18494	Salt okunur işaretli: biri saklanmasını istemiş.
+81fc1479	{0} ay önce
+82330693	Docker Desktop sanal diski
+8238fb8f	Windows Update indirme önbelleği
+8254ce17	Yalnızca {0} içindeki klasörler sayıldı: eksiksiz toplamlar için tüm sürücüyü açın.
+82af8e89	Projeler ihtiyaç duyduklarını bir sonraki yüklemede yeniden indirir.
+82cb0142	Rust'ın cargo aracının indirdiği crate kaynakları ve git çalışma kopyaları.
+8310f425	Kullanılmayan öğelerin aboneliğinden çıkın veya oyunun numaralı klasörünü silin
+83199704	Sabit bağlantı
+834c6cce	Günlüğe bir şey yazılınca günlük penceresini aç
+835cce4e	solda daha büyük
+83c9eab7	bilinen önbellekler / geçici alanlar
+83d5ea75	.NET'in genel paket klasörü: herhangi bir projenin geri yüklediği her NuGet paket sürümü ve HTTP önbelleği.
+83df2cc3	Windows bakım paketleri
+83e71839	Kaldır
+843d3318	Onar / Değiştir bu durumda paketleri yeniden indirir; kapatılması desteklenir.
+845df81c	iptal edildi
+845f8fa3	100 MB üzeri
+845fc578	Klasörlerden biri diğerinin içinde: {0} dışında bir klasör seçin.
+84696c25	Burada derleme çıktısı, bağımlılık veya ortam içeren proje bulunamadı.
+8500cee3	Dosya sınıfı
+85301b93	bir gün içinde
+853b5816	Çalışan Windows kurulumu. Yalnızca geçici, günlük ve indirme alanları temizlenebilir ve bunu en iyi Windows'un kendi araçları yapar.
+85a712a3	10 MB
+85c6d8d4	İçe / Dışa aktar (aşağıda) aynı XML biçiminde eksiksiz profiller okur ve yazar; böylece örneğin bir “sunum” ve bir “iş” görünümü tutup aralarında geçiş yapabilirsiniz.
+85c8f90a	Üst düzey
+85e4b82f	Tamam
+8606ae83	Store uygulama verileri
+860adfe2	Yüklü programlar
+86175a0e	Artık geçici dosyalar
+863c3dd9	Korumalı: bir Windows kurulumu
+8642c7d3	Sorun bildir…
+8653d73d	100 KB
+86aeff42	Ayarlar > Uygulamalar > Yüklü uygulamalar > {0} > Kaldır
+86b748a1	SSD (SATA)
+86e0d5ea	docker system prune -a  (sonra Docker Desktop > Troubleshoot > Clean / Purge data veya dosyayı küçültmek için wsl --shutdown ve Optimize-VHD)
+871f67c3	İçerik
+874bde24	{0:N0} fotoğraf veya görsel
+87ca6658	{0} verileri
+87cc130e	Hugging Face model önbelleği
+87fd543b	Haklar ve programların bunları açık tutup tutmadığı kontrol ediliyor…
+88d31f58	Son yollar…
+894a9e36	Boyut ya da yaş anlaşılamadı:
+897db656	Conda paket önbelleği
+898c5ad7	başka bir ad
+89c5203b	Değişiklik
+89f6931c	sunucu {0} yanıtını verdi
+8a06932e	taranıyor
+8a153f1f	Yükleme dosyaları şu kadar gün sonra eski sayılır
+8a16af8b	İçinde {0} var.
+8a1b8d71	{0:N0} öğe bir programda açık (örn. {1})
+8a333465	Steam uygulaması {0}, {1}
+8a44775b	IntelliJ IDEA, Rider, PyCharm, Android Studio... dizinleri, önbellekleri ve günlükleri (ayarlar Roaming altındadır).
+8a48cb03	{0:N0} ses dosyası
+8a8154e1	Klasörleri karşılaştır
+8b242db1	Yeni
+8b3dc597	Şimdi
+8b84889c	Geçici
+8ba93ddc	Yerel modelle özetle
+8bdfcd4d	{0} hafta
+8be19211	Silinip silinemeyeceği kontrol ediliyor…
+8c23b720	bir yıldan uzun süre önce
+8c31199b	En çok büyüyenler:
+8cb0c489	Disk alanınızın nereye gittiğini görün.
+8cb360b1	Dosyalarınız
+8ce91248	Nokta ile başlayan klasörler geliştirici araçlarının ve komut satırı programlarının ayarlarını ve önbelleklerini tutar.
+8cfd2c66	Bir program dosyası
+8d39bde6	ad
+8d4fbd83	eşit uzunlukta {0:N0} dosya karşılaştırıldı, {2:0.0} sn'de {1} okundu.
+8d68409d	Bir kullanıcı hesabının tüm profili ({0}). İçindekileri silin veya hesabı Ayarlar > Hesaplar'dan kaldırın.
+8d73f95c	Yalnızca zaten olmuş bir çökmeyi incelemek için işe yarar.
+8d99b40d	İkili (1 KB = 1024 bayt) yerine ondalık birimler (1 kB = 1000 bayt)
+8da6167b	Kendi kaldırıcısıyla kaldırın (program klasörünü, kayıt defteri girdilerini ve kısayollarını kaldırır); geride bıraktığı veri klasörleri sonra haritadan silinebilir. {0} bir programın klasörünü asla elle silmez.
+8db520c1	İki tarafta uzunluğu ve zamanı aynı olan dosyaları okur ve bayt bayt karşılaştırır (SHA-256): bozuk kopyaları bulur. Dosyaları okumak ne kadar sürerse o kadar sürer.
+8dd22698	HDD, her seferinde bir klasör
+8dd31791	Bitti
+8ddfd782	arşivler
+8dea7afa	Geri Dönüşüm Kutusuna taşı
+8def2818	Değiştirilme:
+8e0a0d52	Disk belleği dosyası / takas dosyası
+8e23fd07	diskte {0}
+8e367bfa	Windows bileşenleri
+8e68a104	Sanal makine diskleri (.vhdx) ve denetim noktaları.
+8ea4e4fc	net stop wuauserv, Download klasörünü silin, net start wuauserv  (veya Disk Temizleme > Windows Update Temizleme)
+8eac8b8e	Seçili klasörler (hiçbiri seçili değilse projenin tüm klasörleri) silme penceresinden geçer: neyin gideceği, güvenli olup olmadığı, neyin bir programda açık olduğu
+8f3184bc	Sistem
+8f76d55b	{0} ay
+8f7aac0d	Ayarlar (API anahtarı ve son açılan klasörler olmadan)
+8fb56258	Silmenin güvenli olup olmadığını görmek için bir öğe seçin.
+8fcdcda6	Altı aydan uzun süredir değişmeyen projeler ve araçlarının yeniden oluşturacakları
+8ff8bcaa	3 yıldır değişmeyenler
+90379bad	Tamamlanmamış indirmeler
+903e2fd7	6 aydır dokunulmamış: {0} proje, {1} yeniden oluşturulabilir
+90a65898	kırmızı etiketli
+90d249dc	Silinmedi — korumalı ({0})
+90d280ef	Windows Update'in indirdiği güncelleme paketleri; zaten yüklenmiş güncellemeler burada kalır.
+90d77c50	Geçmiş, tüm sürücünün her tam taramasıyla (ve {0} açılırken ölçülen boş alanla) büyür.
+9105411f	{0} yıl
+910d3983	Δ
+9122cea9	Küçülen / kaldırılan
+9184bc87	Temizlik…   Ctrl+Shift+Delete
+918cd21d	Bu ayarlarla yinelenenleri yeniden ara
+91ce0025	 — dosyayı geliştiriciye kendiniz gönderin.
+91dad0f8	Konum
+924a2c87	Yeni program dosyasının SHA-256 değeri: {0} (indirdiğiniz dosyayla karşılaştırın: PowerShell'de Get-FileHash).
+92ac5c78	Python bayt kodu önbelleği
+931cd386	Görünüm:
+932e7663	Yükleme dosyaları: İndirilenler'deki ve Masaüstü'ndeki yükleyiciler. Kullanılmayan programlar: bu süre boyunca başlatılmamış (Windows'un kaydına göre) ve verileri değişmemiş, ayrıca bundan önce yüklenmiş programlar.
+934d9d0c	Bir indirme
+935943ea	Korumalı: Windows'un parçası
+936c1740	Dosyalar uzunluk ve zamana göre karşılaştırılır.
+9376c1cf	Kendi dosyalarınızı içeriyor
+93a51c77	İndirilmiş Go modülleri ve derlenmiş derleme önbelleği.
+93a89e87	Hiçbir şey seçilmedi
+93bb8246	Go modül ve derleme önbelleği
+93f186c6	Tarama hâlâ sürüyor: boyutlar tamamlanana kadar büyür (sonra Yenile'ye basın).
+93fb2ed2	{0} boyunca açılmamış
+94043c9c	Boyutlara gölgelendirici önbellekleri, Workshop içeriği ve kayıtlar dahildir.
+9428b8d9	Yalnızca sağda
+948ef074	Geri kazanılabilir
+9492c330	{0:N0} ad başka bir adın sabit bağlantısıdır (aynı dosya, fazladan yer yok): kopya olarak sayılmadı.
+94a2d58b	En üste dön (Ctrl+Home)
+94a4996b	{1} ile {2} arasında {0} tam tarama
+94c124ce	Her satıra bir joker maske; klasör adıyla veya tam yolla eşleştirilir — örn. *\\WinSxS veya node_modules. Hariç tutulan klasörler hiç taranmaz.
+94cbff93	{0} üzerinde
+94e1ec75	yer aç / her zaman tut…
+950ae45f	Durdurulan veya ByteScape kapanırken hâlâ süren bir tarama (o ana kadar bulunanlar) bir hafta boyunca yapılandırmanın yanında saklanır; aynı yolu yeniden açmak, henüz ulaşılmamış klasörlerle taramayı sürdürür. Tarama düğmesine Shift+tıklama her şeyi yeniden tarar.
+951556af	{0:N0} geçici dosya
+9538ebb9	Composer önbelleği
+9592018a	Android Studio > Device Manager > Wipe data / Delete
+95a0d0e9	{0} {1} en yeni sürüm.
+95a2738a	Yarn / pnpm deposu
+95b88867	Ollama modelleri
+960dcfa3	{0} adlı tek bir dosya; diskteki {1} boyutu yalnızca bir kez, ilk adda sayılır:
+96234bd4	belge
+963f4cb0	XML dosyaları (*.xml)|*.xml
+9644ea4a	Google Drive klasörü
+96c22130	Kopyalar
+96ca474e	Tarama
+96d7f8db	Bir AMD yükleyicisinin açtığı sürücü dosyaları. Yüklü sürücü çalışmaya devam eder.
+970be1e0	Sistem klasörlerini koru
+971b9010	Gizli ve sistem dosyası olarak işaretli: Windows veya bir program ona güveniyor (desktop.ini dosyaları, önyükleme ve lisans dosyaları).
+97418149	Temizlik adayları aranamadı:
+976cb95c	Sabit bağlantılı {0:N0} ad aynı dosyadır ve kopya olarak sayılmaz.
+9771f24d	Bu görünümün gösterdiği klasör kendi içinden silinemez: önce üst klasörünü açın.
+9783b0e0	Kapatınca güvenli
+978c35c7	{0} klasör: program {1}, veri {2}
+97f23072	Oyunlar:
+98043c83	Dokunulmadan geçen süre
+983b8690	Tıklayın: bu programın kullandığı her şey
+98692817	Python paketleri yüklenirken pip'in (ve uv'nin) önbelleğe aldığı wheel dosyaları ve HTTP yanıtları.
+98c0ff63	{0} klasörde {1}
+98cf5e06	Oynanmadan geçen süre
+98fe03c5	arşiv
+99541409	Maven yerel deposu
+996a70a8	Yerel yapay zekâ özelliklerini etkinleştir
+996fb4a5	Bir {0} projesinin derleme çıktısı veya indirilen paketleri; proje bunları yeniden oluşturur.
+9974bc1c	NTFS değişiklik günlüğü okunuyor
+997bad96	Taramayı duraklat (Pause)
+99e5bba4	Uzantılar (a;b;c)
+9a196443	Visual Studio Installer > Diğer > Ayarlar veya 'vs_installer.exe --nocache'
+9a73db9b	Dil
+9a78986e	Haklar kontrol ediliyor…
+9ac2fe4a	30 günde eklenen
+9af47b9c	CSV dosyası (*.csv)|*.csv
+9b01dda1	Projeler aranıyor…
+9b28085a	Ana tarama:
+9b62105d	Windows yükseltme dosyaları
+9b69b63a	Bir video: başka bir kopyası yoksa kalıcı olarak gider.
+9b759fb9	bilinmiyor
+9bb0c5b1	git deposu
+9bb6d817	kullandığı her şey
+9bdd68f6	"{0}" komutunu Dosya Gezgini'nin klasör ve sürücü sağ tık menüsüne ekle.
+9bdec7d2	Listeyi temizle
+9be5958a	Kaydedilmiş bir anlık görüntüyle (Ctrl+D) veya başka bir klasörle (Ctrl+Shift+C) karşılaştır
+9be993bf	{0:N0} sanal makine diski
+9bfdfb6c	Proje:
+9c15a360	{0} değil
+9c30b887	çok büyük (> 1 GB)
+9c68fb9a	Temizlik: büyük, geçici ve yükleme dosyalarında {0}
+9cb7d1b7	Proje, tür veya klasör
+9d25228d	Model adı
+9d766510	Bir klasörü haritada göstermek için çift tıklayın. ByteScape hiçbir şeyi silmez veya kaldırmaz: Uygulamalar ve özellikler'i kullanın.
+9d8117c1	Uyumluluk verileri
+9d8b039a	Korumalı: yüklü bir program
+9dc3aa14	Ekle
+9dc93f1c	Bu klasörleri araçlar yeniden oluşturur. Önce düzenleyiciyi kapatın; silinenler Geri Dönüşüm Kutusuna gider, ya da kopyalanan satırları kendiniz çalıştırın.
+9dfcfab1	Mağaza sayfası
+9e44f27b	100 MB
+9e794b78	Ne oldu? (isteğe bağlı)
+9eace8eb	Uzantılar
+9ef31433	{0} çalışmayı durdurabilir. Kaldırmak için Ayarlar > Uygulamalar'dan kaldırın.
+9ef4e023	Renk {0}
+9effb706	Okunamayan alan (filtre açık)
+9f03d26d	{0:N0} yükleme dosyası
+9f49169a	Sabit bağlantı:
+9f91fc43	Bir sonraki derlemede yeniden indirilir.
+9f967023	{0:N0} dosya okunamadı.
+9f9c4fd4	müzik
+9fc59b06	klasör yeniden taranıyor…
+9fd50dfe	Ollama ile çekilmiş yerel dil modelleri.
+9fde1bc4	6 ay
+9fe45463	{0:N0} yedek
+a0310bb6	Yükleme klasörleri, uygulama verileri, önbellekler ve Store uygulama verileri sahibi olan programa sayılır.
+a0fee571	Dosya türü
+a1a82123	{0} önce indirildi
+a1dd7bf1	Günlük
+a1de2fdd	Değişim
+a24add3d	{0} tarandı
+a2515cf6	Bir projenin node_modules klasörü
+a27f4ed5	Bekleyen güncellemeler yeniden indirilir.
+a2c773d1	Kaynaklar
+a2cb0ba8	Metin dosyası (*.txt)|*.txt|CSV dosyası (*.csv)|*.csv
+a2e513c9	ByteScape anlık görüntüsü (*.sns) veya Disk Usage çıktısı (*.txt)
+a2ee019c	{0} gün
+a30bb94a	VirtualBox / VMware makineleri
+a3371429	Tıklayın: yalnızca yerel kopyaları göster (filtre :freeable). Yer açmak için: sağ tık > Windows menüsü.
+a33bf626	Yinelenen dosyalar…   Ctrl+Shift+D
+a3731f3f	Son değişiklik
+a37f187c	Kırmızı
+a4024053	Karşılaştırılıyor…
+a47cac6c	Visual Studio önbellekleri
+a49096d8	Soruluyor…
+a4995035	Aşağı
+a4e42dee	Her şey kontrol edilemedi:
+a4e5e4fc	Kullanılmayan programlar
+a4fc5b8d	Silme
+a5201eed	{0} son çalıştığında bir hata nedeniyle durdu ({1:g}).
+a5f0d7aa	bildirilen
+a5ff3358	{0} önce değişti
+a6025607	Dahil et
+a60eb350	Tasarım modu (yapılandırmaları özelleştir)
+a6478e7c	Boyut
+a65b62a7	Güvenlik:
+a6d004e8	Kaynak kod: bir depoda veya yedekte değilse emek kaybolur.
+a6eb4d2b	Dikkatle kaldırılabilir
+a6f824ec	Her dosya sınıfının bir açıklaması olmalı.
+a72e3854	Diskteki değişiklikleri izleme ayarı {0} yeniden başlatıldığında geçerli olur.
+a76ac3db	Silmek güvenli: bir yükleme dosyası
+a7cd6f96	Disk Temizleme / Depolama Algılama'yı kullanın; yalnızca Temp, Logs, SoftwareDistribution\\Download alanlarına dokunmak güvenlidir
+a7dd3a69	Sonra
+a7dfd013	{0} içinde
+a812ea38	Android Studio > SDK Manager: kullanılmayan sistem görüntülerinin / platformların işaretini kaldırın
+a81aed9d	Sürücü için tarama stratejisi
+a83bbfab	Her zaman bu cihazda tutulan: {0} ({1}).
+a845cbdd	Yerinin nerede olduğunu görmek için bir program seçin.
+a8dc0817	Bağlanamayan
+a8de233d	Bu dışa aktarma ayarı {0}'in daha yeni bir sürümüyle yapılmış; beklendiği gibi çalışmayabilir.\n\nYine de içe aktarılsın mı?
+a8e3e5cb	Dışa aktarma iptal edildi; yarım kalan dosya silindi
+a8f285ac	tamamlanmamış indirme
+a8ffd94d	Bir program burada bu bilgisayarın tüm kullanıcıları için veri tutar (lisanslar, veritabanları, güncellemeler). Program hâlâ yüklüyse çalışmayı durdurabilir.
+a90f4130	Internet Explorer / WinINet önbelleği
+a922a11b	Paylaşılan veriler (ProgramData)
+a953c75c	Yeşil
+a984947b	yalnızca çevrimiçi bulut dosyaları (bu diskte yer kaplamaz)
+a9f4e971	Başka bir klasörle karşılaştır…
+aa25410e	Bir anahtar, sertifika, parola veritabanı veya cüzdan: yeniden oluşturulamaz; koruduğu şey kalıcı olarak kaybolabilir.
+aabc9edf	yarn cache clean   /   pnpm store prune
+aad128d6	her seferinde bir klasör
+aade4c0c	{0} yönetici olarak çalışıyor, bunlar da silinecek.
+aaea5743	dosya
+aafc6673	Önbellekler, modlar, kayıtlar
+ab01bbc0	Komutu / ipucunu panoya kopyala
+ab13e85a	CD / DVD, her seferinde bir klasör
+ab24b384	en son {0}
+abbb1f2d	Yalnızca çevrimiçi: {0} ({1}), hiçbiri bu diskte değil.
+abbfe8b9	{0:N0} öğe
+abd605aa	{0} içinde: burada silmek onu bulutta ve diğer cihazlarınızda da siler. Yalnızca bu bilgisayarda yer açmak için "Yer aç" seçeneğini kullanın (sağ tık > Windows menüsü).
+ac006bfd	Ortamlar çalışmaya devam eder; paketler gerektiğinde yeniden indirilir.
+ac0665fd	Hariç tutma maskesinde geçersiz karakterler var:
+ac067517	({0} yönetici olarak çalışıyor)
+ac62b6ec	Bu uzantıya göre filtrele (*.{0})
+ac99c4b5	Klasörü silin veya eski sürümleri temizleyin; 'mvn dependency:purge-local-repository'
+ad066d9d	Toplam
+ad3365e7	Bağlandı, ancak sunucu hiç model listelemiyor (önce bir tane çekin, örn. ollama pull qwen2.5:3b).
+ada7afdb	yok
+adb3c588	{0} uygulamasının "Yer aç" ve "Her zaman bu cihazda tut" seçeneklerini sunduğu Windows menüsünü açar
+add7d8e7	Geliştirici artıkları: projelerinizin node_modules, bin/obj, target, .venv klasörleri ve her birinde en son ne zaman çalıştığınız (Ctrl+B)
+ade5237b	Disk tahmini yerel sürücüler içindir.
+adfd0100	Windows Installer önbelleği
+ae0ed984	İleti
+ae36da83	Bir bulut dosyasını burada silmek onu her yerden siler; yer açmak ise silmez. {0} kendisi hiçbir şeyi değiştirmez.
+ae72c5a1	Klasörlerini görmek için bir oyun seçin.
+aeb61689	Büyük dosyalar, geçici dosyalar, eski kurulum dosyaları ve artık kullanmadığınız programlar; her biri için “silmek güvenli mi?” sorusunun açık cevabıyla.
+aed7d6cb	{0} yinelenenler.txt
+aee2f423	Silinirse:
+aef94486	fark etmez
+afad156f	Masaüstü için Google Drive'ın yansıttığı dosyalar. Burada silmek Google Drive'da da siler.
+afc57adf	Bu klasörü kalıcı olarak boşalt
+afcf77b9	{0} oyunu
+b00f3097	devam ediyor
+b037d0fc	Bu dışa aktarma ayarı programın parçasıdır, silinemez.
+b09191aa	Karşılaştırılamadı:
+b09bda2a	Yönetici
+b0aa350e	pip cache purge   /   uv cache clean
+b0e4f960	verileri {0} önce değişti
+b103512a	{0} klasör karşılaştırması.txt
+b13318a9	Tarama hâlâ sürüyor: daha fazla proje çıkabilir (tamamlanınca Yenile'ye basın).
+b164b991	Yönetici olarak yeniden başlat
+b16c7ae2	Steam'de kaldır…
+b172736a	Programların AppData, ProgramData ve Store uygulama verileri
+b1bf574c	{0} programlar.txt
+b22e11cb	Geri Dönüşüm Kutusundan geri yüklenebilir. Yer ancak Geri Dönüşüm Kutusu boşaltılınca açılır.
+b23b32a6	Buradaki hiçbir şey silinemez
+b24126ca	Hata ayıklama iletilerini günlüğe yaz
+b27655bd	Masaüstü içinde
+b276643b	Geliştirici artıkları…   Ctrl+B
+b3135345	NTFS sürücüdeki her değişikliğin günlüğünü tutar. Yeniden tarama bunu okur ve yalnızca son taramadan beri değişen klasörleri yeniden listeler (yönetici hakkı gerekmez). ByteScape kapanırken tam tarama da saklanır (yapılandırmanın yanında, bir milyon dosyalık sistem sürücüsü için yaklaşık 60 MB), böylece sürücüyü yeniden açmak saniyeler sürer. Günlük artık her değişikliği tutmuyorsa (günlerden haftalara kadar tutar) her şey taranır. Tarama düğmesine Shift+tıklama her zaman her şeyi tarar. Bağlantıları izlenmeyen yerel NTFS sürücüler.
+b324c20f	Yapılandırdığınız yerel model tarafından yukarıdaki sayılardan yazıldı; yanlış olabilir.
+b35836d0	iPhone / iPad yedekleri
+b35c3185	Eklenen
+b36089d3	{0} ile {1} arasındaki en büyük değişiklikler
+b369a20a	Diskteki programlar
+b3ca0eb2	Arka planda biten taramada görev çubuğu düğmesini yanıp söndür
+b3d9c67f	Bu adda bir dosya sınıfı yok:
+b3e290c1	Yüklü bir programa bağlanamayan
+b3efb53c	Klasörler aynı (içerikler karşılaştırıldı)
+b3f23915	Bu dışa aktarma ayarı programla birlikte gelir, silinemez.\n\nDeğiştirmek için düzenleyip kendi verdiğiniz bir adla kaydedin.
+b3f38106	Kendi çalıştırdığınız bir dil modeli (Ollama, LM Studio, llama.cpp veya OpenAI uyumlu herhangi bir sunucu). Yalnızca kural tabanlı özellikler sonuç vermediğinde kullanılır: filtre kutusunun anlayamadığı istekler, bilgi tabanının bilmediği klasörler için bir açıklama ve karşılaştırma penceresinde bir özet. Yalnızca klasör / dosya adları ve boyutları gönderilir, içerikler asla — aşağıdaki adrese, başka hiçbir yere değil. Bu kapalıyken hiçbir yere bağlanılmaz.
+b41431ac	Oyun başlatıcı önbellekleri
+b469ad55	{0} saniye
+b46bdd2e	Seçili öğenin altına gölge
+b49e4d54	Visual Studio Code'un önbelleğe alınmış eklenti paketleri, çalışma alanı depolaması ve işleyici önbellekleri.
+b4a617f0	6 aydır dokunulmamış
+b51672f3	Bir yıldır değişmeyenler
+b533b6a9	Disk Temizleme > Geçici Internet Dosyaları
+b55b9c48	Dışa aktarma başarısız
+b5eca605	Varsayılanlara dön
+b6088a74	{0} ay
+b6684cb7	Yerel model şöyle anladı: {0}   (güvenmeden önce kontrol edin)
+b6938e20	Net değişim
+b6cf66f1	Filtreyi temizle
+b71310f9	Turu başlat
+b7464b24	{0} için disk tahmini
+b79510d0	Kendi dosyalarınız ({0})
+b79f3ac1	Windows bileşen deposu (WinSxS)
+b7c568a5	Değişim:
+b84486b2	Ayarlar > Uygulamalar > (uygulama) > Gelişmiş seçenekler > Sıfırla her şeyi, ayarlar dahil temizler
+b86ba0df	Duraklatılan taramayı sürdür (Pause)
+b8724211	Dosya Gezgini menüsü
+b87dfe67	En iyisini Windows yapar
+b89df01a	Yardım
+b8d139a9	Başlatıcıları yeniden oku ve klasörleri eşleştir
+b8f4e9d2	Bir program içeriyor
+b90c722d	Araç önbelleği (~/.cache)
+b938567c	Oyunlar: Steam, Epic ve GOG oyunları, en son ne zaman oynadığınız ve kaldırılmış oyunların bıraktıkları (Ctrl+G)
+b99895be	yüklü programlar okunmadı
+b9b42fcf	Hyper-V Yöneticisi: denetim noktalarını silin, Diski Düzenle > Sıkıştır
+b9c63f96	Abone olunan oyunlar başladığında modlar yeniden indirilir.
+b9c8b380	bir yıldır açılmamış
+ba0f4467	Fazladan yer
+ba2d6874	kendi dosyalarınız silinir ve yeniden oluşturulamaz
+ba2f243a	Harita
+ba7bcfac	Program dosyaları
+baf2969b	Dosyaların tamamı karşılaştırılıyor
+bafe2956	Adobe medya önbelleği
+bb182fca	Erişim
+bb49499f	Anlık görüntüden beri:
+bb789fa9	Windows Yükseltme Yardımcısı veya Medya Oluşturma Aracı'ndan kaldı. Ayarlar > Sistem > Depolama > Geçici dosyalar bunları kaldırır.
+bb79dcac	İçinde: {0}.
+bbb50357	bir programda açık
+bc9d0308	Yapılandırdığınız model tarafından üretildi; yanlış olabilir.
+bcc93218	Anlık görüntüyle karşılaştır
+bd148de2	geçici dosya
+bd4ba627	Bir ses dosyası: başka bir kopyası yoksa kalıcı olarak gider.
+bda0efee	kilitlenme dökümü
+bda39f42	Son etkinlik
+bdad3e64	Disk tahmini…   Ctrl+K
+bdba5f95	Filtre okunamadı:
+bdcbb413	Aygıt
+be1b50f4	Küçülen
+be5cf7db	{0} klasör, {1}
+be6b23d2	Gölgelendirici önbelleği
+bea3474f	Dosyalar uzunluk ve zamana göre karşılaştırılır (2 saniyelik veya tam saatlik fark eşit sayılır: FAT sürücüler ve saat dilimleri).
+beb4f6f2	Steam uygulaması {0}
+bef7879d	Ulaşılamıyor:
+bf258e7f	Tamamlanmamış bir indirme: dosyayı yeniden indirirseniz tarayıcı baştan başlar.
+bf587485	NVIDIA sürücü indirmeleri
+bfe787f2	bulut dosyalarının yerel kopyaları ("Yer aç" bunları kaldırabilir)
+bffa57c7	Dosyada dışa aktarma ayarı yok.
+c033a9ae	yaklaşık {0}
+c03af447	{0} ad, yer {1} konumunda sayıldı
+c0496cdb	Tarama hâlâ sürüyor: toplamlar tamamlanana kadar büyür (sonra Yenile'ye basın).
+c050a343	birinci düzey
+c0821b1e	Bulut
+c0a8277f	Geri kazanılabilir önbellekler
+c102a683	ByteScape
+c107f50c	Yinelenen dosyalar: iki veya daha fazla kez bulunan aynı içerik ve fazladan kopyaların kapladığı yer (Ctrl+Shift+D)
+c1332a96	Metin dosyası (*.txt)|*.txt|Sekmeyle ayrılmış (*.tsv)|*.tsv
+c1a2c46e	Klipleri kullanan bir proje yeniden açıldığında yeniden oluşturulur (zaman alır).
+c214c868	{0} hafta
+c21bd27d	Birleşim noktalarını ve sembolik bağlantıları izle
+c260f050	Saklanacak son yol sayısı
+c26ae724	İndirme sayfası tarayıcınızda açılır; programın kendisi hiçbir şey indirmez ve kurmaz.
+c2762327	Oyun
+c2954bc2	Geri
+c29fa477	Varsayılanlar
+c2c76cb1	Düzenle
+c2e1ccfb	10 MB üzeri
+c2e7bb59	yazı tipleri
+c2f2eae4	Uygulama önbelleğini yeniden oluşturur; ayarlar LocalState'tedir ve dokunulmaz.
+c352464b	Ad zaten kullanılıyor
+c35c8be6	{0} programının kendi ayarlarından temizleyin veya artık kullanmıyorsanız {1} programını kaldırın (Ayarlar > Uygulamalar)
+c379b180	hiç başlatılmadı
+c39c93e8	Dolu: {0}
+c3fb8e06	Maven'ın (ve Maven local kullanan Gradle projelerinin) indirdiği bağımlılıklar.
+c3fd58cd	Kaldır…
+c400b06d	Bir aracın ayarları ({0})
+c4014283	Artıklar:
+c423f9b0	Anlık görüntüyle karşılaştır…   Ctrl+D
+c4253b6b	Program
+c431b7ca	{0} geçerli bir yol değil
+c44dd34d	Silmek güvenli: yalnızca geçici dosyalar, günlükler ve dökümler
+c45c73a2	Arşivler
+c47933b3	Bilinen önbellekleri, geçici alanları ve korumalı sistem klasörlerini işaretle (♻ / ⚠ / ⛔ rozetleri, “geri kazanılabilir” toplamı)
+c47c37c8	Çevrimdışı
+c4a1c968	… menüsü her aracı klavye kısayoluyla listeler. Dişli simgesi Ayarlar'ı açar: dil, Dosya Gezgini'nin sağ tık menüsü, silmenin nasıl işlediği.
+c4d32795	Dosya yazılamıyor
+c4dbd4df	HDD: her seferinde bir klasör, klasörlerin diskteki sırasıyla; bir klasörü yeniden tararken tam tarama bekler. SSD: aynı anda işlemci çekirdeği başına bir klasör (en çok 8); NVMe: iki katı (en çok 16); USB flash: daha büyük listeleme çağrılarıyla aynı anda iki. Otomatik diske sorar (arama cezası ve veri yolu türü, yönetici hakkı gerekmez); bir USB kutusu veya RAID bunu gizliyorsa elle seçin.
+c4f1d3a7	Kilitlenme dökümleri ve hata raporları
+c55deeb7	Unity proje açılınca yeniden oluşturur (biraz sürer)
+c585133e	kaynak dosyası
+c5cac7fa	python -m venv, ardından pip install -r requirements.txt
+c6054711	Programlar ve sistem dosyaları
+c6153279	Bu dışa aktarma ayarı silinsin mi?
+c646a2c9	Ara
+c6681cbf	Kalıcı olarak sil…
+c6721fe7	Tarayıcı açılamadı. {0} adresini açıp {1} dosyasını orada ekleyin; adres panoya kopyalandı.
+c6d76aae	bunlar silinmeyecek.
+c6ec2d10	Eğilim
+c6fe2ead	kaynak kod
+c7635c08	Bu klasörü şimdi tara
+c7a9195a	Çift tıklama: haritada göster. ByteScape hiçbir şeyi silmez: başlatıcı üzerinden kaldırın.
+c7ac5891	Kayıtlar ve ayarlar
+c7b6c6f2	Sizdeki sürüm: {0}.
+c7c23771	Tahmin yapılamadı:
+c8136a3e	bu sürücünün Geri Dönüşüm Kutusu yok: orada silmek kalıcıdır
+c878cc06	Dışa aktarma ayarı kaydedilemedi:
+c891c6db	Bu adda bir dışa aktarma ayarı zaten var. Değiştirilsin mi?
+c912877f	İşaretlileri kalıcı olarak sil…
+c9351454	Ayarları dışa aktar
+c9542c0d	Bir sabit bağlantı: aynı dosya {0} başka adla da var, örneğin {1}. Yeri ancak tüm adları silinince açılır.
+c97fccaf	Dışa aktar…
+c9b59fba	Son taranan yolları hatırla
+c9c84d7b	Ok tuşları bloklar arasında gezinir, Ctrl+Aşağı yakınlaştırır, Ctrl+Yukarı uzaklaştırır, Enter Dosya Gezgini'nde açar, Shift+F10 menüyü açar.
+c9cb3223	e-kitaplar
+c9f56138	Klasörler görüntülendiğinde küçük resimler yeniden oluşturulur.
+ca369241	Yakınlaştırılan klasörü şimdi yeniden tara
+ca4fbfb7	Taranacak klasörü seçin
+ca77bbdb	Uygula
+ca792dc6	Kaldırılmış oyunlardan kalanlar (silmeden önce kontrol edin: kayıtlar ve modlar içinde olabilir)
+ca8d9458	dotnet nuget locals all --clear
+cac8526a	Korumalı: Geri Dönüşüm Kutusu
+cb167af6	{1} — {0} ({2})
+cb204f96	Disk Temizleme > Windows yükseltme günlük dosyaları
+cb827ea7	{0:N0} öğe kalıcı olarak silindi: {1} yer açıldı.
+cb97e12e	Geri Dönüşüm Kutusunu aç
+cbbd0f9f	Lisans koşulları
+cbc1373e	Listeden klasör seçin.
+cbd2549a	{0} ({2:0} günde {1} ölçüm, güven {3})
+cbd4f7ba	Artık
+cbfe0cf3	içindeki bir şey silinemedi (bir programda açık veya hak yok)
+cc200e59	Bilinmiyor
+cc7437fd	Korumalı: Windows kullanıcı verileri
+cc7ed4b4	Öznitelikler
+cc81eb26	Yeniden oluşturma:
+cc9bf381	Bir veritabanı veya posta kutusu: içindeki veriler (e-postalar, kayıtlar) kaybolur; Outlook .ost dosyası yeniden indirilir, .pst indirilmez.
+ccc62762	bulut klasörü
+cce5bcae	'{0}' ile karşılaştırılamadı
+ccfdd1dd	Farenin altındaki öğeyi vurgula
+cd310ca2	Çok büyük klasör: yalnızca ilk {0:N0} öğeye bakıldı.
+cd86acc3	Kapat
+cdcfd561	Tüm Yarn veya pnpm projelerinin paylaştığı paket deposu.
+cde99574	Silmek güvenli mi?
+cdf82ae9	Bir sonraki açılışta yeniden oluşturulur; eklentiler ve ayarlar kalır.
+cdfe5cd0	çıkarılabilir sürücülerin (USB bellekler, hafıza kartları) Geri Dönüşüm Kutusu yoktur: orada silmek kalıcıdır
+ce043e06	hızlı yeniden tarama:
+ce3e2b9c	oyunlar
+ce7815a0	İşaretlileri Geri Dönüşüm Kutusuna taşı…
+ce84f6fa	Oyunun Steam mağazasındaki sayfası (bir app id'nin ne olduğunu görmek için)
+cebce7e4	Renk etiketleri nasıl kullanılır
+cef90b6c	video
+cf02b886	günlükler
+cf393f9d	hazır değil
+cf5212a9	{0:N0} günlük
+d0451a35	Yinelenen dosyalar
+d063df22	Dışa aktarma ayarı silindi
+d07ffa1d	Korumalı
+d0fd81e8	Gereksinim dosyası yok: önce yüklü paketleri not edin (pip freeze)
+d144cba3	Kullanmadığınız programları kaldırın; sahipsiz yamaları yalnızca özel bir araçla (PatchCleaner) temizleyin
+d155d06d	Tür
+d15bf2ad	Kaydedilmedi
+d163bd7b	Yinelenen dosyalar aranıyor…
+d19a7f86	örn. Metin dosyaları (*.txt)|*.txt
+d1bea15f	Sayfalar ilk seferde biraz daha yavaş yüklenir; oturumlar ve sık kullanılanlar etkilenmez.
+d1d5b53d	Yinelenen dosyalar aranamadı:
+d1dd5ef2	Program veya sistem çöktükten sonra yazılan bellek dökümleri ve Windows Hata Bildirimi arşivleri.
+d1ddebed	fotoğraf veya görsel
+d1ee91c2	{0} dolmuyor
+d22b81c7	Yerel modele ulaşılamıyor:
+d2b9ae50	araç tarafından yeniden oluşturulur
+d2ef7b2f	Dosya sınıfları görünümü (Ctrl+T)
+d37a69a0	Tıklayın: tüm klasörleri ve diğer oyunlar
+d380851c	Kilit dosyası yok: yeni bir kurulum daha yeni paket sürümleri getirebilir
+d3c962fa	Sürücünün klasörlerinin zaman içindeki durumu, grafik olarak (Ctrl+H)
+d40c784b	Kopyalar ve karşılaştırmalar
+d4ab7f9d	Henüz boş alan ölçümü yok.
+d4dce9fa	son 7 günde değiştirilmiş
+d4f14b1f	Daha çok düzey (Ctrl++)
+d4fe1263	Geçici dosyalar
+d54966f4	Korumalı: Windows verileri
+d584a3ee	Yeşil (Ctrl+3)
+d596d50b	bulut klasörlerindeki dosyalar
+d5c00e74	Neyin değiştiğini görmek için tüm sürücüyü daha sonra yeniden tarayın.
+d5e05505	Turu atla
+d5ef11f9	Yerel uygulama verileri
+d609858a	yalnızca bu görünümdeki klasörler sayıldı; eksiksiz toplamlar için tüm sürücüyü tarayın.
+d611415b	Azalan
+d614da67	{0:N0} programın kullandığı: {1}
+d732d8d9	İçinde {0} var. Bu yüklü bir programsa silmek yerine kaldırın; buradan başlatılan bir program çalışmayı durdurur.
+d7339e2b	Eski veya ikinci bir kuruluma ait bir Windows klasörü (System32, WinSxS).
+d75aad01	Boş alan
+d79531bf	Bir Edge profilinin önbelleğe aldığı web içeriği ve betikler.
+d7b36794	Araçlar bir sonraki kullanımda verilerini yeniden oluşturur veya indirir.
+d7de64d4	Nelerin silineceğine bakılıyor…
+d7e12452	Haritada boş alan (Ctrl+F)
+d805188a	hiçbir şey değişmedi
+d8100383	Kalıcı olarak sil
+d8440adb	Hata raporları (hiç yok)
+d84c2b2f	{0:N0} grup, fazladan kopyalarda {1};
+d8bce204	Bir projenin, yüklü paketleriyle birlikte yalıtılmış Python ortamı.
+d8f9d54a	ByteScape'i aynı görünümlerle yönetici olarak yeniden başlatır (tarama korunur); sonra yeniden silin
+d91d87dd	{0} {1} tarihinde durdurulan tarama sürdürülüyor: {2:N0} dosya korundu, {3:N0} klasör kaldı. Tarama düğmesine Shift+tıklama her şeyi yeniden tarar.
+d96ba624	Bir Electron uygulamasının (Discord, Slack, Teams, Spotify, WhatsApp, Notion...) işleyici ve web önbellekleri.
+d96eb5dd	klasör
+d9768556	Yeniden bul
+d998bbc3	Premiere Pro / After Effects / Media Encoder'ın içe aktarılan her klip için oluşturduğu uyumlu ses ve tepe dosyaları.
+d9cdec69	Sarı
+da3fa215	Paketlenmiş (Store) uygulamaların LocalCache / TempState klasörleri: uygulamanın yeniden oluşturabileceği önbellekler.
+daab42f6	{0} yok (veya erişilemiyor).
+dabcef1e	En büyük klasörler
+dad06f9d	Herhangi bir yönde bundan küçük öğeler tek tek çizilmez.
+daedbcdf	powercfg /h off (hazırda bekletmeyi ve Hızlı Başlatma'yı kapatır) veya powercfg /h /type reduced
+db04cb65	Genel araçların yeniden yüklenmesi gerekir.
+dbd25302	Yüklü {0} programının parçası
+dbf1f9a7	Bir JavaScript / TypeScript projesinin yüklü bağımlılıkları; package.json ve kilit dosyasından yeniden oluşturulur.
+dbf5e2b4	Bu oturumun günlüğü ({0} kayıt)
+dbf7e9ff	Veri temizleme yok
+dc2c09df	{0} gün içinde
+dc7f24ea	diskteki programlar
+dcaa1ff7	CD / DVD, disk yok
+dce2da08	İleri
+dd13a6b2	Değiştirilme
+dd2439cc	İpucunda dosya tarihini ve saatini göster
+dd34a31e	Bu görünümde değil: boyut başlatıcının bildirdiği değer.
+dd68bf6f	Oyun, mağaza veya klasör
+dd98ded9	Yayın tarihi: {0}.
+ddc1e05c	Disk Temizleme > Sistem hatası bellek döküm dosyaları / Windows Hata Raporları
+ddc3f1bd	gradle --stop  (arka plan süreçlerini durdurun), sonra klasörü silin; veya 'gradle cleanBuildCache' / Android Studio > Invalidate Caches
+de5c2691	veritabanları
+de5e8794	bu geri alınamaz
+de936ff3	Bir satırı haritada göstermek için çift tıklayın. Kaldırılan öğeler artık yok ve gösterilemez.
+ded347ea	Dosya Gezgini
+dee68c33	Bağlanılıyor…
+def26ecb	Disk kullanım geçmişi: sürücü ve klasörleri zaman içinde, grafiklerle (Ctrl+H)
+defc2d1f	Oyunların daha hızlı açılması için NVIDIA / AMD / DirectX sürücülerinin önbelleğe aldığı derlenmiş gölgelendiriciler.
+defff673	Yarım kalan taramaları sonra devam etmek için sakla
+df14e3e7	{0} anlık görüntüsü (*.sns)|*.sns|Disk Usage çıktısı (*.txt)|*.txt|Tüm dosyalar (*.*)|*.*
+df1c2b2e	Microsoft Edge önbelleği
+df3e2f57	Şimdi:
+df900ae8	Program çalışmayı durdurur ve temizce kaldırılamaz.
+dfd0417c	Hyper-V sanal sabit diskleri
+dfe12964	Bir üst düzey (Ctrl+Yukarı)
+dfe4e404	Zaman
+dfec80d0	Özel
+e03f7e77	Windows için iCloud'un eşitlediği iCloud Drive dosyalarınız. Burada silmek iCloud'da da siler.
+e04d10cd	Oyunlar…   Ctrl+G
+e05cb193	Sorun raporunu kaydet
+e0659bc6	Bir bağlantı (birleşim noktası veya bulut klasörü): silmek bağlantıyı kaldırır; gösterdiği yere dokunulmaz.
+e066706d	Yükleyici {0} bildirmişti.
+e0af52f0	{0} taramasından beri büyüyenler ({1} önce)
+e0cbec32	Solu aç
+e0d60d6d	Bir kilitlenme dökümü: yalnızca kilitlenmeyi bildirmek için işe yarar; başka bir şey kaybolmaz.
+e0da2106	yola göre ilki
+e0f3b6b7	Bağlantıyı sına
+e16b0016	yönetici hakları gerekiyor
+e19d8b61	Sol boyut
+e1dffc90	{0} programının kaldırıcısı çalıştırılsın mı?
+e2397861	{0} programının yükleme klasörü. Elle silmek Ayarlar > Uygulamalar'da bozuk bir kayıt, kısayollar ve ayarlar bırakır; programın kaldırıcısı onu temizce kaldırır.
+e23e53a8	{0} yönetici olarak çalışıyor, bu yüzden kaldırıcıları kendisi başlatmaz. Ayarlar > Uygulamalar açılıyor: {1} programını oradan kaldırın.
+e24925a3	Her zaman bu cihazda tutulan: {1} içinde {0}
+e2f98f8e	Spotify > Ayarlar > Depolama > Önbelleği temizle
+e3194933	bir sürücünün kökü asla silinmez
+e34a2fde	Seçtiğiniz dosya adına göre metin veya CSV
+e34ac4dc	Hiçbir şey silinmedi.
+e37ba748	conda clean --all
+e38feb1b	solda okunamadı
+e3965db6	Program, yayıncı veya klasör
+e3f554fe	Proje yeniden derlenmeden önce içinde 'npm install' (veya yarn / pnpm install) çalıştırın. Eski, terk edilmiş projeler: kaldırmak güvenli.
+e40e2439	Son
+e47dcaeb	Haftada bir yeni sürümü denetle
+e4988bdf	Stiller
+e4be944c	boş (0 bayt)
+e520ba7a	Dosyaların başı ve sonu karşılaştırılıyor
+e5481fc0	Ayarlar > Sistem > Depolama > Geçici dosyalar > Önceki Windows yüklemeleri
+e5738fb0	Kırmızı (Ctrl+1)
+e58dc032	Unity düzenleyicisinin Asset Store indirmeleri ve genel önbellekleri.
+e5936707	Bu sürücünün geri yükleme noktaları, Birim Gölge Kopyaları ve dizin oluşturma verileri (yönetici hakları olmadan okunamaz).
+e5c46d51	Genel araçlar ('dotnet tool install -g') ve SDK veri dosyaları.
+e648fa60	3 yıldan fazla
+e64e3c83	Bunun yerine Ayarlar > Uygulamalar'ı kullanın.
+e66d70d9	composer clear-cache
+e670fe67	{0} sabit bağlantı
+e682e807	Bu, programın kendi kaldırıcısıdır; Ayarlar > Uygulamalar'ın çalıştırdığı kaldırıcı.
+e684698e	Etiketler:
+e6a4efc1	Önce kontrol edin
+e71d1b30	Dosyalar
+e76a5835	İşaretli
+e77c6621	{0} boş
+e7d685a5	Başlatıcı kapalıyken silin
+e7e50da1	Dışa aktarma ayarı içe aktarılamadı:
+e7f74421	{0} ({1}), {2} sürücüsünün Geri Dönüşüm Kutusundan ({3}) büyük: Windows kalıcı olarak silinip silinmeyeceğini soracak.
+e7fb7c80	en yenisi {0} önceki
+e86349d3	Dışa aktar
+e86f5b3b	Yalnızca çevrimiçi (burada yer kaplamaz): {1} içinde {0}
+e8920f7a	Her klasör için bir satır, her tarama için bir sütun
+e8a46f42	Farklı
+e8b5926d	Haritada vurgula
+e8c1c729	Seçili klasörlerin zaman içindeki durumu (en fazla 6 seçin)
+e8e4f14c	{0} hakkında
+e95c6215	geliştirici artıkları
+e96aecd4	Bir yıldan uzun süredir oynanmamış yüklü oyunlar (oynama sürelerini Steam tutar)
+e97db4ef	Eski Office sürümleri, yüklemeyi disk olmadan onarmak veya değiştirmek için saklar; silinirse Office kurulum dosyalarını ister.
+e9c54df4	Güncellemeler denetlenemedi:
+e9dd1fed	Mavi
+e9defc96	Yeniden oluşturmak için:
+e9eb5b1a	1 – 3 yıl
+ea2f217f	Kaldırılmış oyunlardan geride kalan klasörler: manifesti olmayan oyun klasörleri, önbellekler, atölye öğeleri, kayıtlar
+ea6b200f	{0} açılamadı
+ea972ecd	Silinirse: {0}
+eab83440	Silmeden önce ne olduğunu kontrol edin.
+eacc40ce	6 – 12 ay
+eb2858b5	Windows menüsü…
+eb3b4234	{0:N0} öğe silinemedi:
+eb3ed461	Eski yükleme dosyaları
+eb642d8c	{0} karşılaştırma.txt
+eb66e456	Yol
+eba4d891	veritabanı veya posta kutusu
+eba69274	Bakılıyor…
+ebbeb5f3	iCloud Drive klasörü
+ebc622c4	Görünümü kapat
+ec06ed06	Dikkat
+ec35cb2e	disk görüntüleri
+ec36f1e9	Korumalı: bir Windows klasörü
+ec67a6db	Yakınlaştırma animasyonu süresi (ms)
+ec6ecca6	Android öykünücüsünün sanal cihazları (disk görüntüleri, anlık görüntüler).
+ecb83211	edge://settings/clearBrowserData > Önbelleğe alınan resimler ve dosyalar
+ecc78179	Görünümü dışa aktar
+ecde62b3	{0} oyun, {1}
+ed67fc58	Bu bilgisayardaki her Gradle / Android Studio projesinin indirilmiş bağımlılıkları, dönüştürülmüş jar'ları ve derleme meta verileri.
+ed71075a	Renk etiketleri
+ed7f0dc2	toplam {0}
+ed912713	Silme komutlarını kopyala
+edd528be	Eksik yapıtlar bir sonraki derlemede yeniden indirilir.
+edfc294c	Hiçbir şey değişmedi.
+ee13b825	Filtre hâlâ uygulanıyor. Biraz sonra yeniden deneyin.
+ee3d49e1	İlk
+ee6dca51	{0} {1} ile oluşturuldu.
+ee6ea188	Silmek tüm görüntüleri, kapsayıcıları ve birimleri yok eder.
+eec088b8	{0} {1} taraması güncelleniyor: yalnızca NTFS değişiklik günlüğüne göre o zamandan beri değişen klasörler yeniden listeleniyor. Tarama düğmesine Shift+tıklama her şeyi yeniden tarar.
+eecc66c0	Windows ve programlar "{0}" klasörünün var olmasını bekler. Bunun yerine içindekileri silin.
+ef009732	çizilmedi
+ef08698e	{0} anlık görüntüsü (*.sns)|*.sns|Tüm dosyalar|*.*
+ef14dc09	Tarayıcınızda yeni bir sorun kaydı açılıyor: {0} dosyasını Dosya Gezgini'nden içine sürükleyip gönderin. Sorun kayıtlarını herkes okuyabilir.
+ef708ebe	değişmedi
+ef73f9aa	salt okunur
+efa2c213	Bir sonraki açılışta yeniden oluşturulur.
+efddbfae	ilk {0:N0} öğe kontrol edildi
+f05a23a2	Taranacak sürücü veya klasör
+f0633b6a	İçindeki {0:N0} dosya bu klasörün dışında başka bir adla da var (sabit bağlantı): yeri kullanımda kalır.
+f0811aae	{0} artık bir klasör değil
+f10c81cd	videolar
+f1111ac3	Her zaman bu cihazda tutulur
+f1142076	reddedildi
+f11d5497	{0} yazılamıyor
+f128bd6e	Bir günden eski {0}, örneğin {1}
+f165cb2b	Yolu kopyala
+f16a4efa	{0} geri kazanılabilir
+f1aafc17	Sürücü
+f1ca3914	Windows ve programlar bu klasöre ihtiyaç duyar: içindekiler silinir, klasör kalır. Bir programın açık tuttuğu dosyalar atlanır.
+f1f08174	Yeniden eşleştir (tarama ilerledikten veya programlar değiştikten sonra)
+f1f6ed03	Kenar karşıtlığı (yumuşak … keskin)
+f21bd6cb	Silmek güvenli: {0} projesinden yeniden oluşturulur
+f22c8988	Ayarlar > Sistem > Depolama > Geçici dosyalar > Önceki Windows yüklemeleri
+f2421948	Kullanılmayan anlık görüntüleri / makineleri sanal makine yöneticisinde silin
+f265d9b8	Teslim İyileştirme önbelleği
+f272f7df	{0:N0} öğe ({1}) Geri Dönüşüm Kutusuna taşındı: kutuyu boşalttığınızda yer açılır.
+f2ad59ba	Dosya yazılamadı:
+f2b579ad	Sağ:
+f333e253	Şifrelenmiş
+f34574bd	Gerektiğinde yeniden indirilir.
+f3478fc4	Bilerek bu diskte tutuluyor ("Her zaman bu cihazda tut"). Windows menüsündeki "Yer aç" onu yeniden yalnızca çevrimiçi dosyaya çevirir.
+f38d9cf1	Hata
+f39cb449	Visual Studio'nun çevrimdışı onarılabilmesi veya değiştirilebilmesi için saklanan kurulum paketleri.
+f420490a	Temizlik: büyük dosyalar, geçici dosyalar, eski yükleme dosyaları ve kullanılmayan programlar; her birinin silinmesinin güvenli olup olmadığıyla (Ctrl+Shift+Delete)
+f42c90b3	Bu dışa aktarma ayarının sürüm numarası yok; beklendiği gibi çalışmayabilir.\n\nYine de içe aktarılsın mı?
+f450eed5	ses dosyası
+f47b4da9	{0} projede yeniden oluşturulabilir {1}
+f4a9c097	Filtre
+f4d73137	filtre:
+f4f23ee5	Chromium tabanlı bir tarayıcı profilinin önbelleğe aldığı web içeriği, betikler ve GPU gölgelendiricileri.
+f51b5247	Haritada göster
+f51db7d8	İçindeki bir şey {0} önce değişti: bir program hâlâ kullanıyor olabilir.
+f56badab	, {0} tanesi programı kapattı
+f6134631	Son 30 günde oluşturulan dosyalar, tarihlerine göre: sürücünün en fazla ne kadar büyümüş olabileceği (silinen dosyalar bilinmez)
+f6186e88	Yeni görünümler için varsayılan stil
+f618f139	gizli
+f657611d	Yedek kalıcı olarak gider — her cihaz için en azından en sonuncuyu saklayın.
+f67ca0c6	Bir yedek: geri yükleyeceğiniz kopyayı kaybedersiniz.
+f69e232a	Ivy / sbt / Coursier önbelleği
+f69f9dc3	Yeniden oluşturulabilir: {0} projede {1}
+f708f172	PDF'ler
+f712a8d6	{0} içindeki yinelenen dosyalar
+f734f80f	{0} ayarlarını, oturum açma bilgilerini, indirmelerini veya kayıtlı çalışmalarını burada tutar. Bunları kaybedebilir veya yeni kurulmuş gibi açılabilir.
+f73fb29d	Steam uygulaması {0}, {1} (son oynanma {2:d})
+f77e036b	{0} oyunda {1}
+f78d2e41	sbt, Ivy veya Coursier'ın getirdiği JVM bağımlılıkları.
+f7b4d1da	Composer'ın indirdiği PHP paketleri.
+f7b604e7	Yenilikler
+f7f62b49	Sonra
+f81f7ea7	Yerel modele soruluyor…
+f8827f84	Komutlar soldan sağa okunur. scan ve load bir görünüm açar; ardından gelen\nkomutlar en son açılan görünüme aittir.\n\nhelp                          bu metin\n\nscan "<klasör ya da sürücü>"  klasörü ya da sürücüyü tarayan bir görünüm açar;\n                              birden çoğunu ';' ile birleştirin (ya da scan'i yineleyin)\nload "<dosya>"                kayıtlı bir anlık görüntüyü (.sns) açar; birden çoğu ';' ile\nfilter "<filtre>"             görünümün filtresini ayarlar (filtre kutusunun yazımı)\nexport "<ad>" "<dosya>"       görünüm tamamlanınca onu <ad> adlı dışa aktarma ayarıyla\n                              <dosya>'ya yazar (ad, Dışa aktar penceresindeki gibi\n                              yazılmalı); elle yazılan bir filtre ya da durdurulan tarama\n                              otomatik dışa aktarmaları kapatır\ncompare "<dosya.sns>"         görünüm tamamlanınca onu bir anlık görüntüyle karşılaştırır:\n                              ne büyüdü, küçüldü, eklendi ya da gitti; haritada da\n\napps                          görünüm tamamlanınca "Diskteki programlar"ı açar: her kurulu\n                              program klasörleri, verileri ve önbellekleriyle\nappsreport "<dosya>"          bu listeyi bir metin dosyasına yazar\ngames                         "Oyunlar"ı açar: Steam, Epic Games ve GOG oyunları,\n                              klasörleri, en son ne zaman oynandıkları ve kaldırılan\n                              oyunlardan kalanlar\ngamesreport "<dosya>"         bu listeyi bir metin dosyasına yazar\ndev                           "Geliştirici artıkları"nı açar: araçlarının yeniden ürettiği\n                              klasörleri (node_modules, bin, obj, target, .venv) olan\n                              projeler ve her projenin en son ne zaman değiştiği\ndevreport "<dosya>"           bu listeyi bir metin dosyasına yazar\nforecast                      görünümün sürücüsünün tahminini açar: ne zaman dolacağı,\n                              yeni dosyaların nereye gittiği, neyin büyüdüğü\ncleanup                       "Temizlik"i açar: büyük ve geçici dosyalar, eski kurulum\n                              dosyaları ve kullanılmayan programlar, silmenin güvenli olup olmadığıyla\ncleanupreport "<dosya>"       bu listeleri bir metin dosyasına yazar (hiçbir şey silinmez)\nduplicates                    "Yinelenen dosyalar"ı açar: birkaç yerde bulunan aynı içerik\n                              (önce aynı uzunluk, sonra SHA-256) ve kapladığı alan\nduplicatesreport "<dosya>"    yinelenen grupları yazar: .csv adında CSV, .json adında\n                              JSON, diğerlerinde metin (hiçbir şey silinmez)\ncomparefolder "<klasör>"      görünümün klasörünü <klasör> ile karşılaştırır: yalnız bir\n                              tarafta olanlar, farklı olanlar, aynı olanlar\ncomparefolderreport "<klasör>" "<dosya>"\n                              bu karşılaştırmayı <dosya>'ya yazar (CSV ya da metin)\n\nexport "CSV list (spreadsheet)" "<dosya>"   Excel'in açtığı bir liste\nexport "JSON tree" "<dosya>"                bütün ağaç JSON olarak\nexport "HTML report" "<dosya>"              grafikli tek bir web sayfası\n\nmeasure                       komut satırında tek başına: tahmin için her yerel sürücünün\n                              boş alanını kaydeder ve pencere açmadan çıkar\n                              (Görev Zamanlayıcı için)\nautoclose                     bütün otomatik dışa aktarmalar ve raporlar yazılınca programı\n                              kapatır; pencerede çalışmak bunu iptal eder\n\nRapor komutları görünümün tamamlanmasını bekler ve autoclose ile çalışır.
+f8835433	Etiket
+f89a42fe	önce dosyalar
+f8de2c17	{0} × {1} kopya — {2} fazladan — {3}
+f8ed183b	Windows'un ihtiyaç duyduğu bir klasör ({0}). İçindekileri silin; programları Ayarlar > Uygulamalar'dan kaldırın.
+f8fcef33	Müzik ve ses
+f92db118	Sayfalar ilk seferde biraz daha yavaş yüklenir.
+f94c12d5	{2} içindeki {1} boyutunun {0} kadarı.
+fa21a09f	Premiere > Tercihler > Medya Önbelleği > Kullanılmayanları sil
+fa6031d8	iyi
+faa476f1	Projeleri yeniden ara
+fab49a4a	Salt okunur
+faba889e	Bulut: boşaltılabilecek yerel kopyalar
+fb0051ed	Tek tek gösterilemeyecek kadar küçük öğeler\n(yakınlaştırın veya en küçük öğe boyutunu düşürün)
+fb2d2ef2	Profil klasörü
+fb4b35d8	Sanal makineler disklerini kaybeder.
+fb5b04b7	İndirme / güncelleme sürüyor
+fb8564c0	{0} adlı klasörlerin dışında…
+fb9f21c5	Son bir ayda değişenler
+fbea7c51	1 GB
+fc734672	Değişince öğe ipucunu açık tut
+fc81fcf1	küçük (< 1 MB)
+fc9fa11a	Hiçbir şey silinmedi
+fcadd3f6	{0} {1} dolacak (yaklaşık {2})
+fd13b3a9	50 MB altında
+fd1c7f0b	Silinebilir
+fd3da095	Ölçüm komutunu kopyala
+fd54a1d1	{0:N0} dosya aynı.
+fd752a99	Şimdiye kadar {0} ölçüm.
+fdb25855	Bilgi
+fddccdcd	etiketli
+fe1b42a3	Dosyalar tüm cihazlardan ve onedrive.com'dan kaldırılır.
+fe31ebe9	İki haftadan az ölçüm var: {0} daha fazla gün ölçtükçe tarih netleşecek.
+fe51a293	İşletim sisteminin kendisi.
+fe5a095c	{0} öncesinden eski oluşturulmuş
+fe68b095	Yerel modele bu klasörün ne olduğunu sor
+fe8db543	Visual Studio yükleyici paket önbelleği
+fedc8a79	Yeniden ayrıştırma noktası
+fef1200c	yüklü değil
+fef76c78	{0} şununla karşılaştırılsın…
+ff0032a7	yaklaşık {0} yıl içinde
+ff5ebe94	Başlangıç ayrıntı düzeyi (iç içe derinlik)
+ff60ded7	Bağlanamayan:
+ffb7f92c	İçindeki {0:N0} dosya başka bir adda sayılan sabit bağlantıdır: burada silmek yer açmaz.
+ffbbf5ea	Şöyle anlaşıldı:
+ffcbdf13	Dosya sınıfları
+ffd3c9c9	Dolaşan uygulama verileri
+ffddc937	{1:0} günde {0} ölçüm · güven: {2} · veri ekleme hızı; tek seferlik temizlikler dışarıda bırakılır (bunlar yeni bir seviye başlatır, bir hız değil).

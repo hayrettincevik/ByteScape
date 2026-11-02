@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ByteScape</title>
+<meta name="description" content="ByteScape shows where your disk space went: an interactive treemap of your drives and folders for Windows, free and open source.">
+<link rel="icon" type="image/png" href="img/logo.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <img src="img/logo.png" alt="">
+    <span class="name">ByteScape</span>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#download">Download</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap hero">
+    <h1>See where your disk space went.</h1>
+    <p class="lead">Every block on the map is a file or a folder, drawn as big as the space it takes on the disk.
+      The big blocks are the space hogs: open them, see what they are and whether they are safe to delete.</p>
+    <div class="actions">
+      <!--STORE--><a class="btn primary" href="{{STORE_URL}}">Get it from Microsoft Store</a><!--/STORE-->
+      <a class="btn{{PORTABLE_CLASS}}" href="#download">Download for Windows</a>
+      <span class="note">Version {{VERSION}} · Windows 10 and 11 (x64) · free and open source</span>
+    </div>
+    <div class="shot">
+      <img src="img/1-map.png" width="1920" height="1080" alt="ByteScape showing a drive as a treemap; the details panel explains what the Windows Update download folder is and whether it is safe to delete">
+    </div>
+  </div>
+
+  <section id="features">
+    <div class="wrap">
+      <h2>What it does</h2>
+      <div class="grid">
+        <div class="card"><h3>Treemap of any drive or folder</h3><p>Drawn while it scans. Double-click to zoom in, Backspace to go back; colours by file type.</p></div>
+        <div class="card"><h3>"Is it safe to delete?"</h3><p>Known caches and temp folders are marked and explained, with what deleting them does and how to clean them properly.</p></div>
+        <div class="card"><h3>Safe cleanup</h3><p>Delete to the Recycle Bin. Windows and program folders are protected; large, temporary and old installation files are listed for you.</p></div>
+        <div class="card"><h3>Programs on disk</h3><p>Every installed program with everything it uses: install folder, app data, caches and Store app data.</p></div>
+        <div class="card"><h3>Games and developer leftovers</h3><p>Steam, Epic Games and GOG games you no longer play; old projects' node_modules, bin/obj and other rebuildable folders.</p></div>
+        <div class="card"><h3>What changed and what comes next</h3><p>Compare with an earlier scan, see the drive's history, and when it will be full at the current pace.</p></div>
+        <div class="card"><h3>Duplicates and folder comparison</h3><p>The same content found by size and SHA-256; one copy always stays. Compare two folders, optionally byte by byte.</p></div>
+        <div class="card"><h3>Fast</h3><p>Parallel scanning, quick rescans from the NTFS change journal, pause and continue later. Hard links are counted once.</p></div>
+        <div class="card"><h3>For everyone</h3><p>Keyboard, screen reader and high contrast support. English, Turkish, Russian, Chinese, French, Spanish and Portuguese.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Pictures</h2>
+      <div class="gallery">
+        <figure><img src="img/2-compare.png" width="1920" height="1080" loading="lazy" alt="The same drive compared with its state three months earlier: grown folders in red, new ones in orange, smaller ones in green"><figcaption>What changed since the last scan</figcaption></figure>
+        <figure><img src="img/3-programs.png" width="1920" height="1080" loading="lazy" alt="The Programs on disk window listing installed programs with their program files, app data and reclaimable caches"><figcaption>Space used by each installed program</figcaption></figure>
+        <figure><img src="img/4-forecast.png" width="1920" height="1080" loading="lazy" alt="The disk forecast: a chart of used space with the date the drive will be full, where new files went and what grew"><figcaption>When the drive will be full</figcaption></figure>
+      </div>
+      <p class="note">The pictures show a made-up drive.</p>
+    </div>
+  </section>
+
+  <section id="download">
+    <div class="wrap">
+      <h2>Download</h2>
+      <!--STORE--><p><a href="{{STORE_URL}}">Microsoft Store</a>: installs and updates like any Store app. The files below run without installing anything.</p><!--/STORE-->
+      <div class="table-scroll">
+      <table class="dl">
+        <tr><th>File</th><th>Size</th><th>For</th><th>SHA-256</th></tr>
+        <tr>
+          <td><a href="download/{{FULL_NAME}}">{{FULL_NAME}}</a></td>
+          <td>{{FULL_SIZE}}</td>
+          <td>Any Windows 10 or 11 PC (x64). Nothing to install: .NET is inside the file.</td>
+          <td class="hash">{{FULL_SHA}}</td>
+        </tr>
+        <tr>
+          <td><a href="download/{{NET_NAME}}">{{NET_NAME}}</a></td>
+          <td>{{NET_SIZE}}</td>
+          <td>PCs that have the <a href="https://dotnet.microsoft.com/download/dotnet/8.0">.NET 8 Desktop Runtime</a> (or newer) installed.</td>
+          <td class="hash">{{NET_SHA}}</td>
+        </tr>
+      </table>
+      </div>
+      <p class="note">Check a download in PowerShell: <code>Get-FileHash .\{{FULL_NAME}}</code> and compare it with the SHA-256 above.
+        Settings are kept in a file next to the exe when that folder is writable, otherwise in <code>%LOCALAPPDATA%\ByteScape</code>.
+        The portable version can look for a newer version when you choose "Check for updates".</p>
+      <p class="note">Free and open source: <a href="LICENSE.txt">MIT License</a> · <a href="THIRD-PARTY-NOTICES.txt">third-party notices</a>
+        · <a href="{{HOME}}">source code</a></p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© {{YEAR}} {{PUBLISHER}}</span>
+    <a href="privacy.html">Privacy</a>
+    <a href="LICENSE.txt">License</a>
+    <a href="{{HOME}}">Source code</a>
+  </div>
+</footer>
+</body>
+</html>

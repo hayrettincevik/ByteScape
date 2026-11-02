@@ -1,0 +1,111 @@
+<Window x:Class="ByteScape.Wpf.Windows.GamesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:c="clr-namespace:ByteScape.Wpf.Controls"
+        Title="Games" Width="1100" Height="700" MinWidth="760" MinHeight="460" WindowStartupLocation="CenterOwner" ShowInTaskbar="False">
+    <Grid Margin="14">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="2*" MinHeight="120" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" MinHeight="90" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- summary -->
+        <Border Background="{DynamicResource LayerAlt}" BorderBrush="{DynamicResource Border}" BorderThickness="1" CornerRadius="4" Padding="12">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <StackPanel>
+                    <TextBlock x:Name="HeadLine" x:FieldModifier="internal" Style="{StaticResource Subtitle}" />
+                    <TextBlock x:Name="SubLine" Style="{StaticResource Secondary}" Margin="0,4,0,0" TextWrapping="Wrap" />
+                    <TextBlock x:Name="PartialLine" x:FieldModifier="internal" Foreground="{DynamicResource Warning}" Margin="0,4,0,0" TextWrapping="Wrap" Visibility="Collapsed" />
+                </StackPanel>
+                <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center" Margin="20,0,0,0">
+                    <StackPanel Margin="0,0,18,0" ToolTip="Installed games not played for more than a year (Steam keeps play times)"><TextBlock Text="Not played for a year" Style="{StaticResource Secondary}" /><TextBlock x:Name="IdleText" x:FieldModifier="internal" FontSize="16" Foreground="{DynamicResource Warning}" /></StackPanel>
+                    <StackPanel Margin="0,0,18,0" ToolTip="Installed but never started"><TextBlock Text="Never played" Style="{StaticResource Secondary}" /><TextBlock x:Name="NeverText" FontSize="16" /></StackPanel>
+                    <StackPanel ToolTip="Folders left behind by uninstalled games: game folders without a manifest, caches, workshop items, saves"><TextBlock Text="Left behind" Style="{StaticResource Secondary}" /><TextBlock x:Name="LeftText" FontSize="16" /></StackPanel>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <!-- tools -->
+        <DockPanel Grid.Row="1" Margin="0,10,0,6" LastChildFill="False">
+            <c:Glyph Text="&#xE721;" VerticalAlignment="Center" Margin="0,0,6,0" Foreground="{DynamicResource TextSecondary}" />
+            <TextBox x:Name="Search" x:FieldModifier="internal" AutomationProperties.Name="Search" Width="200" VerticalAlignment="Center" TextChanged="Search_TextChanged" ToolTip="Game, store or folder" />
+            <TextBlock Text="Not played for" Style="{StaticResource Secondary}" VerticalAlignment="Center" Margin="18,0,6,0" />
+            <ComboBox x:Name="Idle" x:FieldModifier="internal" MinWidth="110" SelectedIndex="0" SelectionChanged="Filter_Changed">
+                <ComboBoxItem Content="any time" Tag="0" />
+                <ComboBoxItem Content="1 month" Tag="30" />
+                <ComboBoxItem Content="3 months" Tag="91" />
+                <ComboBoxItem Content="6 months" Tag="182" />
+                <ComboBoxItem Content="1 year" Tag="365" />
+                <ComboBoxItem Content="2 years" Tag="730" />
+            </ComboBox>
+            <CheckBox x:Name="ShowTools" Content="Redistributables and tools" Margin="18,0,0,0" VerticalAlignment="Center" Click="Filter_Changed" />
+            <CheckBox x:Name="Spot" x:FieldModifier="internal" Content="Highlight on the map" IsChecked="True" Margin="18,0,0,0" VerticalAlignment="Center" Click="Spot_Click" />
+            <Button DockPanel.Dock="Right" Content="Refresh" Click="Refresh_Click" ToolTip="Read the launchers again and match the folders" />
+        </DockPanel>
+
+        <ListView Grid.Row="2" x:Name="GameList" x:FieldModifier="internal" SelectionMode="Single" SelectionChanged="GameList_SelectionChanged" MouseDoubleClick="GameList_MouseDoubleClick">
+            <ListView.Resources>
+                <!-- the application's TextBlock style fixes the colour: cells take it from their row (or header) instead -->
+                <Style TargetType="TextBlock"><Setter Property="Foreground" Value="{Binding Foreground, RelativeSource={RelativeSource AncestorType=Control}}" /></Style>
+            </ListView.Resources>
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem" BasedOn="{StaticResource {x:Type ListViewItem}}">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding IsLeftovers}" Value="True"><Setter Property="FontStyle" Value="Italic" /></DataTrigger>
+                        <DataTrigger Binding="{Binding IsIdle}" Value="True"><Setter Property="Foreground" Value="{DynamicResource Warning}" /></DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </ListView.ItemContainerStyle>
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Game" Width="250" DisplayMemberBinding="{Binding Name}" />
+                    <GridViewColumn Header="Store" Width="60" DisplayMemberBinding="{Binding Store}" />
+                    <GridViewColumn Header="Size" Width="85" DisplayMemberBinding="{Binding SizeText}" />
+                    <GridViewColumn Header="Game files" Width="85" DisplayMemberBinding="{Binding GameText}" />
+                    <GridViewColumn Header="Caches, mods, saves" Width="140" DisplayMemberBinding="{Binding ExtraText}" />
+                    <GridViewColumn Header="Last played" Width="115" DisplayMemberBinding="{Binding PlayedText}" />
+                    <GridViewColumn Header="Play time" Width="75" DisplayMemberBinding="{Binding PlaytimeText}" />
+                    <GridViewColumn Header="Updated" Width="110" DisplayMemberBinding="{Binding UpdatedText}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <GridSplitter Grid.Row="3" Height="6" HorizontalAlignment="Stretch" Background="Transparent" />
+
+        <DockPanel Grid.Row="4">
+            <TextBlock x:Name="PieceHead" x:FieldModifier="internal" DockPanel.Dock="Top" Style="{StaticResource Secondary}" Margin="0,2,0,4" TextTrimming="CharacterEllipsis" />
+            <ListView x:Name="PieceList" x:FieldModifier="internal" SelectionMode="Single" MouseDoubleClick="PieceList_MouseDoubleClick" SelectionChanged="PieceList_SelectionChanged">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="What" Width="170" DisplayMemberBinding="{Binding What}" />
+                        <GridViewColumn Header="Size" Width="80" DisplayMemberBinding="{Binding SizeText}" />
+                        <GridViewColumn Header="Note" Width="330" DisplayMemberBinding="{Binding Note}" />
+                        <GridViewColumn Header="Folder" Width="440" DisplayMemberBinding="{Binding Path}" />
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </DockPanel>
+
+        <c:FooterPanel Grid.Row="5" Margin="0,10,0,0">
+            <WrapPanel Margin="12,0,0,0">
+                <Button Content="Show on map" Click="ShowOnMap_Click" Margin="0,0,8,0" />
+                <Button x:Name="ExplorerBtn" Content="Open in Explorer" Click="Explorer_Click" Margin="0,0,8,0" />
+                <Button x:Name="StoreBtn" x:FieldModifier="internal" Content="Store page" Click="StorePage_Click" Margin="0,0,8,0" ToolTip="The game's page in the Steam store (to see what an app id is)" />
+                <Button x:Name="UninstallBtn" x:FieldModifier="internal" Content="Uninstall in Steam…" Click="Uninstall_Click" Margin="0,0,8,0" ToolTip="Steam asks for confirmation and removes the game" />
+                <Button Content="Copy list" Click="Copy_Click" Margin="0,0,8,0" />
+                <Button Content="Save as text…" Click="Save_Click" Margin="0,0,8,0" />
+                <Button Content="Close" Click="Close_Click" MinWidth="90" />
+            </WrapPanel>
+            <TextBlock Style="{StaticResource Secondary}" VerticalAlignment="Center" TextWrapping="Wrap"
+                       Text="Double click: show it on the map. ByteScape never deletes anything: uninstall through the launcher." />
+        </c:FooterPanel>
+    </Grid>
+</Window>

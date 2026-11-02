@@ -1,0 +1,103 @@
+<Window x:Class="ByteScape.Wpf.Windows.AppsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:c="clr-namespace:ByteScape.Wpf.Controls"
+        Title="Programs on disk" Width="1100" Height="720" MinWidth="760" MinHeight="460" WindowStartupLocation="CenterOwner" ShowInTaskbar="False">
+    <Grid Margin="14">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="2*" MinHeight="120" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" MinHeight="90" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- summary -->
+        <Border Background="{DynamicResource LayerAlt}" BorderBrush="{DynamicResource Border}" BorderThickness="1" CornerRadius="4" Padding="12">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <StackPanel>
+                    <TextBlock x:Name="HeadLine" x:FieldModifier="internal" Style="{StaticResource Subtitle}" />
+                    <TextBlock x:Name="SubLine" Style="{StaticResource Secondary}" Margin="0,4,0,0" TextWrapping="Wrap" />
+                    <TextBlock x:Name="PartialLine" x:FieldModifier="internal" Foreground="{DynamicResource Warning}" Margin="0,4,0,0" TextWrapping="Wrap" Visibility="Collapsed" />
+                </StackPanel>
+                <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center" Margin="20,0,0,0">
+                    <StackPanel Margin="0,0,18,0" ToolTip="Install folders of the programs"><TextBlock Text="Program files" Style="{StaticResource Secondary}" /><TextBlock x:Name="ProgramText" FontSize="16" /></StackPanel>
+                    <StackPanel Margin="0,0,18,0" ToolTip="AppData, ProgramData and Store app data of the programs"><TextBlock Text="App data" Style="{StaticResource Secondary}" /><TextBlock x:Name="DataText" FontSize="16" /></StackPanel>
+                    <StackPanel Margin="0,0,18,0" ToolTip="Known caches and temporary files inside the programs' folders (Cache Radar)"><TextBlock Text="Reclaimable caches" Style="{StaticResource Secondary}" /><TextBlock x:Name="ReclaimText" FontSize="16" Foreground="{DynamicResource Success}" /></StackPanel>
+                    <StackPanel ToolTip="Folders in Program Files, ProgramData and AppData that no installed program claims"><TextBlock Text="Not linked" Style="{StaticResource Secondary}" /><TextBlock x:Name="UnlinkedText" FontSize="16" /></StackPanel>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <!-- tools -->
+        <DockPanel Grid.Row="1" Margin="0,10,0,6" LastChildFill="False">
+            <c:Glyph Text="&#xE721;" VerticalAlignment="Center" Margin="0,0,6,0" Foreground="{DynamicResource TextSecondary}" />
+            <TextBox x:Name="Search" x:FieldModifier="internal" AutomationProperties.Name="Search" Width="240" VerticalAlignment="Center" TextChanged="Search_TextChanged" ToolTip="Program, publisher or folder" />
+            <CheckBox x:Name="ShowComponents" Content="Windows components" Margin="18,0,0,0" VerticalAlignment="Center" Click="Filter_Click"
+                      ToolTip="Runtimes, SDK parts and Windows' own packages (hidden from Settings &gt; Apps)" />
+            <CheckBox x:Name="Spot" x:FieldModifier="internal" Content="Highlight the selected program on the map" IsChecked="True" Margin="18,0,0,0" VerticalAlignment="Center" Click="Spot_Click" />
+            <Button DockPanel.Dock="Right" Content="Refresh" Click="Refresh_Click" ToolTip="Match again (after the scan went on or programs changed)" />
+        </DockPanel>
+
+        <ListView Grid.Row="2" x:Name="AppList" x:FieldModifier="internal" SelectionMode="Single" SelectionChanged="AppList_SelectionChanged" MouseDoubleClick="AppList_MouseDoubleClick">
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem" BasedOn="{StaticResource {x:Type ListViewItem}}">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding IsUnlinked}" Value="True">
+                            <Setter Property="FontStyle" Value="Italic" />
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </ListView.ItemContainerStyle>
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Program" Width="270" DisplayMemberBinding="{Binding Name}" />
+                    <GridViewColumn Header="Publisher" Width="150" DisplayMemberBinding="{Binding Publisher}" />
+                    <GridViewColumn Header="Type" Width="75" DisplayMemberBinding="{Binding TypeText}" />
+                    <GridViewColumn Header="Total" Width="80" DisplayMemberBinding="{Binding TotalText}" />
+                    <GridViewColumn Header="Program files" Width="90" DisplayMemberBinding="{Binding ProgramText}" />
+                    <GridViewColumn Header="App data" Width="80" DisplayMemberBinding="{Binding DataText}" />
+                    <GridViewColumn Header="Reclaimable" Width="85" DisplayMemberBinding="{Binding ReclaimText}" />
+                    <GridViewColumn Header="Last activity" Width="105" DisplayMemberBinding="{Binding LastText}" />
+                    <GridViewColumn Header="Folders" Width="55" DisplayMemberBinding="{Binding FoldersText}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <GridSplitter Grid.Row="3" Height="6" HorizontalAlignment="Stretch" Background="Transparent" />
+
+        <DockPanel Grid.Row="4">
+            <TextBlock x:Name="PieceHead" x:FieldModifier="internal" DockPanel.Dock="Top" Style="{StaticResource Secondary}" Margin="0,2,0,4" TextTrimming="CharacterEllipsis" />
+            <ListView x:Name="PieceList" x:FieldModifier="internal" SelectionMode="Single" MouseDoubleClick="PieceList_MouseDoubleClick" SelectionChanged="PieceList_SelectionChanged">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Where" Width="160" DisplayMemberBinding="{Binding Where}" />
+                        <GridViewColumn Header="Size" Width="80" DisplayMemberBinding="{Binding SizeText}" />
+                        <GridViewColumn Header="Reclaimable" Width="85" DisplayMemberBinding="{Binding ReclaimText}" />
+                        <GridViewColumn Header="Last write" Width="105" DisplayMemberBinding="{Binding LastText}" />
+                        <GridViewColumn Header="Note" Width="190" DisplayMemberBinding="{Binding Note}" />
+                        <GridViewColumn Header="Folder" Width="440" DisplayMemberBinding="{Binding Path}" />
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </DockPanel>
+
+        <c:FooterPanel Grid.Row="5" Margin="0,10,0,0">
+            <WrapPanel HorizontalAlignment="Right">
+                <Button x:Name="MapBtn" Content="Show on map" Click="ShowOnMap_Click" Margin="0,0,8,0" ToolTip="The selected folder, or all folders of the selected program" />
+                <Button x:Name="ExplorerBtn" Content="Open in Explorer" Click="Explorer_Click" Margin="0,0,8,0" />
+                <Button Content="Apps &amp; features…" Click="Settings_Click" Margin="0,0,8,0" ToolTip="Windows Settings: uninstall or move programs" />
+                <Button Content="Copy list" Click="Copy_Click" Margin="0,0,8,0" />
+                <Button Content="Save as text…" Click="Save_Click" Margin="0,0,8,0" />
+                <Button Content="Close" Click="Close_Click" MinWidth="90" />
+            </WrapPanel>
+            <TextBlock x:Name="Hint" Style="{StaticResource Secondary}" VerticalAlignment="Center" TextWrapping="Wrap" Margin="0,0,12,0"
+                       Text="Double click a folder to show it on the map. ByteScape never deletes or uninstalls anything: use Apps &amp; features." />
+        </c:FooterPanel>
+    </Grid>
+</Window>

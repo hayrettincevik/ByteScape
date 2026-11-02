@@ -1,0 +1,53 @@
+<Window x:Class="ByteScape.Wpf.Windows.ProblemReportWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:c="clr-namespace:ByteScape.Wpf.Controls"
+        Title="Report a problem" Width="680" Height="640" MinWidth="520" MinHeight="460" WindowStartupLocation="CenterOwner" ShowInTaskbar="False">
+    <Grid Margin="16">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <StackPanel>
+            <TextBlock Style="{StaticResource Subtitle}" Text="Report a problem" />
+            <TextBlock x:Name="IntroText" x:FieldModifier="internal" Style="{StaticResource Secondary}" Margin="0,4,0,0" TextWrapping="Wrap" />
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Margin="0,12,0,0">
+            <TextBlock Text="What happened? (optional)" FontWeight="SemiBold" />
+            <TextBox x:Name="DescriptionBox" x:FieldModifier="internal" Margin="0,4,0,0" Height="64" AcceptsReturn="True" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" VerticalContentAlignment="Top" />
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Margin="0,12,0,0">
+            <TextBlock Text="Include" FontWeight="SemiBold" />
+            <CheckBox IsChecked="True" IsEnabled="False" Content="System information: Windows version, processor and memory, drives (type, file system, size)" />
+            <CheckBox x:Name="LogOpt" x:FieldModifier="internal" IsChecked="True" Checked="Option_Changed" Unchecked="Option_Changed" />
+            <CheckBox x:Name="CrashOpt" x:FieldModifier="internal" IsChecked="True" Checked="Option_Changed" Unchecked="Option_Changed" />
+            <CheckBox x:Name="SettingsOpt" x:FieldModifier="internal" IsChecked="True" Checked="Option_Changed" Unchecked="Option_Changed" Content="Settings (without the API key and the recently opened folders)" />
+            <CheckBox x:Name="HideOpt" x:FieldModifier="internal" IsChecked="True" Checked="Option_Changed" Unchecked="Option_Changed" Content="Replace my Windows user name and computer name with &lt;user&gt; and &lt;computer&gt;" Margin="0,8,0,4" />
+        </StackPanel>
+
+        <DockPanel Grid.Row="3" Margin="0,8,0,0">
+            <TextBlock DockPanel.Dock="Top" Style="{StaticResource Secondary}" Text="What the report says about this computer:" Margin="0,0,0,4" />
+            <TextBox x:Name="PreviewBox" x:FieldModifier="internal" IsReadOnly="True" FontFamily="Consolas" FontSize="12" TextWrapping="NoWrap"
+                     HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" VerticalContentAlignment="Top" />
+        </DockPanel>
+
+        <TextBlock x:Name="ResultText" x:FieldModifier="internal" Grid.Row="4" Margin="0,10,0,0" TextWrapping="Wrap" Visibility="Collapsed" />
+
+        <c:FooterPanel Grid.Row="5" Margin="0,14,0,0">
+            <WrapPanel Margin="8,0,0,0">
+                <Button x:Name="SaveBtn" x:FieldModifier="internal" Style="{StaticResource AccentButton}" Content="Save report…" Click="Save_Click" IsDefault="True" Margin="0,0,8,0" />
+                <Button x:Name="IssueBtn" x:FieldModifier="internal" Style="{StaticResource AccentButton}" Content="Open an issue…" Click="Issue_Click" Margin="0,0,8,0" Visibility="Collapsed"
+                        ToolTip="Saves the report, shows it in Explorer and opens a new issue on the project page in your browser: attach the file there. Everyone can read issues." />
+                <Button Content="Close" MinWidth="90" IsCancel="True" />
+            </WrapPanel>
+            <Button x:Name="OpenFolderBtn" x:FieldModifier="internal" HorizontalAlignment="Left" Content="Open error report folder" Click="OpenFolder_Click" />
+        </c:FooterPanel>
+    </Grid>
+</Window>

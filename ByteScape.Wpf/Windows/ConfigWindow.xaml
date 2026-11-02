@@ -1,0 +1,241 @@
+<Window x:Class="ByteScape.Wpf.Windows.ConfigWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:c="clr-namespace:ByteScape.Wpf.Controls"
+        Title="Settings" Width="1060" Height="680" MinWidth="900" MinHeight="560" WindowStartupLocation="CenterOwner" ShowInTaskbar="False">
+    <Window.Resources>
+        <Style x:Key="Row" TargetType="DockPanel">
+            <Setter Property="Margin" Value="0,5" />
+            <Setter Property="LastChildFill" Value="False" />
+        </Style>
+        <Style x:Key="RowLabel" TargetType="TextBlock" BasedOn="{StaticResource {x:Type TextBlock}}">
+            <Setter Property="Width" Value="270" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+        </Style>
+        <Style x:Key="Hint" TargetType="TextBlock" BasedOn="{StaticResource Secondary}">
+            <Setter Property="FontSize" Value="11.5" />
+            <Setter Property="Margin" Value="0,0,0,8" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+        </Style>
+        <Style TargetType="Slider" BasedOn="{StaticResource {x:Type Slider}}">
+            <Setter Property="Width" Value="220" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="IsSnapToTickEnabled" Value="True" />
+            <Setter Property="TickFrequency" Value="1" />
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="16">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="170" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="330" />
+        </Grid.ColumnDefinitions>
+
+        <!-- navigation -->
+        <ListBox x:Name="Nav" BorderThickness="0" Background="Transparent" SelectionChanged="Nav_SelectionChanged" Margin="0,0,12,0">
+            <ListBoxItem Content="Geometry" />
+            <ListBoxItem Content="Animation" />
+            <ListBoxItem Content="Behavior" />
+            <ListBoxItem Content="Scanning" />
+            <ListBoxItem Content="Look" />
+            <ListBoxItem Content="Styles" />
+            <ListBoxItem Content="Advanced" />
+        </ListBox>
+
+        <!-- pages -->
+        <Border Grid.Column="1" Background="{DynamicResource Layer}" BorderBrush="{DynamicResource Border}" BorderThickness="1" CornerRadius="6" Padding="18,12">
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <Grid>
+                    <StackPanel x:Name="PageGeometry">
+                        <TextBlock Text="Geometry" Style="{StaticResource Title}" Margin="0,0,0,10" />
+                        <DockPanel Style="{StaticResource Row}"><TextBlock Style="{StaticResource RowLabel}" Text="Element font size (pt)" /><c:NumberBox Value="{Binding FontSize}" Minimum="6" Maximum="24" /></DockPanel>
+                        <DockPanel Style="{StaticResource Row}"><TextBlock Style="{StaticResource RowLabel}" Text="Smallest block drawn (pixels)" /><c:NumberBox Value="{Binding MinElementSizePx}" Minimum="1" Maximum="200" /></DockPanel>
+                        <TextBlock Style="{StaticResource Hint}" Text="Elements smaller than this in either direction are not drawn individually." />
+                        <DockPanel Style="{StaticResource Row}"><TextBlock Style="{StaticResource RowLabel}" Text="Element proportions (horizontal … vertical)" /><Slider Value="{Binding Proportions}" Minimum="0" Maximum="100" TickFrequency="10" /></DockPanel>
+                        <DockPanel Style="{StaticResource Row}"><TextBlock Style="{StaticResource RowLabel}" Text="Initial detail level (nesting depth)" /><c:NumberBox Value="{Binding InitialDetailLevel}" Minimum="1" Maximum="64" /></DockPanel>
+                        <CheckBox Content="Sort items by size (biggest top-left)" IsChecked="{Binding UseSorting}" />
+                        <CheckBox Content="Gather elements below the minimum size into one “N items” block (off = hide them)" IsChecked="{Binding AggregateSmallElements}" />
+                        <CheckBox Content="Mark known caches, temp areas and protected system folders (♻ / ⚠ / ⛔ badges, “reclaimable” total)" IsChecked="{Binding ShowKnowledgeBadges}" />
+                        <CheckBox Content="New views show the free space" IsChecked="{Binding ShowFreeSpace}" />
+                        <CheckBox Content="New views show unscanned and unreadable space" IsChecked="{Binding ShowUnknownSpace}" />
+                    </StackPanel>
+
+                    <StackPanel x:Name="PageAnimation" Visibility="Collapsed">
+                        <TextBlock Text="Animation" Style="{StaticResource Title}" Margin="0,0,0,10" />
+                        <DockPanel Style="{StaticResource Row}"><TextBlock Style="{StaticResource RowLabel}" Text="Zoom animation duration (ms)" /><c:NumberBox Value="{Binding ZoomTimeMs}" Minimum="0" Maximum="5000" Step="50" /></DockPanel>
+                        <CheckBox Content="DynaZoom (re-layout every frame while zooming)" IsChecked="{Binding UseRealZoom}" />
+                        <DockPanel Style="{StaticResource Row}"><TextBlock Style="{StaticResource RowLabel}" Text="Animation smoothness (frame period ms)" /><Slider Value="{Binding RefreshDelayMs}" Minimum="20" Maximum="1000" TickFrequency="10" /></DockPanel>
+                        <TextBlock Style="{StaticResource Hint}" Text="Lower = smoother animation but slower scan." />
+                        <CheckBox Content="DynaSmooth (slow the refresh rate down when idle)" IsChecked="{Binding UseDynaSmooth}" />
+                    </StackPanel>
+
+                    <StackPanel x:Name="PageBehavior" Visibility="Collapsed">
+                        <TextBlock Text="Behavior" Style="{StaticResource Title}" Margin="0,0,0,10" />
+                        <DockPanel Style="{StaticResource Row}"><TextBlock Style="{StaticResource RowLabel}" Text="Language" /><ComboBox x:Name="LanguageBox" x:FieldModifier="internal" DisplayMemberPath="Name" SelectionChanged="LanguageBox_SelectionChanged" /></DockPanel>
+                        <CheckBox Content="Flash the taskbar button when a scan ends in the background" IsChecked="{Binding FlashWindow}" />
+                        <CheckBox Content="Keep element tooltip open on change" IsChecked="{Binding KeepTooltip}" />
+                        <CheckBox Content="Show file date and time in tooltip" IsChecked="{Binding ShowFileTooltipDateTime}" />
+                        <CheckBox Content="Show file age in tooltip" IsChecked="{Binding ShowFileTooltipAge}" />
+                        <DockPanel Style="{StaticResource Row}"><TextBlock Style="{StaticResource RowLabel}" Text="Tooltip delay (ms)" /><c:NumberBox Value="{Binding TooltipDelayMs}" Minimum="50" Maximum="5000" Step="50" /></DockPanel>
+                        <TextBlock Text="Deleting" Style="{StaticResource Subtitle}" />
+                        <CheckBox Content="Delete moves to the Recycle Bin (Shift+Delete deletes permanently)" IsChecked="{Binding DeleteToRecycleBin}" />
+                        <TextBlock Style="{StaticResource Hint}" Text="Off: Delete deletes permanently and Shift+Delete moves to the Recycle Bin. Either way ByteScape shows what would go, whether it is safe, what needs administrator rights or is open in a program, and asks first. Drives without a Recycle Bin (USB sticks, network) always delete permanently." />
+                        <CheckBox Content="Protect system folders" IsChecked="{Binding ProtectSystemFolders}" Margin="0,8,0,0" />
+                        <TextBlock Style="{StaticResource Hint}" Text="Parts of Windows and of installed programs (uninstall those instead), Windows' user folders themselves (Documents, AppData...) and protected system files cannot be deleted from ByteScape. Off: they can, after a serious warning. Drive roots, the running Windows, Program Files / ProgramData / Users themselves, user profiles, the Recycle Bin and ByteScape's own folder are always protected." />
+                        <TextBlock Text="Cleanup" Style="{StaticResource Subtitle}" />
+                        <DockPanel Style="{StaticResource Row}"><TextBlock Style="{StaticResource RowLabel}" Text="Large files from (MB)" /><c:NumberBox Value="{Binding LargeFileMB}" Minimum="1" Maximum="1000000" Step="100" /></DockPanel>
+                        <DockPanel Style="{StaticResource Row}"><TextBlock Style="{StaticResource RowLabel}" Text="Installation files are old after (days)" /><c:NumberBox Value="{Binding OldInstallerDays}" Minimum="0" Maximum="3650" Step="10" /></DockPanel>
+                        <DockPanel Style="{StaticResource Row}"><TextBlock Style="{StaticResource RowLabel}" Text="Programs are unused after (days)" /><c:NumberBox Value="{Binding UnusedProgramDays}" Minimum="1" Maximum="3650" Step="30" /></DockPanel>
+                        <TextBlock Style="{StaticResource Hint}" Text="Installation files: installers in Downloads and on the Desktop. Unused programs: not started (as Windows records it) and their data unchanged for that long, and installed before that." />
+                        <TextBlock Text="Explorer" Style="{StaticResource Subtitle}" />
+                        <DockPanel Margin="0,0,0,2">
+                            <Button x:Name="ExplorerMenuBtn" x:FieldModifier="internal" DockPanel.Dock="Right" Content="Add" MinWidth="110" Margin="10,0,0,0" Click="ExplorerMenu_Click" />
+                            <TextBlock x:Name="ExplorerMenuText" x:FieldModifier="internal" TextWrapping="Wrap" VerticalAlignment="Center" />
+                        </DockPanel>
+                        <TextBlock x:Name="ExplorerMenuHint" x:FieldModifier="internal" Style="{StaticResource Hint}" Text="Right click a folder, a drive or the empty space of a folder in Explorer: &quot;Open in ByteScape&quot;. Only for your account (no administrator rights); on Windows 11 it is under &quot;Show more options&quot;. Takes effect at once, not with OK." />
+                        <TextBlock Text="Disk forecast" Style="{StaticResource Subtitle}" />
+                        <CheckBox Content="Measure the drives' free space for the forecast" IsChecked="{Binding RecordDiskHistory}" />
+                        <TextBlock Style="{StaticResource Hint}" Text="When ByteScape starts and after each complete scan of a drive: the date, the size and the free space of each local drive, and the sizes of its big folders. Kept next to the configuration file; never sent anywhere." />
+                        <TextBlock Text="Log" Style="{StaticResource Subtitle}" />
+                        <CheckBox Content="Open the log window when something is logged" IsChecked="{Binding LogPopup}" />
+                        <CheckBox Content="Write scan warnings to the log" IsChecked="{Binding LogWarning}" />
+                        <CheckBox Content="Log issues" IsChecked="{Binding LogIssue}" />
+                        <CheckBox Content="Log debug messages" IsChecked="{Binding LogDebug}" />
+                        <CheckBox Content="Log fine debug messages" IsChecked="{Binding LogDebugFine}" />
+                        <DockPanel Style="{StaticResource Row}"><TextBlock Style="{StaticResource RowLabel}" Text="Log console capacity (entries)" /><c:NumberBox Value="{Binding LogMaxEntries}" Minimum="100" Maximum="100000" Step="100" /></DockPanel>
+                    </StackPanel>
+
+                    <StackPanel x:Name="PageScanning" Visibility="Collapsed">
+                        <TextBlock Text="Scanning" Style="{StaticResource Title}" Margin="0,0,0,10" />
+                        <CheckBox Content="Scan NTFS alternate data streams (slower)" IsChecked="{Binding ScanADS}" />
+                        <CheckBox Content="File system changes detection (restart required)" IsChecked="{Binding WatchDog}" />
+                        <CheckBox Content="Follow junctions and symbolic links" IsChecked="{Binding FollowReparsePoints}" />
+                        <TextBlock Style="{StaticResource Hint}" Text="Junctions usually point to space that is counted elsewhere; following them can double count." />
+                        <DockPanel Style="{StaticResource Row}" Margin="0,8,0,0"><TextBlock Style="{StaticResource RowLabel}" Text="Scan strategy for the drive" /><ComboBox SelectedIndex="{Binding ScanDriveKind}" MinWidth="165"><ComboBoxItem Content="Automatic (ask the disk)" /><ComboBoxItem Content="HDD (spinning disk)" /><ComboBoxItem Content="SSD (SATA)" /><ComboBoxItem Content="NVMe SSD" /><ComboBoxItem Content="USB stick / memory card" /></ComboBox></DockPanel>
+                        <TextBlock Style="{StaticResource Hint}" Text="HDD: one folder at a time, in the order the folders sit on the disk, and a full scan waits while you rescan a folder. SSD: one folder per processor core at once (up to 8); NVMe: twice as many (up to 16); USB flash: two at once with bigger listing calls. Automatic asks the disk (seek penalty and bus type, no administrator rights needed); choose by hand when a USB enclosure or RAID hides it." />
+                        <DockPanel Style="{StaticResource Row}" Margin="0,8,0,0"><TextBlock Style="{StaticResource RowLabel}" Text="Folders listed in parallel (0 = automatic)" /><c:NumberBox Value="{Binding ScanThreads}" Minimum="0" Maximum="32" /></DockPanel>
+                        <TextBlock Style="{StaticResource Hint}" Text="0: as the scan strategy above says. A number overrides it (1 on a spinning disk keeps the disk order; more than 1 lists that many folders at once)." />
+                        <CheckBox Content="Count hard-linked files once" IsChecked="{Binding CountHardLinksOnce}" Margin="0,8,0,0" />
+                        <TextBlock Style="{StaticResource Hint}" Text="A file with several names (Windows\WinSxS and System32, pnpm stores) takes its space once: it is counted at the first name, the others show 0 on disk. Off: once per name, like Explorer. Local NTFS drives; applies from the next scan." />
+                        <CheckBox Content="Fast NTFS scan when running as administrator" IsChecked="{Binding UseMftScan}" Margin="0,8,0,0" />
+                        <TextBlock Style="{StaticResource Hint}" Text="Reads the drive's master file table directly instead of listing every folder: a full drive in seconds. Local NTFS drives only; also shows folders a normal scan cannot open. Links are never followed in this mode." />
+                        <CheckBox Content="Quick rescans with the NTFS change journal" IsChecked="{Binding QuickRescan}" Margin="0,8,0,0" />
+                        <TextBlock Style="{StaticResource Hint}" Text="NTFS keeps a journal of every change on the drive. A rescan reads it and lists again only the folders that changed since the last scan (no administrator rights needed). A complete scan is also kept when ByteScape closes (next to the configuration, about 60 MB for a system drive of a million files), so opening the drive again takes seconds. When the journal no longer holds every change (it keeps days to weeks of them), everything is scanned. Shift+click on the scan button always scans everything. Local NTFS drives whose links are not followed." />
+                        <TextBlock Text="Exclude folders" Style="{StaticResource Subtitle}" />
+                        <TextBlock Style="{StaticResource Hint}" Text="One wildcard mask per line, matched against the folder name or the full path — e.g. *\WinSxS or node_modules. Excluded folders are not scanned at all." />
+                        <TextBox Text="{Binding ExcludePathsText, UpdateSourceTrigger=PropertyChanged}" AcceptsReturn="True" Height="90" VerticalScrollBarVisibility="Auto" FontFamily="Cascadia Mono, Consolas" />
+                        <TextBlock Text="Recent paths" Style="{StaticResource Subtitle}" />
+                        <CheckBox Content="Remember recently scanned paths" IsChecked="{Binding RememberRecentPaths}" />
+                        <CheckBox Content="Keep unfinished scans to continue them later" IsChecked="{Binding KeepUnfinishedScans}" Margin="0,6,0,0" />
+                        <TextBlock Style="{StaticResource Hint}" Text="A stopped scan, or one still running when ByteScape closes, is kept (what was found so far) next to the configuration for a week; opening the same path again continues it with the folders not reached yet. Shift+click on the scan button scans everything again." />
+                        <WrapPanel Margin="0,5"><TextBlock Style="{StaticResource RowLabel}" Text="Recent paths to keep" /><c:NumberBox Value="{Binding MaxRecentPaths}" Minimum="1" Maximum="50" Margin="0,0,10,0" /><Button Content="Clear list" Click="ClearRecent_Click" /></WrapPanel>
+                    </StackPanel>
+
+                    <StackPanel x:Name="PageLook" Visibility="Collapsed">
+                        <TextBlock Text="Look" Style="{StaticResource Title}" Margin="0,0,0,10" />
+                        <DockPanel Style="{StaticResource Row}"><TextBlock Style="{StaticResource RowLabel}" Text="Level contrast (flat … deep)" /><Slider Value="{Binding LevelContrast}" Minimum="0" Maximum="100" TickFrequency="5" /></DockPanel>
+                        <DockPanel Style="{StaticResource Row}"><TextBlock Style="{StaticResource RowLabel}" Text="Border contrast (gummy … hard edge)" /><Slider Value="{Binding BorderContrast}" Minimum="0" Maximum="100" TickFrequency="5" /></DockPanel>
+                        <DockPanel Style="{StaticResource Row}"><TextBlock Style="{StaticResource RowLabel}" Text="Highlight halo levels" /><c:NumberBox Value="{Binding HilightHaloLevels}" Minimum="0" Maximum="10" /></DockPanel>
+                        <CheckBox Content="Highlight element under the mouse" IsChecked="{Binding MouseHover}" />
+                        <CheckBox Content="Drop shadow under the selected element" IsChecked="{Binding HilightShadow}" />
+                        <CheckBox Content="Mouse trail" IsChecked="{Binding MouseTrail}" />
+                        <DockPanel Style="{StaticResource Row}"><TextBlock Style="{StaticResource RowLabel}" Text="Blink duration after external change (ms, 0 = off)" /><c:NumberBox Value="{Binding BlinkDurationMs}" Minimum="0" Maximum="10000" Step="250" /></DockPanel>
+                        <TextBlock Text="Tag colours" Style="{StaticResource Subtitle}" />
+                        <DockPanel Style="{StaticResource Row}"><TextBlock Style="{StaticResource RowLabel}" Text="Red (Ctrl+1)" /><c:ColorPicker Color="{Binding TagRedColor}" /></DockPanel>
+                        <DockPanel Style="{StaticResource Row}"><TextBlock Style="{StaticResource RowLabel}" Text="Yellow (Ctrl+2)" /><c:ColorPicker Color="{Binding TagYellowColor}" /></DockPanel>
+                        <DockPanel Style="{StaticResource Row}"><TextBlock Style="{StaticResource RowLabel}" Text="Green (Ctrl+3)" /><c:ColorPicker Color="{Binding TagGreenColor}" /></DockPanel>
+                        <DockPanel Style="{StaticResource Row}"><TextBlock Style="{StaticResource RowLabel}" Text="Blue (Ctrl+4)" /><c:ColorPicker Color="{Binding TagBlueColor}" /></DockPanel>
+                    </StackPanel>
+
+                    <StackPanel x:Name="PageStyles" Visibility="Collapsed">
+                        <TextBlock Text="Styles" Style="{StaticResource Title}" Margin="0,0,0,10" />
+                        <DockPanel Style="{StaticResource Row}"><TextBlock Style="{StaticResource RowLabel}" Text="Default style for new views" /><ComboBox SelectedIndex="{Binding InitialStyleIndex}" MinWidth="180"><ComboBoxItem Content="Flat colours" /><ComboBoxItem Content="File classes" /></ComboBox></DockPanel>
+                        <TextBlock Text="Flat colours" Style="{StaticResource Subtitle}" />
+                        <DockPanel Style="{StaticResource Row}"><TextBlock Style="{StaticResource RowLabel}" Text="Drive" /><c:ColorPicker Color="{Binding DriveColor}" /></DockPanel>
+                        <DockPanel Style="{StaticResource Row}"><TextBlock Style="{StaticResource RowLabel}" Text="Folder" /><c:ColorPicker Color="{Binding FolderColor}" /></DockPanel>
+                        <DockPanel Style="{StaticResource Row}"><TextBlock Style="{StaticResource RowLabel}" Text="File" /><c:ColorPicker Color="{Binding FileColor}" /></DockPanel>
+                        <DockPanel Style="{StaticResource Row}"><TextBlock Style="{StaticResource RowLabel}" Text="Free space" /><c:ColorPicker Color="{Binding FreeColor}" /></DockPanel>
+                        <DockPanel Style="{StaticResource Row}"><TextBlock Style="{StaticResource RowLabel}" Text="Unknown space" /><c:ColorPicker Color="{Binding UnknownColor}" /></DockPanel>
+                        <TextBlock Text="File classes" Style="{StaticResource Subtitle}" />
+                        <ListView x:Name="Classes" Height="170" MouseDoubleClick="EditClass_Click">
+                            <ListView.View>
+                                <GridView>
+                                    <GridViewColumn Header="Description" Width="170" DisplayMemberBinding="{Binding Name}" />
+                                    <GridViewColumn Header="Extensions" Width="260" DisplayMemberBinding="{Binding Extensions}" />
+                                    <GridViewColumn Header="Colour" Width="80">
+                                        <GridViewColumn.CellTemplate>
+                                            <DataTemplate><Border Width="40" Height="14" CornerRadius="3" Background="{Binding Brush}" /></DataTemplate>
+                                        </GridViewColumn.CellTemplate>
+                                    </GridViewColumn>
+                                </GridView>
+                            </ListView.View>
+                        </ListView>
+                        <WrapPanel Margin="0,8,0,0">
+                            <Button Content="Add" Click="AddClass_Click" Margin="0,0,6,6" />
+                            <Button Content="Edit" Click="EditClass_Click" Margin="0,0,6,6" />
+                            <Button Content="Delete" Click="DeleteClass_Click" Margin="0,0,6,6" />
+                            <Button Content="Up" Click="UpClass_Click" Margin="0,0,6,6" />
+                            <Button Content="Down" Click="DownClass_Click" Margin="0,0,6,6" />
+                            <Button Content="Defaults" Click="DefaultClasses_Click" Margin="0,0,0,6" />
+                        </WrapPanel>
+                    </StackPanel>
+
+                    <StackPanel x:Name="PageAdvanced" Visibility="Collapsed">
+                        <TextBlock Text="Advanced" Style="{StaticResource Title}" Margin="0,0,0,10" />
+                        <CheckBox Content="Decimal units (1 kB = 1000 bytes) instead of binary (1 KB = 1024 bytes)" IsChecked="{Binding DecimalUnits}" />
+                        <TextBlock Text="Configuration file" Style="{StaticResource Subtitle}" />
+                        <DockPanel LastChildFill="True">
+                            <Button DockPanel.Dock="Right" Content="Open folder" Margin="8,0,0,0" Click="OpenFolder_Click" />
+                            <TextBox x:Name="ConfigPathBox" IsReadOnly="True" />
+                        </DockPanel>
+                        <TextBlock Style="{StaticResource Hint}" Margin="0,8,0,0" Text="Import / Export (below) read and write complete profiles in the same XML format, so you can keep e.g. a “presentation” and a “work” look and switch between them." />
+                        <StackPanel x:Name="UpdatesPanel" x:FieldModifier="internal">
+                            <TextBlock Text="Updates" Style="{StaticResource Subtitle}" Margin="0,16,0,4" />
+                            <CheckBox Content="Check for a new version once a week" IsChecked="{Binding CheckForUpdates}" />
+                            <TextBlock x:Name="UpdatesHint" x:FieldModifier="internal" Style="{StaticResource Hint}" />
+                        </StackPanel>
+                        <TextBlock Text="Local AI (optional)" Style="{StaticResource Subtitle}" Margin="0,16,0,4" />
+                        <TextBlock Style="{StaticResource Hint}" Text="A language model you run yourself (Ollama, LM Studio, llama.cpp or any OpenAI compatible server). Used only when the rule based features come up empty: requests the filter box could not understand, a description for folders the knowledge base does not know, and a summary in the comparison window. Only folder / file names and sizes are sent, never contents — to the address below and nowhere else. Nothing is contacted while this is off." TextWrapping="Wrap" />
+                        <CheckBox Content="Enable local AI features" IsChecked="{Binding AiEnabled}" Margin="0,6,0,4" />
+                        <DockPanel Style="{StaticResource Row}"><TextBlock Style="{StaticResource RowLabel}" Text="Endpoint (…/v1 = OpenAI style, otherwise Ollama)" /><TextBox Text="{Binding AiEndpoint, UpdateSourceTrigger=PropertyChanged}" /></DockPanel>
+                        <DockPanel Style="{StaticResource Row}"><TextBlock Style="{StaticResource RowLabel}" Text="Model name" /><ComboBox x:Name="AiModelBox" IsEditable="True" Text="{Binding AiModel, UpdateSourceTrigger=PropertyChanged}" /></DockPanel>
+                        <DockPanel Style="{StaticResource Row}"><TextBlock Style="{StaticResource RowLabel}" Text="API key (only if the server needs one)" /><PasswordBox x:Name="AiKeyBox" PasswordChanged="AiKeyBox_PasswordChanged" ToolTip="Stored encrypted for your Windows account; not included in exported settings." /></DockPanel>
+                        <DockPanel Style="{StaticResource Row}"><TextBlock Style="{StaticResource RowLabel}" Text="Timeout (seconds)" /><c:NumberBox Value="{Binding AiTimeoutSeconds}" Minimum="5" Maximum="600" /></DockPanel>
+                        <DockPanel Margin="0,6,0,0"><Button DockPanel.Dock="Left" Content="Test connection" Click="AiTest_Click" /><TextBlock x:Name="AiTestResult" Style="{StaticResource Secondary}" VerticalAlignment="Center" Margin="10,0,0,0" TextTrimming="CharacterEllipsis" /></DockPanel>
+                    </StackPanel>
+                </Grid>
+            </ScrollViewer>
+        </Border>
+
+        <!-- preview -->
+        <Border Grid.Column="2" Margin="12,0,0,0" Background="{DynamicResource Layer}" BorderBrush="{DynamicResource Border}" BorderThickness="1" CornerRadius="6" Padding="10">
+            <DockPanel>
+                <TextBlock DockPanel.Dock="Top" Text="Preview (live)" FontWeight="SemiBold" Margin="0,0,0,8" />
+                <CheckBox DockPanel.Dock="Bottom" x:Name="PreviewClasses" Content="File classes style" Margin="0,8,0,0" Click="PreviewClasses_Click" />
+                <Border BorderBrush="{DynamicResource Border}" BorderThickness="1" ClipToBounds="True">
+                    <c:TreemapView x:Name="Preview" />
+                </Border>
+            </DockPanel>
+        </Border>
+
+        <!-- buttons -->
+        <DockPanel Grid.Row="1" Grid.ColumnSpan="3" Margin="0,14,0,0">
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Restore defaults" Click="Defaults_Click" Margin="0,0,8,0" />
+                <Button Content="Import…" Click="Import_Click" Margin="0,0,8,0" />
+                <Button Content="Export…" Click="Export_Click" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button Content="Cancel" MinWidth="90" IsCancel="True" Margin="0,0,8,0" />
+                <Button Content="Apply" MinWidth="90" Click="Apply_Click" Margin="0,0,8,0" />
+                <Button Content="OK" MinWidth="90" Style="{StaticResource AccentButton}" Click="Ok_Click" />
+            </StackPanel>
+        </DockPanel>
+    </Grid>
+</Window>

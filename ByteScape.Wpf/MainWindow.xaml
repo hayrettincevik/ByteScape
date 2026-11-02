@@ -1,0 +1,93 @@
+<Window x:Class="ByteScape.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:c="clr-namespace:ByteScape.Wpf.Controls"
+        Title="ByteScape" Width="1200" Height="800" MinWidth="700" MinHeight="450"
+        WindowStartupLocation="CenterScreen" AllowDrop="True">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!-- toolbar -->
+        <Border Background="{DynamicResource ToolbarBackground}" BorderBrush="{DynamicResource Border}" BorderThickness="0,0,0,1">
+            <DockPanel Margin="8,4">
+                <StackPanel Orientation="Horizontal" DockPanel.Dock="Right">
+                    <ToggleButton x:Name="BtnDetails" Style="{StaticResource ToolToggle}" Content="&#xE8A0;" ToolTip="Details panel" Click="Details_Click" />
+                    <Button Style="{StaticResource ToolButton}" Content="&#xE74E;" ToolTip="Export the view to file" Click="Export_Click" />
+                    <Button x:Name="BtnApps" Style="{StaticResource ToolButton}" Content="&#xE71D;" ToolTip="Programs on disk: everything each installed program uses (Ctrl+P)" Click="Apps_Click" />
+                    <Button x:Name="BtnGames" Style="{StaticResource ToolButton}" Content="&#xE7FC;" ToolTip="Games: Steam, Epic and GOG games, when you last played them, and what uninstalled games left behind (Ctrl+G)" Click="Games_Click" />
+                    <Button x:Name="BtnDev" Style="{StaticResource ToolButton}" Content="&#xE943;" ToolTip="Developer leftovers: node_modules, bin/obj, target, .venv of your projects and when you last worked on each (Ctrl+B)" Click="Dev_Click" />
+                    <Button x:Name="BtnForecast" Style="{StaticResource ToolButton}" Content="&#xE9D2;" ToolTip="Disk forecast: when the drive will be full at the current pace, and where the new files went (Ctrl+K)" Click="Forecast_Click" />
+                    <Button x:Name="BtnCleanup" Style="{StaticResource ToolButton}" Content="&#xE74D;" ToolTip="Cleanup: large files, temporary files, old installation files and unused programs, each with whether it is safe to delete (Ctrl+Shift+Delete)" Click="Cleanup_Click" />
+                    <Button x:Name="BtnDuplicates" Style="{StaticResource ToolButton}" Content="&#xE8C8;" ToolTip="Duplicate files: the same content twice or more, and the space the extra copies take (Ctrl+Shift+D)" Click="Duplicates_Click" />
+                    <Button x:Name="BtnHistory" Style="{StaticResource ToolButton}" Content="&#xE81C;" ToolTip="Disk usage history: the drive and its folders over time, as charts (Ctrl+H)" Click="History_Click" />
+                    <Button x:Name="BtnCompare" Style="{StaticResource ToolButton}" Content="&#xE8AB;" ToolTip="Compare with a saved snapshot (Ctrl+D) or with another folder (Ctrl+Shift+C)" Click="Compare_Click" />
+                    <Button Style="{StaticResource ToolButton}" Content="&#xE7C3;" ToolTip="Log console" Click="Log_Click" />
+                    <Button x:Name="BtnConfig" Style="{StaticResource ToolButton}" Content="&#xE713;" ToolTip="Configuration" Click="Config_Click" />
+                    <Button x:Name="BtnMenu" Style="{StaticResource ToolButton}" Content="&#xE712;" ToolTip="More" Click="Menu_Click">
+                        <Button.ContextMenu>
+                            <ContextMenu x:Name="MoreMenu">
+                                <MenuItem Header="How to filter" Click="HelpFilter_Click" />
+                                <MenuItem Header="How to use colour tags" Click="HelpTag_Click" />
+                                <MenuItem Header="Command line options" Click="HelpCmd_Click" />
+                                <Separator />
+                                <MenuItem Header="Programs on disk…   Ctrl+P" Click="Apps_Click" />
+                                <MenuItem Header="Games…   Ctrl+G" Click="Games_Click" />
+                                <MenuItem Header="Developer leftovers…   Ctrl+B" Click="Dev_Click" />
+                                <MenuItem Header="Disk forecast…   Ctrl+K" Click="Forecast_Click" />
+                                <MenuItem Header="Cleanup…   Ctrl+Shift+Delete" Click="Cleanup_Click" />
+                                <MenuItem x:Name="ElevateItem" Header="Restart as administrator (fast NTFS scan)" Click="Elevate_Click" />
+                                <MenuItem Header="Compare with snapshot…   Ctrl+D" Click="CompareSnapshot_Click" />
+                                <MenuItem Header="Compare with another folder…   Ctrl+Shift+C" Click="CompareFolder_Click" />
+                                <MenuItem Header="Duplicate files…   Ctrl+Shift+D" Click="Duplicates_Click" />
+                                <MenuItem Header="Disk usage history…   Ctrl+H" Click="History_Click" />
+                                <Separator />
+                                <MenuItem Header="Treemap layout debug..." Click="Debug_Click" />
+                                <Separator />
+                                <MenuItem Header="Take the tour" Click="Tour_Click" />
+                                <MenuItem x:Name="UpdateItem" x:FieldModifier="internal" Header="Check for updates…" Click="Update_Click" />
+                                <MenuItem Header="Report a problem…" Click="ReportProblem_Click" />
+                                <MenuItem Header="About ByteScape" Click="About_Click" />
+                                <MenuItem Header="Exit" Click="Exit_Click" />
+                            </ContextMenu>
+                        </Button.ContextMenu>
+                    </Button>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button Style="{StaticResource ToolButton}" Content="&#xE710;" ToolTip="New view (Ctrl+N)" Click="New_Click" />
+                    <Separator />
+                    <Button x:Name="BtnBack" Style="{StaticResource ToolButton}" Content="&#xE72B;" ToolTip="Back (Backspace)" Click="Back_Click" />
+                    <Button x:Name="BtnForward" Style="{StaticResource ToolButton}" Content="&#xE72A;" ToolTip="Forward (Shift+Backspace)" Click="Forward_Click" />
+                    <Button x:Name="BtnUp" Style="{StaticResource ToolButton}" Content="&#xE74A;" ToolTip="Up one level (Ctrl+Up)" Click="Up_Click" />
+                    <Button x:Name="BtnHome" Style="{StaticResource ToolButton}" Content="&#xE80F;" ToolTip="Back to the top (Ctrl+Home)" Click="Home_Click" />
+                    <Separator />
+                    <Button x:Name="BtnScan" Style="{StaticResource ToolButton}" Content="&#xE768;" ToolTip="Scan everything again" Click="Scan_Click" />
+                    <Button x:Name="BtnPause" Style="{StaticResource ToolButton}" Content="&#xE769;" ToolTip="Pause the scan (Pause)" Click="Pause_Click" />
+                    <Button x:Name="BtnSub" Style="{StaticResource ToolButton}" Content="&#xE8B5;" ToolTip="Scan the zoomed folder again now" Click="Sub_Click" />
+                    <Separator />
+                    <Button Style="{StaticResource ToolButton}" Content="&#xE71F;" ToolTip="Fewer levels (Ctrl+-)" Click="Less_Click" />
+                    <Button Style="{StaticResource ToolButton}" Content="&#xE8A3;" ToolTip="More levels (Ctrl++)" Click="More_Click" />
+                    <Separator />
+                    <ToggleButton x:Name="BtnClasses" Style="{StaticResource ToolToggle}" Content="&#xE790;" ToolTip="File classes style (Ctrl+T)" Click="Classes_Click" />
+                    <ToggleButton x:Name="BtnFree" Style="{StaticResource ToolToggle}" Content="&#xEDA2;" ToolTip="Free space on the map (Ctrl+F)" Click="Free_Click" />
+                    <ToggleButton x:Name="BtnUnknown" Style="{StaticResource ToolToggle}" Content="&#xE9CE;" ToolTip="Unscanned and unreadable space on the map (Ctrl+U)" Click="Unknown_Click" />
+                    <Separator />
+                    <Button Style="{StaticResource ToolButton}" Content="&#xE71C;" ToolTip="Filter (Ctrl+L)" Click="Filter_Click" />
+                </StackPanel>
+            </DockPanel>
+        </Border>
+
+        <!-- views -->
+        <TabControl x:Name="Tabs" Grid.Row="1" Margin="8,6,8,4" SelectionChanged="Tabs_SelectionChanged" />
+
+        <!-- empty state -->
+        <StackPanel x:Name="Empty" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <c:Glyph Text="&#xEDA2;" FontSize="64" HorizontalAlignment="Center" Foreground="{DynamicResource Accent}" />
+            <TextBlock Text="See where your disk space went" Style="{StaticResource Title}" HorizontalAlignment="Center" Margin="0,14,0,6" />
+            <TextBlock Text="Open a drive, a folder or a snapshot — or drop one here." Style="{StaticResource Secondary}" HorizontalAlignment="Center" />
+            <Button Content="New view   Ctrl+N" Style="{StaticResource AccentButton}" HorizontalAlignment="Center" Margin="0,18,0,0" Click="New_Click" />
+        </StackPanel>
+    </Grid>
+</Window>

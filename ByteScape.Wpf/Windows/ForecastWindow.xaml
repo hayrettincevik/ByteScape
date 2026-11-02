@@ -1,0 +1,82 @@
+<Window x:Class="ByteScape.Wpf.Windows.ForecastWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:c="clr-namespace:ByteScape.Wpf.Controls"
+        Title="Disk forecast" Width="1000" Height="720" MinWidth="720" MinHeight="520" WindowStartupLocation="CenterOwner" ShowInTaskbar="False">
+    <Grid Margin="14">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="230" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- summary -->
+        <Border Background="{DynamicResource LayerAlt}" BorderBrush="{DynamicResource Border}" BorderThickness="1" CornerRadius="4" Padding="12">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <StackPanel>
+                    <TextBlock x:Name="HeadLine" x:FieldModifier="internal" Style="{StaticResource Subtitle}" />
+                    <TextBlock x:Name="SubLine" x:FieldModifier="internal" Style="{StaticResource Secondary}" Margin="0,4,0,0" TextWrapping="Wrap" />
+                    <TextBlock x:Name="NoteLine" x:FieldModifier="internal" Foreground="{DynamicResource Warning}" Margin="0,4,0,0" TextWrapping="Wrap" Visibility="Collapsed" />
+                </StackPanel>
+                <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center" Margin="20,0,0,0">
+                    <StackPanel Margin="0,0,18,0"><TextBlock Text="Free" Style="{StaticResource Secondary}" /><TextBlock x:Name="FreeText" FontSize="16" /></StackPanel>
+                    <StackPanel Margin="0,0,18,0" ToolTip="The pace the used space grows at over the measured days; one-off big cleanups are left out"><TextBlock Text="Trend" Style="{StaticResource Secondary}" /><TextBlock x:Name="RateText" x:FieldModifier="internal" FontSize="16" /></StackPanel>
+                    <StackPanel ToolTip="Files created in the last 30 days, by their dates: the most the drive can have grown (deleted files are not known)"><TextBlock Text="Added in 30 days" Style="{StaticResource Secondary}" /><TextBlock x:Name="AddedText" x:FieldModifier="internal" FontSize="16" /></StackPanel>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <!-- chart -->
+        <Border Grid.Row="1" Margin="0,10,0,0" BorderBrush="{DynamicResource Border}" BorderThickness="1" CornerRadius="4" Background="{DynamicResource Layer}">
+            <Canvas x:Name="Chart" x:FieldModifier="internal" ClipToBounds="True" SizeChanged="Chart_SizeChanged" />
+        </Border>
+
+        <Grid Grid.Row="2" Margin="0,10,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="12" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <DockPanel>
+                <TextBlock DockPanel.Dock="Top" Text="Where new files went (last 30 days)" Style="{StaticResource Secondary}" Margin="0,0,0,4" />
+                <ListView x:Name="AddedList" x:FieldModifier="internal" MouseDoubleClick="AddedList_MouseDoubleClick">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Folder" Width="330" DisplayMemberBinding="{Binding Folder}" />
+                            <GridViewColumn Header="Added" Width="90" DisplayMemberBinding="{Binding SizeText}" />
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </DockPanel>
+            <DockPanel Grid.Column="2">
+                <TextBlock x:Name="GrewHead" x:FieldModifier="internal" DockPanel.Dock="Top" Text="Grew since the last complete scan" Style="{StaticResource Secondary}" Margin="0,0,0,4" TextTrimming="CharacterEllipsis" />
+                <TextBlock x:Name="GrewEmpty" x:FieldModifier="internal" DockPanel.Dock="Top" Style="{StaticResource Secondary}" TextWrapping="Wrap" Margin="0,4,0,0" Visibility="Collapsed" />
+                <ListView x:Name="GrewList" x:FieldModifier="internal" MouseDoubleClick="GrewList_MouseDoubleClick">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Folder" Width="250" DisplayMemberBinding="{Binding Folder}" />
+                            <GridViewColumn Header="Then" Width="75" DisplayMemberBinding="{Binding ThenText}" />
+                            <GridViewColumn Header="Now" Width="75" DisplayMemberBinding="{Binding NowText}" />
+                            <GridViewColumn Header="Grew" Width="75" DisplayMemberBinding="{Binding GrewText}" />
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </DockPanel>
+        </Grid>
+
+        <c:FooterPanel Grid.Row="3" Margin="0,10,0,0">
+            <WrapPanel Margin="12,0,0,0">
+                <Button Content="Folder history…" Click="History_Click" Margin="0,0,8,0" ToolTip="The drive's folders over time, as charts (Ctrl+H)" />
+                <Button Content="Copy measure command" Click="CopyCommand_Click" Margin="0,0,8,0" ToolTip="For Task Scheduler: measures every drive and exits, without a window" />
+                <Button Content="Copy report" Click="Copy_Click" Margin="0,0,8,0" />
+                <Button Content="Close" Click="Close_Click" MinWidth="90" />
+            </WrapPanel>
+            <TextBlock x:Name="HistoryHint" x:FieldModifier="internal" Style="{StaticResource Secondary}" VerticalAlignment="Center" TextWrapping="Wrap" />
+        </c:FooterPanel>
+    </Grid>
+</Window>

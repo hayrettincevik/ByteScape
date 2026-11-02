@@ -1,0 +1,99 @@
+/* ByteScape web page: the program's own white and blue colours, system fonts only (nothing is loaded from elsewhere). */
+:root {
+  --bg: #F4F7FB;
+  --layer: #FFFFFF;
+  --layer-alt: #EEF3FA;
+  --border: #D9E3F0;
+  --text: #1B2D4B;
+  --text-2: #5C7091;
+  --accent: #1F6FDB;
+  --accent-hover: #3583EE;
+  --on-accent: #FFFFFF;
+  --radius: 10px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0F1623;
+    --layer: #172133;
+    --layer-alt: #1C2940;
+    --border: #2A3A57;
+    --text: #E6EDF7;
+    --text-2: #A5B4CC;
+    --accent: #4B8FEA;
+    --accent-hover: #6AA4F0;
+    --on-accent: #0B1220;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.55 "Segoe UI Variable Text", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+}
+a { color: var(--accent); }
+a:hover { color: var(--accent-hover); }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
+
+header.top { padding: 20px 0; }
+header.top .wrap { display: flex; align-items: center; gap: 12px; }
+header.top img { width: 36px; height: 36px; }
+header.top .name { font-weight: 600; font-size: 20px; }
+header.top nav { margin-left: auto; display: flex; gap: 18px; font-size: 15px; }
+header.top nav a { color: var(--text-2); text-decoration: none; }
+header.top nav a:hover { color: var(--accent); }
+
+.hero { padding-top: 28px; padding-bottom: 8px; }
+.hero h1 { font-size: clamp(30px, 5vw, 46px); line-height: 1.12; margin: 0 0 12px; letter-spacing: -0.01em; }
+.hero p.lead { font-size: clamp(17px, 2.2vw, 20px); color: var(--text-2); margin: 0 0 24px; max-width: 720px; }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 11px 20px; border-radius: 8px; font-weight: 600; text-decoration: none;
+  border: 1px solid var(--border); background: var(--layer); color: var(--text);
+}
+.btn:hover { border-color: var(--accent); color: var(--accent); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.btn.primary:hover { background: var(--accent-hover); border-color: var(--accent-hover); color: var(--on-accent); }
+.note { color: var(--text-2); font-size: 14px; }
+
+.shot { margin: 32px 0 8px; }
+.shot img, .gallery img {
+  width: 100%; height: auto; display: block;
+  border: 1px solid var(--border); border-radius: var(--radius);
+  box-shadow: 0 10px 30px rgba(27, 45, 75, 0.12);
+}
+
+section { padding: 40px 0 8px; }
+section h2 { font-size: 26px; margin: 0 0 16px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; }
+.card { background: var(--layer); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px 20px; }
+.card h3 { margin: 0 0 6px; font-size: 17px; }
+.card p { margin: 0; color: var(--text-2); font-size: 15px; }
+
+.gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 18px; }
+.gallery figure { margin: 0; }
+.gallery figcaption { color: var(--text-2); font-size: 14px; margin-top: 8px; }
+
+table.dl { width: 100%; border-collapse: collapse; background: var(--layer); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+table.dl th, table.dl td { text-align: left; padding: 12px 14px; border-bottom: 1px solid var(--border); vertical-align: top; }
+table.dl th { background: var(--layer-alt); font-size: 14px; color: var(--text-2); font-weight: 600; }
+table.dl tr:last-child td { border-bottom: 0; }
+.hash { font-family: "Cascadia Mono", Consolas, monospace; font-size: 12.5px; word-break: break-all; color: var(--text-2); }
+.table-scroll { overflow-x: auto; }
+
+article.doc { background: var(--layer); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px 28px; margin: 12px 0 32px; }
+article.doc h1 { font-size: 30px; margin: 0 0 6px; }
+article.doc p, article.doc li { max-width: 760px; }
+
+footer { padding: 40px 0 48px; color: var(--text-2); font-size: 14px; }
+footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 22px; border-top: 1px solid var(--border); padding-top: 20px; }
+
+@media (max-width: 600px) {
+  header.top nav { gap: 12px; font-size: 14px; }
+  article.doc { padding: 18px 16px; }
+  table.dl th, table.dl td { padding: 10px; }
+}
+article.doc h2 { font-size: 20px; margin: 26px 0 8px; }
+article.doc code { font-family: "Cascadia Mono", Consolas, monospace; font-size: 14px; }

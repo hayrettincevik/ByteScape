@@ -1,0 +1,29 @@
+<Window x:Class="ByteScape.Wpf.Windows.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:c="clr-namespace:ByteScape.Wpf.Controls"
+        Title="About" Width="460" SizeToContent="Height" ResizeMode="NoResize" WindowStartupLocation="CenterOwner" ShowInTaskbar="False">
+    <StackPanel Margin="24">
+        <StackPanel Orientation="Horizontal">
+            <c:Glyph Text="&#xEDA2;" FontSize="36" Foreground="{DynamicResource Accent}" VerticalAlignment="Center" Margin="0,0,14,0" />
+            <StackPanel VerticalAlignment="Center">
+                <TextBlock x:Name="NameText" Style="{StaticResource Title}" />
+                <TextBlock x:Name="VersionText" Style="{StaticResource Secondary}" />
+                <TextBlock x:Name="CopyrightText" x:FieldModifier="internal" Style="{StaticResource Secondary}" />
+            </StackPanel>
+        </StackPanel>
+        <TextBlock x:Name="SloganText" Margin="0,16,0,0" FontStyle="Italic" />
+        <TextBlock x:Name="CreditsText" Style="{StaticResource Secondary}" Margin="0,10,0,0" TextWrapping="Wrap" />
+        <TextBlock Text="Free and open source (MIT License): no ads, no trial, no account." Margin="0,10,0,0" TextWrapping="Wrap" />
+        <WrapPanel Margin="0,6,0,0">
+            <Button x:Name="LicenseBtn" x:FieldModifier="internal" Style="{StaticResource TextLink}" Content="License terms" Margin="0,0,16,0" Click="License_Click" />
+            <Button x:Name="NoticesBtn" x:FieldModifier="internal" Style="{StaticResource TextLink}" Content="Third-party notices" Margin="0,0,16,0" Click="Notices_Click" />
+            <Button x:Name="DonateBtn" x:FieldModifier="internal" Style="{StaticResource TextLink}" Click="Donate_Click" />
+        </WrapPanel>
+        <Button x:Name="LinkText" Style="{StaticResource TextLink}" HorizontalAlignment="Left" Margin="0,10,0,0" Click="Link_Click" />
+        <DockPanel Margin="0,18,0,0" LastChildFill="False">
+            <Button x:Name="UpdateBtn" x:FieldModifier="internal" DockPanel.Dock="Left" Content="Check for updates…" Click="Update_Click" />
+            <Button DockPanel.Dock="Right" Content="OK" MinWidth="90" IsCancel="True" IsDefault="True" />
+        </DockPanel>
+    </StackPanel>
+</Window>
