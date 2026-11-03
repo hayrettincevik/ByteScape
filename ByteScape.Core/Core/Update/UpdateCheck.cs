@@ -97,7 +97,8 @@ public static class UpdateCheck
             bool B(string name) => r.TryGetProperty(name, out var v) && v.ValueKind == JsonValueKind.True;
             if (B("prerelease") || B("draft")) return null;
             var version = (S("version") ?? S("tag_name"))?.Trim();
-            var url = (S("url") ?? S("html_url"))?.Trim();
+            // a GitHub release also has "url", but that is its API address; the page people can open is "html_url"
+            var url = (S("html_url") ?? S("url"))?.Trim();
             if (version == null || url == null || IsPreRelease(version) || TryVersion(version) == null || !IsSafeLink(url, allowLoopbackHttp: false)) return null;
             var notes = (S("notes") ?? S("body") ?? "").Replace("\r\n", "\n").Trim();
             if (notes.Length > MaxNotes) notes = notes[..MaxNotes].TrimEnd() + "…";

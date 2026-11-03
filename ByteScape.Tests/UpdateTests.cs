@@ -67,7 +67,7 @@ public class UpdateTests
         Assert.Equal(new DateTime(2026, 10, 1, 12, 0, 0, DateTimeKind.Utc), own.Published);
         Assert.Equal("CC756F42F1124EFC801BCFBA902D6AC2E1271BEB72C45E0E86782EE8A717EBB7", own.Sha256);
 
-        var gh = UpdateCheck.Parse("""{"tag_name":"v2.0.1","html_url":"https://github.com/o/r/releases/tag/v2.0.1","body":"notes","published_at":"2026-10-02T08:00:00Z","prerelease":false,"draft":false,"assets":[]}""")!;
+        var gh = UpdateCheck.Parse("""{"url":"https://api.github.com/repos/o/r/releases/1","tag_name":"v2.0.1","html_url":"https://github.com/o/r/releases/tag/v2.0.1","body":"notes","published_at":"2026-10-02T08:00:00Z","prerelease":false,"draft":false,"assets":[]}""")!;
         Assert.Equal("2.0.1", gh.Version);
         Assert.Equal("https://github.com/o/r/releases/tag/v2.0.1", gh.DownloadUrl);
         Assert.Equal("", gh.Sha256);
